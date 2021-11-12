@@ -86,6 +86,6 @@ $ bundle exec rake test
 <br>
 
 
-## Maintained by
+## :busts_in_silhouette: Maintained by
 
 DojoCon Japan 実行委員会 & 一般社団法人 CoderDojo Japan
