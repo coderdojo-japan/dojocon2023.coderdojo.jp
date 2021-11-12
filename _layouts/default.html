@@ -27,9 +27,9 @@
 
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     {% if page.title %}
-    <meta property="og:title" content="{{page.title}} | {{site.title}}" />
+    <meta property="og:title" content="{{page.title}} | {{site.title}} {{ site.year }}" />
     {% else %}
-    <meta property="og:title" content="{{site.title}} | {{site.subtitle}}" />
+    <meta property="og:title" content="{{site.title}} {{ site.year }} | {{site.subtitle}}" />
     {% endif %}
 
     {% if page.thumbnail %}
