@@ -20,7 +20,7 @@
 
 <br>
 
-## Webサイトの更新方法
+## :memo: Webサイトの更新方法
 
 [`_data`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/tree/main/_data) 内に `ファイル名.yaml` という YAML ファイルがあり、この YAML ファイルで Session 情報や Speaker 情報を更新できます。
 
@@ -69,6 +69,15 @@ $ bundle exec rake test
 テスト内容の詳細は [Rakefile](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/Rakefile) をご参照ください。
 
 上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
+
+<br>
+
+
+## :yin_yang: 関連リポジトリ
+
+- :octocat: [coderdojo-japan/dojocon2020.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2020.coderdojo.jp)
+- :octocat: [coderdojo-japan/dojocon2019.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp)
+- :octocat: [coderdojo-japan/dojocon2018.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp)
 
 <br>
 
