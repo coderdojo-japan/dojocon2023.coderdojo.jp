@@ -86,6 +86,6 @@ $ bundle exec rake test
 <br>
 
 
-## :copyright: クレジット
+## Maintained by
 
-Copyright &copy; DojoCon Japan 実行委員会
+DojoCon Japan 実行委員会 & 一般社団法人 CoderDojo Japan
