@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: DojoCon Japan 2020
-email: dojocon2020@coderdojo.jp
+title: DojoCon Japan 2021
+email: dojocon2021@coderdojo.jp
 description: >- # this means to ignore newlines until "baseurl:"
   子供のためのプログラミング道場、 CoderDojo の日本最大の祭典、DojoCon Japan 2020 の公式サイトです。
   DojoCon は、主に CoderDojo を支える運営者やメンターたちを対象にしたカンファレンスであり
   CoderDojo の運営方法やノウハウの共有などに主眼が置かれています。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dojocon2020.coderdojo.jp" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dojoconjapan
+twitter_username: DojoConJapan
 github_username:  
 
 # Build settings
