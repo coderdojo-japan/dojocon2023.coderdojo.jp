@@ -27,11 +27,11 @@ layout: default
     <div class="row">
       <div class="col-2">
         {% if page.dojo_icon %}
-          <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}" />
+          <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}" alt='Dojo アイコン' />
         {% elsif page.dojo_iconfile %}
-          <img src="{{site.url}}/img/post/jiman/{{page.dojo_iconfile}}" />
+          <img src="{{site.url}}/img/post/jiman/{{page.dojo_iconfile}}" alt='Dojo アイコン'/>
         {% else %}
-          <img src="https://coderdojo.jp/img/dojos/coderdojo.png" />
+          <img src="https://coderdojo.jp/img/dojos/coderdojo.png" alt='CoderDojo ロゴ'/>
         {% endif %}
       </div>
       <div class="col-10">
