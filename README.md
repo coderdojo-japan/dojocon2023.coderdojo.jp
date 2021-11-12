@@ -7,6 +7,7 @@
 
 <br>
 
+
 ## :white_check_mark: （共通）ブラウザで情報修正を提案できます
 
 どこを更新するにせよ **Webブラウザが一番簡単** だと思います...!! 😆
@@ -19,6 +20,7 @@
 以上で完了です。提案された修正内容は運営チームによって再確認され、問題なければ提案された内容が反映されます。もし修正内容に不具合があっても運営側で気付いて修正するので、まずはお気軽に提案してみてください :wink:
 
 <br>
+
 
 ## :memo: Webサイトの更新方法
 
@@ -38,6 +40,7 @@
 
 <br>
 
+
 ## :hammer_and_wrench: Webサイトの仕組みを改善したい
 
 ローカル環境のブラウザで確認したい場合は、次の手順でローカルサーバーを立ち上げてください。
@@ -56,6 +59,7 @@ $ bundle exec jekyll server
 無事にローカルサーバーが立ち上がったら [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
 
 <br>
+
 
 ### :robot: リンク切れはテストで検知できます
 
@@ -80,6 +84,7 @@ $ bundle exec rake test
 - :octocat: [coderdojo-japan/dojocon2018.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp)
 
 <br>
+
 
 ## :copyright: クレジット
 
