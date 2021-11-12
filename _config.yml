@@ -2,15 +2,22 @@
 # You can create any custom variable you would like,
 # and they will be accessible like {{ site.myvariable }}.
 
-title: DojoCon Japan 2021
-email: dojocon2021@coderdojo.jp
+year: 2021
+title: DojoCon Japan
+subtitle: '見渡す - the 10th anniversary -'
 description: >- # this means to ignore newlines until "baseurl:"
   子供のためのプログラミング道場、 CoderDojo の日本最大の祭典、DojoCon Japan 2020 の公式サイトです。
   DojoCon は、主に CoderDojo を支える運営者やメンターたちを対象にしたカンファレンスであり
   CoderDojo の運営方法やノウハウの共有などに主眼が置かれています。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dojocon2021.coderdojo.jp"
-twitter_username: DojoConJapan
+url: https://dojocon2021.coderdojo.jp
+date_published: 2021年11月13日
+date_event: 2021年12月18日（土曜）10:00〜
+venue: オンライン (メインセッションは YouTube Live で行います。)
+price: 無料
+
+twitter:  DojoConJapan
+facebook: DojoConJapan
+email:    dojocon2021@coderdojo.jp
 
 # Build settings
 theme: minima

@@ -4,7 +4,7 @@
         {% if post.thumbnail %}<img src="{{site.url}}/img/post/{{post.thumbnail}}" alt="{{ post.title }} のサムネイル画像" class="article-thumbnail" loading="lazy">{% endif %}
       <div class="mt-2">
         <p class="article-date mt-2">{{ post.date | date:"%Y.%-m.%d" }}</p>
-        <p class="article-title text-left font-weight-bold">{{ post.title }}</p>
+        <p class="article-title text-left font-weight-bold">{{ post.title | liquify }}</p>
       </div>
     </a>
   </div>
