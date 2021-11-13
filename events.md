@@ -22,7 +22,7 @@ thumbnail: event.png
         <span class="badge badge-ws">{{ event.tag }}</span> 
         {% endif %}
       </p> 
-      <img src="img/event/{{ event.img }}" class="w-100" alt="">
+      <img src="img/event/{{ event.img }}" class="w-100" alt="イベント画像">
       <p>{{ event.text }}</p>
     </div>
     {% endfor %}

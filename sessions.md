@@ -30,8 +30,8 @@ thumbnail: sessions.png
       {%endif%}
 
       <p class="session-speaker-name">{{ session.speaker}} {% if session.affiliation %}（ {{ session.affiliation }} ）{%endif%}</p>
-      <p>{{ session.text} }</p>
-      <a href="#{{ session.profile-id} }" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者プロフィール</a>
+      <p>{{ session.text }}</p>
+      <a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者プロフィール</a>
       {% if session.archive-link %}
       　<a href="{{ session.archive-link }}" target="_blank" rel="noopener" class="btn btn-sm btn-secondary"><i class="fab fa-youtube"></i> セッションアーカイブ</a>
       {% endif %}
@@ -52,7 +52,7 @@ thumbnail: sessions.png
         <p>{{ session.profile-text }}</p>
         <ul>
           {% for link in data.sns %}
-          <li><a href="{{ link }}"><i class="fas fa-external-link-alt"></i> {{ link} }</a></li>
+          <li><a href="{{ link }}"><i class="fas fa-external-link-alt"></i> {{ link }}</a></li>
           {% endfor %}
         </ul>
         {% endif %}
