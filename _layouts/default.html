@@ -24,20 +24,19 @@
 
     <meta name="twitter:card"  content="summary_large_image" />
     <meta name="twitter:site"  content="@DojoConJapan" />
-
-    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:url"    content="{{ site.url }}{{ page.url }}" />
     {% if page.title %}
-    <meta property="og:title" content="{{page.title}} | {{site.title}} {{ site.year }}" />
+    <meta property="og:title"  content="{{ page.title }} | {{ site.title }} {{ site.year }}" />
     {% else %}
-    <meta property="og:title" content="{{site.title}} {{ site.year }} | {{site.subtitle}}" />
+    <meta property="og:title"  content="{{ site.title }} {{ site.year }} | {{ site.subtitle }}" />
     {% endif %}
 
     {% if page.thumbnail %}
-    <meta name="twitter:image" content="{{site.url}}//img/post/{{page.thumbnail}}" />
-    <meta property="og:image"  content="{{site.url}}/img/post/{{page.thumbnail}}" />
+    <meta name="twitter:image" content="{{ site.url }}/img/post/{{ page.thumbnail }}" />
+    <meta property="og:image"  content="{{ site.url }}/img/post/{{ page.thumbnail }}" />
     {% else %}
-    <meta name="twitter:image" content="{{site.url}}/img/home.jpg" />
-    <meta property="og:image"  content="{{site.url}}/img/home.jpg" />
+    <meta name="twitter:image" content="{{ site.url }}/img/home.jpg" />
+    <meta property="og:image"  content="{{ site.url }}/img/home.jpg" />
     {% endif %}
 
     {% if page.url != "/" %}
@@ -46,9 +45,9 @@
     <meta property="og:type" content="website" />
     {% endif %}
 
-    <meta property="og:description"  content="{{site.description}}" />
-    <meta name="description"         content="{{site.description}}" />
-    <meta name="twitter:description" content="{{site.description}}" />
+    <meta property="og:description"  content="{{ site.description }}" />
+    <meta name="description"         content="{{ site.description }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
 
     <meta property="fb:app_id" content="1750803431730303" />
 
@@ -60,7 +59,7 @@
   <body>
     {% include navbar.html %}
     {{content}}
-    <div id="page-top"><a href="#top"><img src="{{site.url}}/img/svg/up.svg" alt="Up" width="24px" /></a></div>
+    <div id="page-top"><a href="#top"><img src="/img/svg/up.svg" alt="Up" width="24px" /></a></div>
     {% include footer.html %}
 
     <script>
@@ -70,7 +69,7 @@
        if(ie11){
 	 var spimg = document.getElementsByClassName("sponsors-rank-img");
 	 for(var i = 0; i < spimg.length; i++) {
-    	   spimg[i].style.height = "auto";
+    	   spimg[i].style.height    = "auto";
     	   spimg[i].style.maxHeight = "none";
 	 }
        }

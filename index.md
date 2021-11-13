@@ -71,9 +71,9 @@ layout: default
         <p class="about-text text-left">全国の CoderDojo 関係者によるセッション、交流会、懇親会など。</p>
 	<!--
         <ul class="text-left list-style-none">
-          <li><a href="{{site.url}}/session"><i class="fas fa-link"></i> セッションの詳細を見る</a></li>
-          <li><a href="{{site.url}}/event"><i class="fas fa-link"></i> イベント企画の詳細を見る</a></li>
-          <li><a href="{{site.url}}/workshop"><i class="fas fa-link"></i> ワークショップの詳細を見る</a></li>
+          <li><a href="/sessions" ><i class="fas fa-link"></i> セッションの詳細を見る</a></li>
+          <li><a href="/events"   ><i class="fas fa-link"></i> イベント企画の詳細を見る</a></li>
+          <li><a href="/workshops"><i class="fas fa-link"></i> ワークショップの詳細を見る</a></li>
         </ul>
 	-->
       </div>

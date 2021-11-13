@@ -60,6 +60,6 @@ Google Analyticsの利用により収集されたデータは、Google社のプ�
 
 なお、Google Analyticsのサービス利用による損害については、当実行委員会は責任を負わないものとします。
 
-DojoCon Japan {{ site.url }} 実行委員会<br>
+DojoCon Japan {{ site.year }} 実行委員会<br>
 連絡先: {{ site.email }}<br>
 最終更新日: {{ site.date_published }}

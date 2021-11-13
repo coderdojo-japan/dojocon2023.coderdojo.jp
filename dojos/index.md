@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Dojo自慢
-permalink: /dojo-jiman/
+permalink: /dojos
 ---
 
 <div class="container mt-5">
@@ -13,7 +13,7 @@ permalink: /dojo-jiman/
   <div class="row">
     <div class="col-12 p-3" id="timetable">
       <p>
-        DojoCon Japanでは<a href="{{site.url}}/posts/6/">Dojo自慢を募集</a>いたしました。
+        DojoCon Japanでは<a href="/posts/6/">Dojo自慢を募集</a>いたしました。
       </p>
       <p>
         ご投稿につきましては、以下に掲載させていただきました。
@@ -26,11 +26,11 @@ permalink: /dojo-jiman/
             <div class="row">
               <div class="col-4 col-md-3 jiman1">
                 {% if page.dojo_icon %}
-                <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}" width="100%" alt='Dojo アイコン' />
+                <img src="https://coderdojo.jp/img/dojos/{{ page.dojo_icon }}" width="100%" alt='Dojo アイコン' />
                 {% elsif page.dojo_iconfile %}
-                <img src="{{site.url}}/img/post/jiman/{{page.dojo_iconfile}}" width="100%" alt='Dojo アイコン' />
+                <img src="/img/post/jiman/{{ page.dojo_iconfile }}" width="100%" alt='Dojo アイコン' />
                 {% else %}
-                <img src="https://coderdojo.jp/img/dojos/coderdojo.png" width="100%" alt='CoderDojo ロゴ'/>
+                <img src="/img/coderdojo.png" width="100%" alt='CoderDojo ロゴ'/>
                 {% endif %}
               </div>
               <div class="col-8 col-md-9 jiman1">
@@ -39,10 +39,10 @@ permalink: /dojo-jiman/
             </div>
           </div>
           <div class="col-9 col-md-8">
-            <a href="{{page.url}}"> <span class="text-left h2">{{ page.title }}</span></a>
+            <a href="{{ page.url }}"> <span class="text-left h2">{{ page.title }}</span></a>
           </div>
           <div class="col-3 col-md-2 d-flex align-items-center">
-            <a href="{{page.url}}" class="btn btn-main">もっと見る</a>
+            <a href="{{ page.url }}" class="btn btn-main">もっと見る</a>
           </div>
         </div>
       </div>
@@ -53,12 +53,12 @@ permalink: /dojo-jiman/
 </div>
 
 <style>
-    .dojoname{
-        text-align: center;
-        padding: 0.8em;
-    }
-    .jiman1{
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-    }
+  .dojoname{
+    text-align: center;
+    padding: 0.8em;
+  }
+  .jiman1{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 </style>

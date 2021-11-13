@@ -13,17 +13,17 @@ layout: default
   {% elsif page.categories[0] == "workshop" or page.categories[0] == "session" %}
     <div class="tags">
       {% for tag in page.tags %}
-        <span class="tag-post">{{tag}}</span>
+        <span class="tag-post">{{ tag }}</span>
       {% endfor %}
     </div>
-    <p class="post-time">{{page.time}}</p>
-  {%endif%}
+    <p class="post-time">{{ page.time }}</p>
+  {% endif %}
 
   <div class='post-content mt-5'>
     {% if page.thumbnail %}
-    <img src="{{site.url}}/img/post/{{page.thumbnail}}" alt='サムネイル画像' />
+    <img src="/img/post/{{ page.thumbnail }}" alt='サムネイル画像' />
     {% else %}
-    <img src="{{site.url}}/img/ogp_1.png" alt='サムネイル画像' />
+    <img src="/img/ogp_1.png" alt='サムネイル画像' />
     {% endif %}
 
     {{ content }}
@@ -33,11 +33,11 @@ layout: default
       <div class="col-2">
         <div class="col">
           {% if page.dojo_icon %}
-          <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}" alt='CoderDojo ロゴ画像' />
+          <img src="https://coderdojo.jp/img/dojos/{{ page.dojo_icon }}" alt='各 Dojo のロゴ画像' />
           {% elsif page.dojo_iconfile %}
-          <img src="{{site.url}}/img/post/jiman/{{page.dojo_iconfile}}" alt='Dojo アイコン' />
+          <img src="/img/post/jiman/{{page.dojo_iconfile}}" alt='Dojo アイコン' />
           {% else %}
-          <img src="https://coderdojo.jp/img/dojos/coderdojo.png" alt='CoderDojo ロゴ画像' />
+          <img src="/img/coderdojo.png" alt='CoderDojo ロゴ画像' />
           {% endif %}
         </div>
       </div>
@@ -47,7 +47,7 @@ layout: default
       </div>
     </div>
     <div id="spacer" style="height: 2em;"></div>
-    <a href="/dojo-jiman/" class="btn btn-red"><i class="fas fa-chevron-circle-left"></i> 一覧に戻る</a>
+    <a href="/dojos" class="btn btn-red"><i class="fas fa-chevron-circle-left"></i> 一覧に戻る</a>
     <br />
     <a href="/" class="btn btn-red"><i class="fas fa-chevron-circle-left"></i> トップページに戻る</a>
   </div>
