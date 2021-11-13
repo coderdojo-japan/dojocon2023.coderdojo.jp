@@ -254,7 +254,7 @@
   }
 
   //実行委員一覧
-  .staff {
+  .member {
     float: left;
     padding: 1.5vw;
     width: calc(20% - 3vw);
@@ -266,12 +266,12 @@
       height: 25px;
     }
   }
-  .staff:hover p {
+  .member:hover p {
     font-weight: bold;
     transition: 0.5s;
   }
 
-  .staff-image {
+  .member-image {
     height: calc(16vw - 3vw);
     max-height: 170px;
     img {
@@ -281,17 +281,17 @@
       width: 100%;
     }
   }
-  .staff-image :hover {
+  .member-image :hover {
     border-radius: 40%;
     box-shadow: 0 0 10px #d1d3e4;
     transition: 0.5s;
   }
 
   @media screen and (max-width: 800px) {
-    .staff {
+    .member {
       width: calc(33% - 3vw);
     }
-    .staff-image {
+    .member-image {
       height: calc(26vw - 3vw);
     }
   }
