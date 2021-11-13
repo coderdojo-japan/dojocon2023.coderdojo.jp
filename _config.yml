@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://dojocon2021.coderdojo.jp
 date_published: 2021年11月13日
 date_event: 2021年12月18日（土曜）10:00〜
-venue: オンライン (メインセッションは YouTube Live で行います。)
+venue: "オンライン<br><small>(セッションは <a href='https://www.youtube.com/channel/UCX3tz875ZDtU85rFkYuwl5w' style='text-decoration: underline' target='_blank' rel='noopener'>YouTube</a> でライブ配信します)</small>"
 price: 無料
 
 twitter:  DojoConJapan
