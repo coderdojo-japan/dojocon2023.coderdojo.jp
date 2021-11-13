@@ -44,7 +44,7 @@ layout: default
     </div>
   </div>
 
-  <div class="container" style='margin-top: 50px; margin-bottom: 100px;'>
+  <div id='ticket' class="container" style='margin-top: 50px; margin-bottom: 100px;'>
     <div class="row" id="outline">
       <div class="col-md-6 offset-md-3">
         <h2 class="text-center title-text">ABOUT</h2>
