@@ -99,7 +99,7 @@ layout: default
         <p class="caption text-center">お知らせ</p>
         <div class=" x-scroll row">
           {% for post in site.categories.news %}
-          {% include articles.html %}
+            {% include articles.html %}
           {% endfor %}
         </div>
       </div>
