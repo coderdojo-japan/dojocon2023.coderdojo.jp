@@ -13,7 +13,7 @@ permalink: /dojos
   <div class="row">
     <div class="col-12 p-3" id="timetable">
       <p>
-        DojoCon Japanでは<a href="/posts/6/">Dojo自慢を募集</a>いたしました。
+        DojoCon Japanでは「Dojo自慢」を募集しています。
       </p>
       <p>
         ご投稿につきましては、以下に掲載させていただきました。
