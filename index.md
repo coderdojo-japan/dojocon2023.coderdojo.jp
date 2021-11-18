@@ -149,8 +149,8 @@ layout: default
   <div class="section-contents">
     <h2 class="text-white">CONTACT</h2>
     <p class="caption text-white">気になる点などあればお気軽にご連絡ください。</p>
-    <p class="caption text-white">{{ site.email }}</p>
-    <!--<a href="mailto:{{ site.email }}" class="button" target="_blank" rel="noopener">メールを送る</a>-->
+    <!--<p class="caption text-white">{{ site.email }}</p>-->
+    <a href="https://dojocon-japan.doorkeeper.jp/contact/new" class="button" target="_blank" rel="noopener">お問い合わせする</a>
   </div>
 </section>
 
