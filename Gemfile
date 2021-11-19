@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "minima"   # default theme for new Jekyll sites
-gem "liquid-c" # Speedup with C implementation
 gem 'rake'     # Enable Rakefile to run tasks
 gem "webrick"  #, "~> 1.7"
 
