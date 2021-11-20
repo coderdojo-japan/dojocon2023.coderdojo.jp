@@ -1,19 +1,68 @@
 {
-  "name":"DojoCon Japan",
-  "short_name":"DojoCon Japan",
-  "icons":
-    [
-      {
-        "src":"/img/android-chrome-192x192.png",
-        "sizes":"192x192","type":"image/png"
-      },
-      {
-	"src":"/img/android-chrome-512x512.png",
-	"sizes":"512x512",
-	"type":"image/png"
-      }
-    ],
-  "theme_color":"#ffffff",
-  "background_color":"#ffffff",
+  "name":        "DojoCon Japan",
+  "short_name":  "DojoCon Japan",
+  "description": "DojoCon Japan は CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベント (CoderDojo Conference) です。",
+  "start_url":	      "/",
+  "orientation":      "any",
+  "theme_color":      "#fff",
+  "background_color": "#fff",
+  "orientation":      "any",
+  "icons": [
+    {
+      "src": "/img/favicons/android-chrome-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "display":"standalone"
 }
