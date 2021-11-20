@@ -1,4 +1,3 @@
-// コメントテスト
 html {
   scroll-behavior: smooth;
 }
@@ -8,7 +7,7 @@ body {
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   margin: 0;
   text-align: center;
-  color: $brown;
+  color: $third-color;
   padding-top: 60px;
 }
 
@@ -23,6 +22,9 @@ p, a, h3 {
 
 a {
   color: inherit; //リンクの文字色を場所によって変える
+  &:hover {
+    color: $secondary-color;
+  }
 }
 
 
@@ -65,9 +67,9 @@ section {
 }
 
 .button {
-  background-color: $light-blue;
+  background-color: $secondary-color;
   border-radius: 10px;
-  box-shadow: 0px 6px $blue-shadow;
+  box-shadow: 0px 6px $third-color;
   color: #fff;
   display: block;
   margin: 0 auto 12px;
@@ -81,6 +83,7 @@ section {
     opacity: 0.8;
     transform: translateY(12px);
     transition: 0.3s;
+    color: #fff;
   }
 }
 
@@ -93,15 +96,17 @@ section {
 
 //フッター
 footer {
-  background-color: #888;
+  background-color: $third-color;
   color: #fff;
   padding-bottom: 12px;
 }
 .footer-menu-list {
   list-style: none;
   padding: 0;
+  margin-top: 1.5em;
   li {
     display: inline;
+    padding: 0 .5em;
   }
 }
 
@@ -212,28 +217,47 @@ footer {
 
 
 //ヘッダーのナビゲーションバー
-.menu {
-  background-color: $main-color;
-  height: $navbar;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  input {
-    display: none;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: $third-color;
+}
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 72vw;
+      height: auto;
+    }
   }
 }
-
-.menu-close {
-  background-color: #ff6a33;
-  border-radius: 0 0 0 8px;
-  display: none;
-  padding: 24px 14px;
-  position: absolute;
-  right: -24px;
-  top: -14px;
+@media screen and (max-width: 360px) {
+  .navbar-brand {
+    img {
+      max-width: 67vw;
+    }
+  }
 }
+// .menu {
+//   background-color: $main-color;
+//   height: $navbar;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 10;
+//   input {
+//     display: none;
+//   }
+// }
+// .menu-close {
+//   background-color: #ff6a33;
+//   border-radius: 0 0 0 8px;
+//   display: none;
+//   padding: 24px 14px;
+//   position: absolute;
+//   right: -24px;
+//   top: -14px;
+// }
 
 //申し込みボタン
 .menu-entry-button {
@@ -259,6 +283,9 @@ footer {
     height: 60px;
     width: 50%;
     text-decoration-line: none;
+    &:hover {
+      opacity: .8;
+    }
   }
   &::after {
     content: '';
@@ -291,6 +318,9 @@ footer {
 
 .bg-main{
   background-color: $main-color;
+}
+.bg-ly {
+  background-color: $light-yellow;
 }
 
 .title-text{

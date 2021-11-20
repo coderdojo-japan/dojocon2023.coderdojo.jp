@@ -4,20 +4,24 @@ layout: default
 
 <div class="top-contents">
   <div class="top">
-    <div class="top-texts">
+  <h1>
+    <img src="/img/mainvisual.png" alt="DojoCon Japan {{ site.year }}" class="ignore-sp">
+    <img src="/img/mainvisual-mobile.png" alt="DojoCon Japan {{ site.year }}" class="ignore-pc">
+  </h1>
+    <!-- <div class="top-texts">
       <h1>DojoCon Japan <br>{{ site.year }}</h1>
       <h2 class="text-center">見渡す <br class='ignore-pc'>- the 10th anniversary -</h2>
       <h3 class="text-center">December 18th / ONLINE</h3>
-    </div>
+    </div> -->
   </div>
 
   <div class="container-fruid">
-    <div class="row bg-main p-5">
+    <div class="bg-ly pt-5 pb-5">
       <div id="about" class="col-md-6 offset-md-3">
-        <div class="text-left text-white">
-          <h2 class="title-text text-center text-white">DojoCon Japan {{ site.year }}</h2>
+        <div class="text-left">
+          <h2 class="title-text text-center">DojoCon Japan {{ site.year }}</h2>
           <div class="mt-4">
-            <h4 class="my-4 text-center">日本最大の CoderDojo の祭典</h4>
+            <h3 class="my-4 text-center">日本最大の CoderDojo の祭典</h3>
           </div>
 
           <div class="text">
@@ -30,7 +34,7 @@ layout: default
             <h3>CoderDojo とは</h3>
             <p>子ども達にプログラミングを学ぶ場を提供する、ボランティア主導の世界的な非営利活動です。</p>
             <p>CoderDojo は2011年にアイルランドから始まり、現在は世界112カ国に2,200以上の道場があり、日本国内でも全国234以上の道場で毎年1,200回以上 (*1) 開催されています。CoderDojo はエンジニアやデザイナー、各地域の保護者や学生、研究者や経営者など（メンター）と子どもが出会える場にもなっています。
-              <br><small>*1 統計情報: <a href='https://coderdojo.jp/stats' class="text-white" target="_blank">https://coderdojo.jp/stats</a></small></p>
+              <br><small>*1 統計情報: <a href='https://coderdojo.jp/stats' target="_blank">https://coderdojo.jp/stats</a></small></p>
           </div>
 
           <div class="text mt-4">
@@ -146,9 +150,9 @@ layout: default
 
 
 <section id="contact" class="bg-main">
-  <div class="section-contents">
-    <h2 class="text-white">CONTACT</h2>
-    <p class="caption text-white">気になる点などあればお気軽にご連絡ください。</p>
+  <div class="section-contents container">
+    <h2>CONTACT</h2>
+    <p class="caption">気になる点などあればお気軽にご連絡ください。</p>
     <!--<p class="caption text-white">{{ site.email }}</p>-->
     <a href="https://dojocon-japan.doorkeeper.jp/contact/new" class="button" target="_blank" rel="noopener">お問い合わせする</a>
   </div>
