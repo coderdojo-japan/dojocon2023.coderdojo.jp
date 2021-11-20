@@ -87,7 +87,7 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2 mb-5">
-          <a href="https://dojocon-japan.doorkeeper.jp/events/129895"  class="button" target="_blank" rel="noopener">参加申込をする（無料）</a>
+          <a href="https://dojocon-japan.doorkeeper.jp/events/129895"  class="button" target="_blank" rel="noopener">参加申込をする<br>（無料）</a>
         </div>
       </div>
     </div>
