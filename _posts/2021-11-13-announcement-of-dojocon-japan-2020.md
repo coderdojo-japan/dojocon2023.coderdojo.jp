@@ -2,7 +2,7 @@
 layout: post
 title:  "DojoCon Japan {{ site.year }} 開催のお知らせ"
 categories: news
-thumbnail: thumbnail_news.png
+thumbnail: /img/ogp_2021.jpg
 permalink: /posts/1
 ---
 
