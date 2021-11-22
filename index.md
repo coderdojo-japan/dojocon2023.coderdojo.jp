@@ -10,7 +10,7 @@ layout: default
   </h1>
     <!-- <div class="top-texts">
       <h1>DojoCon Japan <br>{{ site.year }}</h1>
-      <h2 class="text-center">見渡す <br class='ignore-pc'>- the 10th anniversary -</h2>
+      <h2 class="text-center">見渡す</h2>
       <h3 class="text-center">December 18th / ONLINE</h3>
     </div> -->
   </div>
