@@ -151,7 +151,7 @@ layout: default
 
 <section id="contact" class="bg-main">
   <div class="section-contents container">
-    <h2>CONTACT</h2>
+    <h2 class="text-center title-text">CONTACT</h2>
     <p class="caption">気になる点などあればお気軽にご連絡ください。</p>
     <!--<p class="caption text-white">{{ site.email }}</p>-->
     <a href="https://dojocon-japan.doorkeeper.jp/contact/new" class="button" target="_blank" rel="noopener">お問い合わせする</a>
@@ -279,7 +279,7 @@ layout: default
 
 <section id="organizedBy" class="section-gray">
   <div class="section-contents">
-    <h2>Organized by</h2>
+    <h2 class="text-center title-text">Organized by</h2>
     <!--<p class="caption">主催</p>-->
     <p class="text-center">DojoCon Japan {{ site.year }} 実行委員会</p>
     <p class="text-center"><a href="https://coderdojo.jp/" target="_blank" rel="noopener">一般社団法人 CoderDojo Japan</a></p>
