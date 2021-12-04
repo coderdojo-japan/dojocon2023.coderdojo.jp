@@ -2,7 +2,7 @@
 layout: post
 title:  "見渡す｜DojoCon Japan 2021とは"
 categories: news
-thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLXz6XcEX_2fElVwp7OX0WX5GjQUUKtliq880SuIFFV_3D48gImxm6AGLQpj_n4NI-g7FddUN4syqNoVsyvNwtQf0RNwCVEH5Xmm5hp1CH9yeW5DTjENKjzUvkbt5rC6QHFYVOgwO4kXPDEn7-YeOVw=w1098-h618-no?authuser=2
+thumbnail: /img/mainvisual-mobile.png
 permalink: /posts/2
 ---
 
@@ -18,7 +18,7 @@ permalink: /posts/2
 ## DojoCon Japan とは
 
 DojoCon とは CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベント (CoderDojo Conference) です。
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLVKLf9cLDiBOJgnLdsQ2fU35GLA2e4nX-HFBT5jZxf8ZozZ4kejSMj1uq2_K19cAPnBQfTHumkEFQ018NEJMI7gY-dLVrGbgnxYh8UpcQGiaVs1K7P_OL8SFnWQZVM-IdY_UteYEnYwUIQwbzUUi-M=w1102-h407-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催され、2020年は初のフルオンライン開催となりました。
 
@@ -54,7 +54,7 @@ DojoCon とは CoderDojo コミュニティが全国から集まる、年に１�
 
 このハンドブックはPDFとして公開されているので、もし興味を持たれた方はぜひご一読をおすすめいたします！！ 何を隠そう、ぼくもまだ読んでいないので。
 
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLUrE0HTFYRYBO3TF3ERZzL_DAM0C4Wi7eqhyqAwb3MxjsvbsKIuHJ0XZRUMkjS48OVL6z8nqh70AttqaHRHZw11GmwDt76_gd38VGr3d440-JclDOg5VJZqh2gmtDo_GOZVJDROxBaxKTrNlLP2isU=w856-h399-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 ご覧ください、Japanです。
 <br>[https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook](https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook)
 
@@ -80,31 +80,31 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 [DojoCon Japan 2016 - The more dojos, the more cool coders. -](http://dojocon2016.coderdojo.jp/)
 <br>内田洋行 大阪 ユビキタス協創広場 CANVASにて開催
 <br>[http://dojocon2016.coderdojo.jp/](http://dojocon2016.coderdojo.jp/)
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLX2W5b0Emy1hlckXpSud_N6LBgnnubYe3wcfW8_DkV3QUEQ6FejK6TtqJ3ViaKRVv3tK8JTi1jnwerM_Ll_gMbv52GEdV4JAHDhLZjHM3lOg3W5OG14Jm37aO7apvIDv2QNu9OAHH61R8ozPinPEKM=w1240-h645-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 ### 2017年11月14日
 [DojoCon Japan 2017 - つながる Dojo to Dojo -](https://dojocon2017.coderdojo.jp/)
 <br>立命館いばらきフューチャープラザ イベントホール
 <br>[https://dojocon2017.coderdojo.jp/](https://dojocon2017.coderdojo.jp/)
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLXw08URdcALEy8CE-5IzaJ2WkI8qHX_-3GS_NelTdBM4TYwv2e9kGT2llFgiU-nQlX9_dRqpZAOsj0SBuuvfK9XCgFxffbX6maN0TTLaxjBxmp9oOM-FUEoIbJapSB9Ao8Ex1LVN-9h0VT_j8ObDlw=w696-h468-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 ### 2018年8月25日
 [DojoCon Japan 2018 - ひろがる plus one | DojoCon Japan 2018](https://dojocon2018.coderdojo.jp/)
 <br>サイボウズ東京オフィスにて開催
 <br>[https://dojocon2018.coderdojo.jp/](https://dojocon2018.coderdojo.jp/)
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLX3i4az5SpygH8COLOjF5mOWuu-d6AFRey7SMLiy9tTEm9hr1FNB8cejchCSFMvfzMCQRqlXJ_riXzy67cjXdx8GE-C1W1Tyt-My85svqI02BnQteiuJ3vaox7jCNPLt8IpJfmq3wh6js87D_n6kA8=w1240-h645-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 ### 2019年12月21日
 [DojoCon Japan 2019 - つぎのSTEP -](https://dojocon2019.coderdojo.jp/)
 <br>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake / MU GARDEN TERRACEにて開催
 <br>[https://dojocon2019.coderdojo.jp/](https://dojocon2019.coderdojo.jp/)
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLXfVoV4uyVZg9ctd58ANibqkp6EPTE_w1AP3GO0iJAMAGoEOoCGk8dBUeHQitfpFq9TYHvBTDhRmR01-5wePgb2SlxEB6tuRMN6N-aA6I9BmIc8gXPjdJhp6HYd4qojliOR_zsuuqj0NBuxgvijySg=w1240-h645-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 ### 2020年12月27日
 [DojoCon Japan 2020 - Beyond the Distance(距離を超えて) -](https://dojocon2020.coderdojo.jp/)
 <br>フルオンラインにて開催
 <br>[https://dojocon2020.coderdojo.jp/](https://dojocon2020.coderdojo.jp/)
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLVGbLTtSI-upizVoZbGb64Hyf90hnKJvV-3s5oVIgBze-SyBOD7T769x_ihGC-sy9VxzNUjr2pyH2XZpiVANZAEsBgXjU_Jq4nWZHWkNIwdLTHA0D3vQ2ZtHQAV9oPCW88CoVq0Elj55O4gRDzMt1E=w1240-h645-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 どうでしょう、DojoCon Japan まとめサイトができました。
 これでもうぼくの使命は完了したといっても過言ではありません。 ここに歴史をまとめましたので。
@@ -120,7 +120,7 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 また、今年もCountdown DojoCon Japan 2021という開催情報配信企画を行っています。
 今回は、企画情報などのお知らせに加え、これまでのDojoCon Japanを運営されてきた実行委員の方々をゲストに迎えて、DojoCon Japan自体の開催準備秘話もお届けしています。
 
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLVNFgqU8vVlMIahPdZ2381UQyo857ZW768cpY58I1Djeaa-8J0LYx48mskoDDcsKn5HvA1r7N2R41CV3gGfPOwD26P2xe5hJpkIgE8p1Tbo5zDm9pSZcVVDHu6uEcnsGZQxguRTe2w22-LwOT0O174=w646-h276-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 今後の配信予定は、
 - 12月06日 月曜日 19:00-19:30、
@@ -195,7 +195,7 @@ Go Global! コンテストをはじめ、昨年もプログラミングコンテ
 
 各地のCoderDojoがその地域での有志の協力で成り立っているように、DojoCon Japanも各地のCoderDojo関係者による協力で実現しています。
 
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLXz6XcEX_2fElVwp7OX0WX5GjQUUKtliq880SuIFFV_3D48gImxm6AGLQpj_n4NI-g7FddUN4syqNoVsyvNwtQf0RNwCVEH5Xmm5hp1CH9yeW5DTjENKjzUvkbt5rC6QHFYVOgwO4kXPDEn7-YeOVw=w1098-h618-no?authuser=2">
+<img src="/img/mainvisual-mobile.png">
 
 従来は、まず自主的に集まったメンバーが主だった概要を発案し、その概要にそって協力者を募り、その中から各役割ごとにチームを編成し、チーム間で協力しながら開催の準備を進めていきます。
 
