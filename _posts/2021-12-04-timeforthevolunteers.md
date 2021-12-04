@@ -2,7 +2,7 @@
 layout: post
 title:  "見渡す｜DojoCon Japan 2021とは"
 categories: news
-thumbnail: timeforthevolunteers03.webp
+thumbnail: timeforthevolunteers03.jpg
 permalink: /posts/2
 ---
 
