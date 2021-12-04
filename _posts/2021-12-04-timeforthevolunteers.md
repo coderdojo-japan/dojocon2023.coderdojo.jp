@@ -2,7 +2,7 @@
 layout: post
 title:  "見渡す｜DojoCon Japan 2021とは"
 categories: news
-thumbnail: timeforthevolunteers03.jpg
+thumbnail: timeforthevolunteers03.webp
 permalink: /posts/2
 ---
 
@@ -18,7 +18,7 @@ permalink: /posts/2
 ## DojoCon Japan とは
 
 DojoCon とは CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベント (CoderDojo Conference) です。
-![DojoCon Japan 2019](/img/timeforthevolunteers00.webp)
+![DojoCon Japan 2019](/img/post/timeforthevolunteers00.webp)
 
 「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催され、2020年は初のフルオンライン開催となりました。
 
@@ -54,7 +54,7 @@ DojoCon とは CoderDojo コミュニティが全国から集まる、年に１�
 
 このハンドブックはPDFとして公開されているので、もし興味を持たれた方はぜひご一読をおすすめいたします！！ 何を隠そう、ぼくもまだ読んでいないので。
 
-![DojoCon Handbook](/img/timeforthevolunteers01.webp)
+![DojoCon Handbook](/img/post/timeforthevolunteers01.webp)
 ご覧ください、Japanです。
 <br>[https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook](https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook)
 
@@ -80,31 +80,31 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 [DojoCon Japan 2016 - The more dojos, the more cool coders. -](http://dojocon2016.coderdojo.jp/)
 <br>内田洋行 大阪 ユビキタス協創広場 CANVASにて開催
 <br>[http://dojocon2016.coderdojo.jp/](http://dojocon2016.coderdojo.jp/)
-![Webサイト 2016](/img/timeforthevolunteers_dojocon2016.webp)
+![Webサイト 2016](/img/post/timeforthevolunteers_dojocon2016.webp)
 
 ### 2017年11月14日
 [DojoCon Japan 2017 - つながる Dojo to Dojo -](https://dojocon2017.coderdojo.jp/)
 <br>立命館いばらきフューチャープラザ イベントホール
 <br>[https://dojocon2017.coderdojo.jp/](https://dojocon2017.coderdojo.jp/)
-![Webサイト 2017](/img/timeforthevolunteers_dojocon2017.webp)
+![Webサイト 2017](/img/post/timeforthevolunteers_dojocon2017.webp)
 
 ### 2018年8月25日
 [DojoCon Japan 2018 - ひろがる plus one | DojoCon Japan 2018](https://dojocon2018.coderdojo.jp/)
 <br>サイボウズ東京オフィスにて開催
 <br>[https://dojocon2018.coderdojo.jp/](https://dojocon2018.coderdojo.jp/)
-![Webサイト 2018](/img/timeforthevolunteers_dojocon2018.webp)
+![Webサイト 2018](/img/post/timeforthevolunteers_dojocon2018.webp)
 
 ### 2019年12月21日
 [DojoCon Japan 2019 - つぎのSTEP -](https://dojocon2019.coderdojo.jp/)
 <br>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake / MU GARDEN TERRACEにて開催
 <br>[https://dojocon2019.coderdojo.jp/](https://dojocon2019.coderdojo.jp/)
-![Webサイト 2019](/img/timeforthevolunteers_dojocon2019.webp)
+![Webサイト 2019](/img/post/timeforthevolunteers_dojocon2019.webp)
 
 ### 2020年12月27日
 [DojoCon Japan 2020 - Beyond the Distance(距離を超えて) -](https://dojocon2020.coderdojo.jp/)
 <br>フルオンラインにて開催
 <br>[https://dojocon2020.coderdojo.jp/](https://dojocon2020.coderdojo.jp/)
-![Webサイト 2020](/img/timeforthevolunteers_dojocon2020.webp)
+![Webサイト 2020](/img/post/timeforthevolunteers_dojocon2020.webp)
 
 どうでしょう、DojoCon Japan まとめサイトができました。
 これでもうぼくの使命は完了したといっても過言ではありません。 ここに歴史をまとめましたので。
@@ -120,7 +120,7 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 また、今年もCountdown DojoCon Japan 2021という開催情報配信企画を行っています。
 今回は、企画情報などのお知らせに加え、これまでのDojoCon Japanを運営されてきた実行委員の方々をゲストに迎えて、DojoCon Japan自体の開催準備秘話もお届けしています。
 
-![Countdown配信](/img/timeforthevolunteers02.webp)
+![Countdown配信](/img/post/timeforthevolunteers02.webp)
 
 今後の配信予定は、
 - 12月06日 月曜日 19:00-19:30、
@@ -195,7 +195,7 @@ Go Global! コンテストをはじめ、昨年もプログラミングコンテ
 
 各地のCoderDojoがその地域での有志の協力で成り立っているように、DojoCon Japanも各地のCoderDojo関係者による協力で実現しています。
 
-![DojoCon Japan 実行員](/img/timeforthevolunteers03.webp)
+![DojoCon Japan 実行員](/img/post/timeforthevolunteers03.webp)
 
 従来は、まず自主的に集まったメンバーが主だった概要を発案し、その概要にそって協力者を募り、その中から各役割ごとにチームを編成し、チーム間で協力しながら開催の準備を進めていきます。
 
