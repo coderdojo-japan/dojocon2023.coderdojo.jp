@@ -36,7 +36,7 @@ DojoCon とは CoderDojo コミュニティが全国から集まる、年に１�
 
 >The CoderDojo movement is focused on the experience of the Ninjas — DojoCon is a time for the volunteers! This community event is a fantastic chance for you to network with other like-minded people who play an instrumental part in the CoderDojo movement. It is also a unique opportunity for you to share experiences and best practices with the Dojo volunteer community, to learn about new technology, and to build your professional network.
 
-[https://help.coderdojo.com/cdkb/s/article/Why-run-a-DojoCon](https://help.coderdojo.com/cdkb/s/article/Why-run-a-DojoCon)
+[Why run a DojoCon? - CoderDojo](https://help.coderdojo.com/cdkb/s/article/Why-run-a-DojoCon)
 
 ### DojoCon is a time for the volunteers!
 
@@ -56,7 +56,8 @@ DojoCon とは CoderDojo コミュニティが全国から集まる、年に１�
 
 ![DojoCon Handbook](/img/post/timeforthevolunteers01.webp)
 ご覧ください、Japanです。
-<br>[https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook](https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook)
+<br>
+[DojoCon Handbook - CoderDojo](https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook)
 
 ## 見渡す とは、なんなのか？
 
