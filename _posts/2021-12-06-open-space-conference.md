@@ -12,7 +12,12 @@ permalink: /posts/4
 アンカンファレンスでディスカッションしたいテーマを、
 <br>CoderDojo Japan Facebookグループで募集しています。
 
-**[【アンカンファレンステーマ募集】](https://www.facebook.com/groups/coderdojo.jp/posts/4530427977070566/)**
+> アンカンファレンスとは講演者の話を聞くセッションの形態とは異なり、   
+> 参加者自身がテーマを出し合いそのテーマについて自分たちで話し合い、   
+> 参加者全員で作り上げるカンファレンスです。   
+> （引用元: [アンカンファレンスとは - WordCamp Tokyo 2012](https://tokyo.wordcamp.org/2012/unconference/#tpx02)）
+
+**[【アンカンファレンスのテーマを応募する】](https://www.facebook.com/groups/coderdojo.jp/posts/4530427977070566/)**
 
 上記投稿のコメント欄にお気軽に記入して下さい。
 <br>（テーマを出した方は可能な限り当日の参加をお願いいたします）
@@ -31,7 +36,7 @@ permalink: /posts/4
 テーマ名は「【】」で囲っていただけると分かりやすいです。
 <br>よろしくお願いいたします。
 
-**[【アンカンファレンステーマ募集】](https://www.facebook.com/groups/coderdojo.jp/posts/4530427977070566/)**
+**[【アンカンファレンスにテーマを応募する】](https://www.facebook.com/groups/coderdojo.jp/posts/4530427977070566/)**
 
 ---
 
