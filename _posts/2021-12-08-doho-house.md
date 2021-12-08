@@ -1,22 +1,24 @@
 ---
 layout: post
-title:  "出張DojoHouse"
+title:  出張 DojoHouse
 categories: news
 thumbnail: ogp_post_07.jpg
 permalink: /posts/7
 ---
 
-## あの、DojoHouseがDojoCon Japanに！？
-
 ![DojoHouse イメージ](/img/post/DojoHouse_Thumbnail.png "DojoHouse イメージ")
 
-月1回を目安に CoderDojoJapan 非公式 Discord コミュニティで開催されるのが **DojoHouse**。
+DojoCon Japan で毎年開催されている CoderDojo 相談所が、今年は「 **DojoHouse** 」という形で実施されます。
 
-DojoHouseは、CoderDojo で気になっていることや、相談したいことを聞ける場、あるいは CoderDojo にかかわらず技術にまつわる情報交換する場、あるいはもくもく会にもなるかもしれません。
+- [DojoCon Japan 2018 の CoderDojo 相談所](https://dojocon2018.coderdojo.jp/workshop/09_welcome-to-dojo.html)
+- [DojoCon Japan 2019 の CoderDojo 相談所](https://dojocon2019.coderdojo.jp/workshop/7/)
+- [DojoCon Japan 2020 の CoderDojo 相談所](https://dojocon2020.coderdojo.jp/event)
 
-今回はそのDojoHouseがDojoCon Japanにやってきます。何をしようと自由**(※)**なので、気軽に参加してください～
+DojoHouse は、CoderDojo で気になっていることや、相談したいことを聞ける場、あるいは CoderDojo にかかわらず技術にまつわる情報交換する場、あるいはもくもく会にもなるかもしれません。
 
-- ___※CoderDojo憲章に沿って自由です ^^;___
+何をしようと自由**(※)**なので、気軽に参加してください～
+
+- ___※[CoderDojo憲章](https://coderdojo.jp/charter)に沿って自由です ^^;___
 - ※こちらは __oVice会場企画__ です。会場内の特設DojoHouseブースまでお立ち寄りください！
 
 ---
