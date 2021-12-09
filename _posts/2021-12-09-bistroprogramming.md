@@ -20,6 +20,12 @@ Maker Faire Tokyo 2021 での様子
 {: .text-center}
 ![メイカーフェア Tokyo 2021 での様子](/img/post/bistroprogramming01.webp)
 
+
+
+oVice会場 メインステージ (イメージ)
+{: .text-center}
+![oVice会場 メインステージ イメージ](/img/post/bistroprogramming02.webp)
+
 ---
 
 CoderDojo 奈良 若林健一
