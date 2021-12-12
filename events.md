@@ -1,14 +1,14 @@
 ---
 layout: default
 title:  イベント企画
-thumbnail: event.png
+thumbnail: event.jpg
 ---
 
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6 offset-md-3 col-12">
       <h1>イベント企画</h1>
-      <p>どなたでもご参加いただける企画をご用意しています</p>
+      <p>どなたでもご参加いただける企画をご用意しています<br><span class="small">(*時間は一部変更になる場合があります)</span></p>
     </div>
   </div>
 
