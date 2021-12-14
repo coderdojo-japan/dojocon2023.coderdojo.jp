@@ -22,4 +22,4 @@ DojoCon Japan 2021 のYouTubeライブやオンライン会場を楽しみなが
 ---
 
 CoderDojo 名護 安藤元気
-
+{: .text-right}

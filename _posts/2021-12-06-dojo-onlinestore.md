@@ -25,4 +25,7 @@ permalink: /posts/5
 
 ---
 
-DojoCon Japan 2021 実行委員会
+DojoCon Japan 2021 デザインチーム
+<br>CoderDojo 伊予 宇都宮真由美
+<br>CoderDojo となみ 吉川圭太
+{: .text-right}
