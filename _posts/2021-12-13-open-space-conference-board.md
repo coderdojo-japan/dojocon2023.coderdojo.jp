@@ -43,3 +43,4 @@ oVice会場内 **ブース番号G** がアンカンファレンス用スペー�
 ---
 
 CoderDojo Mito 井川健一
+{: .text-right}

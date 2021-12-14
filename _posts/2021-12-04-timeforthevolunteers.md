@@ -36,7 +36,8 @@ DojoCon とは CoderDojo コミュニティが全国から集まる、年に１�
 
 >The CoderDojo movement is focused on the experience of the Ninjas — DojoCon is a time for the volunteers! This community event is a fantastic chance for you to network with other like-minded people who play an instrumental part in the CoderDojo movement. It is also a unique opportunity for you to share experiences and best practices with the Dojo volunteer community, to learn about new technology, and to build your professional network.
 
-[Why run a DojoCon? - CoderDojo](https://help.coderdojo.com/cdkb/s/article/Why-run-a-DojoCon)
+**[Why run a DojoCon? - CoderDojo](https://help.coderdojo.com/cdkb/s/article/Why-run-a-DojoCon)**
+{: .text-right}
 
 ### DojoCon is a time for the volunteers!
 
@@ -57,7 +58,8 @@ DojoCon とは CoderDojo コミュニティが全国から集まる、年に１�
 ![DojoCon Handbook](/img/post/timeforthevolunteers01.webp)
 ご覧ください、Japanです。
 <br>
-[DojoCon Handbook - CoderDojo](https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook)
+**[DojoCon Handbook - CoderDojo](https://help.coderdojo.com/cdkb/s/article/DojoCon-Handbook)**
+{: .text-center}
 
 ## 見渡す とは、なんなのか？
 
@@ -78,34 +80,45 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 ということで、2016年から2020年までの公式Webサイトをここに一覧してみました。
 
 ### 2016年8月27日
-[DojoCon Japan 2016 - The more dojos, the more cool coders. -](http://dojocon2016.coderdojo.jp/)
+**[DojoCon Japan 2016 - The more dojos, the more cool coders. -](http://dojocon2016.coderdojo.jp/)**
 <br>内田洋行 大阪 ユビキタス協創広場 CANVASにて開催
-<br>[http://dojocon2016.coderdojo.jp/](http://dojocon2016.coderdojo.jp/)
+
 ![Webサイト 2016](/img/post/timeforthevolunteers_dojocon2016.webp)
+[http://dojocon2016.coderdojo.jp/](http://dojocon2016.coderdojo.jp/)
+{: .text-right}
+
 
 ### 2017年11月14日
-[DojoCon Japan 2017 - つながる Dojo to Dojo -](https://dojocon2017.coderdojo.jp/)
+**[DojoCon Japan 2017 - つながる Dojo to Dojo -](https://dojocon2017.coderdojo.jp/)**
 <br>立命館いばらきフューチャープラザ イベントホール
-<br>[https://dojocon2017.coderdojo.jp/](https://dojocon2017.coderdojo.jp/)
+
 ![Webサイト 2017](/img/post/timeforthevolunteers_dojocon2017.webp)
+[https://dojocon2017.coderdojo.jp/](https://dojocon2017.coderdojo.jp/)
+{: .text-right}
 
 ### 2018年8月25日
-[DojoCon Japan 2018 - ひろがる plus one | DojoCon Japan 2018](https://dojocon2018.coderdojo.jp/)
+**[DojoCon Japan 2018 - ひろがる plus one | DojoCon Japan 2018](https://dojocon2018.coderdojo.jp/)**
 <br>サイボウズ東京オフィスにて開催
-<br>[https://dojocon2018.coderdojo.jp/](https://dojocon2018.coderdojo.jp/)
+
 ![Webサイト 2018](/img/post/timeforthevolunteers_dojocon2018.webp)
+[https://dojocon2018.coderdojo.jp/](https://dojocon2018.coderdojo.jp/)
+{: .text-right}
 
 ### 2019年12月21日
-[DojoCon Japan 2019 - つぎのSTEP -](https://dojocon2019.coderdojo.jp/)
+**[DojoCon Japan 2019 - つぎのSTEP -](https://dojocon2019.coderdojo.jp/)**
 <br>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake / MU GARDEN TERRACEにて開催
-<br>[https://dojocon2019.coderdojo.jp/](https://dojocon2019.coderdojo.jp/)
+
 ![Webサイト 2019](/img/post/timeforthevolunteers_dojocon2019.webp)
+[https://dojocon2019.coderdojo.jp/](https://dojocon2019.coderdojo.jp/)
+{: .text-right}
 
 ### 2020年12月27日
-[DojoCon Japan 2020 - Beyond the Distance(距離を超えて) -](https://dojocon2020.coderdojo.jp/)
+**[DojoCon Japan 2020 - Beyond the Distance(距離を超えて) -](https://dojocon2020.coderdojo.jp/)**
 <br>フルオンラインにて開催
-<br>[https://dojocon2020.coderdojo.jp/](https://dojocon2020.coderdojo.jp/)
+
 ![Webサイト 2020](/img/post/timeforthevolunteers_dojocon2020.webp)
+[https://dojocon2020.coderdojo.jp/](https://dojocon2020.coderdojo.jp/)
+{: .text-right}
 
 どうでしょう、DojoCon Japan まとめサイトができました。
 これでもうぼくの使命は完了したといっても過言ではありません。 ここに歴史をまとめましたので。
@@ -114,7 +127,7 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 
 なんとDojoCon Japanの公式YouTubeチャンネルもございます！
 
-[DojoCon Japan - YouTube](https://www.youtube.com/channel/UCX3tz875ZDtU85rFkYuwl5w)
+**[DojoCon Japan - YouTube](https://www.youtube.com/channel/UCX3tz875ZDtU85rFkYuwl5w)**
 
 こちらでは、過去のアーカイブ動画を見ることもできますし、今年のメインセッションの配信もそのままアーカイブされる予定です。
 
@@ -142,7 +155,8 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 詳細は改めてこちらの公式サイトでも告知できる予定です。
 <br>併せて、先日配信されたCountdown DojoCon Japan 2021の第二回でもお伝えしているので、よろしければそちらもご覧ください。
 
-[Countdown DojoCon Japan 2021 #2 - YouTube](https://www.youtube.com/watch?v=oPn8IWpBK3U)
+**[Countdown DojoCon Japan 2021 #2 - YouTube](https://www.youtube.com/watch?v=oPn8IWpBK3U)**
+{: .text-right}
 
 ### セッション
 
@@ -225,3 +239,4 @@ Go Global! コンテストをはじめ、昨年もプログラミングコンテ
 
 
 CoderDojo 紫雲 増岡秀樹
+{: .text-right}

@@ -12,9 +12,9 @@ permalink: /posts/4
 アンカンファレンスでディスカッションしたいテーマを、
 <br>CoderDojo Japan Facebookグループで募集しています。
 
-> アンカンファレンスとは講演者の話を聞くセッションの形態とは異なり、   
-> 参加者自身がテーマを出し合いそのテーマについて自分たちで話し合い、   
-> 参加者全員で作り上げるカンファレンスです。   
+> アンカンファレンスとは講演者の話を聞くセッションの形態とは異なり、
+> 参加者自身がテーマを出し合いそのテーマについて自分たちで話し合い、
+> 参加者全員で作り上げるカンファレンスです。
 > （引用元: [アンカンファレンスとは - WordCamp Tokyo 2012](https://tokyo.wordcamp.org/2012/unconference/#tpx02)）
 
 **[【アンカンファレンスのテーマを応募する】](https://www.facebook.com/groups/coderdojo.jp/posts/4530427977070566/)**
@@ -41,4 +41,4 @@ permalink: /posts/4
 ---
 
 CoderDojo Mito 井川健一
-
+{: .text-right}
