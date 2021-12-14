@@ -19,11 +19,14 @@ thumbnail: event.jpg
       <p>
         {{ event.time }}
         {% if event.tag %}
-        <span class="badge badge-ws">{{ event.tag }}</span> 
+        <span class="badge badge-ws">{{ event.tag }}</span>
         {% endif %}
-      </p> 
+      </p>
       <img src="img/event/{{ event.img }}" class="w-100" alt="イベント画像">
       <p>{{ event.text }}</p>
+      {% if event.url %}
+      <p class="text-right"><a class="font-weight-bold btn btn-outline-primary" href="{{ site.url }}/{{ event.url}}">参加・詳細</a></p>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
