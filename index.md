@@ -89,6 +89,14 @@ layout: default
           <a href="https://dojocon-japan.doorkeeper.jp/events/129895"  class="button" target="_blank" rel="noopener">参加申込をする<br>（無料）</a>
         </div>
       </div>
+
+      <div id='timetable'></div>
+      <br>
+      <h2>タイムテーブル</h2>
+      <img src='/img/timetable.png' alt='タイムテーブル' width='100%' />
+      <ul class="text-center list-style-none">
+        <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a> / <a href="/events"  ><i class="fas fa-link"></i> イベント企画を見る</a></li>
+      </ul>
     </div>
 
     <!-- NOTE: 開催後の公開する
