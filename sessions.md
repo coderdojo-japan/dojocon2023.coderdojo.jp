@@ -1,7 +1,6 @@
 ---
 layout: default
 title: セッション
-thumbnail: sessions.png
 ---
 
 <div class="container mt-5">
