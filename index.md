@@ -126,6 +126,7 @@ layout: default
     </section>
   </div>
 
+  <div id='countdown'></div>
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
