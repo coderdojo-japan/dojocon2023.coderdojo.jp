@@ -16,6 +16,9 @@ thumbnail: timetable.png
   <br>
   <h5>当日のタイムテーブル</h5>
   <img src='/img/timetable.png' alt='タイムテーブル' width='100%' />
+  <ul class="text-center list-style-none">
+    <li><a href="https://dojocon-japan.doorkeeper.jp/events/129895"><i class="fas fa-link"></i> 入場チケットを申し込む</a></li>
+  </ul>
   <br>
   <br>
   <br>
