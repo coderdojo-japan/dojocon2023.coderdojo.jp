@@ -17,13 +17,13 @@
   sns:
     - https://twitter.com/fku_mnk
   profile-img: fku_mnk.jpg
-  profile-text: TBD
+  profile-text: 
   profile-id: sp01
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
 - title: CoderDojo Japan 活動報告
   time: 10:10-10:30
-  text: 2016年に公式日本法人『一般社団法人 CoderDojo Japan』を設立し、様々な取り組みを実施して来ました。本セッションでは CoderDojo Japan がこの１年で行った活動実績をお伝えすると共に、次の１年に向けて CoderDojo コミュニティをもっと楽しい場にしていくためのアイデアを皆さんと議論・共有したいなと考えています。参考：<a href="https://www.youtube.com/CoderDojoJapan">2020年の活動報告 (YouTube)</a>
+  text: 2016年に公式日本法人『一般社団法人 CoderDojo Japan』を設立し、様々な取り組みを実施して来ました。本セッションでは CoderDojo Japan がこの１年で行った活動実績をお伝えすると共に、次の１年をより楽しい場にしていくための最新情報を皆さんと共有します。参考：<a href="https://www.youtube.com/CoderDojoJapan">2020年の活動報告 (YouTube)</a>
   tag: 法人連携
   speaker: 宮島 衣瑛
   affiliation: 一般社団法人 CoderDojo Japan
@@ -33,7 +33,219 @@
     - https://github.com/coderdojo-japan
     - https://twitter.com/CoderDojoJapan
     - https://coderdojo.jp/
-  profile-img: cdj.png
+  profile-img: coderdojo-japan.png
   profile-text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っています。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした学校や教育、学びの形について研究しています。 https://twitter.com/kiriem_
   profile-id: sp02
   #archive-link: 
+
+- title: 2021 CoderDojo大船活動紹介
+  time: 10:40-10:50
+  text: 2021年の活動は全てオンラインでの開催となったCoderDojo大船。その中で取り組んだ主な活動2つを紹介します。サポーターから見たCoderDojoの活動についてお話いたします。
+  tag: コミュニティ
+  speaker: 下田 真二
+  affiliation: CoderDojo 大船
+  sns:
+    - 
+  profile-img: shimoda_shinji.jpg
+  profile-text: 
+  profile-id: sp03
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 死ぬまでに一度はテクノベーションガールズしよ！
+  time: 11:00-11:20
+  text: Technovation Girlsはスマホアプリ、プレゼン動画、ビジネスプランなどの提出をチームでやり切る相当に大変なコンテストです。常に全員が壁にぶつかりつつ、普段の活動では得られないスキル、チームワークなどを体験し学んでいきます。メンターとしても子供達との向き合い方が一層難しくなり、満足と反省を繰り返す学びしかない活動です。明らかに大変そうなコンテストなのにこれまで直接誘った子は全員参加を決めました。それほど子供達にとって魅力的なコンテストです。死ぬまでに一度参加してみませんか？
+  tag: 活動紹介
+  speaker: 佐原 慎也
+  affiliation: CoderDojo 瑞穂 
+  sns:
+    - 
+  profile-img: sahara_shinya.jpg
+  profile-text: 
+  profile-id: sp04
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: かつてニンジャだった自分が、CoderDojo春日を設立するまでの軌跡と学び
+  time: 11:30-11:50
+  text: CoderDojoに初めて参加したのは小学5年生の頃でした。それから時間が経ち、かつてニンジャだった自分が、CoderDojo春日を設立しました。今回は、ニンジャだった自分がCoderDojo春日を設立するまでの経緯や気づき、学びなどをまとめてみました。自分が一体どのようにCoderDojo春日を設立したか、どのようなことをCoderDojoで学んだのか、などについてお話ししようと思います！
+  tag: 立ち上げ
+  speaker: Teba_eleven
+  affiliation: CoderDojo 春日
+  sns:
+    - 
+  profile-img: teba_eleven.png
+  profile-text: 
+  profile-id: sp05
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: これまでのDojoConってどんな感じ？激アツ！歴代実行委員長でパネルディスカッション
+  time: 13:00-14:00
+  text: 
+  tag: パネルディスカッション
+  speaker: 歴代 DojoCon 実行委員長たち
+  affiliation: 宇津さん・宮島さん・細谷さん、曽我さん
+  sns:
+  profile-img: TBU.jpg
+  profile-text:
+  profile-id: sp06
+  #archive-link: https://youtu.be/agvzP9YBN8Y
+  speakers:
+    - data:
+      role: モデレータ
+      name: 
+      affiliation: 
+      img: utsu.jpg
+      text: 
+      sns:
+        - 
+    - data:
+      role: パネリスト
+      name: 
+      affiliation: 
+      img: ando.jpg
+      text: 
+      sns:
+        - 
+    - data:
+      role: パネリスト
+      name: 
+      affiliation: 
+      img: utsunomiya.jpg
+      text: 
+      sns:
+        - 
+    - data:
+      role: パネリスト
+      name: 
+      affiliation: 
+      img: ueno.jpg
+      text: 
+      sns:
+        - 
+
+- title: ロボットが作れるゲームを作ってワークショップをしました
+  time: 14:10-14:30
+  text: VirtualRobotというロボットを作りプログラミングすることでステージにあるミッションをクリアするゲームを開発しワークショップを開催しました。コロナ禍の今、ロボットを持っていないとオンラインワークショップで作れる物はゲーム、アニメーションなどが限界で、直感的で完成品が動きとしてわかりやすいロボット教材を使ったワークショップは開催が難しくなりがちですが、このゲームを使うことでオンライン上でもロボットワークショップを開催することが出来ます。
+  tag: 活動紹介
+  speaker: 武田 和樹
+  affiliation: CoderDojo 立川
+  sns:
+    - 
+  profile-img: takeda_kazuki.jpg
+  profile-text: 
+  profile-id: sp07
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 高校生としてのCoderDojoとの関わり
+  time: 14:40-14:50
+  text: 高校生時代にCoderDojoとどう出会い、どう貢献してきたか。また大学進学後のCoderDojo日野立ち上げの経緯などをお話ししたいと思います。
+  tag: 立ち上げ
+  speaker: 尾川 史典
+  affiliation: CoderDojo Hino
+  sns:
+    - 
+  profile-img: ogawa_fuminori.jpg
+  profile-text: 
+  profile-id: sp08
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 跳ねるドローン、踊る3Dプリンタ、四国徳島神山町の道場
+  time: 15:00-15:20
+  text: "2015年、神山の小学校でレーザーカッター・3Dプリンタ・ドローンの授業が始まると『テクノロジーの活用にはコンピューターが欠かせない』と先生方のご要望でプログラミング授業も2017年にスタートします。しかし年1回の授業では物足りず、もっとPCに触れる機会を子供たちにあげたい！と2018年にコーダー道場をはじめました。<br>
+<br>
+高専の新設やサテライトオフィスなど、話題に事欠かない神山町も人口は減り続けてとうとう5000人を下回りました。そんな四国徳島に3番目にできた小さな道場についてお話します。"
+  tag: ファブリケーション
+  speaker: 本橋 大輔
+  affiliation: CoderDojo 神山
+  sns:
+    - 
+  profile-img: motohashi_daisuke.jpg
+  profile-text: 
+  profile-id: sp09
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 奈良のCoderDojoを見渡す
+  time: 15:30-15:50
+  text: 奈良のCoderDojoの活動を見渡し、これから期待することについてお話しします。
+  tag: コミュニティ
+  speaker: 若林 健一（CoderDojo 奈良）、石川 善行（CoderDojo 生駒）
+  affiliation: 
+  sns:
+    - 
+  profile-img: TBU.jpg
+  profile-text: 
+  profile-id: sp10
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: コロナ渦のノウハウパネルディスカッション on oVice
+  time: 16:00-16:30
+  text: "今年のコロナ禍の道場運営どうでしたか？セッション配信カメラが oVice に入って、参加者同志でノウハウ・課題を共有しませんか？発言は自己紹介を含めて、1人2分まで。スライドなどは何も必要ありません。アバターひとつで会場にお越しください。<br>
+<br>
+もしも差し支えなければ、以下の公募フォームにどのようなことを喋れるのかを応募していただけませんか？当日 oVice 会場にて参加していただいたらお呼びしたいです。<br>
+<br>
+oVice 会場と、セッション YouTube 中継のハイブリット配信です。<a href='https://forms.gle/uFtkk35S9dijBGRu8'>https://forms.gle/uFtkk35S9dijBGRu8</a>
+"
+  tag: パネルディスカッション
+  speaker: Katz Ueno
+  affiliation: CoderDojo 尾張
+  sns:
+    - 
+  profile-img: katz_ueno.jpg
+  profile-text: 
+  profile-id: sp11
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 私たちのこれまでと、これからを見渡してみた
+  time: 16:40-17:00
+  text: 私たちの道場のこれまでの歩みと、これからを見渡してここで共有します。道場を始めるかどうか、メンターやるかやらないか、道場に通うかどうかなど、迷っている方々の背中をそっと押せたらいいなと思っています。やるかやらないか、迷ったら楽しそうな方を選びましょうというお話です。
+  tag: コミュニティ
+  speaker: 三橋 正美
+  affiliation: CoderDojo 札幌
+  sns:
+    - 
+  profile-img: mitsuhashi_masami.png
+  profile-text: 
+  profile-id: sp12
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: プログラミング研究と CoderDojo
+  time: 17:10-17:30
+  text: プログラミングツールを研究する大学や研究者と CoderDojo の連携モデルを紹介します。発表者はプログラミングツール「Siv3D (シブスリーディー)」および「Siv3D for Kids」の開発者であり、これまで国内 4 つの CoderDojo を含む、各地のコミュニティと協力してワークショップを開催しています。実施にあたって気を付けたことや、CoderDojo と研究者が連携して良い成果を上げるための知見を共有します。
+  tag: 活動紹介
+  speaker: 鈴木 遼
+  affiliation: 早稲田大学 / Siv3D
+  sns:
+    - https://twitter.com/Reputeless
+    - https://ryo-suzuki-contact.github.io/
+  profile-img: ryo_suzuki.jpg
+  profile-text: 早稲田大学表現工学専攻博士後期課程に在籍。プログラミングを楽しく簡単にするツール Siv3D, Siv3D for Kids を開発するかたわら、プログラミング教育活動に取り組む。著書に『冒険で学ぶ はじめてのプログラミング』（2018, 技術評論社）。2013 年度 IPA 未踏事業スーパークリエータ認定、U-17 未踏ジュニアのメンター、プログラミング教室 Tasta 代表。
+  profile-id: sp13
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 「世界初」のこどもの育て方
+  time: 17:40-18:00
+  text: "子どもたちに「世界初」ぐらい大きな夢を持ってほしい！でも口で言っても、読んで聞かせても、子どもたちには通じません。<br>
+<br>
+そんな中、私たちメンターがどうやってNinjaたちの創造性を高めていったのか、お伝えしてみたいと思います。"
+  tag: 活動紹介
+  speaker: 濱田 康
+  affiliation: CoderDojo 松本・諏訪湖・安曇野、一般社団法人エンターキー
+  sns:
+    - 
+  profile-img: hamada_yasushi.jpg
+  profile-text: 
+  profile-id: sp14
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
+- title: 懇親会 
+  time: 18:30-19:30
+  text: 
+  tag: oVice 会場で開催
+  speaker: 
+  affiliation: 
+  sns:
+    - 
+  profile-img: TBU.jpg
+  profile-text: 
+  profile-id: sp15
+  #archive-link: https://youtu.be/OKHXmMnYl0Y
+
