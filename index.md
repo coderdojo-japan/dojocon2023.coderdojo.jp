@@ -126,31 +126,34 @@ layout: default
     </section>
   </div>
 
-  <!--
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <h2 class="text-center title-text">Countdown DojoCon Japan</h2>
-        <p class="text-center caption">DojoCon Japan 2020の内容を紹介するライブ配信、毎週日曜日18:00-放送中</p>
+        <p class="text-center caption">DojoCon Japan 2021 の内容を紹介するライブ配信です。</p>
       </div>
 
       <div class="col-md-4 p-3">
-        <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/mO9mto4Rv4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>セッションについて<br>2020.12.06 ONAIR</p>
+	<img src='/img/countdown.jpg' alt='Countdown DojoCon Japan' width='100%'/>
+        <p>各セッションの見どころ<br><a href='https://www.youtube.com/watch?v=2VIMymUsfiE'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
 
       <div class="col-md-4 p-3">
-        <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/0KMBgvpy4i4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>ワークショップについて<br>2020.11.29 ONAIR</p>
+	<img src='/img/countdown.jpg' alt='Countdown DojoCon Japan' width='100%'/>
+        <p>イベント企画の紹介<br><a href='https://www.youtube.com/watch?v=eyxSGb6zs54'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
 
       <div class="col-md-4 p-3">
-        <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/CYm6h8gxoYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>コンテストについて<br>2020.11.22 ONAIR</p>
+	<img src='/img/countdown.jpg' alt='Countdown DojoCon Japan' width='100%'/>
+        <p>これまでの DojoCon Japan<br><a href='https://www.youtube.com/watch?v=oPn8IWpBK3U'><i class="fab fa-youtube"></i> 視聴する</a></p>
+      </div>
+
+      <div class="col-md-4 p-3">
+	<img src='/img/countdown.jpg' alt='Countdown DojoCon Japan' width='100%'/>
+        <p>2021年のテーマについて<br><a href='https://www.youtube.com/watch?v=zWIzR6_vnP0'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
     </div>
   </div>
-  -->
 
 </div>
 
