@@ -90,6 +90,22 @@ layout: default
         </div>
       </div>
 
+      <div id='youtube'></div>
+      <br>
+      <h2>ライブ配信を見る</h2>
+      <div class="container">
+	<div class="row">
+	  <div class="col-md-8 offset-md-2 mb-5">
+	    <br>
+	    <a href="https://www.youtube.com/watch?v=YzSutW3ibrE"  class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前の部 (YouTube)</a>
+	    <br>
+	    <a href="https://www.youtube.com/watch?v=u81WfIKxTpw"  class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後の部 (YouTube)</a>
+	    <!--<h4 class="text-center title-text mt-0">当日のアーカイブはこちら！</h4>-->
+	    <!--<a href="https://www.youtube.com/playlist?list=PL_XgRvFvKBPZOwlkFq89AzWYsyp8tMD4s"  class="button" target="_blank" rel="noopener">Youtubeプレイリストを開く</a>-->
+	  </div>
+	</div>
+      </div>
+
       <div id='timetable'></div>
       <br>
       <h2>タイムテーブル</h2>
@@ -97,22 +113,6 @@ layout: default
       <ul class="text-center list-style-none">
         <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a> / <a href="/events"  ><i class="fas fa-link"></i> イベント企画を見る</a></li>
       </ul>
-    </div>
-
-    <div id='youtube'></div>
-    <br>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 offset-md-2 mb-5">
-          <h2 class="text-center title-text">ライブ配信を見る</h2>
-	  <br>
-	  <a href="https://www.youtube.com/watch?v=YzSutW3ibrE"  class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前の部 (YouTube)</a>
-	  <br>
-	  <a href="https://www.youtube.com/watch?v=u81WfIKxTpw"  class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後の部 (YouTube)</a>
-          <!--<h4 class="text-center title-text mt-0">当日のアーカイブはこちら！</h4>-->
-          <!--<a href="https://www.youtube.com/playlist?list=PL_XgRvFvKBPZOwlkFq89AzWYsyp8tMD4s"  class="button" target="_blank" rel="noopener">Youtubeプレイリストを開く</a>-->
-        </div>
-      </div>
     </div>
 
     <!-- NOTE: 開催後の公開する
