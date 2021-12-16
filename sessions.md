@@ -27,15 +27,16 @@ thumbnail: sessions.png
       <div class="my-3">
         <img src="img/session/{{ session.profile-img }}" class="w-100 px-5" alt="プロフィール画像">
       </div>
-      {%endif%}
+      {% endif %}
 
       <p class="session-speaker-name">{{ session.speaker}} {% if session.affiliation %}（ {{ session.affiliation }} ）{%endif%}</p>
       <p>{{ session.text }}</p>
-      <a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者プロフィール</a>
+      <!--<a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者プロフィール</a>-->
       {% if session.archive-link %}
       　<a href="{{ session.archive-link }}" target="_blank" rel="noopener" class="btn btn-sm btn-secondary"><i class="fab fa-youtube"></i> セッションアーカイブ</a>
       {% endif %}
 
+      <!--
       <div class="collapse mt-3" id="{{ session.profile-id }}">
         {% if session.tag == "パネルディスカッション" %}
         {% for speaker in session.speakers %}
@@ -57,6 +58,7 @@ thumbnail: sessions.png
         </ul>
         {% endif %}
       </div>
+      -->
     </div>
     {% endfor %}
   </div>

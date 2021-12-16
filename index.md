@@ -72,14 +72,13 @@ layout: default
 
       <div class="col-md-6 offset-md-3">
         <p class="about-title">内容</p>
-        <p class="about-text text-left">全国の CoderDojo 関係者によるセッション、交流会、懇親会など。</p>
-	<!--
+        <p class="about-text text-left">全国の CoderDojo 関係者によるセッション、イベント企画、懇親会など。</p>
         <ul class="text-left list-style-none">
-          <li><a href="/sessions" ><i class="fas fa-link"></i> セッションの詳細を見る</a></li>
-          <li><a href="/events"   ><i class="fas fa-link"></i> イベント企画の詳細を見る</a></li>
-          <li><a href="/workshops"><i class="fas fa-link"></i> ワークショップの詳細を見る</a></li>
+          <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a></li>
+	  <li><a href="/events"  ><i class="fas fa-link"></i> イベント企画を見る</a></li>
+          <li><a href="/#news"   ><i class="fas fa-link"></i> お知らせ情報を見る</a></li>
+          <!--<li><a href="/workshops"><i class="fas fa-link"></i> ワークショップの詳細を見る</a></li>-->
         </ul>
-	-->
       </div>
     </div>
     
