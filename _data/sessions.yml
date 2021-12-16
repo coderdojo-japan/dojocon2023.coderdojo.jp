@@ -26,10 +26,10 @@
   text: 2016年に公式日本法人『一般社団法人 CoderDojo Japan』を設立し、様々な取り組みを実施して来ました。本セッションでは CoderDojo Japan がこの１年で行った活動実績をお伝えすると共に、次の１年をより楽しい場にしていくための最新情報を皆さんと共有します。参考：<a href="https://www.youtube.com/CoderDojoJapan">2020年の活動報告 (YouTube)</a>
   tag: 法人連携
   speaker: 宮島 衣瑛
-  affiliation: 一般社団法人 CoderDojo Japan
+  affiliation: 一般社団法人 CoderDojo Japan、CoderDojo Kashiwa
   sns:
     - https://twitter.com/kiriem_
-  profile-img: coderdojo-japan.png
+  profile-img: miyajima_kirie.jpg
   profile-text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のR&D（研究開発）を行っている株式会社 Innovation Power のCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした教育について研究している。
   profile-id: sp02
   #archive-link: 
@@ -79,48 +79,51 @@
 
 - title: これまでのDojoConってどんな感じ？激アツ！歴代実行委員長でパネルディスカッション
   time: 13:00-14:00
-  text: 
+  text: DojoCon Japan 2021 のテーマ『見渡す』に沿って、2016年から毎年開催されている DojoCon Japan の歴代実行委員長が、これまでの道のりをふりかえります。
   tag: パネルディスカッション
   speaker: 歴代 DojoCon 実行委員長たち
-  affiliation: 宇津さん・宮島さん・細谷さん、曽我さん
+  affiliation: 細谷さん、宮島さん、宇津さん、曽我さん
   sns:
-  profile-img: TBU.jpg
+  profile-img: panel_dojocon.png
   profile-text:
   profile-id: sp06
   #archive-link: https://youtu.be/agvzP9YBN8Y
   speakers:
     - data:
       role: モデレータ
-      name: 
-      affiliation: 
-      img: utsu.jpg
-      text: 
+      name: 杉山 美鈴
+      affiliation: CoderDojo 久留米
+      img: sugiyama_misuzu.jpg
+      text: 福岡県でCoderDojo 久留米を主催してます。大学生の時に映画を見て漠然と海辺でパソコンを広げられるハッカーになりたいと思ったのが、プログラミングを始めたきっかけです。現在はWebシステム開発やサイト制作、プログラミング講師業などを行っています。
+    - data: 
+      role: パネリスト
+      name: 細谷 崇
+      affiliation: CoderDojo 西宮・梅田、DojoCon Japan 2016/2017 実行委員長
+      text: 主にNPO法人のHP制作（WordPress）やkintoneを使った業務システムの構築をしています。サイボウズ株式会社公認kintoneエバンジェリスト/元一社CoderDojo Japan理事/CoderDojo西宮と梅田のチャンピオン/宝塚NPOセンター理事/NPO法人SEIN理事
       sns:
-        - 
+        - https://twitter.com/tkc49
+    - data: 
+      role: パネリスト
+      name: 宮島 衣瑛
+      affiliation: CoderDojo Kashiwa、DojoCon Japan 2018/2020 実行委員長
+      text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のR&D（研究開発）を行っている株式会社 Innovation Power のCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした教育について研究している。
+      sns:
+        - https://twitter.com/kiriem_
     - data:
       role: パネリスト
-      name: 
-      affiliation: 
-      img: ando.jpg
-      text: 
+      name: 宇津 義一
+      affiliation: CoderDojo 名古屋、DojoCon Japan 2019 実行委員長
+      text: CoderDojo名古屋チャンピオン。最近ロボカップアジアパシフィック2021あいちに東海地区のCoderDojoでワークショップ出展、延べ450名ほどのニンジャに参加してもらいました。準備大変だったけどみんなで盛り上がって楽しかったのが最近のオモイデ。
       sns:
-        - 
+        - https://facebook.com/yoshikazu.utsu.5
     - data:
       role: パネリスト
-      name: 
-      affiliation: 
-      img: utsunomiya.jpg
-      text: 
+      name: 曽我 悠真
+      affiliation: CoderDojo 岡南、DojoCon Japan 2020 実行委員長
+      text: 2003年生まれ。高校3年生。小学5年生からプログラミングに触れ始める。CoderDojo Konan を 2017年に立ち上げ。IPA主催セキュリティ・キャンプ 全国大会 2018 を中学2年の夏に修了。 NICT主催 SecHack365 2019 に高校1年生のときに参加・修了。 DojoCon Japan 2020 共同実行委員長。
       sns:
-        - 
-    - data:
-      role: パネリスト
-      name: 
-      affiliation: 
-      img: ueno.jpg
-      text: 
-      sns:
-        - 
+        - https://twitter.com/ymsg19
+        - https://ymsg.space
 
 - title: ロボットが作れるゲームを作ってワークショップをしました
   time: 14:10-14:30

@@ -30,7 +30,7 @@ title: セッション
 
       <p class="session-speaker-name">{{ session.speaker}} {% if session.affiliation %}（{{ session.affiliation }}）{%endif%}</p>
       <p>{{ session.text }}</p>
-      {% if session.profile-text %}
+      {% if session.profile-text or session.speakers %}
       <a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者情報を見る</a>
       {% endif %}
       {% if session.archive-link %}
@@ -44,7 +44,7 @@ title: セッション
         <p>{{ speaker.text }}</p>
         <ul>
           {% for link in speaker.sns %}
-          <li><a href="{{ link }}"><i class="fas fa-external-link-alt"></i> {{ link }}</a></li>
+          <li><a href="{{ link }}">{{ link }}</a></li>
           {% endfor %}
         </ul>
         {% endfor %}
