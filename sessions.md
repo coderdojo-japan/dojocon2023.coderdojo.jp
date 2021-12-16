@@ -7,9 +7,17 @@ title: セッション
   <div class="row">
     <div class="col-md-6 offset-md-3 col-12">
       <h1>セッション</h1>
-      <p>DojoCon Japan {{ site.year }} で開催されるセッションをご紹介します</p>
+      <p>セッションの内容や登壇者を紹介するページです。</p>
     </div>
   </div>
+
+  <div id='timetable'></div>
+  <br>
+  <h5>当日のタイムテーブル</h5>
+  <img src='/img/timetable.png' alt='タイムテーブル' width='100%' />
+  <br>
+  <br>
+  <br>
 
   <div class="row text-left">
     {% for session in site.data.sessions %}
