@@ -53,7 +53,7 @@ title: セッション
         <p>{{ session.profile-text }}</p>
         <ul>
           {% for link in session.sns %}
-          <li><a href="{{ link }}"><i class="fas fa-external-link-alt"></i> {{ link }}</a></li>
+          <li><a href="{{ link }}">{{ link }}</a></li>
           {% endfor %}
         </ul>
         {% endif %}

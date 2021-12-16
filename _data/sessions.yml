@@ -30,7 +30,7 @@
   sns:
     - https://twitter.com/kiriem_
   profile-img: coderdojo-japan.png
-  profile-text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っています。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした学校や教育、学びの形について研究しています。
+  profile-text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のR&D（研究開発）を行っている株式会社 Innovation Power のCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした教育について研究している。
   profile-id: sp02
   #archive-link: 
 
@@ -41,9 +41,10 @@
   speaker: 下田 真二
   affiliation: CoderDojo 大船
   sns:
-    - 
+    - https://www.facebook.com/shimoda.shinji
+    - https://twitter.com/shimodash_home
   profile-img: shimoda_shinji.jpg
-  profile-text: 
+  profile-text: CoderDojo大船サポーター / 大船在住 / 2児の親 / 会社員 / テレワーク多め / 電子工作
   profile-id: sp03
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -54,9 +55,9 @@
   speaker: 佐原 慎也
   affiliation: CoderDojo 瑞穂 
   sns:
-    - 
+    - https://twitter.com/yeah_boboi
   profile-img: sahara_shinya.jpg
-  profile-text: 
+  profile-text: CoderDojo瑞穂の佐原慎也（男）です。瑞穂は今年で愛され3年になります。何と写真はアプリで女性化した僕です。あまりにも妹そっくりなので親戚がざわついていました。写真はテクノベーションガールズを意識しています。技術で女性化、テクノベーションガールズ、ってね！
   profile-id: sp04
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -67,9 +68,12 @@
   speaker: Teba_eleven
   affiliation: CoderDojo 春日
   sns:
-    - 
+    - https://twitter.com/Teba_eleven
+    - https://www.chickensblog.com/
+    - https://qiita.com/Teba_eleven
+    - https://www.facebook.com/Teba.eleven
   profile-img: teba_eleven.png
-  profile-text: 
+  profile-text: CoderDojo春日のチャンピオンをしている現在高校一年生のTeba_elevenです。普段はプログラミングの勉強をしていて、Web系のプログラマーを目指しています。土日などは福岡のCoderDojoや、オンラインで全国のCoderDojoに参加していたりします。一番得意なプログラミング言語はScratchで、最近はPythonなどもやっています。
   profile-id: sp05
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -125,9 +129,9 @@
   speaker: 武田 和樹
   affiliation: CoderDojo 立川
   sns:
-    - 
+    - https://twitter.com/takenok58914745
   profile-img: takeda_kazuki.jpg
-  profile-text: 
+  profile-text: 高専2年生です。Scratch, Unity, Blenderとかやってます。過去にFLL(HYDRO DYNAMICS、INTO ORBIT)に参加しました。
   profile-id: sp07
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -138,9 +142,11 @@
   speaker: 尾川 史典
   affiliation: CoderDojo Hino
   sns:
-    - 
+    - https://twitter.com/mizphses
+    - https://facebook.com/mizphses
+    - https://mizphses.com
   profile-img: ogawa_fuminori.jpg
-  profile-text: 
+  profile-text: 中央大学経済学部1年．2018年からCoderDojoに携わる．2021年9月にコロナワクチン予診票作成アプリを作ったら記事になった．
   profile-id: sp08
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -153,9 +159,11 @@
   speaker: 本橋 大輔
   affiliation: CoderDojo 神山
   sns:
-    - 
+    - https://twitter.com/CdKamiyama
+    - https://facebook.com/CDKamiyama
+    - https://note.com/cdkamiyama
   profile-img: motohashi_daisuke.jpg
-  profile-text: 
+  profile-text: 埼玉県出身の44歳、2013年に徳島県神山町へ転居。子供が生まれたことをきっかけに、2018年にコーダー道場神山を立ち上げました。普段はプログラマー仕事の傍らで神山メイカースペースというデジファブ施設の運営をしています。
   profile-id: sp09
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -166,9 +174,10 @@
   speaker: 若林 健一（CoderDojo 奈良）、石川 善行（CoderDojo 生駒）
   affiliation: 
   sns:
-    - 
+    - https://twitter.com/CoderDojoNara
+    - https://facebook.com/yoshiyuki.ishikawa.125
   profile-img: coderdojo_nara_ikoma.jpg
-  profile-text: 
+  profile-text: "奈良県内で活動しているDojoです。それぞれ奈良市と生駒市で活動しています。 / 石川 善行さん：CoderDojo奈良・生駒に2016年からメンターとして参加、2018年より生駒のチャンピオン。元ゲーム系プログラマー"
   profile-id: sp10
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -184,9 +193,10 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
   speaker: Katz Ueno
   affiliation: CoderDojo 尾張
   sns:
-    - 
+    - https://twitter.com/katzueno
+    - https://katzueno.com
   profile-img: katz_ueno.jpg
-  profile-text: 
+  profile-text: 2017年4月より、愛知県岩倉市で CoderDojo 尾張を立ち上げる。コンクリートファイブジャパン株式会社の Chief Communications Officer として、オープンソース CMS 「Concrete CMS」の日本での普及活動を行っている。2児の父で、長女・次女と一緒に Scratch, micro:bit、Viscuit を楽しんでいる毎日。コロナ禍で新しいルールの元、オンライン・オフライン・ハイブリット開催を行っていて、ガイドラインを独自に作成したりしている。
   profile-id: sp11
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -197,9 +207,10 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
   speaker: 三橋 正美
   affiliation: CoderDojo 札幌
   sns:
-    - 
+    - https://coderdojo-sapporo.jp/
+    - https://facebook.com/coderdojo.sapporo/
   profile-img: mitsuhashi_masami.png
-  profile-text: 
+  profile-text: 1963年生まれ。普段は自社基幹システムのお守りをしている。こどもの頃から暇さえあれば何かを作って（今で言うところのティンカリング）いた。プログラミングは学生時代に卒論とゲームのためにBASICから始めた。社会人になってからは、楽しみとしてのプログラミングからは距離を置いてたが、Raspberry Piと出会ったことが切っ掛けでCoderDojoを知るところとなり、2016年のDojoCon Japanに参加、盛り上がって一気にCoderDojo札幌を立ち上げた。
   profile-id: sp12
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
@@ -226,9 +237,13 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
   speaker: 濱田 康
   affiliation: CoderDojo 松本・諏訪湖・安曇野、一般社団法人エンターキー
   sns:
-    - 
+    - https://facebook.com/yasushi.hamada.56
   profile-img: hamada_yasushi.jpg
-  profile-text: 
+  profile-text: "神奈川県鎌倉市出身。1997年長野県松本市に移住。<br>
+<br>
+CoderDojo松本・諏訪湖・安曇野（共同）チャンピオン。一般社団法人エンターキー代表理事として、教育委員会へのICTアドバイザリー従事。<br>
+<br>
+元ディズニーキャスト。元システムエンジニア。自家用パイロット。三児の父親。"
   profile-id: sp14
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
