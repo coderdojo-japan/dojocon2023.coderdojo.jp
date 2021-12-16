@@ -135,22 +135,22 @@ layout: default
       </div>
 
       <div class="col-md-4 p-3">
-	<img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/>
+	<a href='https://www.youtube.com/watch?v=2VIMymUsfiE'><img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/></a>
         <p>各セッションの見どころ<br><a href='https://www.youtube.com/watch?v=2VIMymUsfiE'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
 
       <div class="col-md-4 p-3">
-	<img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/>
+	<a href='https://www.youtube.com/watch?v=eyxSGb6zs54'><img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/></a>
         <p>イベント企画の紹介<br><a href='https://www.youtube.com/watch?v=eyxSGb6zs54'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
 
       <div class="col-md-4 p-3">
-	<img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/>
+	<a href='https://www.youtube.com/watch?v=oPn8IWpBK3U'><img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/></a>
         <p>これまでの DojoCon Japan<br><a href='https://www.youtube.com/watch?v=oPn8IWpBK3U'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
 
       <div class="col-md-4 p-3">
-	<img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/>
+	<a href='https://www.youtube.com/watch?v=zWIzR6_vnP0'><img src='/img/countdown.png' alt='Countdown DojoCon Japan' width='100%'/></a>
         <p>2021年のテーマについて<br><a href='https://www.youtube.com/watch?v=zWIzR6_vnP0'><i class="fab fa-youtube"></i> 視聴する</a></p>
       </div>
     </div>
