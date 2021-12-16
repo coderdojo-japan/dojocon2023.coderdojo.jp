@@ -1,6 +1,7 @@
 ---
 layout: default
 title: セッション
+thumbnail: timetable.png
 ---
 
 <div class="container mt-5">
