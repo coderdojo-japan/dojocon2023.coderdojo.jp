@@ -194,15 +194,34 @@ layout: default
   </div>
 </section>
 
-<section id="organizedBy" class="section-gray">
+<section id="organizedBy" class="section-gray top-contents">
   <div class="section-contents">
     <h2 class="text-center title-text">Organized by</h2>
     <!--<p class="caption">主催</p>-->
     <p class="text-center">DojoCon Japan {{ site.year }} 実行委員会</p>
     <p class="text-center"><a href="https://coderdojo.jp/" target="_blank" rel="noopener">一般社団法人 CoderDojo Japan</a></p>
-    <!--
-    <p class="caption">後援</p>
+    <br>
+
+    <h2>STAFF</h2>
+    <!--<p class="caption">実行委員のみなさん</p>-->
+    <div class="flex">
+      {% for member in site.data.members %}
+      <div class="member">
+	{% if member.site %}
+	<a href="{{ member.site }}" target="_blank" rel="nofollow"  rel="noopener">
+	  {% endif %}
+	  <div class="member-image">
+	    {% if member.img %}<img src="/img/members/{{ member.img }}" alt="{{ member.name }}" loading="lazy">
+	    {% else %}<img src="/img/members/dummy.png" alt="{{ member.name }}" loading="lazy">
+	    {% endif %}
+	  </div>
+	  <p>{{ member.name }}</p>{% if member.site %}</a>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2>Supported by</h2>
     <p class="text-center"><a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a></p>
-    -->
+
   </div>
 </section>

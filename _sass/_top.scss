@@ -254,6 +254,10 @@
   }
 
   //実行委員一覧
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .member {
     float: left;
     padding: 1.5vw;
@@ -272,8 +276,10 @@
   }
 
   .member-image {
-    height: calc(16vw - 3vw);
-    max-height: 170px;
+    padding-bottom: 0px;
+    //height: calc(16vw - 3vw);
+    //height: 10px;
+    max-height: 130px;
     img {
       border-radius: 50%;
       box-shadow: 0 0 3px #d1d3e4;
@@ -289,10 +295,14 @@
 
   @media screen and (max-width: 800px) {
     .member {
-      width: calc(33% - 3vw);
+      //width: calc(33% - 3vw);
+      width: 120px;
+      p { margin-top: 3vw; }
     }
     .member-image {
-      height: calc(26vw - 3vw);
+      //height: calc(26vw - 3vw);
+      height: 100px;
+      max-height: 100px;
     }
   }
 
