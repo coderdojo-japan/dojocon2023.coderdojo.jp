@@ -223,6 +223,5 @@ layout: default
 
     <h2>Supported by</h2>
     <p class="text-center"><a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a></p>
-
-  </div>
-</section>
+    </div>
+<!--</section>-->
