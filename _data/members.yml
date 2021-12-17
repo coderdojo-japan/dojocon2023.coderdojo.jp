@@ -1,3 +1,7 @@
 # - name: ここに表示したい名前
 #   site: ホームページやSNSなどのリンク
 #   img: 表示するアイコン画像。ない場合設定しなくてもよい。ディレクトリ /img/staff/ 内に配置。
+
+- name: '@yasulab'
+  site: 'https://twitter.com/yasulab'
+  img:  'https://yasslab.jp/img/photos/yasulab.jpg'
