@@ -4,10 +4,10 @@ layout: default
 
 <div class="top-contents">
   <div class="top">
-  <h1>
-    <img src="/img/mainvisual.png" alt="DojoCon Japan {{ site.year }}" class="ignore-sp">
-    <img src="/img/mainvisual-mobile.png" alt="DojoCon Japan {{ site.year }}" class="ignore-pc">
-  </h1>
+    <h1>
+      <img src="/img/mainvisual.png" alt="DojoCon Japan {{ site.year }}" class="ignore-sp">
+      <img src="/img/mainvisual-mobile.png" alt="DojoCon Japan {{ site.year }}" class="ignore-pc">
+    </h1>
     <!-- <div class="top-texts">
       <h1>DojoCon Japan <br>{{ site.year }}</h1>
       <h2 class="text-center">見渡す</h2>
@@ -183,8 +183,6 @@ layout: default
   </div>
 </div>
 
-
-
 <section id="contact" class="bg-main">
   <div class="section-contents container">
     <h2 class="text-center title-text">CONTACT</h2>
@@ -200,7 +198,7 @@ layout: default
     <!--<p class="caption">主催</p>-->
     <p class="text-center">DojoCon Japan {{ site.year }} 実行委員会</p>
     <p class="text-center"><a href="https://coderdojo.jp/" target="_blank" rel="noopener">一般社団法人 CoderDojo Japan</a></p>
-    <div id='staff'>
+    <div id='staff'></div>
     <br>
 
     <h2>STAFF</h2>
@@ -223,5 +221,5 @@ layout: default
 
     <h2>Supported by</h2>
     <p class="text-center"><a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a></p>
-    </div>
-<!--</section>-->
+  </div>
+</section>
