@@ -111,7 +111,7 @@ layout: default
       <h2>タイムテーブル</h2>
       <img src='/img/timetable.png' alt='タイムテーブル' width='100%' />
       <ul class="text-center list-style-none">
-        <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a> / <a href="/events"  ><i class="fas fa-link"></i> イベント企画を見る</a></li>
+        <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a><span class="ignore-sp"> / </span><br class="ignore-pc"/><a href="/events"  ><i class="fas fa-link"></i> イベント企画を見る</a></li>
       </ul>
     </div>
 
