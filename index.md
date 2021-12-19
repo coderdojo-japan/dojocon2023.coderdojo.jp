@@ -92,7 +92,7 @@ layout: default
 
       <div id='youtube'></div>
       <br>
-      <h2>ライブ配信を見る</h2>
+      <h2>配信アーカイブを見る</h2>
       <div class="container">
 	<div class="row">
 	  <div class="col-md-8 offset-md-2 mb-5">
