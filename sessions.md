@@ -42,6 +42,13 @@ thumbnail: timetable.png
 
       <p class="session-speaker-name">{{ session.speaker}} {% if session.affiliation %}（{{ session.affiliation }}）{%endif%}</p>
       <p>{{ session.text }}</p>
+
+      {% if session.slides %}
+      <p>
+	<a href="{{ session.slides }}" target="_blank" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> スライド資料を見る</a>
+      </p>
+      {% endif %}
+
       {% if session.profile-text or session.speakers %}
       <a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者情報を見る</a>
       {% endif %}
