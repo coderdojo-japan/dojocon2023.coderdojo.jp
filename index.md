@@ -97,9 +97,9 @@ layout: default
 	<div class="row">
 	  <div class="col-md-8 offset-md-2 mb-5">
 	    <br>
-	    <a href="https://www.youtube.com/watch?v=YzSutW3ibrE" class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前の部 (YouTube)</a>
+	    <a href="https://youtu.be/YzSutW3ibrE?t=885" class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前の部 (YouTube)</a>
 	    <br>
-	    <a href="https://www.youtube.com/watch?v=u81WfIKxTpw" class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後の部 (YouTube)</a>
+	    <a href="https://youtu.be/u81WfIKxTpw?t=888" class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後の部 (YouTube)</a>
 	    <!--<h4 class="text-center title-text mt-0">当日のアーカイブはこちら！</h4>-->
 	    <!--<a href="https://www.youtube.com/playlist?list=PL_XgRvFvKBPZOwlkFq89AzWYsyp8tMD4s"  class="button" target="_blank" rel="noopener">Youtubeプレイリストを開く</a>-->
 	  </div>
