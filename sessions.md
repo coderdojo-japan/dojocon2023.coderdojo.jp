@@ -18,8 +18,8 @@ thumbnail: timetable.png
   <img src='/img/timetable.png' alt='タイムテーブル' width='100%' />
   <div class="col-md-8 offset-md-2 mb-5">
   <ul class="list-style-none">
-    <li><a href="https://youtu.be/YzSutW3ibrE?t=885" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前のセッション動画を見る</a></li>
-    <li><a href="https://youtu.be/u81WfIKxTpw?t=888" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後のセッション動画を見る</a></li>
+    <li><a href="https://youtu.be/YzSutW3ibrE?t=885" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前のアーカイブ配信を見る</a></li>
+    <li><a href="https://youtu.be/u81WfIKxTpw?t=888" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後のアーカイブ配信を見る</a></li>
   </ul>
   </div>
   <br>
@@ -46,6 +46,12 @@ thumbnail: timetable.png
       <p class="session-speaker-name">{{ session.speaker}} {% if session.affiliation %}（{{ session.affiliation }}）{%endif%}</p>
       <p>{{ session.text }}</p>
 
+      {% if session.archive-link %}
+      <p>
+	<a href="{{ session.archive-link }}" target="_blank" rel="noopener" class="btn btn-main btn-sm"><i class="fab fa-youtube"></i> YouTube で見る</a>
+      </p>
+      {% endif %}
+
       {% if session.slides %}
       <p>
 	<a href="{{ session.slides }}" target="_blank" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> スライド資料を見る</a>
@@ -53,10 +59,9 @@ thumbnail: timetable.png
       {% endif %}
 
       {% if session.profile-text or session.speakers %}
-      <a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者情報を見る</a>
-      {% endif %}
-      {% if session.archive-link %}
-      　<a href="{{ session.archive-link }}" target="_blank" rel="noopener" class="btn btn-sm btn-secondary"><i class="fab fa-youtube"></i> セッションアーカイブ</a>
+      <p>
+	<a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者情報を見る</a>
+      </p>
       {% endif %}
 
       <div class="collapse mt-3" id="{{ session.profile-id }}">

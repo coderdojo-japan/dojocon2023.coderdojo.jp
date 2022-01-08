@@ -79,19 +79,29 @@ layout: default
           <li><a href="/#news"   ><i class="fas fa-link"></i> お知らせ情報を見る</a></li>
           <!--<li><a href="/workshops"><i class="fas fa-link"></i> ワークショップの詳細を見る</a></li>-->
         </ul>
+	<p>
+	  多くのご参加ありがとうございました！<br>
+	  当日の様子は下記からご確認ください。
+	</p>
       </div>
     </div>
     
     <br>
     <div class="container">
+      <!--
       <div class="row">
         <div class="col-md-8 offset-md-2 mb-5">
-          <a href="https://dojocon-japan.doorkeeper.jp/events/129895"  class="button" target="_blank" rel="noopener">参加申込をする<br>（無料）</a>
+          <a href="https://dojocon-japan.doorkeeper.jp/events/129895" class="button" target="_blank" rel="noopener">参加申込をする<br>（無料）</a>
+        </div>
+      </div>
+      -->
+      <div id='youtube' class="row">
+        <div class="col-md-8 offset-md-2 mb-5">
+          <a href="/sessions" class="button">当日のセッションを見る</a>
         </div>
       </div>
 
-      <div id='youtube'></div>
-      <br>
+      <!--
       <h2>配信アーカイブを見る</h2>
       <div class="container">
 	<div class="row">
@@ -100,11 +110,12 @@ layout: default
 	    <a href="https://youtu.be/YzSutW3ibrE?t=885" class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午前の部 (YouTube)</a>
 	    <br>
 	    <a href="https://youtu.be/u81WfIKxTpw?t=888" class="button" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> 午後の部 (YouTube)</a>
-	    <!--<h4 class="text-center title-text mt-0">当日のアーカイブはこちら！</h4>-->
-	    <!--<a href="https://www.youtube.com/playlist?list=PL_XgRvFvKBPZOwlkFq89AzWYsyp8tMD4s"  class="button" target="_blank" rel="noopener">Youtubeプレイリストを開く</a>-->
+	    <h4 class="text-center title-text mt-0">当日のアーカイブはこちら！</h4>
+	    <a href="https://www.youtube.com/playlist?list=PL_XgRvFvKBPZOwlkFq89AzWYsyp8tMD4s"  class="button" target="_blank" rel="noopener">Youtubeプレイリストを開く</a>
 	  </div>
 	</div>
       </div>
+      -->
 
       <div id='timetable'></div>
       <br>

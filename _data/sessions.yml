@@ -22,7 +22,7 @@
   profile-text: CoderDojo 紫雲チャンピオン。郵便局、パソコン工房を経て帆船堂 電算STUDIOを創設。 コンピュータが大好きな中年のジェントルマン。 Linuxとオープンソース・ソフトウェアを使って働いています。
   profile-id: sp01
   slides: 
-  #archive-link: https://youtu.be/OKHXmMnYl0Y
+  archive-link: https://www.youtube.com/watch?v=q8XO-qT0GXE&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl&index=1
 
 - title: CoderDojo Japan 活動報告
   time: 10:10-10:30
@@ -36,7 +36,7 @@
   profile-text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のR&D（研究開発）を行っている株式会社 Innovation Power のCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした教育について研究している。
   profile-id: sp02
   slides: https://speakerdeck.com/kiriem/coderdojo-japan-2021
-  #archive-link: 
+  archive-link: https://www.youtube.com/watch?v=IYYeG2BgkBw&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl&index=2
 
 - title: 2021 CoderDojo 大船活動紹介
   time: 10:40-10:50
@@ -51,7 +51,7 @@
   profile-text: CoderDojo大船サポーター / 大船在住 / 2児の親 / 会社員 / テレワーク多め / 電子工作
   profile-id: sp03
   slides: https://docs.google.com/presentation/d/1MaYgCgDqNG5PXIYgJmnR_-jQs0cDm_4O6gYH5EJ1qr4/edit?usp=sharing
-  #archive-link: https://youtu.be/OKHXmMnYl0Y
+  archive-link: https://www.youtube.com/watch?v=fIA7KgEwhVs&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl&index=3
 
 - title: 死ぬまでに一度はテクノベーションガールズしよ！
   time: 11:00-11:20
@@ -65,7 +65,7 @@
   profile-text: CoderDojo瑞穂の佐原慎也（男）です。瑞穂は今年で愛され3年になります。何と写真はアプリで女性化した僕です。あまりにも妹そっくりなので親戚がざわついていました。写真はテクノベーションガールズを意識しています。技術で女性化、テクノベーションガールズ、ってね！
   profile-id: sp04
   slides: https://docs.google.com/presentation/d/12XJLsJwnkQO7OG7uXPSojlR3xPYjPWcTti9TLlvDeJM/edit?usp=sharing
-  #archive-link: https://youtu.be/OKHXmMnYl0Y
+  archive-link: https://www.youtube.com/watch?v=Hbe_5MZDBFQ&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl&index=4
 
 - title: かつてニンジャだった自分が、CoderDojo春日を設立するまでの軌跡と学び
   time: 11:30-11:50
@@ -82,7 +82,7 @@
   profile-text: CoderDojo春日のチャンピオンをしている現在高校一年生のTeba_elevenです。普段はプログラミングの勉強をしていて、Web系のプログラマーを目指しています。土日などは福岡のCoderDojoや、オンラインで全国のCoderDojoに参加していたりします。一番得意なプログラミング言語はScratchで、最近はPythonなどもやっています。
   profile-id: sp05
   slides: 
-  #archive-link: https://youtu.be/OKHXmMnYl0Y
+  archive-link: https://www.youtube.com/watch?v=kdYixOs_7to&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl&index=5
 
 - title: これまでのDojoConってどんな感じ？激アツ！歴代実行委員長でパネルディスカッション
   time: 13:00-14:00
@@ -95,7 +95,7 @@
   profile-text:
   profile-id: sp06
   slides: 
-  #archive-link: https://youtu.be/agvzP9YBN8Y
+  archive-link: https://www.youtube.com/watch?v=EE0KsZSvjF8&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl&index=6
   speakers:
     - data:
       role: モデレータ
