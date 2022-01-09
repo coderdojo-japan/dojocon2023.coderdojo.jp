@@ -28,7 +28,7 @@ thumbnail: timetable.png
 
   <div class="row text-left">
     {% for session in site.data.sessions %}
-      {% assign profile_id = forloop.index | prepend: '00' | slice: -2, 2 | prepend: 'profile' %}
+      {% assign profile_id = forloop.index | prepend: 'profile-' %}
     <div class="col-md-6 col-12 p-3" id="{{data.title}}">
       <h4 class="ws-title">{{ session.title }}</h4>
       <p>
