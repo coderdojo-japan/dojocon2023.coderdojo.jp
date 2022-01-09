@@ -11,7 +11,6 @@
 #   slides:
 
 - title: 開会式
-  time: 10:00-10:10
   text: DojoCon Japan 2021 実行委員長より、開会式の挨拶を行います。
   tag: オープニング
   speaker: 増岡 秀樹
@@ -20,9 +19,24 @@
     - https://ja.gravatar.com/hansendo
   profile-img: fku_mnk.jpg
   profile-text: CoderDojo 紫雲チャンピオン。郵便局、パソコン工房を経て帆船堂 電算STUDIOを創設。 コンピュータが大好きな中年のジェントルマン。 Linuxとオープンソース・ソフトウェアを使って働いています。
-  profile-id: sp01
+  profile-id: sp00
   slides: 
   archive-link: https://www.youtube.com/watch?v=q8XO-qT0GXE&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
+
+- title: DojoCon Japan 2021 開催に向けて
+  text: CoderDojo Foundation より、開催に向けたビデオメッセージです。
+  tag: オープニング
+  speaker: Sonja Bienert
+  affiliation: CoderDojo Foundation
+  sns:
+    - https://coderdojo.com/foundation
+  profile-img: sonja.png
+  profile-text: "Sonja has a passion for creating international communities with a shared mission of educating and enabling young minds. She is the Senior Community Manager at CoderDojo, leading a team in welcoming and supporting new community members around the world.<br>
+<br>
+Sonja holds a Master’s in Psychology from Georg August University in Göttingen, Germany. After living in Greece and the USA, the German native is excited to call Ireland her home. She enjoys travel, exploration, baking and baseball."
+  profile-id: sp01
+  archive-link: https://www.youtube.com/watch?v=e5nvm_AgVCc&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
+
 
 - title: CoderDojo Japan 活動報告
   time: 10:10-10:30
