@@ -28,6 +28,7 @@ thumbnail: timetable.png
 
   <div class="row text-left">
     {% for session in site.data.sessions %}
+      {% assign profile_id = forloop.index | prepend: '00' | slice: -2, 2 | prepend: 'profile' %}
     <div class="col-md-6 col-12 p-3" id="{{data.title}}">
       <h4 class="ws-title">{{ session.title }}</h4>
       <p>
@@ -60,11 +61,11 @@ thumbnail: timetable.png
 
       {% if session.profile-text or session.speakers %}
       <p>
-	<a href="#{{ session.profile-id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者情報を見る</a>
+	<a href="#{{ profile_id }}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者情報を見る</a>
       </p>
       {% endif %}
 
-      <div class="collapse mt-3" id="{{ session.profile-id }}">
+      <div class="collapse mt-3" id="{{ profile_id }}">
         {% if session.tag == "パネルディスカッション" %}
         {% for speaker in session.speakers %}
         <p class="session-speaker-name">{{ speaker.name }}（{{ speaker.affiliation }}）<span class="badge badge-main">{{ speaker.role }}</span></p>

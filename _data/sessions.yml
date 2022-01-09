@@ -19,7 +19,6 @@
     - https://ja.gravatar.com/hansendo
   profile-img: fku_mnk.jpg
   profile-text: CoderDojo 紫雲チャンピオン。郵便局、パソコン工房を経て帆船堂 電算STUDIOを創設。 コンピュータが大好きな中年のジェントルマン。 Linuxとオープンソース・ソフトウェアを使って働いています。
-  profile-id: sp00
   slides: 
   archive-link: https://www.youtube.com/watch?v=q8XO-qT0GXE&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -34,7 +33,6 @@
   profile-text: "Sonja has a passion for creating international communities with a shared mission of educating and enabling young minds. She is the Senior Community Manager at CoderDojo, leading a team in welcoming and supporting new community members around the world.<br>
 <br>
 Sonja holds a Master’s in Psychology from Georg August University in Göttingen, Germany. After living in Greece and the USA, the German native is excited to call Ireland her home. She enjoys travel, exploration, baking and baseball."
-  profile-id: sp01
   archive-link: https://www.youtube.com/watch?v=e5nvm_AgVCc&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
 
@@ -48,7 +46,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://twitter.com/kiriem_
   profile-img: miyajima_kirie.jpg
   profile-text: 1997年5月生まれ。2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のR&D（研究開発）を行っている株式会社 Innovation Power のCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学院ではコンピュータを基盤とした教育について研究している。
-  profile-id: sp02
   slides: https://speakerdeck.com/kiriem/coderdojo-japan-2021
   archive-link: https://www.youtube.com/watch?v=IYYeG2BgkBw&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -63,7 +60,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://twitter.com/shimodash_home
   profile-img: shimoda_shinji.jpg
   profile-text: CoderDojo大船サポーター / 大船在住 / 2児の親 / 会社員 / テレワーク多め / 電子工作
-  profile-id: sp03
   slides: https://docs.google.com/presentation/d/1MaYgCgDqNG5PXIYgJmnR_-jQs0cDm_4O6gYH5EJ1qr4/edit?usp=sharing
   archive-link: https://www.youtube.com/watch?v=fIA7KgEwhVs&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -77,7 +73,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://twitter.com/yeah_boboi
   profile-img: sahara_shinya.jpg
   profile-text: CoderDojo瑞穂の佐原慎也（男）です。瑞穂は今年で愛され3年になります。何と写真はアプリで女性化した僕です。あまりにも妹そっくりなので親戚がざわついていました。写真はテクノベーションガールズを意識しています。技術で女性化、テクノベーションガールズ、ってね！
-  profile-id: sp04
   slides: https://docs.google.com/presentation/d/12XJLsJwnkQO7OG7uXPSojlR3xPYjPWcTti9TLlvDeJM/edit?usp=sharing
   archive-link: https://www.youtube.com/watch?v=Hbe_5MZDBFQ&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -94,7 +89,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://www.facebook.com/Teba.eleven
   profile-img: teba_eleven.png
   profile-text: CoderDojo春日のチャンピオンをしている現在高校一年生のTeba_elevenです。普段はプログラミングの勉強をしていて、Web系のプログラマーを目指しています。土日などは福岡のCoderDojoや、オンラインで全国のCoderDojoに参加していたりします。一番得意なプログラミング言語はScratchで、最近はPythonなどもやっています。
-  profile-id: sp05
   slides: 
   archive-link: https://www.youtube.com/watch?v=kdYixOs_7to&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -107,7 +101,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
   sns:
   profile-img: panel_dojocon.png
   profile-text:
-  profile-id: sp06
   slides: 
   archive-link: https://www.youtube.com/watch?v=EE0KsZSvjF8&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
   speakers:
@@ -157,7 +150,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://twitter.com/takenok58914745
   profile-img: takeda_kazuki.jpg
   profile-text: 高専2年生です。Scratch, Unity, Blenderとかやってます。過去にFLL(HYDRO DYNAMICS、INTO ORBIT)に参加しました。
-  profile-id: sp07
   slides: 
   archive-link: https://www.youtube.com/watch?v=Rx34NQGYPfM&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -173,7 +165,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://mizphses.com
   profile-img: ogawa_fuminori.jpg
   profile-text: 中央大学経済学部1年．2018年からCoderDojoに携わる．2021年9月にコロナワクチン予診票作成アプリを作ったら記事になった．
-  profile-id: sp08
   slides: https://www.slideshare.net/FuminoriOgawa/coderdojo-250863847
   archive-link: https://www.youtube.com/watch?v=XXaHostWgBk&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -191,7 +182,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://note.com/cdkamiyama
   profile-img: motohashi_daisuke.jpg
   profile-text: 埼玉県出身の44歳、2013年に徳島県神山町へ転居。子供が生まれたことをきっかけに、2018年にコーダー道場神山を立ち上げました。普段はプログラマー仕事の傍らで神山メイカースペースというデジファブ施設の運営をしています。
-  profile-id: sp09
   slides: https://speakerdeck.com/motohasystem/tiao-nerudoron-yong-ru3dpurinta-si-guo-de-dao-shen-shan-ting-falsedao-chang/
   archive-link: https://www.youtube.com/watch?v=HshFqjwnwVE&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -206,7 +196,6 @@ Sonja holds a Master’s in Psychology from Georg August University in Göttinge
     - https://facebook.com/yoshiyuki.ishikawa.125
   profile-img: coderdojo_nara_ikoma.jpg
   profile-text: "奈良県内で活動しているDojoです。それぞれ奈良市と生駒市で活動しています。 / 石川 善行さん：CoderDojo奈良・生駒に2016年からメンターとして参加、2018年より生駒のチャンピオン。元ゲーム系プログラマー"
-  profile-id: sp10
   slides: https://speakerdeck.com/kwaka1208/nai-liang-falsecoderdojowojian-du-su-at-dojocon-japan-2021
   archive-link: https://www.youtube.com/watch?v=MWTC7BnS-Ng&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -226,7 +215,6 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
     - https://katzueno.com
   profile-img: katz_ueno.jpg
   profile-text: "2017年4月より、愛知県岩倉市で CoderDojo 尾張を立ち上げる。コンクリートファイブジャパン株式会社の Chief Communications Officer として、オープンソース CMS 「Concrete CMS」の日本での普及活動を行っている。2児の父で、長女・次女と一緒に Scratch、micro:bit、Viscuit を楽しんでいる毎日。コロナ禍で新しいルールの元、オンライン・オフライン・ハイブリット開催を行っていて、ガイドラインを独自に作成したりしている。"
-  profile-id: sp11
   slides: 
   archive-link: https://www.youtube.com/watch?v=cAXhCSIki84&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -241,7 +229,6 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
     - https://facebook.com/coderdojo.sapporo/
   profile-img: mitsuhashi_masami.png
   profile-text: 1963年生まれ。普段は自社基幹システムのお守りをしている。こどもの頃から暇さえあれば何かを作って（今で言うところのティンカリング）いた。プログラミングは学生時代に卒論とゲームのためにBASICから始めた。社会人になってからは、楽しみとしてのプログラミングからは距離を置いてたが、Raspberry Piと出会ったことが切っ掛けでCoderDojoを知るところとなり、2016年のDojoCon Japanに参加、盛り上がって一気にCoderDojo札幌を立ち上げた。
-  profile-id: sp12
   slides: 
   archive-link: https://www.youtube.com/watch?v=sklnmYOBXzg&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -256,7 +243,6 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
     - https://ryo-suzuki-contact.github.io/
   profile-img: ryo_suzuki.jpg
   profile-text: 早稲田大学表現工学専攻博士後期課程に在籍。プログラミングを楽しく簡単にするツール Siv3D, Siv3D for Kids を開発するかたわら、プログラミング教育活動に取り組む。著書に『冒険で学ぶ はじめてのプログラミング』（2018, 技術評論社）。2013 年度 IPA 未踏事業スーパークリエータ認定、U-17 未踏ジュニアのメンター、プログラミング教室 Tasta 代表。
-  profile-id: sp13
   slides: https://speakerdeck.com/cpp/dojocon2021-siv3d
   archive-link: https://www.youtube.com/watch?v=fz3zMcLYbmw&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -276,7 +262,6 @@ oVice 会場と、セッション YouTube 中継のハイブリット配信で�
 CoderDojo松本・諏訪湖・安曇野（共同）チャンピオン。一般社団法人エンターキー代表理事として、教育委員会へのICTアドバイザリー従事。<br>
 <br>
 元ディズニーキャスト。元システムエンジニア。自家用パイロット。三児の父親。"
-  profile-id: sp14
   slides: https://docs.google.com/presentation/d/1YXpQJDt5P7F5EUl65IZR7LPZCcO_eV0HccmiKKukcnM/edit?usp=sharing
   archive-link: https://www.youtube.com/watch?v=ucI9xoVX8hE&list=PL_XgRvFvKBPZ5j4Cz543ZhORNAteFL5rl
 
@@ -290,6 +275,5 @@ CoderDojo松本・諏訪湖・安曇野（共同）チャンピオン。一般�
     - 
   profile-img: TBU.jpg
   profile-text: 
-  profile-id: sp15
   #archive-link: https://youtu.be/OKHXmMnYl0Y
 
