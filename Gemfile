@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.7.1'
+ruby '3.0.3'
 
 gem "jekyll"
 gem "minima"   # default theme for new Jekyll sites
