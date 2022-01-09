@@ -71,8 +71,8 @@ thumbnail: timetable.png
         <p class="session-speaker-name">{{ speaker.name }}（{{ speaker.affiliation }}）<span class="badge badge-main">{{ speaker.role }}</span></p>
         <p>{{ speaker.text }}</p>
         <ul>
-          {% for link in speaker.sns %}
-          <li><a href="{{ link }}">{{ link }}</a></li>
+          {% for link in speaker.links %}
+          <li><a href="{{ link }}" target="_blank" rel="noopener external">{{ link | remove_first: 'https://' | remove_first: 'http://' }}</a></li>
           {% endfor %}
         </ul>
         {% endfor %}
@@ -80,8 +80,8 @@ thumbnail: timetable.png
         {% else %}
         <p>{{ session.profile-text }}</p>
         <ul>
-          {% for link in session.sns %}
-          <li><a href="{{ link }}">{{ link }}</a></li>
+          {% for link in session.links %}
+          <li><a href="{{ link }}" target="_blank" rel="noopener external">{{ link | remove_first: 'https://' | remove_first: 'http://' }}</a></li>
           {% endfor %}
         </ul>
         {% endif %}
