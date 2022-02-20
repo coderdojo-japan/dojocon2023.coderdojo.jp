@@ -7,65 +7,6 @@ layout: default
         <h1 class="title">DojoCon Japan 2021 サムネイルメーカー</h1>
     </div>
     <div class="thumbnail-preview">
-        <div class="main-flex">
-            <img class="thema" src="/img/thumbnail-maker/theme.svg" alt="見渡す">
-            <div class="textarea-box">
-                <textarea id="message-box" class="message" spellcheck="false"
-                    placeholder="ここにテキストを入力"></textarea>
-            </div>
-            <img class="logo" src="/img/thumbnail-maker/logo.svg" alt="DojoConJapan2021 Decembar 18th/ONLINE">
-        </div>
-    </div>
-    <div class="links">
-        <button id="img-download-btn" class="btn inline-block">画像をダウンロード</button>
-        <a id="img-show-btn" class="inline-block" href="https://dcj2021-thumbnail-maker.ymsg.space/?text=">ダウンロードできない場合はこちら</a>
+        <p>サムネイルメーカーは 2022年2月20日 を持ちまして提供を終了しました。ご利用ありがとうございました。</p>
     </div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-<script type="module">
-    import { Base64 } from 'https://cdn.jsdelivr.net/npm/js-base64@3.7.2/base64.mjs';
-
-    const textAreaHeightSet = (textarea) => {
-        textarea.style.height = "42px";
-        var wSclollHeight = parseInt(textarea.scrollHeight);
-
-        var wLineH = parseInt(textarea.style.lineHeight.replace(/px/, ''));
-
-        if(wSclollHeight < (wLineH * 1.)){wSclollHeight=(wLineH * 1);}
-
-        textarea.style.height = wSclollHeight + "px";
-    }
-
-    const setImageDownloadURL = (textarea) => {
-        const imgShowBtn = document.getElementById("img-show-btn");
-        const text = Base64.encodeURI(textarea.value);
-        imgShowBtn.href = `https://dcj2021-thumbnail-maker.ymsg.space/?text=${text}`;
-    }
-
-    const downloadThumbnail = async () => {
-        const textarea = document.getElementById('message-box');
-        const text = Base64.encodeURI(textarea.value);
-        //saveAs(`https://dcj2021-thumbnail-maker.ymsg.space/?text=${text}`, 'thumbnail.png');
-
-        const response = await fetch(`https://dcj2021-thumbnail-maker.ymsg.space/?text=${text}`);
-        return response.blob().then( (imgBlob) => {
-            saveAs(imgBlob, 'thumbnail.png');
-        });
-    }
-
-    document.getElementById("message-box").addEventListener("input", (e) => {
-        textAreaHeightSet(e.target);
-        setImageDownloadURL(e.target);
-    });
-    document.getElementById("message-box").addEventListener("change", (e) => {
-        textAreaHeightSet(e.target);
-        setImageDownloadURL(e.target);
-    });
-
-    document.getElementById("img-download-btn").addEventListener("click", async (e) => {
-        e.target.disabled = true;
-        await downloadThumbnail();
-        e.target.disabled = false;
-    });
-</script>
