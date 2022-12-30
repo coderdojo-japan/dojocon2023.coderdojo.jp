@@ -5,7 +5,7 @@ dojo_name:  "CoderDojo尾張(愛知)"
 thumbnail:
 dojo_desciption: >
  月に1回、10〜20名、岩倉市生涯学習センター<br>
- <a href="http://coderdojoowari.org/">Webサイト</a>
+ <a href="https://coderdojoowari.org/">Webサイト</a>
 dojo_icon: owari.svg
 dojo_iconfile: 
 permalink: /dojo-jiman/owari/

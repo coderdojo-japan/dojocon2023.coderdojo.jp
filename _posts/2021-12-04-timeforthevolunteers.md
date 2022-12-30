@@ -80,11 +80,11 @@ DojoCon Japanでは、毎年異なるテーマのもとに開催されるのが�
 ということで、2016年から2020年までの公式Webサイトをここに一覧してみました。
 
 ### 2016年8月27日
-**[DojoCon Japan 2016 - The more dojos, the more cool coders. -](http://dojocon2016.coderdojo.jp/)**
+**[DojoCon Japan 2016 - The more dojos, the more cool coders. -](https://dojocon2016.coderdojo.jp/)**
 <br>内田洋行 大阪 ユビキタス協創広場 CANVASにて開催
 
 ![Webサイト 2016](/img/post/timeforthevolunteers_dojocon2016.webp)
-[http://dojocon2016.coderdojo.jp/](http://dojocon2016.coderdojo.jp/)
+[https://dojocon2016.coderdojo.jp/](https://dojocon2016.coderdojo.jp/)
 {: .text-right}
 
 
