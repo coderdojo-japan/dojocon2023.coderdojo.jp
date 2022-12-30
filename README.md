@@ -8,7 +8,7 @@
 <br>
 
 
-## :white_check_mark: （共通）ブラウザで情報修正を提案できます {#howto}
+## :white_check_mark: （共通）ブラウザで情報修正を提案できます
 
 どこを更新するにせよ **Webブラウザが一番簡単** だと思います...!! 😆
 
@@ -38,7 +38,7 @@
 #   url: URL。例: /session/dojo_report
 ```
 
-追加・修正したい場所に応じて、下記リンク先を[上記手順](#howto)に沿って更新いただけます。
+追加・修正したい場所に応じて、下記リンク先を[上記手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新いただけます。
 
 - [`events.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
 - [`members.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
