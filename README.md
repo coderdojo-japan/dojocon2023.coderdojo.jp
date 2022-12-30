@@ -105,17 +105,15 @@ Check out the followings if you are interested in. :wink:
 
 The texts and images, such as logos and photos of [each staff](https://dojocon2021.coderdojo.jp/#staff), are owned by its content holder. Contact its owner, like the maintainer of linked external website or social account, before using them. 🔐
 
-<h3>💎 Codes and Libearies</h3>
-
-<h3>💎 Libraries & Codes</h3>
+<h3>💎 Libraries and Codes</h3>
 
 The libraries like [RubyGems](https://rubygems.org/) used in this website have their own licenses. Say, this website uses [Jekyll](https://jekyllrb.com/), created by [The Jekyll Team](https://jekyllrb.com/team/) licensed under [The MIT License](http://opensource.org/licenses/MIT). Thanks for their great works to make this website published! 💖
 
 The source codes, such as HTML/CSS/JavaScript and Ruby codes not declared before, are published under **[The MIT License](https://opensource.org/licenses/MIT)**. Feel free to refer, copy, or share them. And contact us if you find something unclear.
 
 <hr>
-
-<a href='https://github.com/dojocon2021.coderdojo.jp/blob/main/LICENSE.md'>The MIT License</a>
+         
+<a href='https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/LICENSE.md'>The MIT License</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
