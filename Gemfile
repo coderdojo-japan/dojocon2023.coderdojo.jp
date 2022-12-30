@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem 'rake'     # Enable Rakefile to run tasks
+gem 'webrick'  # This can be removed on Jekyll 4.3+
 
 group :jekyll_plugins do
   gem 'jekyll-feed'

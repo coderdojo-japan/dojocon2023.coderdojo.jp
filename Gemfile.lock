@@ -111,6 +111,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
     yell (2.2.2)
 
 PLATFORMS
@@ -127,6 +128,7 @@ DEPENDENCIES
   jekyll-sitemap
   pry
   rake
+  webrick
 
 BUNDLED WITH
    2.4.1
