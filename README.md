@@ -8,7 +8,7 @@
 <br>
 
 
-## :white_check_mark: （共通）ブラウザで情報修正を提案できます
+## :white_check_mark: （共通）ブラウザで情報修正を提案できます {#howto}
 
 どこを更新するにせよ **Webブラウザが一番簡単** だと思います...!! 😆
 
@@ -37,6 +37,15 @@
 #   column: 列。0~2で指定。例:0
 #   url: URL。例: /session/dojo_report
 ```
+
+追加・修正したい場所に応じて、下記リンク先を[上記手順](#howto)に沿って更新いただけます。
+
+- [`events.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
+- [`members.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
+- [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
+- [`speaker.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/speaker.yml): スピーカー情報を更新したい
+- [`sponsors.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/sponsors.yml): スポンサー情報を更新したい
+- [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
 
 <br>
 
