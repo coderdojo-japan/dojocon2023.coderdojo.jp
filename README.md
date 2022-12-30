@@ -107,9 +107,9 @@ The texts and images, such as logos and photos of [each staff](https://dojocon20
 
 <h3>💎 Libraries and Codes</h3>
 
-The libraries like [RubyGems](https://rubygems.org/) used in this website have their own licenses. Say, this website uses [Jekyll](https://jekyllrb.com/), created by [The Jekyll Team](https://jekyllrb.com/team/) licensed under [The MIT License](http://opensource.org/licenses/MIT). Thanks for their great works to make this website published! 💖
+The libraries like [RubyGems](https://rubygems.org/) used in this website have their own licenses. Say, this website uses [Jekyll](https://jekyllrb.com/), created by [The Jekyll Team](https://jekyllrb.com/team/) licensed under [The MIT License](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/LICENSE.md). Thanks for their great works to make this website published! 💖
 
-The source codes, such as HTML/CSS/JavaScript and Ruby codes not declared before, are published under **[The MIT License](https://opensource.org/licenses/MIT)**. Feel free to refer, copy, or share them. And contact us if you find something unclear.
+The source codes, such as HTML/CSS/JavaScript and Ruby codes not declared before, are published under [The MIT License](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/LICENSE.md). Feel free to refer, copy, or share them. And contact us if you find something unclear.
 
 <hr>
          
