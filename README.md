@@ -93,7 +93,7 @@ $ bundle exec rake test
 
 <br>
 
-## License
+## ♻️ License
 
 <details>
   <summary><strong>Check out each license</strong></summary>
@@ -101,7 +101,7 @@ $ bundle exec rake test
 This web application is developed with many other brilliant works!   
 Check out the followings if you are interested in. :wink:
 
-<h3>☯️ Texts, Logos, and Photos</h3>
+<h3>📝️ Texts, Logos, and Photos</h3>
 
 The texts and images, such as logos and photos of [each staff](https://dojocon2021.coderdojo.jp/#staff), are owned by its content holder. Contact its owner, like the maintainer of linked external website or social account, before using them. 🔐
 
@@ -123,6 +123,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 </details>
 
-## Copyright
+## ☯️️ Copyright
 
 DojoCon Japan 実行委員会 & 一般社団法人 CoderDojo Japan
