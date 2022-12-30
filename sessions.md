@@ -44,7 +44,7 @@ thumbnail: timetable.png
       </div>
       {% endif %}
 
-      <p class="session-speaker-name">{{ session.speaker}} {% if session.affiliation %}（{{ session.affiliation }}）{%endif%}</p>
+      <p class="session-speaker-name">{{ session.speaker }} {% if session.affiliation %}（{{ session.affiliation }}）{% endif %}</p>
       <p>{{ session.text }}</p>
 
       {% if session.archive-link %}
