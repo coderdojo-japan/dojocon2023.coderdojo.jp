@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "minima"   # default theme for new Jekyll sites
 gem 'rake'     # Enable Rakefile to run tasks
 
 group :jekyll_plugins do
