@@ -123,6 +123,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 </details>
 
+<br>
+
+
 ## ☯️️ Copyright
 
 DojoCon Japan 実行委員会 & 一般社団法人 CoderDojo Japan
