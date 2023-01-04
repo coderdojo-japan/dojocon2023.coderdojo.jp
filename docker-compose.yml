@@ -2,7 +2,8 @@ version: '1.0'
 
 services:
   jekyll:
-    image: dojocon-japan-2023
+    # https://hub.docker.com/r/coderdojojapan/dojocon-japan-2023
+    image: coderdojojapan/dojocon-japan-2023
     volumes:
       - type: bind
         source: ./
