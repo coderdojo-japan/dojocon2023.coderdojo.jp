@@ -1,0 +1,11 @@
+version: '0.1'
+
+services:
+  jekyll:
+    image: dojocon-japan-2023
+    volumes:
+      - type: bind
+        source: ./
+        target: /src
+    ports:
+      - '4000:4000'
