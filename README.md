@@ -49,24 +49,33 @@
 <br>
 
 
-## :hammer_and_wrench: Webサイトの仕組みを改善したい
+## :hammer_and_wrench: Webサイトを制作したい
 
-ローカル環境のブラウザで確認したい場合は、次の手順でローカルサーバーを立ち上げてください。
+ローカル環境のブラウザで確認したい場合は、 **以下のいずれかの手順** でローカルサーバーを立ち上げてください。
 
-### Docker 上で構築する方法
+### A. Docker 上で構築する方法（推奨）
 
 ```shell
-# Dockefile から dojocon-japan-2023 イメージを作成する（初回のみ）
-$ docker build -t dojocon-japan-2023 -f Dockerfile .
-
-# 以降は下記コマンドでローカル環境上にWebサイトを構築・更新できます
+# 下記コマンドでローカル環境にWebサーバーが立ち上がります
 $ docker-compose up
 ```
 
-無事にローカルサーバーが立ち上がったら、ブラウザから [http://localhost:4000/](http://localhost:4000/) にアクセスすることでWebサイトを確認できます。
+無事にローカルサーバーが立ち上がったら、[http://localhost:4000/](http://localhost:4000/) にアクセスしてWebサイトを修正・確認します。
+
+### B. Docker イメージをローカルで作成する方法
+
+```shell
+# Dockefile から dojocon-japan-2023 イメージを作成する
+$ docker build -t dojocon-japan-2023 -f Dockerfile .
+
+# 下記コマンドでローカル環境にWebサーバーが立ち上がります
+$ docker-compose up
+```
+
+無事にローカルサーバーが立ち上がったら、[http://localhost:4000/](http://localhost:4000/) にアクセスしてWebサイトを修正・確認します。
 
 
-### Ruby を入れて構築する方法
+### C. Ruby をインストールして構築する方法
 
 ```shell
 # Ruby が入っていることを確認
@@ -79,7 +88,7 @@ $ bundle install
 $ bundle exec jekyll server
 ```
 
-無事にローカルサーバーが立ち上がったら、ブラウザから [http://localhost:4000/](http://localhost:4000/) にアクセスすることでWebサイトを確認できます。
+無事にローカルサーバーが立ち上がったら、[http://localhost:4000/](http://localhost:4000/) にアクセスしてWebサイトを修正・確認します。
 
 <br>
 
