@@ -53,6 +53,21 @@
 
 ローカル環境のブラウザで確認したい場合は、次の手順でローカルサーバーを立ち上げてください。
 
+### Docker 上で構築する方法
+
+```shell
+# Dockefile から dojocon-japan-2023 イメージを作成する（初回のみ）
+$ docker build -t dojocon-japan-2023 -f Dockerfile .
+
+# 以降は下記コマンドでローカル環境上にWebサイトを構築・更新できます
+$ docker-compose up
+```
+
+無事にローカルサーバーが立ち上がったら、ブラウザから [http://localhost:4000/](http://localhost:4000/) にアクセスすることでWebサイトを確認できます。
+
+
+### Ruby を入れて構築する方法
+
 ```shell
 # Ruby が入っていることを確認
 $ ruby --version
@@ -64,7 +79,7 @@ $ bundle install
 $ bundle exec jekyll server
 ```
 
-無事にローカルサーバーが立ち上がったら [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
+無事にローカルサーバーが立ち上がったら、ブラウザから [http://localhost:4000/](http://localhost:4000/) にアクセスすることでWebサイトを確認できます。
 
 <br>
 
