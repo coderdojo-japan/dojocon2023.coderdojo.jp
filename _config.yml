@@ -2,21 +2,21 @@
 # You can create any custom variable you would like,
 # and they will be accessible like {{ site.your_variable }}.
 
-year: 2021
+year: 2023
 title: DojoCon Japan
 subtitle: '見渡す'
 description: >-
   CoderDojo コミュニティによる日本最大の祭典「DojoCon Japan」は CoderDojo 関係者を対象としたカンファレンスです。運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。
-url: https://dojocon2021.coderdojo.jp
-date_published: 2021年11月13日
-date_event: 2021年12月18日（土曜）10:00〜
+url: https://dojocon2023.coderdojo.jp
+date_published: 2023年oo月xx日
+date_event: 2023年oo月xx日（yy曜）hh:mm〜
 venue: >-
   オンライン<br><small>(セッションは <a href='https://www.youtube.com/channel/UCX3tz875ZDtU85rFkYuwl5w' style='text-decoration: underline' target='_blank' rel='noopener'>YouTube</a> でライブ配信します)</small>
 price: 無料
 
 twitter:  DojoConJapan
 facebook: DojoConJapan
-email:    dojocon2021@coderdojo.jp
+email:    dojocon2023@coderdojo.jp
 
 # Build settings
 plugins:

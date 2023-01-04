@@ -1,6 +1,6 @@
-[![Test & Deploy](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/actions?query=workflow%3A%22Test+%26+Deploy%22)
+[![Test & Deploy](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
-# DojoCon Japan 2021 公式サイト
+# DojoCon Japan 2023 公式サイト
 
 本ページは DojoCon Japan 公式Webサイトの公開リポジトリです。   
 本READMEでは、公式Webサイトの更新方法を目的別にまとめています。
@@ -24,7 +24,7 @@
 
 ## :memo: Webサイトの更新方法
 
-[`_data`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/tree/main/_data) 内に `ファイル名.yaml` という YAML ファイルがあり、この YAML ファイルで Session 情報や Speaker 情報を更新できます。
+[`_data`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data) 内に `ファイル名.yaml` という YAML ファイルがあり、この YAML ファイルで Session 情報や Speaker 情報を更新できます。
 
 それぞれの YAML ファイルの冒頭に次のようなコメントがあるので、   
 コメントを参考にして項目は以下のような内容です。
@@ -40,11 +40,11 @@
 
 追加・修正したい場所に応じて、下記リンク先を[上記手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新いただけます。
 
-- [`events.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
-- [`members.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
-- [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
-- [`sponsors.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/sponsors.yml): スポンサー情報を更新したい
-- [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
+- [`events.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
+- [`members.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
+- [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
+- [`sponsors.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/sponsors.yml): スポンサー情報を更新したい
+- [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
 
 <br>
 
@@ -78,9 +78,9 @@ $ bundle exec jekyll server
 $ bundle exec rake test
 ```
 
-テスト内容の詳細は [Rakefile](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/Rakefile) をご参照ください。
+テスト内容の詳細は [Rakefile](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/Rakefile) をご参照ください。
 
-上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
+上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 <br>
 
@@ -103,17 +103,17 @@ Check out the followings if you are interested in. :wink:
 
 <h3>📝️ Texts, Logos, and Photos</h3>
 
-The texts and images, such as logos and photos of [each staff](https://dojocon2021.coderdojo.jp/#staff), are owned by its content holder. Contact its owner, like the maintainer of linked external website or social account, before using them. 🔐
+The texts and images, such as logos and photos of [each staff](https://dojocon2023.coderdojo.jp/#staff), are owned by its content holder. Contact its owner, like the maintainer of linked external website or social account, before using them. 🔐
 
 <h3>💎 Libraries and Codes</h3>
 
 The libraries like [RubyGems](https://rubygems.org/) used in this website have their own licenses. Say, this website uses [Jekyll](https://jekyllrb.com/), created by [The Jekyll Team](https://jekyllrb.com/team/) licensed under [The MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE). Thanks for their great works to make this website published! 💖
 
-The source codes, such as HTML/CSS/JavaScript and Ruby codes not declared before, are published under [The MIT License](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/LICENSE.md). Feel free to refer, copy, or share them. And contact us if you find something unclear.
+The source codes, such as HTML/CSS/JavaScript and Ruby codes not declared before, are published under [The MIT License](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/LICENSE.md). Feel free to refer, copy, or share them. And contact us if you find something unclear.
 
 <hr>
          
-<a href='https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp/blob/main/LICENSE.md'>The MIT License</a>
+<a href='https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/LICENSE.md'>The MIT License</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
