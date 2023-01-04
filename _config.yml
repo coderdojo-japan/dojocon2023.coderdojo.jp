@@ -3,7 +3,7 @@
 # and they will be accessible like {{ site.your_variable }}.
 
 year: 2023
-title: DojoCon Japan 2023
+title: DojoCon Japan
 subtitle: 'Be Cool'
 description: >-
   CoderDojo コミュニティによる日本最大の祭典「DojoCon Japan」は CoderDojo 関係者を対象としたカンファレンスです。運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。
