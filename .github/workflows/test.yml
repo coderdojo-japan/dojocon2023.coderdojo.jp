@@ -20,7 +20,13 @@ jobs:
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        bundler-cache: false
+        bundler-cache: true
+
+    - name: 🧪 Install gems
+      run: |
+        bundle config set with 'test'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
 
     - name: 🔧 Build & Test
       run: |
