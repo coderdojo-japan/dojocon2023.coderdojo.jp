@@ -1,0 +1,12 @@
+version: '1.0'
+
+services:
+  jekyll:
+    # https://hub.docker.com/r/coderdojojapan/dojocon-japan-2023
+    image: coderdojojapan/dojocon-japan-2023
+    volumes:
+      - type: bind
+        source: ./
+        target: /src
+    ports:
+      - '4000:4000'
