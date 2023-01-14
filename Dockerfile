@@ -1,4 +1,4 @@
-FROM ruby:3.1.3
+FROM ruby:3.2.0
 
 RUN gem install jekyll  --version 4.3.1
 RUN gem install bundler --version 2.4.3
