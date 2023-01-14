@@ -17,7 +17,6 @@ end
 
 # Gems to use in Development & CI (GitHub Actions)
 group :development, :test do
-  gem 'pry'
   gem 'html-proofer'
 end
 
