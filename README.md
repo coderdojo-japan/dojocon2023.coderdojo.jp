@@ -53,7 +53,7 @@
 
 ローカル環境でWebサイトを修正・確認したい場合は **以下のいずれかの方法** でローカルサーバーを立ち上げてください。
 
-### A. Docker 上で構築する方法（推奨）
+### A. Docker 上で構築する方法
 
 ```shell
 # 下記コマンドでローカル環境にWebサーバーが立ち上がります
@@ -74,10 +74,15 @@ $ docker-compose up
 
 無事にローカルサーバーが立ち上がったら、[http://localhost:4000/](http://localhost:4000/) にアクセスしてWebサイトを修正・確認します。
 
-
 ### C. Ruby をインストールして構築する方法
 
 ```shell
+# macOS の場合 (Homebrew: https://brew.sh/index_ja 経由がオススメ)
+$ brew install rbenv ruby-build
+
+# Ruby 3.2.x をインストール
+$ rbenv install 3.2.0
+
 # Ruby が入っていることを確認
 $ ruby --version
 
@@ -89,6 +94,7 @@ $ bundle exec jekyll server
 ```
 
 無事にローカルサーバーが立ち上がったら、[http://localhost:4000/](http://localhost:4000/) にアクセスしてWebサイトを修正・確認します。
+
 
 <br>
 
