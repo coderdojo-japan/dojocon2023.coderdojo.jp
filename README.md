@@ -77,8 +77,14 @@ $ docker-compose up
 ### C. Ruby をインストールして構築する方法
 
 ```shell
-# macOS の場合 (Homebrew: https://brew.sh/index_ja 経由がオススメ)
+# macOS の場合: Homebrew ( https://brew.sh/index_ja ) 経由がオススメ
 $ brew install rbenv ruby-build
+
+# Linux の場合: https://github.com/rbenv/rbenv#readme に沿って rbenv をインストール
+$ sudo apt install rbenv   # Debian, Ubuntu 系のディストリビューションの場合
+
+# Windows の場合: 以下の Rails Girls インストール・レシピに沿ってインストール
+# https://railsgirls.jp/install 
 
 # Ruby 3.2.x をインストール
 $ rbenv install 3.2.0
