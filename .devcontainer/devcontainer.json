@@ -32,7 +32,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "index.html"
+        "index.md"
       ]
     },
     "vscode": {
