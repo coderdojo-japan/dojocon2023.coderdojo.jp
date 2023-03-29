@@ -27,7 +27,7 @@
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
-    "server": "jekyll server"
+    "server": "jekyll serve"
   },
   "customizations": {
     "codespaces": {
