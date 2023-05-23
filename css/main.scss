@@ -13,3 +13,13 @@ $navbar: 60px;
 @import '_post';
 @import '_thumbnail_maker';
 @import '_custom';
+
+@import 'includes/navbar';
+@import 'includes/articles';
+@import 'includes/footer';
+
+@import 'layouts/default';
+@import 'layouts/jiman_media';
+@import 'layouts/jiman_text';
+@import 'layouts/page';
+@import 'layouts/post';
