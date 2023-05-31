@@ -2,6 +2,7 @@
 layout: default
 title:  イベント企画
 thumbnail: event.jpg
+permalink: /events
 ---
 
 <div class="container mt-5">

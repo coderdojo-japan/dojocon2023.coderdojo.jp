@@ -2,6 +2,7 @@
 layout: default
 title: セッション
 thumbnail: timetable.png
+permalink: /sessions
 ---
 
 <div class="container mt-5">
