@@ -1,1 +1,90 @@
 /* stylesheet for `_includes/articles.html` */
+
+.article {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba($gray, 0.3);
+    //float: left; //横並び
+    margin: 12px 8px;
+    text-align: left;
+    a {
+        text-decoration: none; //外部リンクの下線消す
+    }
+}
+
+.article-contest {
+    padding: 4vw;
+    margin: 6px 10%;
+    width: calc(80% - 8vw);
+    .article-thumbnail {
+        height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
+    }
+}
+
+.article-date {
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.article-event {
+    padding: 2vw;
+    width: calc(50% - 4vw - 16px); //1行に2記事入るようにする
+    .article-thumbnail {
+        height: calc(
+        ((80vw / 2) - 4vw - 16px) * (400 / 600)
+        ); //縦横比率が2:3になるように設定
+        max-height: calc(((800px / 2) - 40px - 16px) * (400 / 600));
+    }
+}
+
+.article-session {
+    padding: 2vw;
+    width: calc(50% - 4vw - 16px);
+    .article-thumbnail {
+        height: auto !important;
+    }
+}
+
+.article-news {
+    display: flex;
+    flex-wrap: wrap;
+
+    transition: 0.3s;
+    //width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
+    .article-thumbnail {
+        // height: calc(
+        //   ((80vw / 3) - 4vw - 16px) * (400 / 600)
+        // ); //縦横比率が2:3になるように設定
+        // max-height: calc(((800px / 3) - 40px - 16px) * (400 / 600));
+    }
+    &:hover {
+        color: $main-color;
+        transition: 0.3s;
+    }
+}
+
+.article-thumbnail {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.article-title {
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .article {
+        padding: 4vw;
+        flex: 0 0 120px;
+        min-width: 70%;
+        width: calc(100% - 8vw);
+        .article-thumbnail {
+        height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
+        }
+    }
+    .article-news .article-title {
+        height: auto;
+    }
+}

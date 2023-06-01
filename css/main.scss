@@ -6,27 +6,19 @@ $navbar: 60px;
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:400,900|Roboto:400,900|M+PLUS+Rounded+1c:400,800&display=swap'); //Webフォント読み込み。
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@700&display=swap');
 
-@import '_variables';
-@import '_global';
-@import '_top';
-@import '_page';
-@import '_post';
-@import '_thumbnail_maker';
-@import '_custom';
+@import 'global/page';
+@import 'global/variables';
 
 @import 'includes/navbar';
 @import 'includes/articles';
 @import 'includes/footer';
+@import 'includes/sessions';
 
 @import 'layouts/default';
-@import 'layouts/jiman_media';
-@import 'layouts/jiman_text';
 @import 'layouts/page';
 @import 'layouts/post';
 
-@import 'pages/code-of-conduct';
 @import 'pages/events';
 @import 'pages/index';
-@import 'pages/privacy';
 @import 'pages/sessions';
 @import 'pages/workshop';

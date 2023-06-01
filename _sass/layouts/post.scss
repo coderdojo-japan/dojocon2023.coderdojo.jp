@@ -1,1 +1,52 @@
 /* stylesheet for `_layouts/post.html` */
+
+.post {
+  margin-bottom: 12vh;
+  text-align: left;
+  padding: 0 1rem;
+  h1 {
+    text-align: center;
+  }
+  .post-date,
+  .post-time {
+    text-align: center;
+  }
+  .post-content {
+    padding: 24px 0;
+    max-width: 800px;
+    margin: auto;
+    img {
+      display: block;
+      width: 100%;
+      margin: auto;
+      max-width: 600px;
+    }
+  }
+}
+
+.post-head {
+  background-color: $main-color;
+  margin-bottom: 60px;
+  padding: $navbar 0;
+  padding-top: 60px;
+  h2 {
+    margin: 0;
+  }
+}
+
+.post-title {
+  font-size: 1.6em;
+}
+
+.post-thumbnail{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.tag-post {
+  background-color: $light-gray;
+  border-radius: 1em;
+  display: inline-block;
+  margin: 6px;
+  padding: 4px 24px;
+}

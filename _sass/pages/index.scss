@@ -1,1 +1,70 @@
 /* stylesheet for `index.md` */
+
+.ignore-pc {
+  display: none;
+}
+.ignore-sp {
+  display: inline;
+}
+@media screen and (max-width: 640px) {
+  .ignore-pc {
+    display: inline;
+  }
+  .ignore-sp {
+    display: none;
+  }
+}  
+
+.top{
+    position: relative;
+    height: calc(100vh - 60px);
+    background: url("/img/mainvisual-bg.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 90vw;
+        max-height: 80vh;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .top {
+        h1 {
+            transform: translateY(-25px);
+        }
+    }
+}
+
+.title-text{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+.about-title{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-top: 3px solid $main-color;
+  background: #f4f4f4;
+}
+
+
+.section-colored {
+    color: #fff;
+    background-color: $main-color;
+}
+
+.section-white {
+    background-color: #fff;
+}
+
+.section-gray {
+    background-color: $light-gray;
+}
