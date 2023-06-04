@@ -1,0 +1,26 @@
+/* stylesheet for `_includes/navbar.html` */
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: $third-color;
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 72vw;
+      height: auto;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .navbar-brand {
+    img {
+      max-width: 67vw;
+    }
+  }
+}
