@@ -7,7 +7,7 @@ thumbnail: event.jpg
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6 offset-md-3 col-12">
-      <h1>イベント企画</h1>
+      <h1>EVENT</h1>
       <p>どなたでもご参加いただける企画をご用意しています<br><span class="small">(*時間は一部変更になる場合があります)</span></p>
     </div>
   </div>
@@ -25,7 +25,7 @@ thumbnail: event.jpg
       <img src="img/event/{{ event.img }}" class="w-100" alt="イベント画像">
       <p>{{ event.text }}</p>
       {% if event.url %}
-      <p class="text-right"><a class="font-weight-bold btn btn-outline-primary" href="{{ site.url }}/{{ event.url}}">参加・詳細</a></p>
+      <p class="text-light"><a class="btn btn-main btn-sm" href="{{ site.url }}/{{ event.url}}">参加・詳細</a></p>
       {% endif %}
     </div>
     {% endfor %}
