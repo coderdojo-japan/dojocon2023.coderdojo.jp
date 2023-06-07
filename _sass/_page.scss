@@ -3,18 +3,16 @@
     padding: 1rem 1rem;
     border-left: 5px solid $main-color;
     background: #f4f4f4;
-    font-weight: normal;
 
 }
 
 .btn-main{
-    background-color: $main-color;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
+    background-color: $light-blue;
+    color: black;
 }
 
 .btn-secondary {
-    background-color: $main-color;
+    background-color: $light-blue;
     color: white;
     border: none;
 }
@@ -34,9 +32,7 @@
 .badge-ws{
     font-weight: bold;
     font-size: 14px;
-    color:white;
-    font-weight: normal;
-    background-color: $main-color;
+    background-color: $light-blue;
 }
 
 .badge-main{

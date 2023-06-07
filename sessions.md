@@ -7,12 +7,12 @@ thumbnail: timetable.png
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6 offset-md-3 col-12">
-      <h1>SESSION</h1>
+      <h1>セッション</h1>
       <p>セッションの内容や登壇者を紹介するページです。</p>
     </div>
   </div>
 
-<!--   <div id='timetable'></div>
+  <div id='timetable'></div>
   <br>
   <h5>当日のタイムテーブル</h5>
   <img src='/img/timetable.png' alt='タイムテーブル' width='100%' />
@@ -24,7 +24,7 @@ thumbnail: timetable.png
   </div>
   <br>
   <br>
-  <br> -->
+  <br>
 
   <div class="row text-left">
     {% for session in site.data.sessions %}
