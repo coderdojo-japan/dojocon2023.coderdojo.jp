@@ -8,7 +8,7 @@ permalink: /sessions
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6 offset-md-3 col-12">
-      <h1>セッション</h1>
+      <h1>SESSION</h1>
       <p>セッションの内容や登壇者を紹介するページです。</p>
     </div>
   </div>
