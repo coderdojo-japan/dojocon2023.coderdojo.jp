@@ -12,7 +12,8 @@ permalink: /sessions
       <p>セッションの内容や登壇者を紹介するページです。</p>
     </div>
   </div>
-
+  <div class="air"></div>
+<!-- 
   <div id='timetable'></div>
   <br>
   <h5>当日のタイムテーブル</h5>
@@ -25,7 +26,7 @@ permalink: /sessions
   </div>
   <br>
   <br>
-  <br>
+  <br> -->
 
   <div class="row text-left">
     {% for session in site.data.sessions %}
