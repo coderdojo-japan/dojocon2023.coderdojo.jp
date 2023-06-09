@@ -4,16 +4,27 @@ layout: default
 
 <div class="top-contents">
   <div class="top">
-    <h1>
-      <img src="/img/mainvisual.png" alt="DojoCon Japan {{ site.year }}" class="ignore-sp">
-      <img src="/img/mainvisual-mobile.png" alt="DojoCon Japan {{ site.year }}" class="ignore-pc">
-    </h1>
-    <!-- <div class="top-texts">
-      <h1>DojoCon Japan <br>{{ site.year }}</h1>
-      <h2 class="text-center">見渡す</h2>
-      <h3 class="text-center">December 18th / ONLINE</h3>
-    </div> -->
+    <div class="main-visual-container">
+      <div class="main-visual-left">
+        <div class="decoration-wrapper">
+          <div class="decoration">
+            <p>The Annual Global CoderDojo</p>
+            <p>Community Conference in Japan</p>
+          </div>
+        </div>
+        <h1 class="theme-phrase">Be Cool</h1>
+        <img src="/img/2023/logo_640x160.svg">
+        <div class="event-date-and-location">
+          <p>2023.8.27 Sun</p>
+          <p>at 奈良女子大学 Nara Women's University</p>
+        </div>
+      </div>
+      <div class="main-visual-right">
+        <img src="/img/2023/mv-fumanara.png">
+      </div>
+    </div>
   </div>
+  <img src="/img/2023/deco.svg">
 
   <div class="container-fruid">
     <div class="bg-ly pt-5 pb-5">

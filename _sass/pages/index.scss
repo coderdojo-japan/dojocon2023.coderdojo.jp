@@ -15,22 +15,62 @@
   }
 }  
 
-.top{
-    position: relative;
+.top {
     height: calc(100vh - 60px);
-    background: url("/img/mainvisual-bg.png");
-    background-size: cover;
-    background-position:center center;
-    background-repeat: no-repeat;
-
+    margin: 0 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    img {
-        max-width: 90vw;
-        max-height: 80vh;
-        height: auto;
+    .main-visual-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .main-visual-left {
+        display: grid;
+        grid-template-rows: 1fr auto auto auto;
+
+        text-align: left;
+
+        h1.theme-phrase {
+          font-weight: bolder;
+          font-size: 3.75rem;
+          margin: 0 30px -20px;
+        }
+
+        .event-date-and-location {
+          p {
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin: 0 30px;
+          }
+        }
+
+        .decoration-wrapper {
+          position: relative;
+
+          .decoration {
+            position: absolute;
+            top: 0;
+            left: calc(2rem + 30px);
+            transform: rotate(90deg);
+            transform-origin: 0 0;
+
+            p {
+              margin: 0 0 -5px;
+              font-size: 0.65rem;
+            }
+          }
+        }
+      }
+
+      .main-visual-right {
+        img {
+          max-width: 65vw;
+          max-height: 65vh;
+          height: auto;
+        }
+      }
     }
 }
 
