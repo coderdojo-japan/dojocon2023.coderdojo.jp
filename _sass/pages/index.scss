@@ -74,6 +74,28 @@
     }
 }
 
+section#contact {
+  background: $secondary-color;
+  color: #ffffff;
+
+  a.button {
+    background: inherit;
+    box-shadow: none;
+    border: solid 2px #ffffff;
+  }
+}
+
+.container {
+  a {
+    color: $main-color;
+  }
+
+  a.button {
+    color: #ffffff;
+    background: $main-color;
+  }
+}
+
 @media screen and (max-width: 640px) {
     .top {
         h1 {
