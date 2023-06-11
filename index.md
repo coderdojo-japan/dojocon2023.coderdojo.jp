@@ -176,7 +176,7 @@ layout: default
             {% endif %}
             <div class="member-image">
               {% if member.img %}<img src="/img/members/{{ member.img }}" alt="{{ member.name }}" loading="lazy">
-              {% else %}<img src="/img/members/dummy.png" alt="{{ member.name }}" loading="lazy">
+              {% else %}<img src="/img/{{ site.year }}/members/staff-dummy.png" alt="{{ member.name }}" loading="lazy">
               {% endif %}
             </div>
             <p>{{ member.name }}</p>{% if member.site %}</a>{% endif %}
