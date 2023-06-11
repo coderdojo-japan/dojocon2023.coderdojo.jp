@@ -2,57 +2,114 @@
 #   site: ホームページやSNSなどのリンク
 #   img: 表示するアイコン画像。ない場合設定しなくてもよい。ディレクトリ /img/staff/ 内に配置。
 
-- name: 増岡 秀樹
-  site: https://ja.gravatar.com/hansendo
-  img:  masuoka_hideki.png
+- name: 若林健一
+  site: http://crssrds.jp/aboutme/
+  img: kwaka1208.png
+- name: Hayashi Tetsuya
+  site:
+  img:
+- name: katzueno（上野）
+  site:
+  img:
+- name: 細谷崇@CoderDojo梅田/西宮
+  site:
+  img:
+- name: mrsksh@住吉（森﨑）
+  site:
+  img:
+- name: yasulab（安川）
+  site:
+  img:
+- name: 井上＠CoderDojo津山
+  site:
+  img:
+- name: 岡村明日香@師勝
+  site:
+  img:
+- name: 金江浩美
+  site:
+  img: kanae.JPG
+- name: 小森
+  site:
+  img:
+- name: おごもり@大阪狭山
+  site:
+  img:
+- name: とがぞの
+  site:
+  img: togazono.png
+- name: chikako2020（橋立）
+  site:
+  img:
+- name: 渕崎愛
+  site: https://deradesign.jp/
+  img: fuchizaki.jpg
+- name: rinam（天沼）
+  site:
+  img:
+- name: たくや
+  site:
+  img:
+- name: たかはら@広報(富山)
+  site:
+  img:
+- name: KeisukeSawa@たまち
+  site:
+  img:
 - name: 吉川 圭太
-  site: https://www.facebook.com/keita.yoshikawa/
-  img:  yoshikawa_keita.webp
-- name: まゆさん⤴︎
-  site: https://twitter.com/manidesign_i
-  img:  mayusan.jpg
-- name: Keisuke Sawa
-  site: https://twitter.com/swamptk
-  img:  sawa_keisuke.png
-- name: Katz Ueno
-  site: https://katzueno.com
-  img:  ueno_katz.jpg
-- name: 若林　潤一
-  site: https://twitter.com/Jun1W
-  img:  wakabayashi_junichi.jpg
-- name: 後藤 洋哉
-  site: https://coderdojo-inazawash.com
-  img:  goto_hiroya.jpg
-- name: 井上@津山
-  site: https://www.facebook.com/CoderDojoTsuyama/
-  img:  inoue.jpg
-- name: 井川 健一
-  site: https://coderdojo-mito.com/
-  img:  ikawa_kenichi.jpg
-- name: Genki Ando
-  site: https://twitter.com/gnk77
-  img:  ando_genki.jpg
-- name: 安川 要平
-  site: https://twitter.com/yasulab
-  img:  yasulab.jpg
-- name: 曽我 悠真
-  site: https://twitter.com/ymsg19
-  img:  soga_yuma.jpg
-- name: 濱田 康
-  site: https://linevoom.line.me/user/_dThsoIQo1WNmIYOd6T8nAWWCUYR4QdY-1DOnPE4
-  img:  hamada_yasushi.jpg
-- name: 宮島 衣瑛
-  img: miyajima_kirie.jpg
-- name: 宇津 義一
-  img: utsu_yoshikazu.jpg
-- name: 杉山 美鈴
-  img: sugiyama_misuzu.jpg
-- name: 若林 健一
-- name: 新妻 正夫
-- name: 納本 穂高
-- name: 黒柳 裕明
-- name: 佐伯 淳
-- name: 角田 一平
-  img: specialthanks.png
-- name: 牧 勝己
-  img: specialthanks.png
+  site:
+  img:
+- name: Jun1（若林）@吉備(岡山)
+  site:
+  img:
+- name: 610t（武藤）
+  site:
+  img:
+- name: 石川善行
+  site:
+  img:
+- name: 土居安佳里
+  site:
+  img:
+- name: 石川博之/光
+  site:
+  img:
+- name: UedaSota（上田）
+  site:
+  img:
+- name: あんどうよしのぶ / ニンジャ
+  site:
+  img:
+- name: jishiha(石原淳也)
+  site:
+  img:
+- name: moriken314
+  site:
+  img:
+- name: 加藤宗一郎
+  site:
+  img:
+- name: 宮島
+  site:
+  img:
+- name: 山口　秀帝
+  site:
+  img:
+- name: 北川 諒
+  site:
+  img:
+- name: 河合玲那
+  site:
+  img:
+- name: 佐原慎也
+  site:
+  img:
+- name: 北澤聖也
+  site:
+  img:
+- name: あかり
+  site:
+  img: Akari.png
+- name: そうすけ
+  site:
+  img:
