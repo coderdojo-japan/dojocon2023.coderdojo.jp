@@ -27,34 +27,39 @@ layout: default
   <img src="/img/2023/deco.svg">
 
   <div class="container-fruid">
-    <div class="bg-ly pt-5 pb-5">
-      <div id="about" class="col-md-6 offset-md-3">
-        <div class="text-left">
-          <h2 class="title-text text-center">DojoCon Japan {{ site.year }}</h2>
-          <div class="mt-4">
-            <h3 class="my-4 text-center">日本最大の CoderDojo の祭典</h3>
+    <div id="about">
+      <h2 class="title-text text-center">Welcome To</h2>
+      <div class="wrapper-block">
+        <section class="first-section">
+          <img src="/img/2023/52554972726_b2da260763_o.jpg">
+          <div class="text-left description">
+            <h3 class="my-5">日本最大の<br>CoderDojo の祭典</h3>
+            <div class="text">
+              <p>DojoCon とは CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベント (CoderDojo Conference) です。</p>
+              <p>「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催され、2020年は初のフルオンライン開催となりました。</p>
+              <p>2021年は通算6回目となり、昨年と同じくフルオンラインで開催します。</p>
+            </div>
           </div>
+        </section>
 
-          <div class="text">
-            <p>DojoCon とは CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベント (CoderDojo Conference) です。</p>
-            <p>「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催され、2020年は初のフルオンライン開催となりました。</p>
-	    <p>2021年は通算6回目となり、昨年と同じくフルオンラインで開催します。</p>
-          </div>
-
-          <div class="text mt-4">
-            <h3>CoderDojo とは</h3>
+        <section class="second-section">
+          <div class="text-left ml-4 description">
+            <h3 class="mb-5">CoderDojo とは</h3>
             <p>子ども達にプログラミングを学ぶ場を提供する、ボランティア主導の世界的な非営利活動です。</p>
             <p>CoderDojo は2011年にアイルランドから始まり、現在は世界112カ国に2,200以上の道場があり、日本国内でも全国234以上の道場で毎年1,200回以上 (*1) 開催されています。CoderDojo はエンジニアやデザイナー、各地域の保護者や学生、研究者や経営者など（メンター）と子どもが出会える場にもなっています。
               <br><small>*1 統計情報: <a href='https://coderdojo.jp/stats' target="_blank">https://coderdojo.jp/stats</a></small></p>
           </div>
+          <img src="/img/2023/coderdojo_logo.jpg">
+        </section>
 
-          <div class="text mt-4">
-            <h3>DojoCon Japan {{ site.year}} について</h3>
+        <section class="third-section">
+          <div class="text-left ml-4 description">
+            <h3 class="mb-5">DojoCon Japan {{ site.year}} について</h3>
             <p>2021年はCoderDojoが10周年を迎え、DojoCon Japanも昨年の開催で通算5回目を数えました。とてもめでたいので皆で集まってお祝いしましょう。</p>
-	    <p>長くCoderDojoを続けている方も、今年始めたばかりの方も、ちょっと休止中の方も、新しい道に進んだ方も、メンター・Ninjaにかかわらず、これまで各地で行ってきた取り組みを振り返り、オンラインでここに持ち寄ってください。</p>
-	    <p>ここまでの長い道のりをCoderDojo10周年とともに振り返りながら、次の10年を一緒に見渡してみませんか。</p>
+            <p>長くCoderDojoを続けている方も、今年始めたばかりの方も、ちょっと休止中の方も、新しい道に進んだ方も、メンター・Ninjaにかかわらず、これまで各地で行ってきた取り組みを振り返り、オンラインでここに持ち寄ってください。</p>
+            <p>ここまでの長い道のりをCoderDojo10周年とともに振り返りながら、次の10年を一緒に見渡してみませんか。</p>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </div>
