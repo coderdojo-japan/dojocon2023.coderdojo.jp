@@ -86,12 +86,12 @@ layout: default
 
       <div class="col-md-6 offset-md-3">
         <p class="about-title">内容</p>
-        <p class="about-text text-left">全国の CoderDojo 関係者によるセッション、イベント企画、懇親会など。</p>
-        <ul class="text-left list-style-none">
+        <p class="about-text text-left">スピーカーセッション、ダイアログ（対話的）セッション、イベント企画などを予定しています。</p>
+        <!-- <ul class="text-left list-style-none">
           <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a></li>
           <li><a href="/events"><i class="fas fa-link"></i> イベント企画を見る</a></li>
           <li><a href="/#news"><i class="fas fa-link"></i> お知らせ情報を見る</a></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
     
@@ -176,7 +176,7 @@ layout: default
             {% endif %}
             <div class="member-image">
               {% if member.img %}<img src="/img/members/{{ member.img }}" alt="{{ member.name }}" loading="lazy">
-              {% else %}<img src="/img/members/dummy.png" alt="{{ member.name }}" loading="lazy">
+              {% else %}<img src="/img/{{ site.year }}/members/staff-dummy.png" alt="{{ member.name }}" loading="lazy">
               {% endif %}
             </div>
             <p>{{ member.name }}</p>{% if member.site %}</a>{% endif %}
