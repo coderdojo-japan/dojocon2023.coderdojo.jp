@@ -55,9 +55,8 @@ layout: default
         <section class="third-section">
           <div class="text-left ml-4 description">
             <h3 class="mb-5">DojoCon Japan {{ site.year}} について</h3>
-            <p>2021年はCoderDojoが10周年を迎え、DojoCon Japanも昨年の開催で通算5回目を数えました。とてもめでたいので皆で集まってお祝いしましょう。</p>
-            <p>長くCoderDojoを続けている方も、今年始めたばかりの方も、ちょっと休止中の方も、新しい道に進んだ方も、メンター・Ninjaにかかわらず、これまで各地で行ってきた取り組みを振り返り、オンラインでここに持ち寄ってください。</p>
-            <p>ここまでの長い道のりをCoderDojo10周年とともに振り返りながら、次の10年を一緒に見渡してみませんか。</p>
+            <p>2012年に日本で最初のCoderDojoが始まって昨年で10年が経ち、現在では多くの企業や組織から支援を受けられるようになりました。これはCoderDojoが任意かつ自律的な活動であるにも関わらず信頼を得られている証だと考えられます。</p>
+            <p>これからの10年もCoderDojoが信頼される"Cool"な活動であり続けられるように、DojoCon Japan 2023ではそのきっかけを作っていきます。</p>
           </div>
         </section>
       </div>
