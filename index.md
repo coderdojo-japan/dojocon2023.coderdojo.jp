@@ -36,8 +36,7 @@ layout: default
             <h3 class="my-5">日本最大の<br>CoderDojo の祭典</h3>
             <div class="text">
               <p>DojoCon とは CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベント (CoderDojo Conference) です。</p>
-              <p>「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催され、2020年は初のフルオンライン開催となりました。</p>
-              <p>2021年は通算6回目となり、昨年と同じくフルオンラインで開催します。</p>
+              <p>「DojoCon Japan」はこの日本版という位置づけで、大阪 (2016, 2017)・東京 (2018)・名古屋 (2019)・オンライン (2020, 2021)・富山 (2022) で開催され、通算8回目となる2023年は、奈良県で開催します。</p>
             </div>
           </div>
         </section>
@@ -120,12 +119,13 @@ layout: default
     </section>
   </div>
 
+  <!--
   <div id='countdown'></div>
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <h2 class="text-center title-text">Countdown DojoCon Japan</h2>
-        <p class="text-center caption">DojoCon Japan 2021 の内容を紹介するライブ配信です。</p>
+        <p class="text-center caption">DojoCon Japan {{ site.year }} の内容を紹介するライブ配信です。</p>
       </div>
 
       <div class="col-md-4 p-3">
@@ -149,6 +149,7 @@ layout: default
       </div>
     </div>
   </div>
+  -->
 
   <section id="contact" class="bg-main">
     <div class="section-contents container">
