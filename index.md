@@ -31,7 +31,7 @@ layout: default
       <h2 class="title-text text-center">Welcome To</h2>
       <div class="wrapper-block">
         <section class="first-section">
-          <img src="/img/2023/52554972726_b2da260763_o.jpg">
+          <img src="/img/2023/52554972726_b2da260763_o.jpg" class="img">
           <div class="text-left description">
             <h3 class="my-5">日本最大の<br>CoderDojo の祭典</h3>
             <div class="text">
@@ -69,39 +69,38 @@ layout: default
         <p class="caption">開催概要</p>
       </div>
 
-      <div class="col-md-6 offset-md-3">
+      <div class="col-md-8 offset-md-2">
         <p class="about-title">開催日</p>
         <p class="about-text">{{ site.date_event }}</p>
       </div>
 
-      <div class="col-md-6 offset-md-3">
+      <div class="col-md-8 offset-md-2">
         <p class="about-title">場所</p>
         <p class="about-text">{{ site.venue }}</p>
       </div>
 
-      <div class="col-md-6 offset-md-3">
+      <div class="col-md-8 offset-md-2">
         <p class="about-title">参加費</p>
         <p class="about-text">{{ site.price }}</p>
       </div>
 
-      <div class="col-md-6 offset-md-3">
+      <!-- <div class="col-md-8 offset-md-2">
         <p class="about-title">内容</p>
         <p class="about-text text-left">スピーカーセッション、ダイアログ（対話的）セッション、イベント企画などを予定しています。</p>
-        <!-- <ul class="text-left list-style-none">
+        <ul class="text-left list-style-none">
           <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a></li>
           <li><a href="/events"><i class="fas fa-link"></i> イベント企画を見る</a></li>
           <li><a href="/#news"><i class="fas fa-link"></i> お知らせ情報を見る</a></li>
-        </ul> -->
-      </div>
+        </ul>
+      </div> -->
     </div>
-    
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2 mb-5">
           <a href="#" class="button" target="_blank" rel="noopener">申し込みをする</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <img src="/img/2023/deco.svg">
 
@@ -156,7 +155,7 @@ layout: default
       <h2 class="text-center title-text">CONTACT</h2>
       <p class="caption text-center">お問い合わせ</p>
       <p class="caption">気になる点などあればお気軽にご連絡ください。</p>
-      <a href="#" class="button" target="_blank" rel="noopener">お問い合わせする</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7CqFmVf4DOOpcXn0Z9ndLnnWq8jKIh9R5O-Zjq508uoP0Zw/viewform" class="button" target="_blank" rel="noopener">お問い合わせする</a>
     </div>
   </section>
 
@@ -175,7 +174,7 @@ layout: default
             <a href="{{ member.site }}" target="_blank" rel="nofollow"  rel="noopener">
             {% endif %}
             <div class="member-image">
-              {% if member.img %}<img src="/img/members/{{ member.img }}" alt="{{ member.name }}" loading="lazy">
+              {% if member.img %}<img src="/img/{{ site.year }}/members/{{ member.img }}" alt="{{ member.name }}" loading="lazy">
               {% else %}<img src="/img/{{ site.year }}/members/staff-dummy.png" alt="{{ member.name }}" loading="lazy">
               {% endif %}
             </div>
@@ -190,4 +189,3 @@ layout: default
       <p class="text-center"><a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a></p>
     </div>
   </section>
-</div>
