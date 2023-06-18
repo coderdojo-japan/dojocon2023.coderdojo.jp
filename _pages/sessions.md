@@ -42,7 +42,7 @@ permalink: /sessions
 
       {% if session.profile-img %}
       <div class="my-3">
-        <img src="img/session/{{ session.profile-img }}" class="w-100 px-5" alt="プロフィール画像">
+        <img src="img/{{ site.year }}/session/{{ session.profile-img }}" class="w-100 px-5" alt="プロフィール画像">
       </div>
       {% endif %}
 
