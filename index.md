@@ -1,31 +1,24 @@
 ---
 layout: default
 ---
-<div class="top-contents">
-  <div class="top">
-    <div class="main-visual-container">
-      <div class="main-visual-left">
-        <div class="decoration-wrapper">
-          <div class="decoration">
-            <p>The Annual Global CoderDojo</p>
-            <p>Community Conference in Japan</p>
-          </div>
-        </div>
-        <h1 class="theme-phrase">Be Cool</h1>
-        <img src="/img/2023/logo_640x160.svg">
-        <div class="event-date-and-location">
-          <p>2023.8.27 Sun</p>
-          <p>at 奈良女子大学 Nara Women's University</p>
-        </div>
-      </div>
-      <div class="main-visual-right">
-        <img src="/img/2023/mv-fumanara.png">
-      </div>
+<div id="top">
+  <div class="tagline-box">
+    <div class='tagline'>The Annual Global CoderDojo<br>Community Conference in Japan</div>
+  </div>
+  <div class='information'>
+    <div class="theme">Be Cool</div>
+    <img src="/img/2023/logo_640x160.svg">
+    <div class="event-date-and-location">
+      <p>2023.8.27 Sun<br>at 奈良女子大学 Nara Women's University</p>
     </div>
   </div>
-  <img src="/img/2023/deco.svg">
+  <div class="character">
+    <img src="/img/2023/mv-fumanara.png">
+  </div>
 </div>
 
+
+<img src="/img/2023/deco.svg">
 <div id='colored_zone'>
   <h2 class="title-welcome">WELCOME TO</h2>
   <div></div>
