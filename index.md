@@ -41,7 +41,7 @@ layout: default
       <p>2016年に始まり、2023年は奈良女子大学にて開催します。</p>
     </div>
   </div>
-  <div class='spacing'></div>
+  <div class='spacing1'></div>
 
   <div class='about-coderdojo'>
     <div class='short'>CoderDojoとは</div>
@@ -56,7 +56,7 @@ layout: default
   <div class='coderdojo-logo'>
     <img src="/img/2023/coderdojo_logo.jpg">
   </div>
-  <div class='spacing'></div>
+  <div class='spacing2'></div>
   <div class='about-dojocon-this-year'>
       <div class='short'>
         DojoCon Japan 2023について
@@ -66,7 +66,7 @@ layout: default
         <p>これからの10年もCoderDojoが信頼される"Cool"な活動であり続けられるように、DojoCon Japan 2023ではそのきっかけを作っていきます。</p>
       </div>
   </div>
-  <div class='spacing'></div>
+  <div class='spacing3'></div>
 </div>
 
 

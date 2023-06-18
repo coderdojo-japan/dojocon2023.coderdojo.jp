@@ -257,6 +257,7 @@ $corner-radius: 30px;
   .title-welcome {
     grid-column: 3 / span 8;
     grid-row: auto;
+    order: 1;
     color: $secondary-color;
     font-size: 5em;
     text-align: right;
@@ -267,6 +268,7 @@ $corner-radius: 30px;
   .dojocon-image {
     grid-column: 3 / span 4;
     grid-row: auto;
+    order: 2;   
     color: white;
     background-color: $secondary-color;
     border-radius: $corner-radius 0 0 0;
@@ -278,6 +280,7 @@ $corner-radius: 30px;
   }
   .about-dojocon {
     grid-column: 7 / span 4;
+    order: 3;
     padding-top: 60px;
     padding-bottom: 15px;
     background-color: $secondary-color;
@@ -293,13 +296,21 @@ $corner-radius: 30px;
       font-size: 1em;
     }
   }
-  .spacing {
+  .spacing1,
+  .spacing2,
+  .spacing3 {
     grid-column: 11 / span 2;
     background-color: $secondary-color;
   }
+
+  .spacing1 { order: 4; }
+  .spacing2 { order: 7; }
+  .spacing3 { order: 9; }
+
   .about-coderdojo {
     grid-column: 3 / span 6;
     grid-row: auto;
+    order: 5;
     background-color: $secondary-color;
     padding: 60px 15px 0 30px;
     .short {
@@ -319,6 +330,7 @@ $corner-radius: 30px;
   .coderdojo-logo {
     grid-column: 9 / span 2;
     grid-row: auto;
+    order: 6;
     background-color: $secondary-color;
     text-align: right;
     padding-top: 60px;
@@ -330,6 +342,7 @@ $corner-radius: 30px;
   .about-dojocon-this-year {
     grid-column: 3 / span 8;
     grid-row: auto;
+    order: 8;
     background-color: $secondary-color;
     border-radius: 0 0 0 $corner-radius;
     padding: 60px 15px 60px 30px;
@@ -366,6 +379,7 @@ $corner-radius: 30px;
     .about-dojocon {
       grid-column: 2 / span 12;
       padding-left: 30px;
+      padding-right: 30px;
     }
 
     .about-coderdojo {
@@ -395,6 +409,9 @@ $corner-radius: 30px;
     .coderdojo-logo {
       grid-column: 2 / span 12;
       text-align: center;
+      order: 5;
+      padding-top: 0;
+      padding-bottom: 60px;
       img {
         width: 60%;
       }
@@ -402,6 +419,7 @@ $corner-radius: 30px;
     .about-coderdojo {
       grid-column: 2 / span 12;
       padding: 0 30px;
+      order: 6;
       .short {
         font-size: 1.5em;
       }
