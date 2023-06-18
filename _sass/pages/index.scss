@@ -360,7 +360,7 @@ $corner-radius: 30px;
       grid-column: 2 / span 12;
       img {
         width: 80%;
-        margin-left: 0;
+        margin-left: -5%
       }
     }
     .about-dojocon {
@@ -372,7 +372,7 @@ $corner-radius: 30px;
       grid-column: 2 / span 6;
     }
     .coderdojo-logo {
-      grid-column: 8 / span 4;
+      grid-column: 8 / span 5;
       text-align: center;
       img {
         width: 60%;
@@ -386,6 +386,12 @@ $corner-radius: 30px;
 
 @media screen and (max-width: 640px) {
   #colored_zone {
+    .about-dojocon {
+      padding: 60px 30px 60px 30px;
+      .short {
+        font-size: 1.5em;
+      }
+    }
     .coderdojo-logo {
       grid-column: 2 / span 12;
       text-align: center;
@@ -395,9 +401,17 @@ $corner-radius: 30px;
     }
     .about-coderdojo {
       grid-column: 2 / span 12;
+      padding: 0 30px;
+      .short {
+        font-size: 1.5em;
+      }
     }
     .about-dojocon-this-year {
       grid-column: 2 / span 12;
+      padding: 60px 30px 60px 30px;
+      .short {
+        font-size: 1.5em;
+      }
     }
   }
 }

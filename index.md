@@ -27,21 +27,6 @@ layout: default
 </div>
 
 <div id='colored_zone'>
-  <!-- <div class='main-visual'>
-    <div class='top-message'>
-      <p>The Annual Global CoderDojo</p>
-      <p>Community Conference in Japan</p>
-    </div>
-    <div class='theme-phrase'>Be Cool</div>
-    <div class='event-date-and-location'>
-      <p>2023.8.27 Sun</p>
-      <p>at 奈良女子大学 Nara Women's University</p>
-    </div>
-    <img src="/img/2023/logo_640x160.svg" class='dojocon-logo'>
-    <img src="/img/2023/mv-fumanara.png" class='character'>
-  </div>
-  <img src="/img/2023/deco.svg" class='visual-delimiter'> -->
-
   <h2 class="title-welcome">WELCOME TO</h2>
   <div></div>
   <div class='dojocon-image'>
@@ -92,31 +77,18 @@ layout: default
         <h2 class="text-center title-text">ABOUT</h2>
         <p class="caption">開催概要</p>
       </div>
-
       <div class="col-md-8 offset-md-2">
         <p class="about-title">開催日</p>
         <p class="about-text">{{ site.date_event }}</p>
       </div>
-
       <div class="col-md-8 offset-md-2">
         <p class="about-title">場所</p>
         <p class="about-text">{{ site.venue }}</p>
       </div>
-
       <div class="col-md-8 offset-md-2">
         <p class="about-title">参加費</p>
         <p class="about-text">{{ site.price }}</p>
       </div>
-
-      <!-- <div class="col-md-8 offset-md-2">
-        <p class="about-title">内容</p>
-        <p class="about-text text-left">スピーカーセッション、ダイアログ（対話的）セッション、イベント企画などを予定しています。</p>
-        <ul class="text-left list-style-none">
-          <li><a href="/sessions"><i class="fas fa-link"></i> セッション情報を見る</a></li>
-          <li><a href="/events"><i class="fas fa-link"></i> イベント企画を見る</a></li>
-          <li><a href="/#news"><i class="fas fa-link"></i> お知らせ情報を見る</a></li>
-        </ul>
-      </div> -->
     </div>
     <div class="container">
       <div class="row">
@@ -149,7 +121,6 @@ layout: default
         <h2 class="text-center title-text">Countdown DojoCon Japan</h2>
         <p class="text-center caption">DojoCon Japan {{ site.year }} の内容を紹介するライブ配信です。</p>
         <div class='comming-soon'>Coommin soon...</div>
-
       </div>
     </div>
   </div>
