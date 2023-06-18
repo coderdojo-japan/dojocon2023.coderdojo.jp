@@ -6,14 +6,6 @@
 .ignore-sp {
   display: inline;
 }
-@media screen and (max-width: 640px) {
-  .ignore-pc {
-    display: inline;
-  }
-  .ignore-sp {
-    display: none;
-  }
-}  
 
 .top {
     height: calc(100vh - 60px);
@@ -40,7 +32,7 @@
 
         .event-date-and-location {
           p {
-            font-size: 0.85rem;
+            font-size: 1.2rem;
             font-weight: bold;
             margin: 0 30px;
           }
@@ -179,14 +171,6 @@ div#about {
     color: #ffffff;
     background: $main-color;
   }
-}
-
-@media screen and (max-width: 640px) {
-    .top {
-        h1 {
-            transform: translateY(-25px);
-        }
-    }
 }
 
 .title-text{
@@ -403,7 +387,18 @@ $corner-radius: 30px;
 }
 
 @media screen and (max-width: 640px) {
-  #colored_zone {
+.ignore-pc {
+  display: inline;
+}
+.ignore-sp {
+  display: none;
+}
+.top {
+  h1 {
+    transform: translateY(-25px);
+  }
+}
+#colored_zone {
     .about-dojocon {
       padding: 60px 30px 60px 30px;
       .short {
