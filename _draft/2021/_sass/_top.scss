@@ -562,3 +562,9 @@
 .list-style-none{
   list-style: none;
 }
+
+@media screen and (max-width: 640px) {
+  #page-top a {
+    display: none;
+  }
+}

@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="top">
   <div class="tagline-box">
-    <div class='tagline'>The Annual Global CoderDojo<br>Community Conference in Japan</div>
+    <div class='tagline'>The Annual CoderDojo<br>Community Conference in Japan</div>
   </div>
   <div class='information'>
     <div class="theme">Be Cool</div>
@@ -133,7 +133,7 @@ layout: default
   <section id="organizedBy" class="section-gray top-contents">
     <div class="section-contents">
       <h2 class="text-center title-text">Organized by</h2>
-      <p class="text-center">DojoCon Japan 実行委員会</p>
+      <p class="text-center">DojoCon Japan {{ site.year }} 実行委員会</p>
       <p class="text-center"><a href="https://coderdojo.jp/" target="_blank" rel="noopener">一般社団法人 CoderDojo Japan</a></p>
 
       <div id='staff'>
