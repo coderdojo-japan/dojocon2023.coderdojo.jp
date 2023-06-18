@@ -2,7 +2,7 @@
   <div class="p-3 bg-white">
     <a href="{{ post.url }}" class="text-decoration-none">
       {% if post.thumbnail %}
-      <img src="{{ site.url }}/img/post/{{ post.thumbnail }}" alt="{{ post.title }} のサムネイル画像" class="article-thumbnail" loading="lazy">
+      <img src="/img/post/{{ post.thumbnail }}" alt="" class="article-thumbnail" loading="lazy">
       {% endif %}
       <div class="mt-2">
         <p class="article-date mt-2">{{ post.date | date:"%Y.%-m.%d" }}</p>
