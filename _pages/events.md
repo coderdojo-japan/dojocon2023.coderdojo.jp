@@ -11,7 +11,7 @@ permalink: /events
       <h1>イベント企画</h1>
     </div>
   </div>
-  <div class="air">Commin Soon.</div>
+  <div class="air">ただいま、準備中</div>
   <div class="row text-left">
     {% for event in site.data.events %}
     <div class="col-md-6 col-12 p-3" id="{{ event.title }}">
