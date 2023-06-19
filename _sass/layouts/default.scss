@@ -1,7 +1,7 @@
 /* stylesheet for `_layouts/default.html` */
 
 #page-top a {
-  background-color: $light-blue;
+  background-color: #ccc;
   border-radius: 35px;
   bottom: 0;
   color: #fff;
@@ -16,5 +16,11 @@
   width: 70px;
   &:hover {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #page-top a {
+    display: none;
   }
 }

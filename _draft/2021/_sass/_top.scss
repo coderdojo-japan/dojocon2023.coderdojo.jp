@@ -130,25 +130,6 @@
     }
   }
 
-  #page-top a {
-    background-color: $light-blue;
-    border-radius: 35px;
-    bottom: 0;
-    color: #fff;
-    font-size: 1.5em;
-    line-height: 70px;
-    height: 70px;
-    margin: 4vw;
-    opacity: 0.6;
-    position: fixed;
-    right: 0;
-    transition: 0.3s;
-    width: 70px;
-    &:hover {
-      opacity: 1;
-    }
-  }
-
   .ph {
     display: none;
   }
@@ -561,10 +542,4 @@
 
 .list-style-none{
   list-style: none;
-}
-
-@media screen and (max-width: 640px) {
-  #page-top a {
-    display: none;
-  }
 }

@@ -225,6 +225,7 @@ $corner-radius: 30px;
     margin-bottom: 0;
     font-weight: bold;
     margin-bottom: -0.3em;
+    margin-top: 30px;
   }
   .dojocon-image {
     grid-column: 3 / span 4;
@@ -273,7 +274,7 @@ $corner-radius: 30px;
     grid-row: auto;
     order: 5;
     background-color: $secondary-color;
-    padding: 60px 15px 0 30px;
+    padding: 60px 30px 0 30px;
     .short {
       text-align: left;
       padding: auto;
@@ -449,4 +450,8 @@ $corner-radius: 30px;
       }
     }
   }
+}
+
+#news {
+  padding: 0 0 3rem 0;  
 }

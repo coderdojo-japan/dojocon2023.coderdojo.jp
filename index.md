@@ -62,8 +62,6 @@ layout: default
   <div class='spacing3'></div>
 </div>
 
-
-
   <div id='ticket' class="container" style='margin-top: 50px; margin-bottom: 100px;'>
     <div class="row" id="outline">
       <div class="col-md-6 offset-md-3">
@@ -86,18 +84,18 @@ layout: default
         <p class="about-text">{{ site.price }}</p>
       </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2 mb-5">
           <a href="#" class="button" target="_blank" rel="noopener">申し込みをする</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
-  <img src="/img/2023/deco.svg">
 
   <div class="container-fruid">
     <section id="news" class="section-gray">
+      <img src="/img/2023/deco.svg">
       <div class="section-contents">
         <h2 class="text-center title-text">NEWS</h2>
         <p class="caption text-center">お知らせ</p>
@@ -116,7 +114,7 @@ layout: default
       <div class="col-md-8 offset-md-2">
         <h2 class="text-center title-text">Countdown DojoCon Japan</h2>
         <p class="text-center caption">DojoCon Japan {{ site.year }} の内容を紹介するライブ配信です。</p>
-        <div class='comming-soon'>Coommin soon...</div>
+        <div class='comming-soon'>ただいま、準備中</div>
       </div>
     </div>
   </div>
