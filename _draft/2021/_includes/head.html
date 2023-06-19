@@ -1,5 +1,6 @@
 <head>
   <meta charset="utf-8">
+  {% include googleanalytics.html %}
   {% if page.title %}
   <title>{{ page.title }} | {{ site.title }} {{ site.year }}</title>
   {% else %}
@@ -44,10 +45,5 @@
   <meta name="description"         content="{{ site.description }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
 
-  <meta property="fb:app_id" content="1750803431730303" />
-
-  {% if jekyll.environment == 'production' %}
-  {% include googleanalytics.html %}
-  {% endif %}
-
+  <meta property="fb:app_id" content="1750803431730303" />  
 </head>
