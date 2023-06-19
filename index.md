@@ -124,7 +124,7 @@ layout: default
       <h2 class="text-center title-text">CONTACT</h2>
       <p class="caption text-center">お問い合わせ</p>
       <p class="caption">DojoCon Japan {{ site.year }} についてのお問い合わせは以下のリンク先（Googleフォーム）よりお願いいたします。</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7CqFmVf4DOOpcXn0Z9ndLnnWq8jKIh9R5O-Zjq508uoP0Zw/viewform" class="button" target="_blank" rel="noopener">お問い合わせする</a>
+      <a href="{{ site.contact }}" class="button" target="_blank" rel="noopener">お問い合わせする</a>
     </div>
   </section>
 
