@@ -1,5 +1,8 @@
 <head>
   <meta charset="utf-8">
+  {% if jekyll.environment == 'production' %}
+  {% include googleanalytics.html %}
+  {% endif %}
   {% if page.title %}
   <title>{{ page.title }} | {{ site.title }} {{ site.year }}</title>
   {% else %}
