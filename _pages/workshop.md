@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  ワークショップ
-thumbnail: workshop.png
 permalink: /workshop
 ---
 
