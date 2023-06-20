@@ -361,10 +361,11 @@ $corner-radius: 30px;
     }
 
     .about-coderdojo {
-      grid-column: 2 / span 6;
+      grid-column: 2 / span 7;
+      padding-right: 0;
     }
     .coderdojo-logo {
-      grid-column: 8 / span 5;
+      grid-column: 9 / span 4;
       text-align: center;
       img {
         width: 60%;
