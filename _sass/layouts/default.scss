@@ -26,7 +26,8 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+// タブレットとスマートフォンでは、トップへ戻るボタンは表示しない
+@media screen and (max-width: 800px) {
   #page-top a {
     display: none;
   }
