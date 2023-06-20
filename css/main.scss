@@ -9,9 +9,7 @@ $navbar: 60px;
 @import 'global/variables';
 @import 'global/page';
 
-@import 'includes/navbar';
 @import 'includes/articles';
-@import 'includes/footer';
 @import 'includes/sessions';
 
 @import 'layouts/default';
@@ -23,4 +21,6 @@ $navbar: 60px;
 @import 'pages/sessions';
 @import 'pages/workshop';
 
+@import 'includes/navbar';
+@import 'includes/footer';
 @import 'custom';

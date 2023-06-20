@@ -4,48 +4,57 @@ footer {
   background-color: $secondary-color;
   color: #fff;
   padding-bottom: 12px;
-}
-.footer-menu-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 1.5em;
-  li {
-    display: inline;
-    padding: 0 .5em;
+  margin-top: auto;
+  .share {
+    a {
+      float: left;
+      line-height: 60px;
+      height: 60px;
+      width: 50%;
+      text-decoration-line: none;
+      &:hover {
+        opacity: .8;
+      }
+    }
+    &::after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+    .share-twitter,
+    .share-facebook {
+      display: block;
+    }
+    .share-facebook {
+      background-color: $facebook-color;
+    }
+    .share-twitter {
+      background-color: $twitter-color;
+    }
+    .share-line {
+      background-color: $line-color;
+      display: none;
+    }
+  }
+  .footer-menu {
+    .footer-menu-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 1.5em;
+      li {
+        display: inline;
+        padding: 0 .5em;
+        a {
+          &:hover {
+            color: white;
+            opacity: 0.8;
+          }
+        }
+      }
+    }
   }
 }
 
-.share {
-  a {
-    float: left;
-    line-height: 60px;
-    height: 60px;
-    width: 50%;
-    text-decoration-line: none;
-    &:hover {
-      opacity: .8;
-    }
-  }
-  &::after {
-    content: '';
-    clear: both;
-    display: block;
-  }
-  .share-twitter,
-  .share-facebook {
-    display: block;
-  }
-}
-.share-facebook {
-  background-color: $facebook-color;
-}
-.share-twitter {
-  background-color: $twitter-color;
-}
-.share-line {
-  background-color: $line-color;
-  display: none;
-}
 @media screen and (max-width: 800px) {
   .share a {
     width: 100%;

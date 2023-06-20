@@ -9,17 +9,32 @@
     {% include footer.html %}
 
     <script>
-     window.onload = function() {
-       var agent = window.navigator.userAgent.toLowerCase();
-       var ie11 = (agent.indexOf('trident/7') !== -1);
-       if(ie11){
-	 var spimg = document.getElementsByClassName("sponsors-rank-img");
-	 for(var i = 0; i < spimg.length; i++) {
-    	   spimg[i].style.height    = "auto";
-    	   spimg[i].style.maxHeight = "none";
-	 }
-       }
-     }
-    </script>
-  </body>
+      window.onload = function() {
+        var agent = window.navigator.userAgent.toLowerCase();
+        var ie11 = (agent.indexOf('trident/7') !== -1);
+        if(ie11){
+          var spimg = document.getElementsByClassName("sponsors-rank-img");
+          for(var i = 0; i < spimg.length; i++) {
+            spimg[i].style.height    = "auto";
+            spimg[i].style.maxHeight = "none";
+          }
+        }
+        var btn = $('#page-top');
+        //スクロールしてページトップから100に達したらボタンを表示
+        $(window).on('load scroll', function(){
+          if($(this).scrollTop() > 100) {
+            btn.addClass('active');
+          }else{
+            btn.removeClass('active');
+          }
+        });
+
+        $('.navbar-nav > a , .dropdown-menu>a').on('click', function(){
+          if(this.id != 'navbarDropdown'){
+            $('.navbar-collapse').collapse('hide');
+          }
+        });
+      }
+      </script>
+    </body>
 </html>

@@ -11,6 +11,9 @@ body {
   text-align: center;
   color: black;
   padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h2 {
@@ -574,4 +577,11 @@ table thead th {
       font-size: 6em;
     }
   }
+}
+
+.wait-for-a-moment {
+  font-size: 2em;
+  margin: 60px auto;
+  text-align: center;
+  width: 100%;
 }
