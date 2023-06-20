@@ -7,10 +7,10 @@
   display: inline;
 }
 
-#top {
+.top {
   // height: calc(100vh - 60px);
   // margin: 0 2rem;
-  margin-top: 60px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -324,6 +324,22 @@ $corner-radius: 30px;
   }
 }
 
+#staff {
+  padding: auto;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    li {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
 // タブレット
 @media screen and (max-width: 800px) {
   #colored_zone {
@@ -368,10 +384,7 @@ $corner-radius: 30px;
     display: none;
   }
 
-  #top {
-    // height: calc(100vh - 60px);
-    // margin: 0 2rem;
-    margin-top: 60px;
+  .top {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: 1fr 1fr;

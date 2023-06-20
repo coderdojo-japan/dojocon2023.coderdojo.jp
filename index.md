@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="top">
+<div class="top">
   <div class="tagline-box">
     <div class='tagline'>The Annual CoderDojo<br>Community Conference in Japan</div>
   </div>
@@ -112,7 +112,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <h2 class="text-center title-text">Countdown DojoCon Japan</h2>
+        <h2 class="text-center title-text">Countdown <br class='ignore-pc'>DojoCon Japan</h2>
         <p class="text-center caption">DojoCon Japan {{ site.year }} の内容を紹介するライブ配信です。</p>
         <div class='comming-soon'>ただいま、準備中</div>
       </div>
@@ -136,9 +136,9 @@ layout: default
 
       <div id='staff'>
         <h2 class="text-center title-text">STAFF</h2>
-        <div class="flex">
+        <ul>
           {% for member in site.data.members %}
-          <div class="member">
+          <li class="member">
             {% if member.site %}
             <a href="{{ member.site }}" target="_blank" rel="nofollow"  rel="noopener">
             {% endif %}
@@ -148,9 +148,9 @@ layout: default
               {% endif %}
             </div>
             <p>{{ member.name }}</p>{% if member.site %}</a>{% endif %}
-          </div>
+          </li>
           {% endfor %}
-        </div>
+        </ul>
       </div>
 
       <h2 class="text-center title-text">Supported by</h2>
