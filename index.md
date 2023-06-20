@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="top">
+<div class="top">
   <div class="tagline-box">
     <div class='tagline'>The Annual CoderDojo<br>Community Conference in Japan</div>
   </div>

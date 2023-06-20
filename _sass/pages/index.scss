@@ -7,10 +7,10 @@
   display: inline;
 }
 
-#top {
+.top {
   // height: calc(100vh - 60px);
   // margin: 0 2rem;
-  margin-top: 60px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -384,10 +384,7 @@ $corner-radius: 30px;
     display: none;
   }
 
-  #top {
-    // height: calc(100vh - 60px);
-    // margin: 0 2rem;
-    margin-top: 60px;
+  .top {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: 1fr 1fr;
