@@ -20,13 +20,18 @@
           }
         }
         var btn = $('#page-top');
-    
         //スクロールしてページトップから100に達したらボタンを表示
         $(window).on('load scroll', function(){
           if($(this).scrollTop() > 100) {
             btn.addClass('active');
           }else{
             btn.removeClass('active');
+          }
+        });
+
+        $('.navbar-nav > a , .dropdown-menu>a').on('click', function(){
+          if(this.id != 'navbarDropdown'){
+            $('.navbar-collapse').collapse('hide');
           }
         });
       }
