@@ -324,6 +324,13 @@ $corner-radius: 30px;
   }
 }
 
+.map {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 #staff {
   padding: auto;
   ul {
