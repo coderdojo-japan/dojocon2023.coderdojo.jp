@@ -1,0 +1,60 @@
+/* stylesheet for `_layouts/post.html` */
+
+.post {
+  margin-bottom: 12vh;
+  text-align: left;
+  padding: 0 1rem;
+  h1.post-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .post-date,
+  .post-time {
+    text-align: center;
+  }
+  .post-content {
+    padding: 24px 0;
+    max-width: 800px;
+    margin: auto;
+    h2 {
+      text-align: center;
+    }
+    img {
+      display: block;
+      width: 100%;
+      margin: auto;
+      max-width: 600px;
+    }
+    a.btn {
+      color: $main-color;
+    }
+  }
+}
+
+.post-head {
+  margin-bottom: 60px;
+  padding: $navbar 0;
+  padding-top: 60px;
+  h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+}
+
+.post-title {
+  font-size: 1.6em;
+}
+
+.post-thumbnail{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.tag-post {
+  background-color: $light-gray;
+  border-radius: 1em;
+  display: inline-block;
+  margin: 6px;
+  padding: 4px 24px;
+}
