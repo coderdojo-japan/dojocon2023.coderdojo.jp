@@ -2,6 +2,7 @@
 # You can create any custom variable you would like,
 # and they will be accessible like {{ site.your_variable }}.
 
+timezone: Asia/Tokyo
 year: 2023
 title: DojoCon Japan
 subtitle: 'Be Cool'
