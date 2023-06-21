@@ -76,7 +76,7 @@ layout: default
         <p class="about-title">場所</p>
         <p class="about-text">{{ site.venue }}</p>
         <div class='map'>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.685005056214!2d135.82684151130331!3d34.68789867281133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f50!3m3!1m2!1s0x600139809cdec24d%3A0xed8d143c9c10d005!2z5aWI6Imv5aWz5a2Q5aSn5a2m!5e0!3m2!1sja!2sjp!4v1687062455461!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <img src='/img/2023/top/DojoCon2023-map.png'>
         </div>
       </div>
       <div class="col-md-8 offset-md-2">
