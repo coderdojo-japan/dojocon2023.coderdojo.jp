@@ -74,9 +74,9 @@ layout: default
       </div>
       <div class="col-md-8 offset-md-2">
         <p class="about-title">場所</p>
-        <p class="about-text">{{ site.venue }}</p>
+        <p class="about-text">{{ site.venue }} （<a href='{{ site.map }}' target='blank'>Google Maps</a> )</p>
         <div class='map'>
-          <img src='/img/2023/top/DojoCon2023-map.png'>
+          <img src='/img/{{ site.year }}/top/map.png'>
         </div>
       </div>
       <div class="col-md-8 offset-md-2">
