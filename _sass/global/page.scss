@@ -437,6 +437,14 @@ table thead th {
       width: 100%;
       height: 25px;
     }
+
+    @media screen and (min-width: 1000px) {
+      width: 20%;
+
+      .member-image {
+        max-height: unset;
+      }
+    }
   }
   .member:hover p {
     font-weight: bold;
