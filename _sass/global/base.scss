@@ -16,6 +16,10 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 h2 {
   margin-top: 1.6em;
 }
@@ -53,14 +57,6 @@ section {
       font-weight: 500;
       margin: 0 auto 2em;
     }
-  }
-}
-
-.x-scroll {
-  @media screen and (max-width: 800px) {
-    overflow-x: scroll;
-    flex-wrap: nowrap !important;
-    margin: 0 1rem;
   }
 }
 
@@ -260,9 +256,6 @@ table thead th {
 }
 .bg-main{
   background-color: white;
-}
-
-.text {
 }
 
 .ws-title{
@@ -588,4 +581,15 @@ table thead th {
   margin: 60px auto;
   text-align: center;
   width: 100%;
+}
+
+.ignore-pc {
+  display: none;
+}
+.ignore-sp {
+  display: inline;
+}
+
+.back-to-top {
+  color: $main-color;
 }

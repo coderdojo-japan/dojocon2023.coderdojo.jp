@@ -1,3 +1,10 @@
+{% if page_title or page_title ==''  %}
+  {% assign page_title = page.title %}
+{% endif %}
+{% if page_subtitle or page_subtitle =='' %}
+  {% assign page_subtitle = page.subtitle %}
+{% endif %}
+{% assign page_title = page.title %}
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
   {% include head.html %}

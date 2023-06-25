@@ -1,16 +1,9 @@
 ---
-layout: default
-title:  イベント企画
+layout: page
+title:  EVENT
+subtitle: イベント
 permalink: /events
 ---
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-6 offset-md-3 col-12">
-      <h1>イベント企画</h1>
-    </div>
-  </div>
-  <div class="air"></div>
   <div class="row text-left">
     {% assign count = 0 %}
     {% for event in site.data.events %}
@@ -38,4 +31,3 @@ permalink: /events
       {% endfor %}
     {% endif %}
   </div>
-</div>
