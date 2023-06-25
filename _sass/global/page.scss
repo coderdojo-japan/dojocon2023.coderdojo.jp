@@ -262,10 +262,6 @@ table thead th {
   background-color: white;
 }
 
-.bg-ly {
-  background-color: $light-yellow;
-}
-
 .text {
 }
 
@@ -280,7 +276,7 @@ table thead th {
 .badge-must{
     font-weight: bold;
     font-size: 14px;
-    background-color: $light-red;
+    background-color: $color-necessary;
 }
 
 .badge-none{

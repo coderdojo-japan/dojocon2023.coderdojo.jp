@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: セッション
 thumbnail: timetable.png
 permalink: /sessions
