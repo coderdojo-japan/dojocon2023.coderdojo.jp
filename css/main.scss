@@ -7,7 +7,10 @@ $navbar: 60px;
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@700&display=swap');
 
 @import 'global/variables';
-@import 'global/page';
+@import 'global/base';
+@import 'global/tablet';
+@import 'global/mobile';
+
 
 @import 'includes/articles';
 @import 'includes/sessions';

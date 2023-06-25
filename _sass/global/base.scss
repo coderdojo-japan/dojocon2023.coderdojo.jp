@@ -16,6 +16,10 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 h2 {
   margin-top: 1.6em;
 }
@@ -53,14 +57,6 @@ section {
       font-weight: 500;
       margin: 0 auto 2em;
     }
-  }
-}
-
-.x-scroll {
-  @media screen and (max-width: 800px) {
-    overflow-x: scroll;
-    flex-wrap: nowrap !important;
-    margin: 0 1rem;
   }
 }
 
@@ -262,13 +258,6 @@ table thead th {
   background-color: white;
 }
 
-.bg-ly {
-  background-color: $light-yellow;
-}
-
-.text {
-}
-
 .ws-title{
     font-weight: bold;
     padding: 1rem 1rem;
@@ -280,7 +269,7 @@ table thead th {
 .badge-must{
     font-weight: bold;
     font-size: 14px;
-    background-color: $light-red;
+    background-color: $color-necessary;
 }
 
 .badge-none{
@@ -592,4 +581,15 @@ table thead th {
   margin: 60px auto;
   text-align: center;
   width: 100%;
+}
+
+.ignore-pc {
+  display: none;
+}
+.ignore-sp {
+  display: inline;
+}
+
+.back-to-top {
+  color: $main-color;
 }
