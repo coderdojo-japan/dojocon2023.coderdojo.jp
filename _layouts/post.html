@@ -8,7 +8,7 @@ layout: default
 </div>
 {% endif %}
 
-<div class="post">
+<div id='{{ page.categories[0] }}' class="post">
   <h1 class="post-title">{{ page.title | liquify }}</h1>
 
   {% if page.categories[0] == "news" %}
