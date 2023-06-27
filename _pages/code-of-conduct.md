@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: condition
 title: 行動規範
 permalink: /code-of-conduct/
 ---

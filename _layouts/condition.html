@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 col-12">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.subtitle }}</p>
+    </div>
+  </div>
+  <div class="air"></div>
+  <div id='condition'>
+    <div class="post">
+      <div class='post-content'>
+        {{ content }}
+        {% include back-to-top.html %}
+      </div>
+    </div>
+  </div>
+</div>
