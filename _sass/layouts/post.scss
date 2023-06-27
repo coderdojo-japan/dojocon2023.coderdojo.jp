@@ -55,3 +55,28 @@
   margin: 6px;
   padding: 4px 24px;
 }
+
+#event {
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    background-color: $main-color;
+    color: white;
+    padding: 10px;
+  }
+  h3 {
+    font-size: 1em;
+    text-decoration: underline;
+  }
+  a {
+    color: $main-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  ol {
+    li {
+      margin-bottom: 1em;
+    }
+  }
+}
