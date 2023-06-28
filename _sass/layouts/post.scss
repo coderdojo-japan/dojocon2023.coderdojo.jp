@@ -60,13 +60,19 @@
   h2 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
-    background-color: $main-color;
+    background-color: $secondary-color;
     color: white;
     padding: 10px;
+    border-radius: 12px;
   }
   h3 {
     font-size: 1em;
     text-decoration: underline;
+  }
+  ol {
+    li {
+      margin-bottom: 1em;
+    }
   }
   a {
     color: $main-color;
@@ -74,9 +80,19 @@
       text-decoration: underline;
     }
   }
-  ol {
-    li {
-      margin-bottom: 1em;
+
+  .entry {
+    text-align: center;
+    margin: 6em 0;
+    a {
+      &.condition {
+        font-size: 1.4em;
+        margin: 2em 0;
+      }
+      &.button {
+        color: white;
+        font-size: 1.6em;
+      }
     }
   }
 }
