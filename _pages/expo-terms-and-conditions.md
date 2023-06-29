@@ -1,7 +1,7 @@
 ---
 layout: condition
 title:  ニンジャ大博覧会 - 参加規約
-permalink: /expo/terms-and-condition
+permalink: /expo/terms-and-conditions
 ---
 「DojoCon Japan {{ site.year }}  ニンジャ大博覧会」（以下「本博覧会」といいます）は、DojoCon Japan実行委員会（併せて以下「主催者」といいます）が主催するニンジャ作品展示会です。
 本博覧会への応募者（以下「応募者」といいます）は、本博覧会への応募にあたって、以下の参加規約（以下「本規約」といいます）の内容を承諾していただきます。
