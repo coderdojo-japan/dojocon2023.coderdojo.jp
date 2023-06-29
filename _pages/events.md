@@ -25,7 +25,7 @@ permalink: /events
         <img src="/img/{{ site.year }}/event/{{ event.img }}" class="w-100" alt="イベント画像">
         <p>{{ event.text }}</p>
         {% if event.url %}
-        <p class="text-left"><a class="btn btn-main session_btn" href="{{ site.url }}/{{ event.url}}">参加・詳細</a></p>
+        <p class="text-left"><a class="btn btn-main session_btn" href="{{ event.url}}">参加・詳細</a></p>
         {% endif %}
       </div>
       {% endfor %}
