@@ -29,7 +29,7 @@ permalink: /events
         {% endif %}
         <p>{{ event.text }}</p>
         {% if event.url %}
-        <p class="text-left"><a class="btn btn-main session_btn" href="{{ event.url}}">参加・詳細</a></p>
+        <p class="text-left"><a class="btn btn-main" href="{{ event.url}}">参加・詳細</a></p>
         {% endif %}
       </div>
       {% endfor %}

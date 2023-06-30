@@ -298,7 +298,10 @@ table thead th {
 /* button */
 .btn-main{
     background-color: $main-color;
-    color: white;
+    color: $text-color;
+    &:hover {
+      color: $text-color;
+    }
 }
 
 .btn-secondary {
