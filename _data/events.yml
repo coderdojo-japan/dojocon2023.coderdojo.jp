@@ -5,7 +5,7 @@
 
 - title: ニンジャ大博覧会
   text: ニンジャ大博覧会は、CoderDojoに参加する子どもたち（ニンジャ）によるオンラインと現地の2箇所で開催する作品展示会です。プログラミング作品はもちろん、マインクラフト作品もOK。ぜひみんなの作品を見せてください、楽しみにまってます！
-  # img: ninja-big-expo.jpg
+  img: ninja-big-expo.jpg
   time: オンライン＆現地
   tag: 要申込み
   url: /expo/
