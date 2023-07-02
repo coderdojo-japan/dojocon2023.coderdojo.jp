@@ -22,10 +22,14 @@ permalink: /events
           <span class="badge badge-ws">{{ event.tag }}</span>
           {% endif %}
         </p>
-        <img src="img/{{ site.year }}/event/{{ event.img }}" class="w-100" alt="イベント画像">
+        {% if event.img %}
+          <img src="/img/{{ site.year }}/event/{{ event.img }}" class="w-100" alt="{{ event.title }}">
+        {% else %}
+          <img src="/img/{{ site.year }}/event/dummy.png" class="w-100" alt="{{ event.title }}">
+        {% endif %}
         <p>{{ event.text }}</p>
         {% if event.url %}
-        <p class="text-left"><a class="btn btn-main session_btn" href="{{ site.url }}/{{ event.url}}">参加・詳細</a></p>
+        <p class="text-left"><a class="btn btn-main" href="{{ event.url}}">参加・詳細</a></p>
         {% endif %}
       </div>
       {% endfor %}

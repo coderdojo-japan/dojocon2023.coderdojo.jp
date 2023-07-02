@@ -60,10 +60,10 @@
   h2 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
-    background-color: $secondary-color;
+    background-color: $main-color;
     color: white;
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 6px;
   }
   h3 {
     font-size: 1em;
@@ -96,6 +96,6 @@
       &:hover {
         text-decoration: none;
       }
-      }
+    }
   }
 }
