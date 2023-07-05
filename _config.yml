@@ -2,21 +2,25 @@
 # You can create any custom variable you would like,
 # and they will be accessible like {{ site.your_variable }}.
 
+timezone: Asia/Tokyo
 year: 2023
 title: DojoCon Japan
 subtitle: 'Be Cool'
 description: >-
-  CoderDojo コミュニティによる日本最大の祭典「DojoCon Japan」は CoderDojo 関係者を対象としたカンファレンスです。運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。
+  "DojoCon Japan"は CoderDojo コミュニティのカンファレンスイベントです。CoderDojo 関係者を対象に運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。
 url: https://dojocon2023.coderdojo.jp
-date_published: 2023年oo月xx日
+date_published: 2023年6月11日
 date_event: 2023年8月27日（日曜）
 venue: >-
-  オンライン<br><small>(セッションは <a href='https://www.youtube.com/channel/UCX3tz875ZDtU85rFkYuwl5w' style='text-decoration: underline' target='_blank' rel='noopener'>YouTube</a> でライブ配信します)</small>
+  奈良女子大学 /  記念館
+map: https://goo.gl/maps/s6SMqez8qy7aDSmN6
 price: 無料
 
 twitter:  DojoConJapan
 facebook: DojoConJapan
 email:    dojocon2023@coderdojo.jp
+contact: https://forms.gle/oMy8aA3fM8iyy8cs7
+court: 奈良地方裁判所
 
 # Build settings
 plugins:

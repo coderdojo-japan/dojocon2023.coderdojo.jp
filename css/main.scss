@@ -7,11 +7,12 @@ $navbar: 60px;
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@700&display=swap');
 
 @import 'global/variables';
-@import 'global/page';
+@import 'global/base';
+@import 'global/tablet';
+@import 'global/mobile';
 
-@import 'includes/navbar';
+
 @import 'includes/articles';
-@import 'includes/footer';
 @import 'includes/sessions';
 
 @import 'layouts/default';
@@ -22,3 +23,7 @@ $navbar: 60px;
 @import 'pages/index';
 @import 'pages/sessions';
 @import 'pages/workshop';
+
+@import 'includes/navbar';
+@import 'includes/footer';
+@import 'custom';

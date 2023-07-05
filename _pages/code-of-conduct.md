@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: condition
 title: 行動規範
 permalink: /code-of-conduct/
 ---
-
 ## 1. 目的
 DojoCon Japan は、なによりもカッコよくあるべきだと考えます。このため、私たちはいじめ、うそつき、人の時間を無駄にするなどのカッコ悪い行為がなく、クールで誰に対しても安全で快適な環境を提供できるよう尽力します。
 

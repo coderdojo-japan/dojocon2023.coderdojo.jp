@@ -1,1 +1,30 @@
 /* stylesheet for `_layouts/page.html` */
+
+// 規約ページスタイル
+#condition {
+  h2 {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+  }
+  ol {
+    li {
+      margin-top: 0.5em;
+      ol {
+        padding-left: 0.5em;
+        li {
+          list-style-type: none;
+          counter-increment: cnt;
+        }
+      }
+      ol li::before {
+        content: "(" counter(cnt) ") ";
+      }
+    }
+  }
+  a {
+    color: $main-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

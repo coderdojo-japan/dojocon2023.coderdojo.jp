@@ -1,20 +1,28 @@
 /* stylesheet for `_layouts/default.html` */
-
-#page-top a {
-  background-color: $light-blue;
-  border-radius: 35px;
-  bottom: 0;
-  color: #fff;
-  font-size: 1.5em;
-  line-height: 70px;
-  height: 70px;
-  margin: 4vw;
-  opacity: 0.6;
-  position: fixed;
-  right: 0;
-  transition: 0.3s;
-  width: 70px;
-  &:hover {
+#page-top {
+  opacity: 0;
+  visibility: hidden;
+  &.active {
     opacity: 1;
+    visibility: visible;
+  }
+  a {
+    background-color: #ccc;
+    border-radius: 35px;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 70px;
+    height: 70px;
+    margin: 4vw;
+    opacity: 0.6;
+    position: fixed;
+    right: 0;
+    transition: 0.3s;
+    width: 70px;
+    &:hover {
+      opacity: 1;
+    }
   }
 }
+
