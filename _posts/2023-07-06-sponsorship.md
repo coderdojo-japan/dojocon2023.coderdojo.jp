@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  DojoCon Japan 2023 スポンサーシップのご案内
-date: 2023-07-05T08:00:00 UTC+9
+date: 2023-07-06T08:10:00 UTC+9
 categories: news
 # thumbnail: 
 permalink: /sponsorship/
