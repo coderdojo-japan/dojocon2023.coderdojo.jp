@@ -4,7 +4,7 @@ title:  DojoCon Japan 2023 スポンサーシップのご案内
 date: 2023-07-06T08:10:00 UTC+9
 categories: news
 # thumbnail: 
-permalink: /sponsorship/
+permalink: /posts/sponsorship/
 ---
 私たちDojoCon Japan 2023実行委員会は、2023年8月27日奈良女子大学にて、「DojoCon Japan 2023」を開催いたします。
 
