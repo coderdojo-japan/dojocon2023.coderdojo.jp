@@ -99,3 +99,28 @@
     }
   }
 }
+
+.framed_button {
+  text-align: center;
+  margin: 4em 0;
+  a {
+    border-radius: 6px;
+    background-color: $main-color;
+    color: white;
+    font-size: 1.4em;
+    padding: 1em 1em;
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
+
+#news {
+  h2 {
+    font-size: 1.2em;
+  }
+}
