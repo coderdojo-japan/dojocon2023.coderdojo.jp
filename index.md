@@ -114,11 +114,15 @@ layout: default
       <div class="col-md-8 offset-md-2">
         <h2 class="text-center title-text">Countdown <br class='ignore-pc'>DojoCon Japan</h2>
         <p class="text-center caption">DojoCon Japan {{ site.year }} の内容を紹介するライブ配信です。</p>
-        <div class='comming-soon'>ただいま、準備中</div>
       </div>
-    </div>
+      {% for cd in site.data.countdown %}
+        <div class="col-md-4 p-3">
+          <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/{{ cd.id}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>{{ cd.title }}<br>{{ cd.date }} ONAIR</p>
+        </div>
+      {% endfor %}
+   </div>
   </div>
-
   <section id="contact" class="bg-main">
     <div class="section-contents container">
       <h2 class="text-center title-text">CONTACT</h2>
