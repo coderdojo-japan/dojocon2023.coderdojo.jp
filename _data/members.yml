@@ -4,6 +4,9 @@
 - name: Katz Ueno
   site: https://katzueno.com
   img: katzueno.jpg
+- name: 細谷崇
+  site: https://ht79.info/
+  img: hosoya.jpeg
 - name: 森﨑詩穂
   site: https://coderdojo-sumiyoshi.square.site/
   img: morisaki.png
@@ -25,16 +28,25 @@
 - name: 渕崎愛
   site: https://deradesign.jp/
   img: fuchizaki.jpg
+- name: 天沼倫太郎
+  site: https://coderdojo-takizawa.doorkeeper.jp/
+  img: amanuma.jpg
 - name: たくや
+  site: https://takusanda.com/gallery/#
   img: takuya.jpg
 - name: 吉川 圭太
   site: https://coderdojo-tonami.org/
   img: yoshikawa_keita.webp
+- name: Jun1
+  site: https://twitter.com/Jun1W
+  img: jun1.jpg
+- name: 石川善行
 - name: 上田そうた
 - name: 森田憲
   site: https://www.facebook.com/coderdojoinagawa/
   img: moriken314.jpg
 - name: 加藤宗一郎
+  img: soichiro-kato.PNG
 - name: さんた
   site: https://www.facebook.com/seiya.kitazawa.3/
   img: santa.jpg
@@ -44,3 +56,9 @@
 - name: そうすけ
   site: https://coderdojomizuho.com/self_introduction/pokenyaan/
   img: Sosuke.png
+- name: おさるさんの神様適当
+  site: https://twitter.com/kamisamatekitou
+  img: monkey.png
+- name: あべま
+  site: https://coderdojomizuho.com/self_introduction/abema/
+- name: たくみ
