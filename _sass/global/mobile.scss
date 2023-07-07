@@ -1,2 +1,8 @@
 @media screen and (max-width: 640px) {
+    #news {
+        &.post {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
 }
