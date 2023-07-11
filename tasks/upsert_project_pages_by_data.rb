@@ -1,34 +1,31 @@
 #!/usr/bin/env ruby
 
-require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
+# require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
 require 'yaml'
 
 # Remove existing files and re-generate them
-Dir.glob("../exhibiton_md/*.md").each { |filename| File.delete(filename) }
+Dir.glob("./_posts/*.md").each { |filename| File.delete(filename) }
 
-projects = YAML.load_file("_data/exhibition.yml")
+projects = YAML.load_file("../_data/exhibition.yml")
 projects.each_with_index do |project, index|
   # Generate individual project page by data
-  path = "../exhibitoon_md/2023-#{project["path_URL"]}.md"
+  path = "../_pages/exhibiton/2023-#{project["path_URL"]}.md"
   page = <<~PROJECT_PAGE
     ---
     layout: default
-    title: "#{project[:title]}"
-    permalink: /exhibition_md/2023-#{project["path_URL"]}
+    title: "#{project["title"]}"
+    permalink: /exhibition/#{project["path_URL"]}
     ---
-    {% assign pj = site.data.projects | where_exp: "pj", "pj.path_URL == '#{project["path_URL"]}'" | first %}
+    <h1 style="padding-top: 100px;">#{project["title"]}</h1>
+    <img class='top-img lazyload' src='../img/2023/exhibition/#{project["img"]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 400px;' />
 
-    <img class='top-img lazyload' src='../img/2023/exhibition/#{project["img"]}' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px; border-radius: 6px;' />
-
-    {{ pj.description }}
+     
     ### クリエータ {#creator}
     <p>
       #{project["creator"]}
     </p>
-
-    {% if pj.URL %}
-    <a href="pj.URL" target="_blank" rel="noopener" class="button">URL</a>
-    {% endif %}
+    <p>#{project["description"]}</p>
+    <a href="#{project["URL"]}" target="_blank" rel="noopener" class="button">URL</a>
 
     <style type="text/css">
       .prev { display: table-cell; color: white; text-align: left;   }
@@ -36,7 +33,6 @@ projects.each_with_index do |project, index|
       .next { display: table-cell; color: white; text-align: right;  }
       .nav a:link, .nav a:visited { color: white; }
     </style>
-    {% include project-navigation.html %}
   PROJECT_PAGE
 
   IO.write(path, page)
