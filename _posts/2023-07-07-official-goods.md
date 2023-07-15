@@ -3,7 +3,7 @@ layout: post
 title:  DojoCon Japan 2023公式グッズストア オープンしました
 date: 2023-07-07T23:00:00 UTC+9
 categories: news
-thumbnail: 1200x630_suzuri-news.jpg
+thumbnail: /img/2023/post/1200x630_suzuri-news.jpg
 permalink: /posts/official-goods/
 ---
 DojoCon Japan 2023公式グッズストアがオープンしました。
