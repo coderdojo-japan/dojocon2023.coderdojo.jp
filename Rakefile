@@ -1,9 +1,11 @@
 task default: 'test'
+
 # Upsert individual project page by data
 desc 'Upsert project page by project data'
 task :upsert_project_pages_by_data do
-  ruby "tasks/upsert_project_pages_by_data.rb"
+  ruby "./tasks/upsert_project_pages_by_data.rb"
 end
+
 
 # HTML Proofer helps to detect broken links.
 # https://github.com/gjtorikian/html-proofer

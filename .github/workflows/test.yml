@@ -66,3 +66,6 @@ jobs:
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir:    ./_site
+    - name: 🤖 Generate individual pages by exhibition.yml data
+      run: |
+          bundle exec rake upsert_project_pages_by_data
