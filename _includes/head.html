@@ -26,8 +26,8 @@
   {% endif %}
 
   {% if page.thumbnail %}
-  <meta name="twitter:image" content="{{ site.url }}/img/post/{{ page.thumbnail }}" />
-  <meta property="og:image"  content="{{ site.url }}/img/post/{{ page.thumbnail }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.thumbnail }}" />
+  <meta property="og:image"  content="{{ site.url }}{{ page.thumbnail }}" />
   {% else %}
   <meta name="twitter:image" content="{{ site.url }}/img/{{ site.year }}/ogp/1200x630_03_date.jpg" />
   <meta property="og:image"  content="{{ site.url }}/img/{{ site.year }}/ogp/1200x630_03_date.jpg" />
