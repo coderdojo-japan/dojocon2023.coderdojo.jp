@@ -23,9 +23,9 @@ permalink: /events
           {% endif %}
         </p>
         {% if event.img %}
-          <img src="/img/{{ site.year }}/event/{{ event.img }}" class="w-100" alt="{{ event.title }}">
+          <img src="{{ event.img }}" class="w-100" alt="{{ event.title }}">
         {% else %}
-          <img src="/img/{{ site.year }}/event/dummy.png" class="w-100" alt="{{ event.title }}">
+          <img src="/img/{{ site.year }}/dummy.png" class="w-100" alt="{{ event.title }}">
         {% endif %}
         <p>{{ event.text }}</p>
         {% if event.url %}
