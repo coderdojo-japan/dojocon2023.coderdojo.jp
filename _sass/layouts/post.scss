@@ -56,15 +56,14 @@
   padding: 4px 24px;
 }
 
-#event {
+#news, #event {
   h2 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
-    background-color: $main-color;
-    color: white;
     padding: 10px;
-    border-radius: 6px;
-  }
+    border-left: 8px solid $main-color;
+    border-bottom: 2px solid $main-color;
+}
   h3 {
     font-size: 1em;
     text-decoration: underline;
