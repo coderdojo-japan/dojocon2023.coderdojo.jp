@@ -23,15 +23,15 @@
   slides: 
   archive-link: 
 
-# - title: プログラミング教育はオワコンか！？
-#   text: 高性能な生成AIを誰でも使えるようになった今、プログラミング教育は本当にオワコンなのか、プログラミング的思考はもはや過去の遺物か。これらについて「わくプロ」や「Why！？プログラミング」でおなじみのアベ先生こと阿部和広様をお招きして徹底的に意見を交わします。
-#   tag: スピーカーセッション
-#   speaker: 阿部 和広
-#   affiliation: 青山学院大学大学院社会情報学研究科特任教授
-#   news-link: /posts/owakon/
-#   links: http://www.amazon.co.jp/-/e/B00DUV6S3E/
-#   profile-img: abe-kazuhiro.jpg
-#   profile-text: 1987年より一貫してオブジェクト指向言語Smalltalkの研究開発に従事。パソコンの父として知られSmalltalkの開発者であるアラン・ケイ博士の指導を2001年から受ける。Squeak EtoysとScratchの日本語版を担当。子供と教員向け講習会を多数開催。OLPC($100 laptop)計画にも参加。 
-#   slides: 
-#   archive-link: 
+- title: プログラミング教育はオワコンか！？
+  text: 高性能な生成AIを誰でも使えるようになった今、プログラミング教育は本当にオワコンなのか、プログラミング的思考はもはや過去の遺物か。これらについて「わくプロ」や「Why！？プログラミング」でおなじみのアベ先生こと阿部和広様をお招きして徹底的に意見を交わします。
+  tag: スピーカーセッション
+  speaker: 阿部 和広
+  affiliation: 青山学院大学大学院社会情報学研究科特任教授
+  news-link: /posts/owakon/
+  links: http://www.amazon.co.jp/-/e/B00DUV6S3E/
+  profile-img: abe-kazuhiro.jpg
+  profile-text: 1987年より一貫してオブジェクト指向言語Smalltalkの研究開発に従事。パソコンの父として知られSmalltalkの開発者であるアラン・ケイ博士の指導を2001年から受ける。Squeak EtoysとScratchの日本語版を担当。子供と教員向け講習会を多数開催。OLPC($100 laptop)計画にも参加。 
+  slides: 
+  archive-link: 
 
