@@ -22,7 +22,7 @@ permalink: /sessions
       </div>
       {% endif %}
       <p class="session-speaker-name">{{ session.speaker }} {% if session.affiliation %}（{{ session.affiliation }}）{% endif %}</p>
-      <p>{{ session.text }}</p>
+      <p>{{ session.text }}{% if session.news-link %} <a href='{{ session.news-link }}'>&gt; 詳しくはこちら</a>{% endif %}</p>
       {% if session.archive-link %}
       <p>
       	<a href="{{ session.archive-link }}" target="_blank" rel="noopener" class="btn btn-main btn-sm"><i class="fab fa-youtube"></i> YouTube で見る</a>
