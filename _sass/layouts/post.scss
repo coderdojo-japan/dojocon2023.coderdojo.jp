@@ -78,10 +78,14 @@
       margin-bottom: 1em;
     }
   }
-  a {
-    color: $main-color;
-    &:hover {
-      text-decoration: underline;
+
+  /* ボタンリンク以外の anchor のスタイルを定義 */
+  :not(.framed_button) {
+    & > a {
+      color: $main-color;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
