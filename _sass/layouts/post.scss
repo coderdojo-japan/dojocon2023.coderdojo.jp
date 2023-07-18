@@ -26,6 +26,11 @@
       max-width: 600px;
     }
   }
+  /* TODO: session 用の scss に分離する */
+  .session-post-content {
+    padding: 24px 0;
+    margin: auto;
+  }
 }
 
 .post-head {

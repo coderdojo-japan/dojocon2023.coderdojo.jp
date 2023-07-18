@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sessions
 title: SESSION
 subtitle: セッション
 thumbnail: timetable.png
