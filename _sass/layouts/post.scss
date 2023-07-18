@@ -26,6 +26,11 @@
       max-width: 600px;
     }
   }
+  /* TODO: session 用の scss に分離する */
+  .session-post-content {
+    padding: 24px 0;
+    margin: auto;
+  }
 }
 
 .post-head {
@@ -73,10 +78,14 @@
       margin-bottom: 1em;
     }
   }
-  a {
-    color: $main-color;
-    &:hover {
-      text-decoration: underline;
+
+  /* ボタンリンク以外の anchor のスタイルを定義 */
+  :not(.framed_button) {
+    & > a {
+      color: $main-color;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
