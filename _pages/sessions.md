@@ -9,7 +9,13 @@ permalink: /sessions
     {% for session in site.data.sessions %}
       {% assign profile_id = 'profile-' | append: forloop.index %}
     <div class="col-md-6 col-12 p-3" id="{{data.title}}">
+      {% if session.news-link %}
+      <a href='{{ session.news-link }}'>
+      {% endif %}
       <h4 class="ws-title">{{ session.title }}</h4>
+      {% if session.news-link %}
+      </a>
+      {% endif %}
       <p>
         {{ session.time }}
         {% if session.tag %}
@@ -18,7 +24,13 @@ permalink: /sessions
       </p>
      {% if session.profile-img %}
       <div class="my-3">
+        {% if session.news-link %}
+        <a href='{{ session.news-link }}'>
+        {% endif %}
         <img src="img/{{ site.year }}/session/{{ session.profile-img }}" class="w-100 px-5" alt="プロフィール画像">
+        {% if session.news-link %}
+        </a>
+        {% endif %}
       </div>
       {% endif %}
       <p class="session-speaker-name">{{ session.speaker }} {% if session.affiliation %}（{{ session.affiliation }}）{% endif %}</p>
