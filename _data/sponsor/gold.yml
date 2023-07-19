@@ -1,0 +1,3 @@
+# - name: 企業名
+#   logo: ロゴ画像ファイル名（/img/{{ site.year }}/sponsor/ 以下に配置）
+#   link: ロゴからのリンク先
