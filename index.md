@@ -132,6 +132,62 @@ layout: default
     </div>
   </section>
 
+<div id="sponsors">
+  <h2 class="text-center title-text">SPONSORS</h2>
+
+  {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Gold Sponsor</h3>
+      <div id="gold-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.gold %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.silver and site.data.sponsor.silver.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Sliver Sponsor</h3>
+      <div id="silver-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.silver %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.bronze and site.data.sponsor.bronze.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Bronze Sponsor</h3>
+      <div id="bronze-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.bronze %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.in-kind and site.data.sponsor.in-kind.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">In-kind Sponsor</h3>
+      <div id="in-kind-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.in-kind %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
   <section id="organizedBy" class="section-gray top-contents">
     <div class="section-contents">
       <h2 class="text-center title-text">Organized by</h2>
