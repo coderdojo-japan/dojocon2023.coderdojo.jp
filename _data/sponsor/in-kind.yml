@@ -2,9 +2,14 @@
 #   logo: ロゴ画像ファイル名（/img/{{ site.year }}/sponsor/ 以下に配置）
 #   link: ロゴからのリンク先
 
- - name: YassLab 株式会社
-   logo: yasslab.png
-   link: https://yasslab.jp/ja/
-   description: Doorkeeper スポンサーシップのご提供
+- name: YassLab 株式会社
+  logo: yasslab.png
+  link: https://yasslab.jp/ja/
+  description: Doorkeeper スポンサーシップのご提供
+
+- name: 合同会社 esa
+  logo: esa.png
+  link: https://esa.io/
+  description: ドキュメント共有サービスのご提供
 
 
