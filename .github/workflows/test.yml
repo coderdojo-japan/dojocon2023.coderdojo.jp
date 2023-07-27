@@ -69,6 +69,7 @@ jobs:
             git config --global user.email "takusandayooo@users.noreply.github.com"
             git checkout develop
             git add _pages/exhibition
+            git add Gemfile.lock
             git commit -m '🤖 Upsert project page(s) by GitHub Actions'
             # git push origin
             git push origin develop 
