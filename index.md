@@ -100,7 +100,7 @@ layout: default
         <h2 class="text-center title-text">NEWS</h2>
         <p class="caption text-center">お知らせ</p>
         <div class=" x-scroll row">
-          {% for post in site.categories.news %}
+          {% for post in site.posts %}
             {% include articles.html %}
           {% endfor %}
         </div>
@@ -131,6 +131,65 @@ layout: default
       <a href="{{ site.contact }}" class="button" target="_blank" rel="noopener">お問い合わせする</a>
     </div>
   </section>
+
+<div id="sponsors_index">
+  <h2 class="text-center title-text">SPONSORS</h2>
+
+  {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Gold Sponsor</h3>
+      <div id="gold-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.gold %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.silver and site.data.sponsor.silver.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Sliver Sponsor</h3>
+      <div id="silver-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.silver %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.bronze and site.data.sponsor.bronze.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Bronze Sponsor</h3>
+      <div id="bronze-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.bronze %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.in-kind and site.data.sponsor.in-kind.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">In-kind Sponsor</h3>
+      <div id="in-kind-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.in-kind %}
+          <div>
+            <a href="{{ sponsor.link }}" target="_blank">
+              <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+            </a>
+            <p style="margin-top:0.5em; font-size:0.8em;">{{ sponsor.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
 
   <section id="organizedBy" class="section-gray top-contents">
     <div class="section-contents">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: events
 title:  EVENT
 subtitle: イベント
 permalink: /events
