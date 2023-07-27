@@ -10,13 +10,30 @@ id: sponsors
 <p>
   DojoCon Japan 2023は、スポンサー企業のご協力により開催されています。協賛くださいました、企業のみなさまありがとうございます。
 </p>
-  {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
+{% if site.data.sponsor.platinum and site.data.sponsor.platinum.size != 0 %}
+  <div id="platinum-sponsors" class="sponsors-container">
+    <h3>Platinum Sponsor</h3>
+    <ul>
+      {% for sponsor in site.data.sponsor.platinum %}
+        <li id="{{ sponsor.id }}">
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+          <p class="name">{{ sponsor.name }}</p>
+          <p class="msg">{{ sponsor.msg }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+  </div>
+{% endif %}
+
+{% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
   <div id="gold-sponsors" class="sponsors-container">
       <h3>Gold Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.gold %}
-          <li>
-            <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}">
+          <li id="{{ sponsor.id }}">
+            <a href="{{ sponsor.link }}" target="_blank">
               <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
             <p class="name">{{ sponsor.name }}</p>
@@ -49,8 +66,8 @@ id: sponsors
       <h3>Bronze Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.bronze %}
-          <li>
-            <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}">
+          <li id="{{ sponsor.id }}">
+            <a href="{{ sponsor.link }}" target="_blank">
               <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
             <p class="name">{{ sponsor.name }}</p>
