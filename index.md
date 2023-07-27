@@ -132,7 +132,7 @@ layout: default
     </div>
   </section>
 
-<div id="sponsors">
+<div id="sponsors_index">
   <h2 class="text-center title-text">SPONSORS</h2>
 
   {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
@@ -185,7 +185,6 @@ layout: default
             </a>
             <p style="margin-top:0.5em; font-size:0.8em;">{{ sponsor.description }}</p>
           </div>
-          
         {% endfor %}
       </div>
     </div>
