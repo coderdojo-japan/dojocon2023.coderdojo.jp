@@ -481,6 +481,7 @@ $corner-radius: 30px;
       img.sponsor-logo {
         max-width: 20vw;
         transition: 0.5s;
+        object-fit: contain;
 
         &:hover {
           transform: scale(1.1);

@@ -1,0 +1,62 @@
+---
+layout: post
+title: スポンサー企業のご紹介
+date: 2023-07-27T16:00:00 UTC+9
+categories: sponsors
+# thumbnail: 
+permalink: /posts/sponsors/
+id: sponsors
+---
+<p>
+  DojoCon Japan 2023は、スポンサー企業のご協力により開催されています。協賛くださいました、企業のみなさまありがとうございます。
+</p>
+  {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
+  <div id="gold-sponsors" class="sponsors-container">
+      <h3>Gold Sponsor</h3>
+      <ul>
+        {% for sponsor in site.data.sponsor.gold %}
+          <li>
+            <a href="{{ sponsor.link }}" target="_blank">
+              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" id="{{ sponsor.id }}" />
+            </a>
+            <p class="name">{{ sponsor.name }}</p>
+            <p class="msg">{{ sponsor.msg }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.silver and site.data.sponsor.silver.size != 0 %}
+  <div id="silver-sponsors" class="sponsors-container">
+      <h3>Sliver Sponsor</h3>
+      <ul>
+        {% for sponsor in site.data.sponsor.silver %}
+          <li>
+            <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}" class="sponsors-rank” {">
+              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" id="{{ sponsor.id }}" />
+            </a>
+            <p class="name">{{ sponsor.name }}</p>
+            <p class="msg">{{ sponsor.msg }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+    </div>
+  {% endif %}
+
+  {% if site.data.sponsor.bronze and site.data.sponsor.bronze.size != 0 %}
+  <div id="bronze-sponsors" class="sponsors-container">
+      <h3>Bronze Sponsor</h3>
+      <ul>
+        {% for sponsor in site.data.sponsor.bronze %}
+          <li>
+            <a href="{{ sponsor.link }}" target="_blank">
+              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" id="{{ sponsor.id }}" />
+            </a>
+            <p class="name">{{ sponsor.name }}</p>
+            <p class="msg">{{ sponsor.msg }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+  {% endif %}
