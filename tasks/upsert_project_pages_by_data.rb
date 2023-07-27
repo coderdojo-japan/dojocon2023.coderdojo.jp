@@ -4,7 +4,8 @@
 require 'yaml'
 
 # Remove existing files and re-generate them
-Dir.glob("_posts/*.md").each { |filename| File.delete(filename) }
+# NOTE: もしファイルパスを変更して過去ファイルを消したい場面があれば使う
+#Dir.glob("_posts/exhibition/*.md").each { |filename| File.delete(filename) }
 
 projects = YAML.load_file("_data/exhibition.yml")
 projects.each_with_index do |project, index|
