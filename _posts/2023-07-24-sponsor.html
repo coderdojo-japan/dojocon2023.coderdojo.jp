@@ -15,7 +15,6 @@ id: sponsors
       <h3>Gold Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.gold %}
-          <br id="{{ sponsor.id }}">
           <li>
             <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}">
               <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
@@ -50,7 +49,6 @@ id: sponsors
       <h3>Bronze Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.bronze %}
-          <br id="{{ sponsor.id }}">
           <li>
             <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}">
               <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
