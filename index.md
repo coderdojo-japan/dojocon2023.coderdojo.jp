@@ -100,7 +100,7 @@ layout: default
         <h2 class="text-center title-text">NEWS</h2>
         <p class="caption text-center">お知らせ</p>
         <div class=" x-scroll row">
-          {% for post in site.categories.news %}
+          {% for post in site.posts %}
             {% include articles.html %}
           {% endfor %}
         </div>
