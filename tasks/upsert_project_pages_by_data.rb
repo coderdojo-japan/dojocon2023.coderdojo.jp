@@ -4,12 +4,12 @@
 require 'yaml'
 
 # Remove existing files and re-generate them
-Dir.glob("./_posts/*.md").each { |filename| File.delete(filename) }
+Dir.glob("_posts/*.md").each { |filename| File.delete(filename) }
 
-projects = YAML.load_file("../_data/exhibition.yml")
+projects = YAML.load_file("_data/exhibition.yml")
 projects.each_with_index do |project, index|
   # Generate individual project page by data
-  path = "../_pages/exhibiton/2023-#{project["path_URL"]}.md"
+  path = "./_pages/exhibition/2023-#{project["path_URL"]}.md"
   page = <<~PROJECT_PAGE
     ---
     layout: default
