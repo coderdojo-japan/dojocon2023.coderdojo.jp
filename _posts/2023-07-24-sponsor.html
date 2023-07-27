@@ -15,9 +15,9 @@ id: sponsors
       <h3>Gold Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.gold %}
-          <li>
+          <li id="{{ sponsor.id }}">
             <a href="{{ sponsor.link }}" target="_blank">
-              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" id="{{ sponsor.id }}" />
+              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
             <p class="name">{{ sponsor.name }}</p>
             <p class="msg">{{ sponsor.msg }}</p>
@@ -32,9 +32,9 @@ id: sponsors
       <h3>Sliver Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.silver %}
-          <li>
+          <li id="{{ sponsor.id }}">
             <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}" class="sponsors-rank” {">
-              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" id="{{ sponsor.id }}" />
+              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
             <p class="name">{{ sponsor.name }}</p>
             <p class="msg">{{ sponsor.msg }}</p>
@@ -49,9 +49,9 @@ id: sponsors
       <h3>Bronze Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.bronze %}
-          <li>
+          <li id="{{ sponsor.id }}">
             <a href="{{ sponsor.link }}" target="_blank">
-              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" id="{{ sponsor.id }}" />
+              <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
             <p class="name">{{ sponsor.name }}</p>
             <p class="msg">{{ sponsor.msg }}</p>
