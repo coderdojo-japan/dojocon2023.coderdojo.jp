@@ -32,8 +32,8 @@ id: sponsors
       <h3>Sliver Sponsor</h3>
       <ul>
         {% for sponsor in site.data.sponsor.silver %}
-          <li>
-            <a href="{{ sponsor.link }}" target="_blank" id="{{ sponsor.id }}">
+          <li id="{{ sponsor.id }}">
+            <a href="{{ sponsor.link }}" target="_blank">
               <img src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
             <p class="name">{{ sponsor.name }}</p>
