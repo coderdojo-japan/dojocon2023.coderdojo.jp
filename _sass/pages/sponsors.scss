@@ -16,11 +16,7 @@
       li {
         list-style: none;
         display: block;
-        // display: flex;
-        // flex-wrap: wrap;
-        // flex-direction: column;
-        // justify-content: space-between;
-        // align-items: flex-start;
+        padding-top: 100px;
         width: 50%;
         @media screen and (max-width: 640px) {
           width: 100%;
@@ -34,6 +30,8 @@
           padding-left: 1em;
           padding-right: 1em;
           text-align: center;
+          padding-top: 100px;
+          margin-top:-100px;
           @media screen and (max-width: 640px) {
             padding: 0;
           }
