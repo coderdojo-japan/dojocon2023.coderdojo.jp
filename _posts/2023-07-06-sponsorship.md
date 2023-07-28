@@ -17,6 +17,7 @@ DojoCon（CoderDojo Conference）とは、CoderDojo発祥の地、アイルラ�
 
 スポンサーシップの詳細ならびに連絡先につきましては、以下の「DojoCon Japan 2023 スポンサーシップのご案内」ご参考ください。
 
-<div class='framed_button'>
-    <a href='https://drive.google.com/file/d/1yYo67O6y0H6ijJgmfZ9Rido4Hc_IB2nG/view' target='_blank'>スポンサーシップのご案内</a>
+<div class='entry'>
+    <a href='https://drive.google.com/file/d/1yYo67O6y0H6ijJgmfZ9Rido4Hc_IB2nG/view' class='condition' target="_blank">＜　スポンサーシップのご案内　＞</a>
+    <a href='https://forms.gle/XLCdWjRDSrLuvcRK7' class="button" style='margin-top:1em;' target='_blank'>スポンサー申し込み</a>
 </div>
