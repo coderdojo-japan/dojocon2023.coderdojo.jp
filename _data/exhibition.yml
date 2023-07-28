@@ -1,3 +1,13 @@
+# - title: 作品のタイトル
+#   text: 作品の説明~~~~
+#   tag: タグ *選択肢にあるもの
+#   creator: 作成者
+#   affiliation: coderdojo *複数ある場合は連結
+#   img: 写真URL *注意拡張子は絶対に小文字で!!
+#   description: 参考・参照元、工夫したところ...
+#   URL: 作品のURL
+#   path_URL: 個々のサイトのパーマリンクに用いるURL、連番でお願いします!!
+
 - title: Scratchで~
   text: 作品の説明~~~~
   tag: Scratch（ゲーム、アニメーションなど）
