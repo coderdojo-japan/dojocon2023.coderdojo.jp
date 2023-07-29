@@ -123,10 +123,14 @@ $ bundle exec rake test
 
 ## :octocat: 関連リポジトリ
 
+- [coderdojo-japan/dojocon2023.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp)
+- :memo: 2022年は [WordPress で構築](https://dojocon2022.coderdojo.jp/)されているため GitHub リポジトリは無し
 - [coderdojo-japan/dojocon2021.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp)
 - [coderdojo-japan/dojocon2020.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2020.coderdojo.jp)
 - [coderdojo-japan/dojocon2019.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp)
 - [coderdojo-japan/dojocon2018.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp)
+- [dojocon-japan/dojocon2017.cderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
+- [dojocon-japan/dojocon2016.cderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
 
 <br>
 
