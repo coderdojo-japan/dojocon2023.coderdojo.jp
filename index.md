@@ -7,23 +7,23 @@ layout: default
   </div>
   <div class='information'>
     <div class="theme">Be Cool</div>
-    <img src="/img/2023/logo_640x160.svg">
+    <img src="/img/2023/logo_640x160.svg" alt='Cover Photo'>
     <div class="event-date-and-location">
       <p>2023.8.27 Sun<br>at 奈良女子大学 Nara Women's University</p>
     </div>
   </div>
   <div class="character">
-    <img src="/img/2023/mv-fumanara.png">
+    <img src="/img/2023/mv-fumanara.png" alt='Icon Character FUMA Nara'>
   </div>
 </div>
 
 
-<img src="/img/2023/deco.svg">
+<img src="/img/2023/deco.svg" alt='Transition from Cover to Contents'>
 <div id='colored_zone'>
   <h2 class="title-welcome">WELCOME TO</h2>
   <div></div>
   <div class='dojocon-image'>
-    <img src="/img/2023/52554972726_b2da260763_o.jpg">
+    <img src="/img/2023/52554972726_b2da260763_o.jpg" alt='DojoCon Japan 2022 の様子（写真）'>
   </div>
   <div class="about-dojocon">
     <div class='short'>
@@ -47,7 +47,7 @@ layout: default
     </div>
   </div>
   <div class='coderdojo-logo'>
-    <img src="/img/2023/coderdojo_logo.jpg">
+    <img src="/img/2023/coderdojo_logo.jpg" alt='CoderDojo の公式ロゴ画像'>
   </div>
   <div class='spacing2'></div>
   <div class='about-dojocon-this-year'>
@@ -76,7 +76,7 @@ layout: default
         <p class="about-title">場所</p>
         <p class="about-text">{{ site.venue }} （<a href='{{ site.map }}' target='blank'>Google Maps</a> )</p>
         <div class='map'>
-          <img src='/img/{{ site.year }}/top/map.png'>
+          <img src='/img/{{ site.year }}/top/map.png' alt='最寄駅から会場へのアクセス方法'>
         </div>
       </div>
       <div class="col-md-8 offset-md-2">
@@ -98,7 +98,7 @@ layout: default
 
   <div class="container-fruid">
     <section id="news" class="section-gray">
-      <img src="/img/2023/deco.svg">
+      <img src="/img/2023/deco.svg" alt='Transition from Contents to News'>
       <div class="section-contents">
         <h2 class="text-center title-text">NEWS</h2>
         <p class="caption text-center">お知らせ</p>
