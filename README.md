@@ -76,6 +76,9 @@ $ docker-compose up
 
 ### C. Ruby をインストールして構築する方法
 
+エラーなどで困ったら [Rails Girls インストール・レシピ](https://railsgirls.jp/install)を見るのがオススメです。  
+Ruby がインストールできれば十分で、 **Rails のインストールは不要** です。
+
 ```shell
 # macOS の場合: Homebrew ( https://brew.sh/index_ja ) 経由がオススメ
 $ brew install rbenv ruby-build
@@ -123,10 +126,14 @@ $ bundle exec rake test
 
 ## :octocat: 関連リポジトリ
 
+- [coderdojo-japan/dojocon2023.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp)
+- :memo: 2022年は [WordPress で構築](https://dojocon2022.coderdojo.jp/)されているため GitHub リポジトリは無し
 - [coderdojo-japan/dojocon2021.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2021.coderdojo.jp)
 - [coderdojo-japan/dojocon2020.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2020.coderdojo.jp)
 - [coderdojo-japan/dojocon2019.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp)
 - [coderdojo-japan/dojocon2018.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp)
+- [dojocon-japan/dojocon2017.cderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
+- [dojocon-japan/dojocon2016.cderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
 
 <br>
 
