@@ -102,12 +102,18 @@ layout: default
       <div class="section-contents">
         <h2 class="text-center title-text">NEWS</h2>
         <p class="caption text-center">お知らせ</p>
-        <div class=" x-scroll row">
-          {% for post in site.posts %}
+        <div class="row mx-2 mx-md-0">
+          {% for post in site.posts limit:3 %}
             {% include articles.html %}
           {% endfor %}
         </div>
       </div>
+      <a href="/news"
+        class="nav-item nav-link active link_button mt-4"
+        style="padding-left:30px;padding-right: 30px;color:white;font-weight: normal;"
+        >
+        もっと見る
+      </a>
     </section>
   </div>
 
