@@ -76,6 +76,9 @@ $ docker-compose up
 
 ### C. Ruby をインストールして構築する方法
 
+エラーなどで困ったら [Rails Girls インストール・レシピ](https://railsgirls.jp/install)を見るのがオススメです。
+Ruby がインストールできれば十分で、Rails をインストールする必要はありません。
+
 ```shell
 # macOS の場合: Homebrew ( https://brew.sh/index_ja ) 経由がオススメ
 $ brew install rbenv ruby-build
