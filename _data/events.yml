@@ -16,3 +16,17 @@
   time: 12:15-16:30
   tag: 申し込み不要
   url: /coderdojo-yatai/
+
+- title: メンター向けtoioワークショップ
+  text: toioを使ったロボットプログラミングワークショップの実践をCoderDojoのメンター向けに実施します（詳細・申し込みはもう少しお待ちください）。
+  # img: /img/2023/event/ninja-big-expo.jpg
+  time: 13:20-14:50
+  tag: 要申し込み
+  # url: /coderdojo-yatai/
+
+- title: メンター向けHackforPlayワークショップ
+  text: HackforPlayを使ったワークショップの実践をCoderDojoのメンター向けに実施します（詳細・申し込みはもう少しお待ちください）。
+  # img: /img/2023/event/ninja-big-expo.jpg
+  time: 15:00-16:30
+  tag: 要申し込み
+  # url: /coderdojo-yatai/
