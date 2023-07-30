@@ -64,6 +64,7 @@
 - name: 山口秀帝
   img: Yamaguchi1.jpg
 - name: 鉄道パークR
+  img: tpr.png
 - name: れいにゃん
   img: reinyan.png
 - name: 佐原慎也
@@ -92,3 +93,4 @@
 - name: たくみ
 - name: こと
 - name: とうま
+  img: touma.jpg
