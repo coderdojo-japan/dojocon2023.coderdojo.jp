@@ -1,7 +1,7 @@
 ---
 layout: post
 title: みんなのセッションに参加しよう
-date: 2023-07-25T6:00:00 UTC+9
+date: 2023-07-30T20:00:00 UTC+9
 categories: news
 # thumbnail: 
 permalink: /posts/minna-no-session/
