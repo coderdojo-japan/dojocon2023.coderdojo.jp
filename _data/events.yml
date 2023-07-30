@@ -9,3 +9,10 @@
   time: オンライン＆現地
   tag: 要申込み
   url: /expo/
+
+- title: CoderDojo屋台にようこそ！
+  text: このワークショップでは、デジタル物作りの体験を提供します。CoderDojoに参加する子供達が主催です。また出展者の子供達と交流する機会があるので、物作りを楽しむ子供達の世界を垣間見ることができます。デジタル物作りに興味がある全ての子供と保護者が対象です。
+  # img: /img/2023/event/ninja-big-expo.jpg
+  time: 12:15-16:30
+  tag: 申し込み不要
+  url: /coderdojo-yatai/
