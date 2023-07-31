@@ -20,7 +20,9 @@ projects.each_with_index do |project, index|
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project["title"]}</h1>
     {% if "#{project["tag"]}" contains "Scratch（ゲーム、アニメーションなど）" %}
     {% if "#{project["URL"]}" contains "https://scratch.mit.edu/projects/" %}
-    <iframe src="#{project["URL"]}embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <div class="scratch-wrapper">
+    <iframe src="#{project["URL"]}embed" allowtransparency="true" width="542" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
     {%else%}
     <img class='top-img lazyload' src='../img/2023/exhibition/#{project["img"]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 400px;' />    
     {% endif %}
@@ -49,6 +51,24 @@ projects.each_with_index do |project, index|
       .box{width:450px; margin: 0 auto}
       .box h5{text-align: left;}
       .air{margin-bottom:60px;}
+
+      /* scratch wrapper */
+      @media screen and (max-width: 570px){
+        div.scratch-wrapper > iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        div.scratch-wrapper {
+          position: relative;
+          padding-bottom: 79%;
+          height: 0;
+          overflow: hidden;
+          margin: 10px 20px;
+        }
+      }
     </style>
   PROJECT_PAGE
 
