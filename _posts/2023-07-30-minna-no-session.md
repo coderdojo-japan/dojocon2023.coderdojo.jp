@@ -14,6 +14,13 @@ DojoCon Japan 2023ではCoderDojoに参加するみなさんが中心のセッ�
 
 各セッションは、各地域のチャンピオンが進行役を務めますが、進行役がなにか答えを持っているわけではありません。セッションを通して聴いたこと、感じたことの中からそれぞれの答えを見つけてください。そして、それらがご自身もしくはCoderDojoでの活動の中で活かせるもになれば嬉しいです。
 
+<div style="margin: 3em auto;">
+    <img src="/img/2023/session/minnnano-session-image.png" alt="みんなのセッションのイメージ" style="margin-bottom: 1em; max-width:none;">
+    <p style=' text-align:center; font-weight:bold'>実行委員長の若林がが描いたみんなのセッションのイメージ</p>
+    <p style=' text-align:center;'>話に参加する人、遠巻きに聞いている人、どんなスタンスでの参加も歓迎です。<br>お気軽に覗きにきてください。
+    </p>
+</div>
+
 ### **みんなのセッションについて**
 - 各時間帯で2つのテーマでのセッションが並行して進められます。
 - みんなのセッションは事前申込制ではありません。
