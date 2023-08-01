@@ -19,6 +19,24 @@
   .box{width:450px; margin: 0 auto}
   .box h5{text-align: left;}
   .air{margin-bottom:60px;}
+
+  /* scratch wrapper */
+  @media screen and (max-width: 570px){
+    div.scratch-wrapper > iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    div.scratch-wrapper {
+      position: relative;
+      padding-bottom: 79%;
+      height: 0;
+      overflow: hidden;
+      margin: 10px 20px;
+    }
+  }
 </style> <div id="page-top"><a href="#top"><img src="/img/svg/up.svg" alt="Up" width="24px"/></a></div> <footer> <nav class="share"> <a href="https://www.facebook.com/share.php?u=https://dojocon2023.coderdojo.jp" target="_blank" class="share-facebook text-white" rel="noopener"><i class="fab fa-facebook-square"></i> Facebook でシェア</a> <a href="https://twitter.com/share?url=https://dojocon2023.coderdojo.jp/exhibition/2&text=DojoCon Japan - Pythonで~&hashtags=DojoConJapan,coderdojo&via=&related=" target="_blank" class="share-twitter text-white" rel="noopener"><i class="fab fa-twitter-square"></i> Twitter でシェア</a> <a href="https://social-plugins.line.me/lineit/share?url=https://dojocon2023.coderdojo.jp/exhibition/2" class="share-line text-white"><i class="fab fa-line"></i> LINE でシェア</a> </nav> <nav class="footer-menu"> <ul class="footer-menu-list"> <li><a href="/code-of-conduct">行動規範</a></li> <li><a href="/privacy">プライバシー・ポリシー</a></li> <li><a href="https://www.facebook.com/DojoConJapan" target="_blank" rel="noopener">Facebook</a></li> <li><a href="https://twitter.com/DojoConJapan" target="_blank" rel="noopener">Twitter</a></li> </ul> </nav> <p class="copyright">&copy; DojoCon Japan 2023 実行委員会</p> </footer> <script>
       window.onload = function() {
         var agent = window.navigator.userAgent.toLowerCase();
