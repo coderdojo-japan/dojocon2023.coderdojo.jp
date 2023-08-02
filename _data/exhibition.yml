@@ -7,41 +7,12 @@
 #   description: 参考・参照元、工夫したところ...
 #   URL: 作品のURL
 #   path_URL: 個々のサイトのパーマリンクに用いるURL、連番でお願いします!!
-
-- title: Scratchで~
-  text: 作品の説明~~~~
-  tag: Scratch（ゲーム、アニメーションなど）
-  creator: たくや
-  affiliation: coderdojo~
-  img: test.jpg
-  description: 参考・参照元、工夫したところ...
-  URL: https://scratch.mit.edu/projects/863232799/
+- title: コーディングで マレーシアを探索しよう！
+  text: 自分が見た景色や模様で、きれいだなと思ったものをJavaScript (p5.js) を使って表現したいと思っています。
+  tag: Webサイト（HTML/CSS、JavaScript、Pythonなど）
+  creator: Lily
+  affiliation: CoderDojo 前橋、CoderDojo 瑞穂
+  img: 1.jpg
+  description: マレーシアのペナン島にある世界遺産のジョージタウンの模様や景色を参考にしています。
+  URL: https://www.canva.com/design/DAFigu5zJnU/idy37rTovKKAyFa6E4g39A/watch?utm_content=DAFigu5zJnU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
   path_URL: 1
-  
-- title: Pythonで~
-  text: 作品の説明~~~~
-  tag: Scratch以外の言語による作品
-  creator: たくや
-  affiliation: coderdojo~
-  img: test.jpg
-  description: 参考・参照元、工夫したところ...
-  URL: https://makenew.panasonic.jp/magazine/articles/045/
-  path_URL: 2
-- title: Pythonで~
-  text: 作品の説明~~~~
-  tag: Scratch以外の言語による作品
-  creator: たくや
-  affiliation: coderdojo~
-  img: test.jpg
-  description: 参考・参照元、工夫したところ...
-  URL: https://makenew.panasonic.jp/magazine/articles/045/
-  path_URL: 3
-- title: Pythonで~
-  text: 作品の説明~~~~
-  tag: Scratch以外の言語による作品
-  creator: たくや
-  affiliation: coderdojo~
-  img: test.jpg
-  description: 参考・参照元、工夫したところ...
-  URL: https://makenew.panasonic.jp/magazine/articles/045/
-  path_URL: 4

@@ -39,7 +39,6 @@ projects.each_with_index do |project, index|
       <p>#{project["description"]}</p>
     </div>
 
-
     <a href="#{project["URL"]}" target="_blank" rel="noopener" class="button air">作品URL</a>
     
     <style type="text/css">
@@ -48,7 +47,7 @@ projects.each_with_index do |project, index|
       .next { display: table-cell; color: white; text-align: right;  }
       .nav a:link, .nav a:visited { color: white; }
       iframe{margin: 0 auto}
-      .box{width:450px; margin: 0 auto}
+      .box{width:60%; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
       .air{margin-bottom:60px;}
 
