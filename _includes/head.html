@@ -39,9 +39,9 @@
   <meta property="og:type" content="website" />
   {% endif %}
 
-  <meta property="og:description"  content="{{ site.description | strip_html }}" />
-  <meta name="description"         content="{{ site.description | strip_html }}" />
-  <meta name="twitter:description" content="{{ site.description | strip_html }}" />
+  <meta property="og:description"  content="{{ site.description | strip_html | escape }}" />
+  <meta name="description"         content="{{ site.description | strip_html | escape }}" />
+  <meta name="twitter:description" content="{{ site.description | strip_html | escape }}" />
 
   <meta property="fb:app_id" content="1750803431730303" />
 
