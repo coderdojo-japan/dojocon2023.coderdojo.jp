@@ -16,7 +16,7 @@ DojoCon Japan 2023ではCoderDojoに参加するみなさんが中心のセッ�
 
 <div style="margin: 3em auto;">
     <img src="/img/2023/session/minnnano-session-image.png" alt="みんなのセッションのイメージ" style="margin-bottom: 1em; max-width:none;">
-    <p style=' text-align:center; font-weight:bold'>実行委員長の若林がが描いたみんなのセッションのイメージ</p>
+    <p style=' text-align:center; font-weight:bold'>実行委員長の若林が描いたみんなのセッションのイメージ</p>
     <p style=' text-align:center;'>話に参加する人、遠巻きに聞いている人、どんなスタンスでの参加も歓迎です。<br>お気軽にのぞきにきてください。
     </p>
 </div>
