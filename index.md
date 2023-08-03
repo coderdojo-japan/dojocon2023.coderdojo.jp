@@ -144,6 +144,19 @@ layout: default
 <div id="sponsors_index">
   <h2 class="text-center title-text">SPONSORS</h2>
 
+  {% if site.data.sponsor.platinum and site.data.sponsor.platinum.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Platinum Sponsor</h3>
+      <div id="platinum-sponsors" class="sponsor-logo-container">
+        {% for sponsor in site.data.sponsor.platinum %}
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
   {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Gold Sponsor</h3>
