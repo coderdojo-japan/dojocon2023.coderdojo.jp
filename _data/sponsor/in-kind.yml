@@ -21,3 +21,14 @@
   link: https://www.stellalink.co.jp/
   description: 会場ネットワークのご提供
 
+- id: paloaltonetworks
+  name: パロアルトネットワークス株式会社
+  logo: paloaltonetworks.webp
+  link: https://www.paloaltonetworks.jp/
+  description: サイバーセキュリティマンガ（会場配布）のご提供
+
+# - id: make
+#   name: Make:
+#   logo: paloaltonetworks.webp
+#   link: https://www.paloaltonetworks.jp/
+#   description: 書籍のご提供
