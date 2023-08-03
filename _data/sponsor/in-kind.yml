@@ -27,8 +27,8 @@
   link: https://www.paloaltonetworks.jp/
   description: サイバーセキュリティマンガ（会場配布）のご提供
 
-# - id: make
-#   name: Make:
-#   logo: paloaltonetworks.webp
-#   link: https://www.paloaltonetworks.jp/
-#   description: 書籍のご提供
+- id: make
+  name: Make
+  logo: make_logo_rgb_trimed.jpg
+  link: https://makezine.jp/
+  description: 書籍のご提供
