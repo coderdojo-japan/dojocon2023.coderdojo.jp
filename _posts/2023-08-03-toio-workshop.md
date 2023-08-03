@@ -3,7 +3,7 @@ layout: post
 title: CoderDojoでロボットプログラミング<br>～toioを例にロボット＆工作系活動のコツを共有します！～
 date: 2023-08-03T08:00:00 UTC+9
 categories: news
-# thumbnail: 
+thumbnail: /img/2023/event/toio-workshop.png
 permalink: /toio-workshop/
 ---
 ![](/img/2023/event/toio-workshop2.jpg)
