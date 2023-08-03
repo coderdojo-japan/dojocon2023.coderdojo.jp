@@ -6,6 +6,8 @@ categories: news
 # thumbnail: 
 permalink: /toio-workshop/
 ---
+![](/img/2023/event/toio-workshop2.jpg)
+
 CoderDojoのメンターのみなさんにロボットプログラミングや工作系活動・ワークショップのコツを実際にtoioを触りながら共有します。
 
 特に準備片付けや物理的な機材ならではの課題と対策なども実機を交えて紹介。toioだけでなくmicro:bitなども含めたハードウェアを使ったワークショップで悩んでいる方や、これからロボットを使ってみたい、CoderDojoでロボコンに参加してみたいという方にもおススメです。
@@ -55,6 +57,5 @@ CoderDojoのメンターのみなさんにロボットプログラミングや�
 <div class='framed_button'>
     <a href='https://dojocon-japan.doorkeeper.jp/events/160596' target='_blank'>参加申し込みはこちら</a>
 </div>
-
 
 
