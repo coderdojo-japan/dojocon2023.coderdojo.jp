@@ -470,8 +470,14 @@ $corner-radius: 30px;
 }
 
 #sponsors_index {
-  margin: 2em 0 6em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em auto;
+  max-width: 1000px;
+
   .sponsors-container {
+    margin-top: 2em;
     .sponsor-logo-container {
       display: flex;
       flex-wrap: wrap;
@@ -479,7 +485,6 @@ $corner-radius: 30px;
       align-items: center;
 
       img.sponsor-logo {
-        max-width: 20vw;
         transition: 0.5s;
         object-fit: contain;
 
@@ -488,6 +493,53 @@ $corner-radius: 30px;
           opacity: 0.8;
         }
       }
+
+      #platinum-sponsors > a {
+        img.sponsor-logo {
+          margin: 0.5em 0;
+          max-width: 85%;
+        }
+      }
+
+      #gold-sponsors > a {
+        img.sponsor-logo {
+          margin: 0.2em 0;
+          max-width: 60%;
+        }
+      }
+
+      #silver-sponsors > a {
+        img.sponsor-logo {
+          margin: 0 1em;
+          max-width: 40%;
+        }
+      }
+
+      #bronze-sponsors > a {
+        img.sponsor-logo {
+          margin: 0.8em 0.5em;
+          max-width: 30%;
+        }
+      }
+
+      #in-kind-sponsors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        div {
+          margin: 0.8em 0.5em;
+          max-width: 30%;
+
+          img.sponsor-logo {
+            max-width: 90%;
+          }
+        }
+      }
     }
+  }
+
+  @media screen and (max-width: 640px) {
+    /* sponsor style for mobile */
   }
 }

@@ -147,12 +147,14 @@ layout: default
   {% if site.data.sponsor.platinum and site.data.sponsor.platinum.size != 0 %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Platinum Sponsor</h3>
-      <div id="platinum-sponsors" class="sponsor-logo-container">
+      <div class="sponsor-logo-container">
+        <div id="platinum-sponsors">
         {% for sponsor in site.data.sponsor.platinum %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
         {% endfor %}
+        </div>
       </div>
     </div>
   {% endif %}
@@ -160,12 +162,14 @@ layout: default
   {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Gold Sponsor</h3>
-      <div id="gold-sponsors" class="sponsor-logo-container">
+      <div class="sponsor-logo-container">
+        <div id="gold-sponsors">
         {% for sponsor in site.data.sponsor.gold %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
         {% endfor %}
+        </div>
       </div>
     </div>
   {% endif %}
@@ -173,12 +177,14 @@ layout: default
   {% if site.data.sponsor.silver and site.data.sponsor.silver.size != 0 %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Sliver Sponsor</h3>
-      <div id="silver-sponsors" class="sponsor-logo-container">
+      <div class="sponsor-logo-container">
+        <div id="silver-sponsors">
         {% for sponsor in site.data.sponsor.silver %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
         {% endfor %}
+        </div>
       </div>
     </div>
   {% endif %}
@@ -186,12 +192,14 @@ layout: default
   {% if site.data.sponsor.bronze and site.data.sponsor.bronze.size != 0 %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Bronze Sponsor</h3>
-      <div id="bronze-sponsors" class="sponsor-logo-container">
+      <div class="sponsor-logo-container">
+        <div id="bronze-sponsors">
         {% for sponsor in site.data.sponsor.bronze %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
         {% endfor %}
+        </div>
       </div>
     </div>
   {% endif %}
@@ -199,7 +207,8 @@ layout: default
   {% if site.data.sponsor.in-kind and site.data.sponsor.in-kind.size != 0 %}
     <div class="sponsors-container">
       <h3 class="text-center caption">In-kind Sponsor</h3>
-      <div id="in-kind-sponsors" class="sponsor-logo-container">
+      <div class="sponsor-logo-container">
+        <div id="in-kind-sponsors">
         {% for sponsor in site.data.sponsor.in-kind %}
           <div>
             <a href="{{ sponsor.link }}" target="_blank">
@@ -208,6 +217,7 @@ layout: default
             <p style="margin-top:0.5em; font-size:0.8em;">{{ sponsor.description }}</p>
           </div>
         {% endfor %}
+        </div>
       </div>
     </div>
   {% endif %}
