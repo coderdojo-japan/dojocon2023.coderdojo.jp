@@ -229,7 +229,13 @@ layout: default
         <div id="individual-sponsors">
         {% for sponsor in site.data.sponsor.individual %}
           <div class="individual-sponsor-name">
-            <a href="{{ sponsor.link }}" target="_blank">{{ sponsor.name }}</a>
+            {% if sponsor.link %}
+            <a href="{{ sponsor.link }}" target="_blank">
+            {% endif %}
+              {{ sponsor.name }}
+            {% if sponsor.link %}
+            </a>
+            {% endif %}
           </div>
         {% endfor %}
         </div>
