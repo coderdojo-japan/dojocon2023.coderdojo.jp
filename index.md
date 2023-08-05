@@ -221,6 +221,22 @@ layout: default
       </div>
     </div>
   {% endif %}
+
+  {% if site.data.sponsor.individual and site.data.sponsor.individual.size != 0 %}
+    <div class="sponsors-container">
+      <h3 class="text-center caption">Individual Sponsor</h3>
+      <div class="sponsor-logo-container">
+        <div id="individual-sponsors">
+        {% for sponsor in site.data.sponsor.individual %}
+          <div class="individual-sponsor-name">
+            <a href="{{ sponsor.link }}" target="_blank">{{ sponsor.name }}</a>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
 </div>
 
   <section id="organizedBy" class="section-gray top-contents">
