@@ -470,8 +470,14 @@ $corner-radius: 30px;
 }
 
 #sponsors_index {
-  margin: 2em 0 6em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em auto;
+  max-width: 1000px;
+
   .sponsors-container {
+    margin-top: 2em;
     .sponsor-logo-container {
       display: flex;
       flex-wrap: wrap;
@@ -479,13 +485,89 @@ $corner-radius: 30px;
       align-items: center;
 
       img.sponsor-logo {
-        max-width: 20vw;
         transition: 0.5s;
         object-fit: contain;
 
         &:hover {
           transform: scale(1.1);
           opacity: 0.8;
+        }
+      }
+
+      #platinum-sponsors > a {
+        img.sponsor-logo {
+          margin: 0.5em 0;
+          max-width: 85%;
+        }
+      }
+
+      #gold-sponsors > a {
+        img.sponsor-logo {
+          margin: 0.2em 0;
+          max-width: 60%;
+
+          @media screen and (max-width: 640px) {
+            max-width: 65%;
+          }
+        }
+      }
+
+      #silver-sponsors > a {
+        img.sponsor-logo {
+          margin: 0 1em;
+          max-width: 40%;
+
+          @media screen and (max-width: 640px) {
+            margin: 0 0.6em;
+            max-width: 42%;
+          }
+        }
+      }
+
+      #bronze-sponsors > a {
+        img.sponsor-logo {
+          margin: 0.8em 0.5em;
+          max-width: 30%;
+
+          @media screen and (max-width: 640px) {
+            margin: 0.4em 1em;
+            max-width: 33%;
+          }
+        }
+      }
+
+      #in-kind-sponsors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        div {
+          margin: 0.8em 0.5em;
+          max-width: 30%;
+
+          img.sponsor-logo {
+            max-width: 90%;
+          }
+        }
+      }
+
+      #individual-sponsors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        div.individual-sponsor-name {
+          margin: 1em 2em;
+
+          a {
+            font-size: 1.5rem;
+
+            &:hover {
+              opacity: 0.8;
+              color: var(--gray-dark);
+              text-decoration: none;
+            }
+          }
         }
       }
     }
