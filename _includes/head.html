@@ -16,12 +16,15 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <meta property="fb:app_id" content="1750803431730303" />
   <meta name="twitter:card"  content="summary_large_image" />
   <meta name="twitter:site"  content="@DojoConJapan" />
-  <meta property="og:url"    content="{{ site.url }}{{ page.url }}" />
   {% if page.title %}
+  <meta name="twitter:title" content="{{ page.title | strip_html }} | {{ site.title }} {{ site.year }}" />
   <meta property="og:title"  content="{{ page.title | strip_html }} | {{ site.title }} {{ site.year }}" />
   {% else %}
+  <meta name="twitter:title" content="{{ site.title }} {{ site.year }} | {{ site.subtitle }}" />
   <meta property="og:title"  content="{{ site.title }} {{ site.year }} | {{ site.subtitle }}" />
   {% endif %}
 
@@ -39,11 +42,10 @@
   <meta property="og:type" content="website" />
   {% endif %}
 
+  <meta property="og:url"          content="{{ site.url }}{{ page.url }}" />
   <meta property="og:description"  content="{{ site.description | strip_html | escape }}" />
   <meta name="description"         content="{{ site.description | strip_html | escape }}" />
   <meta name="twitter:description" content="{{ site.description | strip_html | escape }}" />
-
-  <meta property="fb:app_id" content="1750803431730303" />
 
   {% if jekyll.environment == 'production' %}
   {% include googleanalytics.html %}
