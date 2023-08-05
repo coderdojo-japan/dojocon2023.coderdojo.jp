@@ -505,6 +505,10 @@ $corner-radius: 30px;
         img.sponsor-logo {
           margin: 0.2em 0;
           max-width: 60%;
+
+          @media screen and (max-width: 640px) {
+            max-width: 65%;
+          }
         }
       }
 
@@ -512,6 +516,11 @@ $corner-radius: 30px;
         img.sponsor-logo {
           margin: 0 1em;
           max-width: 40%;
+
+          @media screen and (max-width: 640px) {
+            margin: 0 0.6em;
+            max-width: 42%;
+          }
         }
       }
 
@@ -519,6 +528,11 @@ $corner-radius: 30px;
         img.sponsor-logo {
           margin: 0.8em 0.5em;
           max-width: 30%;
+
+          @media screen and (max-width: 640px) {
+            margin: 0.4em 1em;
+            max-width: 33%;
+          }
         }
       }
 
@@ -537,9 +551,5 @@ $corner-radius: 30px;
         }
       }
     }
-  }
-
-  @media screen and (max-width: 640px) {
-    /* sponsor style for mobile */
   }
 }
