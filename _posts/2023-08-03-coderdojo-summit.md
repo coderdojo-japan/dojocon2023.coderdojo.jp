@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CoderDojoサミット〜全国のチャンピオンに会おう〜
-date: 2023-08-06T08:00:00 UTC+9
+date: 2023-08-07T07:00:00 UTC+9
 categories: news
 thumbnail: /img/2023/event/coderdojo-summit.png
 permalink: /coderdojo-summit/
