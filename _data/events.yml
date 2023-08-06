@@ -30,3 +30,10 @@
   time: 15:00-16:30
   tag: 要申し込み
   # url: /coderdojo-yatai/
+
+- title: CoderDojoサミット
+  text: 最近CoderDojoの数も増えてきて、どこどこのDojoの人と話してみたいのだけどどんな人なんだろう？新しいチャンピオンの方はどんな方なんだろう、そもそもどんなDojoの人が来ているんだろうと思うこともあるのではないでしょうか。DojoCon Japan 2023は、日本中からCoderDojoのチャンピオンが集まるせっかくの機会なので、顔と名前を覚えてもらって当日の交流を促進しようという企画「CoderDojoサミット」を実施します。
+  img: /img/2023/event/coderdojo-summit.png
+  time: 12:15-13:05
+  tag: 要申し込み
+  url: /coderdojo-summit/
