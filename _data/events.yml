@@ -3,12 +3,12 @@
 #   img:
 #   url:
 
-# - title: CoderDojoサミット
-#   text: 最近CoderDojoの数も増えてきて、どこどこのDojoの人と話してみたいのだけどどんな人なんだろう？新しいチャンピオンの方はどんな方なんだろう、そもそもどんなDojoの人が来ているんだろうと思うこともあるのではないでしょうか。DojoCon Japan 2023は、日本中からCoderDojoのチャンピオンが集まるせっかくの機会なので、顔と名前を覚えてもらって当日の交流を促進しようという企画「CoderDojoサミット」を実施します。
-#   img: /img/2023/event/coderdojo-summit.png
-#   time: 12:15-13:05
-#   tag: 要申し込み
-#   url: /coderdojo-summit/
+- title: CoderDojoサミット
+  text: 最近CoderDojoの数も増えてきて、どこどこのDojoの人と話してみたいのだけどどんな人なんだろう？新しいチャンピオンの方はどんな方なんだろう、そもそもどんなDojoの人が来ているんだろうと思うこともあるのではないでしょうか。DojoCon Japan 2023は、日本中からCoderDojoのチャンピオンが集まるせっかくの機会なので、顔と名前を覚えてもらって当日の交流を促進しようという企画「CoderDojoサミット」を実施します。
+  img: /img/2023/event/coderdojo-summit.png
+  time: 12:15-13:05
+  tag: 要申し込み
+  url: /coderdojo-summit/
 
 - title: メンター向けtoioワークショップ
   text: CoderDojoのメンターのみなさんにロボットプログラミングや工作系活動・ワークショップのコツを実際にtoioを触りながら共有します。
