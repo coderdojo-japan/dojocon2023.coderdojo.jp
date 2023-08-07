@@ -23,6 +23,18 @@ CoderDojo屋台では、色々なプログラミングツールを使ったア�
 - App Inventor
 
 
+<div style="margin: 3em auto;">
+    <img src="/img/2023/event/toio.jpg" alt="toioで輪投げをしよう" style="margin-bottom: 1em; max-width:none;">
+    <p style='text-align:center;'>toioで輪投げをしよう</p>
+</div>
+
+
+<div style="margin: 3em auto;">
+    <img src="/img/2023/event/yoyo.png" alt="Blenderでヨーヨーを作ろう" style="margin-bottom: 1em; max-width:none;">
+    <p style="text-align:center;">Blenderでヨーヨーを作ろう</p>
+</div>
+
+
 ## 開催内容
 - 開催時刻：12:15 - 16:30（開催時間は予告なく変更する場合があります）
 - 事前申し込み：不要
