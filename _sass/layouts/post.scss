@@ -79,6 +79,12 @@
     }
   }
 
+  ul {
+    li {
+      margin-top: 0.5em;
+    }
+  }
+
   /* ボタンリンク以外の anchor のスタイルを定義 */
   :not(.framed_button) {
     & > a {
