@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HackforPlayではじめてのテキストプログラミングワークショップ
-date: 2023-08-07T08:00:00 UTC+9
+date: 2023-08-08T05:00:00 UTC+9
 categories: event
 thumbnail: /img/2023/event/DojoCon2023-HackforPlay.png
 permalink: /hfp-workshop/
