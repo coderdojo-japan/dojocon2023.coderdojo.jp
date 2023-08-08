@@ -15,7 +15,7 @@ CoderDojoの活動ならびにDojoCon Japan2023の趣旨に賛同・応援して
 ## **特典**
 希望するお名前をDojoCon 2023のWebサイトに掲載いたします。お名前は、本名、ニックネーム、イニシャルなどご希望のものが選べます。もちろん、掲載を希望されない方は掲載致しません。
 
-スポンサーの申し込みは、こちらのフォームからお願いいたします。 DojoCon Japan 2022をより良いものにするため、ご協力お願い致します。
+スポンサーの申し込みは、こちらのフォームからお願いいたします。 DojoCon Japan 2023をより良いものにするため、ご協力お願い致します。
 
 <div class='framed_button'>
     <a href='https://dojocon-japan.doorkeeper.jp/events/160568' target='_blank'>個人スポンサーになる</a>
