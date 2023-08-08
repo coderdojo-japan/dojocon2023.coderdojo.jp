@@ -3,12 +3,12 @@
 #   img:
 #   url:
 
-# - title: Why CoderDojo Wall
-#   text: 最近CoderDojoの数も増えてきて、どこどこのDojoの人と話してみたいのだけどどんな人なんだろう？新しいチャンピオンの方はどんな方なんだろう、そもそもどんなDojoの人が来ているんだろうと思うこともあるのではないでしょうか。DojoCon Japan 2023は、日本中からCoderDojoのチャンピオンが集まるせっかくの機会なので、顔と名前を覚えてもらって当日の交流を促進しようという企画「CoderDojoサミット」を実施します。
-#   img: /img/2023/event/why-coderdojo-wall.png
-#   time: 12:15-16:30
-#   tag: 申し込み不要
-#   url: /why-coderdojo-wall/
+- title: Why CoderDojo Wall
+  text: Why CoderDojo Wallは、みんながCoderDojoに関わった（立ち上げた、参加している）理由や関わり続けている理由を自由に書いて共有するためのボードです。ここに書かれた内容は、みんなのセッションの「なぜあなたはCoderDojoに参加しているのですか」で共有、紹介します。
+  img: /img/2023/event/why-coderdojo-wall.png
+  time: 12:15-16:30
+  tag: 申し込み不要
+  url: /why-coderdojo-wall/
 
 - title: CoderDojoサミット
   text: 最近CoderDojoの数も増えてきて、どこどこのDojoの人と話してみたいのだけどどんな人なんだろう？新しいチャンピオンの方はどんな方なんだろう、そもそもどんなDojoの人が来ているんだろうと思うこともあるのではないでしょうか。DojoCon Japan 2023は、日本中からCoderDojoのチャンピオンが集まるせっかくの機会なので、顔と名前を覚えてもらって当日の交流を促進しようという企画「CoderDojoサミット」を実施します。
