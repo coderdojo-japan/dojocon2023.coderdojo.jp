@@ -1,21 +1,29 @@
 ---
 layout: post
-title: タイムテーブルのご案内
+title: タイムテーブルと全プログラムのご案内
 date: 2023-08-08T23:00:00 UTC+9
-categories: event
-# thumbnail: /img/2023/event/DojoCon2023-HackforPlay.png
+categories: news
+thumbnail: /img/2023/event/event-summry.png
 permalink: /event-summary/
 ---
+お待たせいたしました。本日のタイムテーブルとすべてのプログラムの概要をご案内します。
 
-大変お待たせしました、当日のタイムテーブルと全体まとめをご案内します。
+DojoCon Japan 2023では、2016年にはじめて開催されたDojoCon Japanの趣旨である「全国のCoderDojoメンバーが交流できる場」を目指して、皆様が新たな形で交流できる場を生み出しました。
 
-（タイムテーブルの内容は進行上の都合などで変更となる場合があります。）
+「[CoderDojoサミット](/coderdojo-summit/)」や「[みんなのセッション](/posts/minna-no-session/)」といった取り組みは、全国のチャンピオンと交流できる貴重な機会や、共通のテーマに基づいて話し合う場として、これまでにない新しい試みです。
+
+また、CoderDojo屋台では、子供たちだけでなく、大人も楽しく参加しニンジャたちとの交流を楽しむことができることでしょう。
+
+ワークショップもその場で楽しむだけでなく、参加したみなさんが自分のDojoで再現できることを目指して開催します。
+
+DojoCon Japanは、参加される皆様ひとりひとりにとって意義深いものとなることでしょう。ぜひ当日会場でお会いできることを楽しみにしております！
 
 <div style="margin: 3em auto;">
     <a href='/img/2023/event/time-table.png' target='_blank'>
         <img src="/img/2023/event/time-table.png" alt="画像をクリック／タップで拡大します" style="margin-bottom: 1em; max-width:none;">
         <p style="text-align:center;">画像をクリック／タップで拡大します</p>
     </a>
+        <p style="text-align:center;font-size:smaller;">（タイムテーブルの内容は進行上の都合などで変更となる場合があります。）</p>
 </div>
 
 ## セッション
