@@ -97,7 +97,7 @@ layout: default
   </div>
 
   <div class="container-fruid">
-    <section id="news" class="section-gray">
+    <section class="section-gray">
       <img src="/img/2023/deco.svg" alt='Transition from Contents to News'>
       <div class="section-contents">
         <h2 class="text-center title-text">NEWS</h2>
