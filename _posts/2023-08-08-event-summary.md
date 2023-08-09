@@ -19,7 +19,7 @@ DojoCon Japan 2023では、2016年にはじめて開催されたDojoCon Japanの
 DojoCon Japanは参加者みんなで作り上げていく場です、ぜひ当日会場でお会いできることを楽しみにしております！
 
 <div class='entry'>
-    <a href="/registration/" class="button" rel="noopener" target="_blank">参加申し込みはこちら</a>
+    <a href="/registration/" class="button" rel="noopener" target="_blank">参加申し込み</a>
 </div>
 
 <div style="margin: 3em auto;">
