@@ -6,7 +6,7 @@ categories: news
 thumbnail: /img/2023/event/event-summry.png
 permalink: /event-summary/
 ---
-お待たせいたしました。本日のタイムテーブルとすべてのプログラムの概要をご案内します。
+お待たせいたしました。当日のタイムテーブルとすべてのプログラムの概要をご案内します。
 
 DojoCon Japan 2023では、2016年にはじめて開催されたDojoCon Japanの趣旨である「全国のCoderDojoメンバーが交流できる場」を目指して、皆様が新たな形で交流できる場を生み出します。
 
