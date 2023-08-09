@@ -12,7 +12,7 @@
 
 どこを更新するにせよ **Webブラウザが一番簡単** だと思います...!! 😆
 
-1. 下記の『更新方法』を参考に、修正を提案したい yml ファイルをクリックする
+1. 下記の『更新方法』を参考に、修正を提案したい YAML ファイルをクリックする
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
 3. 気になる箇所を修正し、修正内容にタイトルと説明文を付け、Propose file change をクリックする
 4. 修正内容を確認し、問題なければ Create pull request をクリックする
@@ -24,26 +24,22 @@
 
 ## :memo: Webサイトの更新方法
 
-[`_data`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data) 内に `ファイル名.yaml` という YAML ファイルがあり、この YAML ファイルで Session 情報や Speaker 情報を更新できます。
+[`_data`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data) フォルダ内に `ファイル名.yml` という YAML ファイルがあり、このファイルを修正すると Session 情報や Member 情報を更新できます。
 
-それぞれの YAML ファイルの冒頭に次のようなコメントがあるので、   
-コメントを参考にして項目は以下のような内容です。
+なおそれぞれの YAML ファイルは次のような形式で書かれています。
 
 ```yml
 # - title: ワークショップタイトル（例: Dojo日本地図-日本全国のCoderDojoを探してみよう- ）
-#   stime: 開始時間。例: 10:00
-#   etime: 終了時間。例: 12:40
-#   tag: スペース区切りタグ。例: 忍者向け
-#   column: 列。0~2で指定。例:0
+#   tag: セッション用タグ。例: 忍者向け
 #   url: URL。例: /session/dojo_report
 ```
 
-追加・修正したい場所に応じて、下記リンク先を[上記手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新いただけます。
+追加・修正したい箇所に応じて、下記リンク先を[上記手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新できます。
 
 - [`events.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
 - [`members.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
 - [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
-- [`sponsors.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/sponsors.yml): スポンサー情報を更新したい
+- [`sponsor/*.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data/sponsor): スポンサー情報を更新したい
 - [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
 
 <br>
