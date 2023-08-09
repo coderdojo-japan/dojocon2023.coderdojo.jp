@@ -32,7 +32,7 @@ permalink: /exhibition
       <p class="exhibition-speaker-name">{{ exhibition.creator }} {% if exhibition.affiliation %}（{{ exhibition.affiliation }}）{% endif %}</p>
       {% if exhibition.URL %}
       <p>
-	<a href="/exhibition/{{ exhibition.path_URL }}" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> 詳しくはこちら</a>
+	<a href="/expo/{{ exhibition.path_URL }}" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> 詳しくはこちら</a>
       </p>
       {% endif %}
     </div>
