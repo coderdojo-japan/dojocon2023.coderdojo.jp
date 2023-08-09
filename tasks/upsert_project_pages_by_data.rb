@@ -15,7 +15,7 @@ projects.each_with_index do |project, index|
     ---
     layout: default
     title: "#{project["title"]}"
-    permalink: /exhibition/#{project["path_URL"]}
+    permalink: /expo/#{project["path_URL"]}
     ---
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project["title"]}</h1>
     {% if "#{project["tag"]}" contains "Scratch（ゲーム、アニメーションなど）" %}
