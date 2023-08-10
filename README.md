@@ -24,7 +24,7 @@
 
 ## :memo: Webサイトの更新方法
 
-[`_data`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data) フォルダ内に `ファイル名.yml` という YAML ファイルがあり、このファイルを修正すると Session 情報や Member 情報を更新できます。
+[`_data`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data) フォルダ内に `ファイル名.yml` という YAML ファイルがあり、このファイルを修正すると Session 情報や Member 情報などを更新できます。
 
 なおそれぞれの YAML ファイルは次のような形式で書かれています。
 
