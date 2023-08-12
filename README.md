@@ -118,9 +118,9 @@ $ bundle exec jekyll server
 $ bundle exec rake test
 ```
 
-テスト内容の詳細は [Rakefile](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/Rakefile) をご参照ください。
+テスト内容の詳細は [`Rakefile`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/Rakefile) をご参照ください。
 
-上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
+上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [`.github/workflows`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 <br>
 
