@@ -40,8 +40,8 @@ DojoCon Japanは参加者みんなで作り上げていく場です、ぜひ当�
 ### [みんなのセッション](/posts/minna-no-session/)
 みんなのセッションは、スピーカーさんの話を聞くのではなく、みなさんが体験したこと、やってみたこと、感じたことをシェアする場で、これからのCoderDojo活動に活かせるヒントやアイデアを得られる機会になることと思います。
 
-### CoderDojo Japan 活動報告
-2016年に公式日本法人『一般社団法人 CoderDojo Japan』を設立し、様々な取り組みを実施して来ました。本セッションでは CoderDojo Japan がこの１年で行った活動実績をお伝えすると共に、次の１年に向けて CoderDojo コミュニティをもっと楽しい場にしていくためのアイデアを皆さんと議論・共有したいなと考えています。
+### [2023年 CoderDojo Japan 活動報告](/posts/annual-report-by-coderdojo-japan/)
+2016年に公式日本法人『[一般社団法人 CoderDojo Japan](https://coderdojo.jp/about-coderdojo-japan)』を設立し、様々な取り組みを実施して来ました。本セッションでは CoderDojo Japan がこの１年で行った活動実績をお伝えすると共に、次の１年に向けて CoderDojo コミュニティをもっと楽しい場にしていくためのアイデアを皆さんと議論・共有したいなと考えています。
 
 ## ワークショップ
 ### [CoderDojoでロボットプログラミング～toioを例にロボット＆工作系活動のコツを共有します！～](/toio-workshop/)
