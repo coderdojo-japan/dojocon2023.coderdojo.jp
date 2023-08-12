@@ -133,8 +133,8 @@ $ bundle exec rake test
 - [coderdojo-japan/dojocon2020.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2020.coderdojo.jp)
 - [coderdojo-japan/dojocon2019.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp)
 - [coderdojo-japan/dojocon2018.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp)
-- [dojocon-japan/dojocon2017.cderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
-- [dojocon-japan/dojocon2016.cderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
+- [dojocon-japan/dojocon2017.coderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
+- [dojocon-japan/dojocon2016.coderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
 
 <br>
 
