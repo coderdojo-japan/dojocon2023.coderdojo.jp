@@ -111,7 +111,7 @@ $ bundle exec jekyll server
 
 ### :robot: リンク切れはテストで検知できます
 
-内部リンク (アンカー含む) や `alt` 属性の空欄などは次のコマンドでテストできます。
+内部リンクのミスや `alt` 属性の記入忘れなどは次のコマンドでテストできます。([修正例を見る](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/pull/105))
 
 ```shell
 # ローカルサーバーの立ち上げは不要です
