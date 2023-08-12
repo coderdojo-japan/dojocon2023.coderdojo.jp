@@ -6,6 +6,9 @@ categories: news
 # thumbnail: 
 permalink: /posts/sponsorship/
 ---
+
+**スポンサーの募集につきましては終了となりました。協賛いただきました皆様、誠にありがとうございました。**
+
 私たちDojoCon Japan 2023実行委員会は、2023年8月27日奈良女子大学にて、「DojoCon Japan 2023」を開催いたします。
 
 DojoCon（CoderDojo Conference）とは、CoderDojo発祥の地、アイルランドにおいて、CoderDojo Foundation主催で年1回のペースで開催されていた主にCoderDojoを支える大人たちを対象にしたカンファレンスです。
@@ -19,5 +22,4 @@ DojoCon（CoderDojo Conference）とは、CoderDojo発祥の地、アイルラ�
 
 <div class='entry'>
     <a href='https://drive.google.com/file/d/1yYo67O6y0H6ijJgmfZ9Rido4Hc_IB2nG/view' class='condition' target="_blank">＜　スポンサーシップのご案内　＞</a>
-    <a href='https://forms.gle/XLCdWjRDSrLuvcRK7' class="button" style='margin-top:1em;' target='_blank'>スポンサー申し込み</a>
 </div>
