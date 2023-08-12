@@ -12,7 +12,7 @@
 
 どこを更新するにせよ **Webブラウザが一番簡単** だと思います...!! 😆
 
-1. 下記の『更新方法』を参考に、修正を提案したい YAML ファイルをクリックする
+1. 下記の『[更新方法](#memo-webサイトの更新方法)』を参考に、修正を提案したい YAML ファイルをクリックする
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
 3. 気になる箇所を修正し、修正内容にタイトルと説明文を付け、Propose file change をクリックする
 4. 修正内容を確認し、問題なければ Create pull request をクリックする
@@ -39,7 +39,7 @@
   url: /expo/
 ```
 
-追加・修正したい箇所に応じて、下記リンク先を[上記手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新できます。
+追加・修正したい箇所に応じて、下記リンク先を[上記の修正手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新できます。
 
 - [`events.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
 - [`members.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
