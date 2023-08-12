@@ -9,6 +9,8 @@ permalink: /posts/annual-report-by-coderdojo-japan/
 
 2016年に公式日本法人『[一般社団法人 CoderDojo Japan](https://coderdojo.jp/about-coderdojo-japan)』が設立されて以降、[パートナー法人](https://coderdojo.jp/#partners)との連携や全国の CoderDojo 活動の支援など、様々な取り組みを実施しています。（参考: [世界中の公式法人一覧](https://coderdojo.com/en/partner-network)）
 
+<br>
+
 [![CoderDojo Japan 設立時の写真 @ DojoCon Japan 2016](/img/2023/session/coderdojo-japan-2016.webp)](https://dojocon2016.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)
 
 <center>&copy; Photo Credit: <a href='https://dojocon2016.coderdojo.jp/'>DojoCon Japan 2016</a></center>
