@@ -29,7 +29,7 @@ permalink: /posts/annual-report-by-coderdojo-japan/
 ## 発表者プロフィール
 安川 要平（やすかわ ようへい）[@yasulab](https://twitter.com/yasulab)
 
-2012年に下北沢オープンソース Cafe のメンバーと共に日本初の CoderDojo を立ち上げました。当時から現在に到るまで、CoderDojo コミュニティがより活動しやすくなるための法人提携や周知活動、システム開発やドキュメント制作などを続けています。2012年度IPA認定[未踏](https://www.ipa.go.jp/jinzai/mitou/about.html)スーパークリエータ。
+2012年に下北沢オープンソース Cafe のメンバーと共に日本初の CoderDojo を立ち上げました。当時から現在に到るまで、CoderDojo コミュニティがより活動しやすくなるための[法人連携](https://news.coderdojo.jp/category/press/)や[周知活動](https://www.youtube.com/CoderDojoJapan)、[システム開発](https://github.com/coderdojo-japan)や[ドキュメント整備](https://coderdojo.jp/kata)などを続けています。2012年度 IPA 認定[未踏](https://www.ipa.go.jp/jinzai/mitou/about.html)スーパークリエータ。
 
 <br>
 

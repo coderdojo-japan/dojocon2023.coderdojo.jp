@@ -34,7 +34,7 @@ permalink: /sessions
       </div>
       {% endif %}
       <p class="session-speaker-name">{{ session.speaker }} {% if session.affiliation %}（{{ session.affiliation }}）{% endif %}</p>
-      <p>{{ session.text }}{% if session.news-link %} <a href='{{ session.news-link }}'>&gt; 詳しくはこちら</a>{% endif %}</p>
+      <p>{{ session.text | markdownify }}{% if session.news-link %} <a href='{{ session.news-link }}'>&gt; 詳細を見る</a>{% endif %}</p>
       {% if session.archive-link %}
       <p>
       	<a href="{{ session.archive-link }}" target="_blank" rel="noopener" class="btn btn-main btn-sm"><i class="fab fa-youtube"></i> YouTube で見る</a>
@@ -54,7 +54,7 @@ permalink: /sessions
         {% if session.tag == "パネルディスカッション" %}
         {% for speaker in session.speakers %}
         <p class="session-speaker-name">{{ speaker.name }}（{{ speaker.affiliation }}）<span class="badge badge-main">{{ speaker.role }}</span></p>
-        <p>{{ speaker.text }}</p>
+        <p>{{ speaker.text | markdownify }}</p>
         <ul>
           {% for link in speaker.links %}
           <li><a href="{{ link }}" target="_blank" rel="noopener external">{{ link | remove_first: 'https://' | remove_first: 'http://' }}</a></li>
@@ -62,7 +62,7 @@ permalink: /sessions
         </ul>
         {% endfor %}
         {% else %}
-        <p>{{ session.profile-text }}</p>
+        <p>{{ session.profile-text | markdownify }}</p>
         <ul>
           {% for link in session.links %}
           <li><a href="{{ link }}" target="_blank" rel="noopener external">{{ link | remove_first: 'https://' | remove_first: 'http://' }}</a></li>
