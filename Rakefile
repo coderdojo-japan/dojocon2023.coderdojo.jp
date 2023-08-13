@@ -24,6 +24,7 @@ task test: [:build] do
     ],
     ignore_urls: [
       %r{^http://coderdojo-nago.com}, # Use REGEX to skip testing URLs in a domain like this
+      %r{^http://www.2469samurai.com},
     ]
     #ignore_status_ignore: [0, 500, 999],
   }

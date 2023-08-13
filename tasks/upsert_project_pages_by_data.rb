@@ -19,6 +19,9 @@ projects.each_with_index do |project, index|
     ---
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project["title"]}</h1>
     <div class="main_content">
+
+    {% comment %}
+    /*スクラッチの埋め込みをしたい場合に用いる。*/
     {% if "#{project["tag"]}" contains "Scratch（ゲーム、アニメーションなどScratchで作成したものすべて）" %}
     {% if "#{project["URL"]}" contains "https://scratch.mit.edu/projects/" %}
     <div class="scratch-wrapper">
@@ -30,6 +33,9 @@ projects.each_with_index do |project, index|
     {% else %}
     <img class='top-img lazyload' src='../img/2023/exhibition/#{project["img"]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
     {% endif %}
+    {% endcomment %}
+    
+    <img class='top-img lazyload' src='../img/2023/exhibition/#{project["img"]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
     <p>クリエイター:#{project["creator"]}(#{project["affiliation"]})</p>
     <div class="contents">
       <div class="box">
