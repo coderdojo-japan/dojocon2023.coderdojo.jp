@@ -21,7 +21,7 @@ YouTubeでアップロードされる場合は、以下の手順でアップロ�
 [![](/img/common/how-to-upload-movie/youtube03.png)](/img/common/how-to-upload-movie/youtube03.png){:target="_blank"}
 
 4. 最後の「公開設定」のところで公開範囲を選択できます。「限定公開」を選択するとYouTubeの検索で表示されなくなります。YouTubeの検索で表示されたくない方は「限定公開」を選んでください（画像をクリックすると拡大します）。
-[![](/img/common/how-to-upload-movie/youtube04.png)]((/img/common/how-to-upload-movie/youtube04.png)){:target="_blank"}
+[![](/img/common/how-to-upload-movie/youtube04.png)](/img/common/how-to-upload-movie/youtube04.png){:target="_blank"}
 
 また、不快なコメントがつくことを避けるために、コメントを無効にすることをおすすめします。コメントを無効にする方法については「[動画のコメントを無効にする](https://www.howtonote.jp/youtube/comment/index1.html){:target="_blank"}」を参考にしてください。
 
