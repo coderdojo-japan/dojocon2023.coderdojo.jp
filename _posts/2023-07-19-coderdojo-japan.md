@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2023年 CoderDojo Japan 活動報告
-date: 2023-08-12T12:00:00 UTC+9
+date: 2023-07-19T12:00:00 UTC+9
 categories: session
 thumbnail: /img/2023/session/coderdojo-japan.png
 permalink: /posts/annual-report-by-coderdojo-japan/
@@ -20,7 +20,7 @@ permalink: /posts/annual-report-by-coderdojo-japan/
 本セッションでは CoderDojo Japan がこの１年 (※) で行った活動実績をお伝えすると共に、次の１年に向けて CoderDojo コミュニティをもっと楽しい場にしていくためのアイデアを皆さんと議論・共有したいなと考えています。
 
 <small>※
-  <a href='https://dojocon2022.coderdojo.jp/'>DojoCon Japan 2022</a> が11/27 (日曜) 開催のため実質的には9ヶ月間の活動になります。
+  <a href='https://speakerdeck.com/coderdojojapan/coderdojo-japan-in-2022'>前回の活動報告</a>は 11/27 (日曜) 開催の <a href='https://dojocon2022.coderdojo.jp/'>DojoCon Japan 2022</a> で行われたため、実質的には9ヶ月間の活動になります。
 </small>
 
 [![CoderDojo Japan ロゴ画像](/img/2023/session/coderdojo-japan.png)](https://coderdojo.jp/about-coderdojo-japan)
