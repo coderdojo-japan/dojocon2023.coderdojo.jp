@@ -19,9 +19,9 @@ projects.each_with_index do |project, index|
     ---
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project["title"]}</h1>
     <div class="main_content">
-    
-    /*スクラッチの埋め込みをしたい場合に用いる。*/
+
     {% comment %}
+    /*スクラッチの埋め込みをしたい場合に用いる。*/
     {% if "#{project["tag"]}" contains "Scratch（ゲーム、アニメーションなどScratchで作成したものすべて）" %}
     {% if "#{project["URL"]}" contains "https://scratch.mit.edu/projects/" %}
     <div class="scratch-wrapper">
