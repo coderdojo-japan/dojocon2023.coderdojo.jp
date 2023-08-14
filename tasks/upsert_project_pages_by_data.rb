@@ -22,7 +22,7 @@ projects.each_with_index do |project, index|
 
     {% comment %}
     /*スクラッチの埋め込みをしたい場合に用いる。*/
-    {% if "#{project["tag"]}" contains "Scratch（ゲーム、アニメーションなどScratchで作成したものすべて）" %}
+    {% if "#{project["tag"]}" contains "Scratch" %}
     {% if "#{project["URL"]}" contains "https://scratch.mit.edu/projects/" %}
     <div class="scratch-wrapper">
     <iframe src="#{project["URL"]}embed" allowtransparency="true" width="542" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
