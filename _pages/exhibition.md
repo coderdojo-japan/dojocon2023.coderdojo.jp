@@ -29,7 +29,7 @@ permalink: /exhibition
         <img src="/img/2023/exhibition/{{ exhibition.img }}" class="w-100 px-5" alt="サムネイル">
       </div>
       {% endif %}
-      <p class="exhibition-speaker-name">{{ exhibition.creator }} {% if exhibition.affiliation %}（{{ exhibition.affiliation }}）{% endif %}</p>
+      <p class="exhibition-speaker-name">{{ exhibition.creator }} {% if exhibition.affiliation %}（CoderDojo {{ exhibition.affiliation }}）{% endif %}</p>
       {% if exhibition.URL %}
       <p>
 	<a href="/expo/{{ exhibition.path_URL }}" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> 詳しくはこちら</a>
