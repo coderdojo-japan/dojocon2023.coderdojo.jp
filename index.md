@@ -103,7 +103,7 @@ layout: default
         <h2 class="text-center title-text">NEWS</h2>
         <p class="caption text-center">お知らせ</p>
         <div class="row mx-2 mx-md-0">
-          {% for post in site.posts limit:3 %}
+          {% for post in site.posts limit:6 %}
             {% include articles.html %}
           {% endfor %}
         </div>

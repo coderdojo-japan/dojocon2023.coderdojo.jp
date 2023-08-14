@@ -12,7 +12,7 @@
 
 どこを更新するにせよ **Webブラウザが一番簡単** だと思います...!! 😆
 
-1. 下記の『更新方法』を参考に、修正を提案したい YAML ファイルをクリックする
+1. 下記の『[更新方法](#memo-webサイトの更新方法)』を参考に、修正を提案したい YAML ファイルをクリックする
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
 3. 気になる箇所を修正し、修正内容にタイトルと説明文を付け、Propose file change をクリックする
 4. 修正内容を確認し、問題なければ Create pull request をクリックする
@@ -39,7 +39,7 @@
   url: /expo/
 ```
 
-追加・修正したい箇所に応じて、下記リンク先を[上記手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新できます。
+追加・修正したい箇所に応じて、下記リンク先を[上記の修正手順](#white_check_mark-共通ブラウザで情報修正を提案できます)に沿って更新できます。
 
 - [`events.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
 - [`members.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
@@ -111,16 +111,16 @@ $ bundle exec jekyll server
 
 ### :robot: リンク切れはテストで検知できます
 
-内部リンク (アンカー含む) や `alt` 属性の空欄などは次のコマンドでテストできます。
+内部リンクのミスや `alt` 属性の記入忘れなどは次のコマンドでテストできます。([修正例を見る](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/pull/105))
 
 ```shell
 # ローカルサーバーの立ち上げは不要です
 $ bundle exec rake test
 ```
 
-テスト内容の詳細は [Rakefile](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/Rakefile) をご参照ください。
+テスト内容の詳細は [`Rakefile`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/Rakefile) をご参照ください。
 
-上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
+上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [`.github/workflows`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 <br>
 
@@ -133,8 +133,8 @@ $ bundle exec rake test
 - [coderdojo-japan/dojocon2020.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2020.coderdojo.jp)
 - [coderdojo-japan/dojocon2019.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp)
 - [coderdojo-japan/dojocon2018.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2018.coderdojo.jp)
-- [dojocon-japan/dojocon2017.cderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
-- [dojocon-japan/dojocon2016.cderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
+- [dojocon-japan/dojocon2017.coderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
+- [dojocon-japan/dojocon2016.coderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
 
 <br>
 
