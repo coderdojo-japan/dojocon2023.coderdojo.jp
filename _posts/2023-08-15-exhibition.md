@@ -17,5 +17,5 @@ permalink: /posts/exhibition/
 なお、スクラッチ作品はプロジェクトへのリンク、その他の作品は動画での展示となっています。
 
 <div class='framed_button'>
-    <a href='/exhibition/' >展示はこちら</a>
+    <a href='/exhibition' >展示はこちら</a>
 </div>
