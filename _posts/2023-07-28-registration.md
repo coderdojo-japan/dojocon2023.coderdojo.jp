@@ -8,7 +8,7 @@ permalink: /registration/
 ---
 大変お待たせしました、参加受付を開始しました。以下の内容をお読みの上「参加申し込み」を押して参加申し込みフォーム（Doorkeeper）へお進みください。
 
-[DojoCon Japan 2023の内容についてはこちら](https://dojocon2023.coderdojo.jp/event-summary/){:target="_blank"}をご覧ください。
+[DojoCon Japan 2023の内容についてはこちら](/event-summary/){:target="_blank"}をご覧ください。
 
 ## お読みください
 保険加入の関係で1人1チケットが必要となっております。
