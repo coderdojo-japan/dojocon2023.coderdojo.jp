@@ -157,14 +157,14 @@
   URL: https://scratch.mit.edu/projects/878595154/
   path_URL: 15
 
-- title: Yamaguchi maps
+- title: yamaguchi_maps
   text: 30,000×30,000ブロック分の山口県のマインクラフトマップを作りました。<br>動画では紹介しきれないほど広いです。<br>起伏図から作ったので50時間くらいかかりました。<br>ちなみに、実際の4分の1くらいのスケールです。
   tag: マインクラフト 
   creator: けんちゃん
   affiliation: 長門
   img: 16.jpg
-  description: 使ったアプリ<br>Worldpainter<br>MediBang Paint Pro<br>DaVinci Resolve
-  URL: https://www.youtube.com/watch?v=ELKJmNPu9yg
+  description: 使用したアプリ<br>Medbang Paint Pro...起伏図制作 <br>Worldpainter...読み込み<br>DaVinci Resolve...簡単な動画編集
+  URL: https://youtu.be/GPfSwXAaFSs
   path_URL: 16
 
 - title: モ〜レッツキャッチ！ゲーム
@@ -174,5 +174,45 @@
   affiliation: 倉敷,吉備岡山
   img: 17.jpg
   description: https://eleshop.jp/shop/g/g402628/
-  URL: https://ibb.co/WGxZCxS
+  URL: https://vimeo.com/854617665
   path_URL: 17
+
+- title: お金ゲーム
+  text: 「お金ゲーム」は、ビスケットで作ったゲームです。落ちてくるお金を並べて、お金の多さを競います。同じお金を横に2つならべると、次のお金に変わり、お金がもらえます。タップして出せるお金は１円から１００円までです。例えば５円と５円をならべると、１０円になり、５円もらえます。最大は１０００円と１０００円がならぶと５０００円になり、1０００円もらます。<br>工夫したところは、「次」でランダムに表示したお金を、タップした時にちゃんと表示するとことです。「割れたメガネ」を使うことで、同じお金が表示されるように工夫しました。<br><br>また、お金を計算するプログラムも「割れたメガネ」を使って工夫しました。「円」という文字に「+1」を重ねたり、位をずらしたりしてプログラムし、正しくお金が増えるようにするところが難しかったです。
+  tag: モバイルアプリ 
+  creator: てるた
+  affiliation: 西尾
+  img: 18.jpg
+  description: ユーチューブで見たゲームを少し参考にしましたが、URLはわかりません。
+  URL: https://drive.google.com/file/d/1-DZChpe9hge014qggKtzztgvZvN6YkL1/view?usp=sharing
+  path_URL: 18
+
+- title: 名古屋駅シュミレーター
+  text: リアルタイムでJR名古屋駅に到着する東海道本線の上り・下り電車を見ることができます。<br>特徴は、リスト数がすごく多いことです。<br>苦労したことは、時刻表のデータをすべてコピーし、メモ帳に貼り付け、◯時の部分を消して、リストに読み込ませ、編集のプログラムを組み、プログラムを通したデータをまた違うリストに読み込ませ、控えを取り、もう一方のデータを同じように変換し、統合のプログラムを組み、データを同じリストに統合させたこと。<br>以上のプログラムを休日と平日の二回やったことです。
+  tag: Scratch 
+  creator: dorakoma3
+  affiliation: 瀬戸
+  img: 19.jpg
+  description: データ<br>・時刻表<br>https://ekitan.com/timetable/railway/line-station/149-83/d1<br>https://ekitan.com/timetable/railway/line-station/149-83/d2<br>・ホームの位置<br>https://railway.jr-central.co.jp/station-guide/shinkansen/nagoya/map.html<br><br>参考<br>https://scratch.mit.edu/projects/869156041/
+  URL: https://scratch.mit.edu/projects/878550071/
+  path_URL: 19
+
+- title: Space Travelers
+  text: この作品で工夫したところはキャラクターやアイテムの見た目です。今まではScratchに入っているスプライトをそのまま使っていましたが、今回はそれを加工して使ったり自分でスプライトを作ったりしました。<br>　また、今回は初めてゲームにメニュー画面を作ったり、BGMをネットで探して使ったりしました。BGMや素材は著作権にも気を付けました。<br>日本語がわからない人にも遊んでもらえるように、説明書きやゲームの言語選択に英語を使ったことも工夫した点です。
+  tag: Scratch 
+  creator: ゆうと
+  affiliation: 西尾,尾張
+  img: 20.jpg
+  description: 参考にした書籍・プロジェクトは特にありません。
+  URL: https://scratch.mit.edu/projects/873338220/
+  path_URL: 20
+
+- title: 世界一難しいゲームを再現しました
+  text: 【工夫したところ】プレーヤーを小さくしたところ。トラップなどの仕掛けがあるところ。
+  tag: Scratch 
+  creator: エージェント火の用心
+  affiliation: 西尾
+  img: 21.jpg
+  description: ありません。
+  URL: https://scratch.mit.edu/projects/873364568
+  path_URL: 21
