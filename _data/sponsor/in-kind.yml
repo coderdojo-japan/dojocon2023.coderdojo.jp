@@ -32,3 +32,9 @@
   logo: make_logo_rgb_trimed.jpg
   link: https://makezine.jp/
   description: 書籍のご提供
+
+- id: sacraya
+  name: 咲楽屋
+  logo: sacraya.jpg
+  link: https://www.sacraya.net/
+  description: 会場ネットワーク構築支援のご提供
