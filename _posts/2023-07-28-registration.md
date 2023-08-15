@@ -3,7 +3,7 @@ layout: post
 title: 参加受付を開始しました
 date: 2023-07-28T16:00:00 UTC+9
 categories: news
-thumbnail: /img/2023/opst/registration.png
+thumbnail: /img/2023/post/registration.png
 permalink: /registration/
 ---
 大変お待たせしました、参加受付を開始しました。以下の内容をお読みの上「参加申し込み」を押して参加申し込みフォーム（Doorkeeper）へお進みください。
