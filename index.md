@@ -176,7 +176,7 @@ layout: default
 
   {% if site.data.sponsor.silver and site.data.sponsor.silver.size != 0 %}
     <div class="sponsors-container">
-      <h3 class="text-center caption">Sliver Sponsor</h3>
+      <h3 class="text-center caption">Silver Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="silver-sponsors">
         {% for sponsor in site.data.sponsor.silver %}
