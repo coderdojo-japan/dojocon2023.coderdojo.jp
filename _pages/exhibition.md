@@ -21,18 +21,24 @@ permalink: /exhibition
       <p>
         {{ exhibition.time }}
         {% if exhibition.tag %}
+        {% if exhibition.local %}
+        <span class="badge badge-ws">{{ exhibition.tag }}</span> <span class="badge badge-ws">{{ exhibition.local }}</span>
+        {% else %}
         <span class="badge badge-ws">{{ exhibition.tag }}</span>
+        {% endif %}
         {% endif %}
       </p>
       {% if exhibition.img %}
       <div class="my-3">
-        <img src="/img/2023/exhibition/{{ exhibition.img }}" class="w-100 px-5" alt="サムネイル">
+        <a href="/expo/{{ exhibition.path_URL }}">
+          <img src="/img/2023/exhibition/{{ exhibition.img }}" class="w-100 px-5" alt="サムネイル">
+        </a>
       </div>
       {% endif %}
       <p class="exhibition-speaker-name">{{ exhibition.creator }} {% if exhibition.affiliation %}（CoderDojo {{ exhibition.affiliation }}）{% endif %}</p>
       {% if exhibition.URL %}
       <p>
-	<a href="/expo/{{ exhibition.path_URL }}" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> 詳しくはこちら</a>
+	      <a href="/expo/{{ exhibition.path_URL }}" rel="noopener" class="btn btn-main btn-sm"><i class="fas fa-scroll"></i> 詳しくはこちら</a>
       </p>
       {% endif %}
     </div>
