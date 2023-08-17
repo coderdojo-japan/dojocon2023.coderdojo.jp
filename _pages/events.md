@@ -32,7 +32,11 @@ permalink: /events
 	{% if event.url %}</a>{% endif %}
         <p>{{ event.text }}</p>
         {% if event.url %}
-        <p class="text-left"><a class="btn btn-main" href="{{ event.url }} ">参加・詳細</a></p>
+        <p>
+	  <a class='btn btn-main btn-sm' href='{{ event.url }}'>
+	    <i class='fas fa-scroll'></i> 詳細を見る
+	  </a>
+	</p>
         {% endif %}
       </div>
       {% endfor %}
