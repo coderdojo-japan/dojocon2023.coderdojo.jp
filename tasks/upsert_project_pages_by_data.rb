@@ -35,8 +35,12 @@ projects.each_with_index do |project, index|
     {% endif %}
     {% endcomment %}
     
-    <img class='top-img lazyload' src='../img/2023/exhibition/#{project["img"]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
-    <p>クリエイター:#{project["creator"]}(CoderDojo #{project["affiliation"]})</p>
+    <a href="#{project["URL"]}" target="_blank" rel="noopener" >
+      <img class='top-img lazyload' loading='lazy' alt='サムネイル画像'
+           style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
+           src='../img/2023/exhibition/#{project["img"]}' />
+    </a>
+    <p>クリエイター: #{project["creator"]}(CoderDojo #{project["affiliation"]})</p>
     <div class="contents">
       <div class="box">
         <h5>作品の説明</h5>
