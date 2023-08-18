@@ -148,7 +148,7 @@ Check out the followings if you are interested in. :wink:
 
 <h3>📝️ Texts, Logos, and Photos</h3>
 
-The texts and images, such as logos and photos of [each staff](https://dojocon2023.coderdojo.jp/#staff), are owned by its content holder. Contact its owner, like the maintainer of linked external website or social account, before using them. 🔐
+The texts and images, such as descriptions and thumbnails, company logos and staff photos, are owned by its content holder. Contact its owner, like the maintainer of linked external website or social account, before using them. 🔐
 
 <h3>💎 Libraries and Codes</h3>
 
