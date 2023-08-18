@@ -28,17 +28,17 @@ projects.each_with_index do |project, index|
     <iframe src="#{project[:URL]}embed" allowtransparency="true" width="542" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </div>
     {%else%}
-    <img class='top-img lazyload' src='../img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
+    <img class='top-img lazyload' src='/img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
     {% endif %}
     {% else %}
-    <img class='top-img lazyload' src='../img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
+    <img class='top-img lazyload' src='/img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
     {% endif %}
     {% endcomment %}
     
     <a href="#{project[:URL]}" target="_blank" rel="noopener" >
       <img class='top-img lazyload' loading='lazy' alt='サムネイル画像'
            style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
-           src='../img/2023/exhibition/#{project[:img]}' />
+           src='/img/2023/exhibition/#{project[:img]}' />
     </a>
     <p>クリエイター: #{project[:creator]}(CoderDojo #{project[:affiliation]})</p>
     <div class="contents">
