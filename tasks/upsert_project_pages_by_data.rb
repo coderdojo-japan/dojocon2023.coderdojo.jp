@@ -62,7 +62,7 @@ projects.each_with_index do |project, index|
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
       .box p{text-align: left;}
-      .air{margin-bottom:60px;}
+      a.air{margin-bottom:100px;}
       a.air{text-decoration: none;}
       .contents{width:auto; margin: 0 auto;padding:5px;}
       /*content*/
