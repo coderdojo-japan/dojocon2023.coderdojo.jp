@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 展示
+title: ニンジャ大博覧会
 thumbnail: timetable.png
 permalink: /exhibition
 ---
