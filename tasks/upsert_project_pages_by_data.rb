@@ -110,3 +110,9 @@ projects.each_with_index do |project, index|
   IO.write(path, page)
   puts "Upsert: #{path}"
 end
+
+# This script above inherits from the following repo
+# under The MIT License published by Mitou Junior.
+# https://github.com/mitou/jr.mitou.org
+
+
