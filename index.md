@@ -230,7 +230,7 @@ layout: default
         {% for sponsor in site.data.sponsor.individual %}
           <div class="individual-sponsor-name">
             {% if sponsor.link %}
-            <a href="{{ sponsor.link }}" target="_blank">
+            <a href="{{ sponsor.link }}" target='_blank' rel='noopener' style='text-decoration: underline;'>
             {% endif %}
               {{ sponsor.name }}
             {% if sponsor.link %}
