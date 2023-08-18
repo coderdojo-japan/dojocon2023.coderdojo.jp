@@ -54,10 +54,12 @@ projects.each_with_index do |project, index|
     </a>
     
     <style type="text/css">
+      /* 使っていないスタイルのため一時的にコメントアウト
       .prev { display: table-cell; color: white; text-align: left;   }
       .toc  { display: table-cell; color: white; text-align: center; }
       .next { display: table-cell; color: white; text-align: right;  }
       .nav a:link, .nav a:visited { color: white; }
+      */
       iframe{margin: 0 auto}
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
