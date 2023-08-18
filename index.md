@@ -257,7 +257,7 @@ layout: default
           {% for member in site.data.members %}
           <li class="member">
             {% if member.site %}
-            <a href="{{ member.site }}" target="_blank" rel="nofollow"  rel="noopener">
+            <a href="{{ member.site }}" target="_blank" rel="noopener">
             {% endif %}
             <div class="member-image">
               {% if member.img %}<img src="/img/{{ site.year }}/members/{{ member.img }}" alt="{{ member.name }}" loading="lazy">
