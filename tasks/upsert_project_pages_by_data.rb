@@ -48,7 +48,10 @@ projects.each_with_index do |project, index|
       </div>
     </div>
     </div>
-    <a href="#{project["URL"]}" target="_blank" rel="noopener" class="button air">作品URL</a>
+    <a href="#{project["URL"]}" target="_blank" rel="noopener" class="button air">
+      <i class="fas fa-scroll"></i>
+      作品を見る
+    </a>
     
     <style type="text/css">
       .prev { display: table-cell; color: white; text-align: left;   }
