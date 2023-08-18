@@ -15,6 +15,7 @@ projects.each_with_index do |project, index|
     ---
     layout: default
     title: "#{project[:title]}"
+    thumbnail: /img/2023/exhibition/#{project[:img]}
     permalink: /expo/#{project[:path_URL]}
     ---
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project[:title]}</h1>
