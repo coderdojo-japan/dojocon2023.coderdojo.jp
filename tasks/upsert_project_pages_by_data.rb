@@ -88,6 +88,7 @@ projects.each_with_index do |project, index|
        }
       }
       /* scratch wrapper */
+      /*今回スクラッチを埋め込まないためコメントアウト
       @media screen and (max-width: 570px){
         div.scratch-wrapper > iframe {
           position: absolute;
@@ -104,6 +105,7 @@ projects.each_with_index do |project, index|
           margin: 10px 20px;
         }
       }
+      */
     </style>
   PROJECT_PAGE
 

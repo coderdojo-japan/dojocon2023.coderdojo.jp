@@ -7,6 +7,7 @@
 #   description: 参考・参照元、工夫したところ...
 #   URL: 作品のURL
 #   path_URL: 個々のサイトのパーマリンクに用いるURL、連番でお願いします!!
+#   local: 当日展示がある場合に記入する(記入したらここの文字が上のtagの横にタグ🏷️が追加されて表示される)
 - title: コーディングで マレーシアを探索しよう！
   text: 自分が見た景色や模様で、きれいだなと思ったものをJavaScript (p5.js) を使って表現したいと思っています。
   tag: Webサイト
@@ -236,3 +237,33 @@
   description: SC Wars：にゃんこ大戦争 https://www.ponos.jp/
   URL: https://drive.google.com/file/d/1n5AJfkBYEtcBRHdThvMJTJFvT2m-xoKW/view?usp=drive_link
   path_URL: 22
+
+- title: space shooter
+  text: タイトル通りのシューティングゲームです。<br>マウスで照準を動かしてスペースを押して敵を倒すゲームです。<br>タイマー制です。<br>nキー、mキーを使ってbgmの、eキー、sキーを使ってサウンドのオンオフが変えられます。<br>敵のビジュアルとシューティングの仕様はリズム天国から着想を得ました。
+  tag: Scratch
+  creator: mryo41
+  affiliation: 猪名川
+  img: 23.jpg
+  description: 参考にしたプロジェクトはありません。
+  URL: https://scratch.mit.edu/projects/880341853/
+  path_URL: 23
+
+- title: SCROLL
+  text: 画面が回転する要素を取り入れたオートスクロールゲームです。
+  tag: Scratch
+  creator: asomilkman
+  affiliation: 船橋,小平,市川
+  img: 24.jpg
+  description: ボカロPの映像を参考にしました
+  URL: https://scratch.mit.edu/projects/880758056/
+  path_URL: 24
+
+- title: micro:bitの演奏会
+  text: キラキラ星のホシの所は、上手く描けなかったから、考えて✴︎マークにしました。
+  tag: 電子工作
+  creator: KEi
+  affiliation: 奈良、生駒
+  img: 25.jpg
+  description: 楽譜は、小学校一年生の鍵盤ハーモニカの教科書を参考にしました。
+  URL: https://drive.google.com/file/d/10rsc0l2oFq-6wp4YXUdunKKtB3wUagWx/view?usp=sharing
+  path_URL: 25
