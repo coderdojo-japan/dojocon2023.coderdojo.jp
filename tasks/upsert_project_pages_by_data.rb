@@ -21,22 +21,6 @@ projects.each_with_index do |project, index|
     ---
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project[:title]}</h1>
     <div class="main_content">
-
-    {% comment %}
-    /*スクラッチの埋め込みをしたい場合に用いる。*/
-    {% if "#{project[:tag]}" contains "Scratch" %}
-    {% if "#{project[:URL]}" contains "https://scratch.mit.edu/projects/" %}
-    <div class="scratch-wrapper">
-    <iframe src="#{project[:URL]}embed" allowtransparency="true" width="542" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    </div>
-    {%else%}
-    <img class='top-img lazyload' src='/img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
-    {% endif %}
-    {% else %}
-    <img class='top-img lazyload' src='/img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
-    {% endif %}
-    {% endcomment %}
-    
     <a href="#{project[:URL]}" target="_blank" rel="noopener" >
       <img class='top-img lazyload' loading='lazy' alt='サムネイル画像'
            style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
@@ -60,7 +44,6 @@ projects.each_with_index do |project, index|
     </a>
     
     <style type="text/css">
-      iframe{margin: 0 auto}
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
       .box p{text-align: left;}
@@ -81,8 +64,10 @@ projects.each_with_index do |project, index|
          width: 80%;
        }
       }
+      
       /* Scratch wrapper */
       /* スクラッチ埋め込みは未実装のためコメントアウト
+      iframe{margin: 0 auto}
       @media screen and (max-width: 570px){
         div.scratch-wrapper > iframe {
           position: absolute;
@@ -108,6 +93,21 @@ projects.each_with_index do |project, index|
       .nav a:link, .nav a:visited { color: white; }
       */
     </style>
+
+    {% comment %}
+    /* スクラッチの埋め込みをしたい場合に用いる。*/
+    {% if "#{project[:tag]}" contains "Scratch" %}
+    {% if "#{project[:URL]}" contains "https://scratch.mit.edu/projects/" %}
+    <div class="scratch-wrapper">
+    <iframe src="#{project[:URL]}embed" allowtransparency="true" width="542" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+    {%else%}
+    <img class='top-img lazyload' src='/img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
+    {% endif %}
+    {% else %}
+    <img class='top-img lazyload' src='/img/2023/exhibition/#{project[:img]}' alt='サムネイル画像' loading='lazy'  style='margin-bottom: 10px; border-radius: 6px;width: 100%;' />
+    {% endif %}
+    {% endcomment %}
   PROJECT_PAGE
 
   IO.write(path, page)
