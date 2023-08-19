@@ -21,22 +21,24 @@ projects.each_with_index do |project, index|
     ---
     <h1 style="padding-top: 100px; padding-bottom: 30px; ">#{project[:title]}</h1>
     <div class="main_content">
-    <a href="#{project[:URL]}" target="_blank" rel="noopener" >
-      <img class='top-img lazyload' loading='lazy' alt='サムネイル画像'
-           style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
-           src='/img/2023/exhibition/#{project[:img]}' />
-    </a>
-    <p>クリエイター: #{project[:creator]}(CoderDojo #{project[:affiliation]})</p>
-    <div class="contents">
-      <div class="box">
-        <h5>作品の説明</h5>
-        <p>#{project[:text]}</p>
+      <a href="#{project[:URL]}" target="_blank" rel="noopener" >
+        <img class='top-img lazyload' loading='lazy' alt='サムネイル画像'
+             style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
+             src='/img/2023/exhibition/#{project[:img]}' />
+      </a>
+
+      <p>クリエイター: #{project[:creator]}(CoderDojo #{project[:affiliation]})</p>
+      <div class="contents">
+        <div class="box">
+          <h5>作品の説明</h5>
+          <p>#{project[:text]}</p>
+        </div>
+
+        <div class="box">
+          <h5>参考・参照元、工夫したところ</h5>
+          <p>#{project[:description]}</p>
+        </div>
       </div>
-      <div class="box">
-        <h5>参考・参照元、工夫したところ</h5>
-        <p>#{project[:description]}</p>
-      </div>
-    </div>
     </div>
 
     <div style='margin-bottom: 100px;'>
