@@ -27,7 +27,6 @@ DojoCon Japanは参加者みんなで作り上げていく場です、ぜひ当�
         <img src="/img/2023/event/timetable_rgb1600.jpg" alt="画像をクリック／タップで拡大します" style="margin-bottom: 1em; max-width:none;">
         <p style="text-align:center;">画像をクリック／タップで拡大します</p>
     </a>
-        <p style="text-align:center;font-size:smaller;">（タイムテーブルの内容は進行上の都合などで変更となる場合があります。）</p>
 </div>
 
 ## セッション
