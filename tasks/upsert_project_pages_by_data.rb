@@ -60,12 +60,6 @@ projects.each_with_index do |project, index|
     </a>
     
     <style type="text/css">
-      /* 使っていないスタイルのため一時的にコメントアウト
-      .prev { display: table-cell; color: white; text-align: left;   }
-      .toc  { display: table-cell; color: white; text-align: center; }
-      .next { display: table-cell; color: white; text-align: right;  }
-      .nav a:link, .nav a:visited { color: white; }
-      */
       iframe{margin: 0 auto}
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
@@ -87,8 +81,8 @@ projects.each_with_index do |project, index|
          width: 80%;
        }
       }
-      /* scratch wrapper */
-      /*今回スクラッチを埋め込まないためコメントアウト
+      /* Scratch wrapper */
+      /* スクラッチ埋め込みは未実装のためコメントアウト
       @media screen and (max-width: 570px){
         div.scratch-wrapper > iframe {
           position: absolute;
@@ -105,6 +99,13 @@ projects.each_with_index do |project, index|
           margin: 10px 20px;
         }
       }
+      */
+      /* 隣の作品へのナビゲーションバー */
+      /* ナビゲーションは未実装のためコメントアウト
+      .prev { display: table-cell; color: white; text-align: left;   }
+      .toc  { display: table-cell; color: white; text-align: center; }
+      .next { display: table-cell; color: white; text-align: right;  }
+      .nav a:link, .nav a:visited { color: white; }
       */
     </style>
   PROJECT_PAGE
