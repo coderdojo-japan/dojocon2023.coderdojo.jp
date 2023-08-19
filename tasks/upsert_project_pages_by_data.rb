@@ -46,7 +46,7 @@ projects.each_with_index do |project, index|
         <i class="fas fa-scroll"></i>
         作品を見る
       </a>
-      <a href="https://twitter.com/intent/tweet?hashtags=DojoConJapan,CoderDojo&url=/expo/#{project[:path_URL]}&lang=jp&related=DojoConJapan" target="_blank" rel="noopener" class="button air">
+      <a href="https://twitter.com/intent/tweet?hashtags=DojoConJapan,CoderDojo&url={{ site.url }}/expo/#{project[:path_URL]}&lang=jp&related=DojoConJapan" target="_blank" rel="noopener" class="button air">
         <i class="fab fa-twitter"></i>
         作品を共有する
       </a>
