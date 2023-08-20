@@ -16,7 +16,7 @@ permalink: /exhibition
   <div class="row text-left">
     {% for exhibition in site.data.exhibition %}
       {% assign profile_id = 'profile-' | append: forloop.index %}
-    <div class="col-md-6 col-12 p-3" id="{{data.title}}">
+    <div class="col-md-6 col-12 p-3" id={{exhibition.path_URL}}>
       <h4 class="ws-title">{{ exhibition.title }}</h4>
       <p>
         {{ exhibition.time }}

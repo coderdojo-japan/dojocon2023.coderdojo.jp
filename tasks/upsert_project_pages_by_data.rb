@@ -41,17 +41,42 @@ projects.each_with_index do |project, index|
       </div>
     </div>
 
-    <div style='margin-bottom: 100px;'>
+    <div>
       <a href="#{project[:URL]}" target="_blank" rel="noopener" class="button air">
         <i class="fas fa-scroll"></i>
         作品を見る
       </a>
-      <a href="https://twitter.com/intent/tweet?text={{ page.title | replace: '&', '%26' }}+%7C+ニンジャ大博覧会&hashtags=DojoConJapan,CoderDojo&url={{ site.url }}/expo/#{project[:path_URL]}&lang=jp&related=DojoConJapan" target="_blank" rel="noopener" class="button air">
+      <a href="https://twitter.com/intent/tweet?text={{ page.title | replace: '&', '%26' }}+%7C+ニンジャ大博覧会&hashtags=DojoConJapan,CoderDojo&url={{ site.url }}/expo/#{project[:path_URL]}&lang=jp&related=DojoConJapan" target="_blank" rel="noopener" class="button">
         <i class="fab fa-twitter"></i>
         作品を共有する
       </a>
     </div>
-
+    <div class="content main_content">
+    <a href="/exhibition##{project[:path_URL]}" class="back-to-top text-left" style="margin-top: 20px;"><i class="fas fa-chevron-circle-left"></i>作品一覧に戻る</a>
+    </div>
+    <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
+    {% if #{project[:path_URL]}==30 %}
+    <div class="article-navigation" style="margin-bottom: 100px;">
+        <a href="/expo/#{project[:path_URL]-1}" class="previous-article">&lt; 前の記事へ</a>
+        &nbsp;・&nbsp; <!-- 中間の・ -->
+        <a href="/expo/1" class="next-article">次の記事へ &gt;</a>
+      </div>
+    {% else %}
+    {% if #{project[:path_URL]}==1 %}
+    <div class="article-navigation" style="margin-bottom: 100px;">
+    <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
+      <a href="/expo/30" class="previous-article">&lt; 前の記事へ</a>
+      &nbsp;・&nbsp; <!-- 中間の・ -->
+      <a href="/expo/#{project[:path_URL]+1}" class="next-article">次の記事へ &gt;</a>
+    </div>
+    {%else%}
+    <div class="article-navigation" style="margin-bottom: 100px;">
+      <a href="/expo/#{project[:path_URL]-1}" class="previous-article">&lt; 前の記事へ</a>
+      &nbsp;・&nbsp; <!-- 中間の・ -->
+      <a href="/expo/#{project[:path_URL]+1}" class="next-article">次の記事へ &gt;</a>
+    </div>
+    {% endif %}
+    {% endif %}
     <style type="text/css">
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
@@ -92,6 +117,24 @@ projects.each_with_index do |project, index|
           overflow: hidden;
           margin: 10px 20px;
         }
+      }
+      .article-navigation {
+        text-align: center;
+        margin: 20px 0;
+      }
+    
+      .article-navigation a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 0 10px;
+      }
+    
+      .article-navigation a:hover {
+        background-color: #0056b3;
       }
       */
       /* 隣の作品へのナビゲーションバー */
