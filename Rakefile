@@ -6,7 +6,6 @@ task :upsert_project_pages_by_data do
   ruby "tasks/upsert_project_pages_by_data.rb"
 end
 
-
 # HTML Proofer helps to detect broken links.
 # https://github.com/gjtorikian/html-proofer
 require 'html-proofer'
