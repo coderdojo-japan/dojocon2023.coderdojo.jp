@@ -4,7 +4,6 @@ gem "jekyll"
 gem 'rake'       # Enable Rakefile to run tasks
 gem 'mini_racer' # Enable to run 'docker-compose up'
 
-
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-include-cache'
@@ -30,4 +29,3 @@ end
 
 # Performance-booster for watching directories on Windows
 #gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
