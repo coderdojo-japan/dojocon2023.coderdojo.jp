@@ -1,0 +1,18 @@
+---
+permalink: /exhibition.json
+---
+[ {% for pj in site.data.exhibition %}
+  {
+    "id"          : "{{ pj.path_URL }}",
+    "title"       : "{{ pj.title       | strip_html | escape }}",
+    "description" : "{{ pj.text        | strip_html | escape }}",
+    "tag"         : "{{ pj.tag         | strip_html | escape }}",
+    "note"        : "{{ pj.description | strip_html | escape }}",
+    "creator"     : "{{ pj.creator     | strip_html | escape }}",
+    "coderdojo_at": "{{ pj.affiliation | strip_html | escape }}",
+    "thumbnail"   : "{{ site.url }}/{{ pj.img }}",
+    "url_internal": "{{ site.url }}/{{ pj.path_URL }}",
+    "url_external": "{{ pj.URL }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
+
