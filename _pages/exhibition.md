@@ -19,13 +19,8 @@ permalink: /exhibition
     <div class="col-md-6 col-12 p-3" id={{exhibition.path_URL}}>
       <h4 class="ws-title">{{ exhibition.title }}</h4>
       <p>
-        {% if exhibition.tag %}
-        {% if exhibition.local %}
-        <span class="badge badge-ws">{{ exhibition.tag }}</span> <span class="badge badge-ws">{{ exhibition.local }}</span>
-        {% else %}
-        <span class="badge badge-ws">{{ exhibition.tag }}</span>
-        {% endif %}
-        {% endif %}
+        {% if exhibition.tag   %}<span class="badge badge-ws">{{ exhibition.tag   }}</span>{% endif %}
+        {% if exhibition.local %}<span class="badge badge-ws">{{ exhibition.local }}</span>{% endif %}
       </p>
       {% if exhibition.img %}
       <div class="my-3">
