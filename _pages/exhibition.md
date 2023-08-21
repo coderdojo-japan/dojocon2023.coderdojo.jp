@@ -22,13 +22,16 @@ permalink: /exhibition
         {% if exhibition.tag   %}<span class="badge badge-ws">{{ exhibition.tag   }}</span>{% endif %}
         {% if exhibition.local %}<span class="badge badge-ws">{{ exhibition.local }}</span>{% endif %}
       </p>
-      {% if exhibition.img %}
       <div class="my-3">
         <a href="/expo/{{ exhibition.path_URL }}">
-          <img src="/img/2023/exhibition/{{ exhibition.img }}" class="w-100 px-5" alt="サムネイル">
+          <img class="w-100 px-5" alt="サムネイル"
+	       {% if exhibition.img %}
+	       src="/img/2023/exhibition/{{ exhibition.img }}" {% else  %}
+	       src="/img/2023/dummy.jpg"
+               {% endif %}
+	  >
         </a>
       </div>
-      {% endif %}
       <p class="exhibition-speaker-name">{{ exhibition.creator }} {% if exhibition.affiliation %}（CoderDojo {{ exhibition.affiliation }}）{% endif %}</p>
       {% if exhibition.URL %}
       <p>
