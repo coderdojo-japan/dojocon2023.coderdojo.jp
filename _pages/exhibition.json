@@ -10,7 +10,7 @@ permalink: /exhibition.json
     "note"        : "{{ pj.description | strip_html | escape }}",
     "creator"     : "{{ pj.creator     | strip_html | escape }}",
     "coderdojo_at": "{{ pj.affiliation | strip_html | escape }}",
-    "thumbnail"   : "{{ site.url }}/{{ pj.img }}",
+    "thumbnail"   : "{{ site.url }}/img/2023/exhibition/{{ pj.img }}",
     "url_internal": "{{ site.url }}/expo/{{ pj.path_URL }}",
     "url_external": "{{ pj.URL }}"
   }{% unless forloop.last %},{% endunless %}{% endfor %}
