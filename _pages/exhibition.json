@@ -3,7 +3,7 @@ permalink: /exhibition.json
 ---
 [ {% for pj in site.data.exhibition %}
   {
-    "id"          : "{{ pj.path_URL }}",
+    "id"          :  {{ pj.path_URL    | to_integer }},
     "title"       : "{{ pj.title       | strip_html | escape }}",
     "description" : "{{ pj.text        | strip_html | escape }}",
     "tag"         : "{{ pj.tag         | strip_html | escape }}",
