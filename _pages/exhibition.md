@@ -19,6 +19,7 @@ permalink: /exhibition
       <h4 class="ws-title">{{ exhibition.title }}</h4>
       <p>
         {% if exhibition.tag   %}<span class="badge badge-ws">{{ exhibition.tag   }}</span>{% endif %}
+        {% if exhibition.second_tag  %}<span class="badge badge-ws">{{ exhibition.second_tag   }}</span>{% endif %}
         {% if exhibition.local %}<span class="badge badge-ws">{{ exhibition.local }}</span>{% endif %}
       </p>
       <div class="my-3">

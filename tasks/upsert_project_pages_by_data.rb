@@ -55,7 +55,7 @@ projects.each_with_index do |project, index|
     <a href="/exhibition##{project[:path_URL]}" class="back-to-top text-left" style="margin-top: 20px;"><i class="fas fa-chevron-circle-left"></i>作品一覧に戻る</a>
     </div>
     <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
-    {% if #{project[:path_URL]}==31 %}
+    {% if #{project[:path_URL]}==32 %}
     <div class="article-navigation" style="margin-bottom: 100px;">
         <a href="/expo/#{project[:path_URL]-1}" class="previous-article">&lt; 前の作品へ</a>
         &nbsp;・&nbsp; <!-- 中間の・ -->
@@ -65,7 +65,7 @@ projects.each_with_index do |project, index|
     {% if #{project[:path_URL]}==1 %}
     <div class="article-navigation" style="margin-bottom: 100px;">
     <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
-      <a href="/expo/31" class="previous-article">&lt; 前の作品へ</a>
+      <a href="/expo/32" class="previous-article">&lt; 前の作品へ</a>
       &nbsp;・&nbsp; <!-- 中間の・ -->
       <a href="/expo/#{project[:path_URL]+1}" class="next-article">次の作品へ &gt;</a>
     </div>
