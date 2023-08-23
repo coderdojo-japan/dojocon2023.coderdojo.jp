@@ -2,7 +2,6 @@
 layout: sessions
 title: SESSION
 subtitle: セッション
-thumbnail: timetable.png
 permalink: /sessions
 ---
   <div class="row text-left">
