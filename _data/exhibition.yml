@@ -231,6 +231,7 @@
 - title: SC Wars & zss79.jp
   text: SC Warsは、リミックスされることを前提として作っているので、新キャラクターが追加しやすいです。コスチュームを追加して、コスチューム名に必要な情報を入れるだけで、新キャラクターが追加されます。<br>zss79.jpは、slickを使って、スライドショーを作りました。一番苦労したところは、お問合せフォームの、inputタグの部分です。
   tag: Scratch 
+  second_tag: Webサイト
   creator: zss79
   affiliation: 
   img: 22.jpg
@@ -327,3 +328,13 @@
   description: 特にありません
   URL: https://drive.google.com/file/d/1cEtnistMDYxiLpuY_NuAL8_YYoufIYpK/view?usp=drivesdk
   path_URL: 31
+
+- title: 魚釣り
+  text: 魚を釣るゲームです。<br>モバイル対応です。<br>魚は、小魚、マグロ、クジラの三種類です。<br>魚を釣ってお金を稼いで、釣り針を買ってもっと大きい魚を釣る...のがゲームの流れです。<br>子魚は初期状態で、マグロは大きい釣り針、クジラは大きい釣り針&太い糸で釣れます。<br>工夫したところは釣り針を一回買ったらつけたり外したり出来るようにしたことです。<br>モードが空白だと針を変えれますが、違ったらつけれないようにするという単純なプログラムが意外と難しかったです。
+  tag: Scratch
+  creator: kenz999
+  affiliation: 日進
+  img: 32.jpg
+  description: プログラミング教室で作っていたものを少し変えて作りました。<br>自分で考えて作りました。
+  URL: https://scratch.mit.edu/projects/788033084/
+  path_URL: 32
