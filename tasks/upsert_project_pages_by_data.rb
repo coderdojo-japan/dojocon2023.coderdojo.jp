@@ -52,15 +52,20 @@ projects.each.with_index(0) do |project, index|
         作品を共有する
       </a>
     </div>
+
     <div class="content main_content">
-    <a href="/exhibition##{project[:id]}" class="back-to-top text-left" style="margin-top: 20px;"><i class="fas fa-chevron-circle-left"></i>作品一覧に戻る</a>
+      <a href="/exhibition##{project[:id]}" class="back-to-top text-left" style="margin: 50px auto;">
+        <i class="fas fa-chevron-circle-left"></i>
+        作品一覧に戻る
+      </a>
     </div>
-    <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
+
     <div class="article-navigation" style="margin-bottom: 100px;">
-        <a href="/expo/#{project_ids[index - 1]}" class="previous-article">&lt; 前の作品へ</a>
-        &nbsp;・&nbsp; <!-- 中間の・ -->
-        <a href="/expo/#{project_ids[index + 1].nil? ? 1 : project_ids[index + 1]}" class="next-article">次の作品へ &gt;</a>
-      </div>
+      <a href="/expo/#{project_ids[index - 1]}" class="previous-article">&lt; 前の作品へ</a>
+      &nbsp;・&nbsp;
+      <a href="/expo/#{project_ids[index + 1].nil? ? 1 : project_ids[index + 1]}" class="next-article">次の作品へ &gt;</a>
+    </div>
+
     <style type="text/css">
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
