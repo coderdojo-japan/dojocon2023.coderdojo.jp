@@ -1,350 +1,351 @@
-# - title: 作品のタイトル
-#   text: 作品の説明~~~~
-#   tag: タグ *選択肢にあるもの
-#   creator: 作成者
-#   affiliation: coderdojo *複数ある場合は連結
-#   img: 写真URL *注意拡張子は絶対に小文字で!!
-#   description: 参考・参照元、工夫したところ...
-#   URL: 作品のURL
-#   path_URL: 個々のサイトのパーマリンクに用いるURL、連番でお願いします!!
-#   local: 当日展示がある場合に記入する(記入したらここの文字が上のtagの横にタグ🏷️が追加されて表示される)
-- title: コーディングで マレーシアを探索しよう！
-  text: 自分が見た景色や模様で、きれいだなと思ったものをJavaScript (p5.js) を使って表現したいと思っています。
+# - id:           *作品のID。1, 2, 3, ... と連番につけてください。URLやサムネイル画像などで使われます
+#   thumbnail:    *作品のサムネイル画像（任意）
+#   title:        *作品のタイトル
+#   description:  *作品の説明
+#   tag:          *選択肢から記述
+#   creator:      *作成者
+#   coderdojo_at: *複数ある場合は連結
+#   note:         *工夫したところなど
+#   url:          *作品のURL
+#   local:        *当日展示があるかどうか（任意）
+
+- id: 1
+  thumbnail: 1.jpg
+  title: コーディングで マレーシアを探索しよう！
+  description: 自分が見た景色や模様で、きれいだなと思ったものをJavaScript (p5.js) を使って表現したいと思っています。
   tag: Webサイト
   creator: Lily
-  affiliation: 前橋,瑞穂
-  img: 1.jpg
-  description: マレーシアのペナン島にある世界遺産のジョージタウンの模様や景色を参考にしています。
-  URL: https://www.canva.com/design/DAFigu5zJnU/idy37rTovKKAyFa6E4g39A/watch?utm_content=DAFigu5zJnU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
-  path_URL: 1
+  coderdojo_at: 前橋,瑞穂
+  note: マレーシアのペナン島にある世界遺産のジョージタウンの模様や景色を参考にしています。
+  url: https://www.canva.com/design/DAFigu5zJnU/idy37rTovKKAyFa6E4g39A/watch?utm_content=DAFigu5zJnU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
-- title: scratchタイピング
-  text: 出てきた文字を打つタイピングゲームです。<br>この作品は、普通のタイピングゲームとは違い、出てきた英語の通りに打つゲームです。<br>BGMがないと気分が上がらないと思ったので、BGMにこだわりました。
+- id: 2
+  thumbnail: 2.jpg
+  title: scratchタイピング
+  description: 出てきた文字を打つタイピングゲームです。<br>この作品は、普通のタイピングゲームとは違い、出てきた英語の通りに打つゲームです。<br>BGMがないと気分が上がらないと思ったので、BGMにこだわりました。
   tag: Scratch 
   creator: Megane-kun28
-  affiliation: 大船
-  img: 2.jpg
-  description: ないです。
-  URL: https://scratch.mit.edu/projects/873908710/
-  path_URL: 2
+  coderdojo_at: 大船
+  note: ないです。
+  url: https://scratch.mit.edu/projects/873908710/
 
-- title: コース攻略したぞ！
-  text: 深川小学校の仲良し３人組「りゅうのすけ」「くぼっち」「SOU」です。<br>授業でも導入されている「ｍBot」を使って、自動運転によるコース攻略に挑戦。mBotの機能をフルで使うべく一人１台、合計３台を活用し、①コースを走らせる、②パネルに文字を表示して応援する、③音楽で盛り上げるプログラムを組みました。<br>①「りゅうのすけ」は、走行を担当。ラインセンサーとスピードを工夫して、内側の細いラインのコースを走らせることに成功！<br>②「くぼっち」は、LEDパネルにチーム名や自分たちの名前を表示。見ている人に読みやすい光の配置を工夫！<br>③「SOU」は音楽を担当。何度も聞きながら、音の長さを調整し曲に仕上げ、曲と曲の間に光を入れるなどの工夫も実施！<br>３人で協力し、１つの作品に。パネルの表示と曲は、ｍBotがコース走る時間に合わせてあり、スタートとゴール時に盛り上がりました。
+- id: 3
+  thumbnail: 3.jpg
+  title: コース攻略したぞ！
+  description: 深川小学校の仲良し３人組「りゅうのすけ」「くぼっち」「SOU」です。<br>授業でも導入されている「ｍBot」を使って、自動運転によるコース攻略に挑戦。mBotの機能をフルで使うべく一人１台、合計３台を活用し、①コースを走らせる、②パネルに文字を表示して応援する、③音楽で盛り上げるプログラムを組みました。<br>①「りゅうのすけ」は、走行を担当。ラインセンサーとスピードを工夫して、内側の細いラインのコースを走らせることに成功！<br>②「くぼっち」は、LEDパネルにチーム名や自分たちの名前を表示。見ている人に読みやすい光の配置を工夫！<br>③「SOU」は音楽を担当。何度も聞きながら、音の長さを調整し曲に仕上げ、曲と曲の間に光を入れるなどの工夫も実施！<br>３人で協力し、１つの作品に。パネルの表示と曲は、ｍBotがコース走る時間に合わせてあり、スタートとゴール時に盛り上がりました。
   tag: ロボット 
   creator:  元気な深川っ子
-  affiliation: 長門
-  img: 3.jpg
-  description: 攻略するため、参考に『改正版Makeblock公式ｍBotで楽しむレッツ！ロボットプログラミング』の書籍をみた。
-  URL: https://youtu.be/Cl0zPaBE8TE
-  path_URL: 3
+  coderdojo_at: 長門
+  note: 攻略するため、参考に『改正版Makeblock公式ｍBotで楽しむレッツ！ロボットプログラミング』の書籍をみた。
+  url: https://youtu.be/Cl0zPaBE8TE
 
-- title: 簡単なロブロックスオビー
-  text: 簡単過ぎず難しすぎず作りました。
+- id: 4
+  thumbnail: 4.jpg
+  title: 簡単なロブロックスオビー
+  description: 簡単過ぎず難しすぎず作りました。
   tag: Webサイト 
   creator: がんにゃむ
-  affiliation: 奈良
-  img: 4.jpg
-  description: ロブロックスでゲームを作ろう
-  URL: https://www.youtube.com/watch?v=Tm5P76jfjuk
-  path_URL: 4
+  coderdojo_at: 奈良
+  note: ロブロックスでゲームを作ろう
+  url: https://www.youtube.com/watch?v=Tm5P76jfjuk
   local: 当日展示
 
-- title: 蛇ゲーム
-  text: 一から作りました。得点を変数ではなくスプライトで表示させました。
+- id: 5
+  thumbnail: 5.jpg
+  title: 蛇ゲーム
+  description: 一から作りました。得点を変数ではなくスプライトで表示させました。
   tag: Scratch 
   creator: みのる
-  affiliation: 吉祥寺
-  img: 5.jpg
-  description: オリジナル作品です。
-  URL: https://scratch.mit.edu/projects/880498565/
-  path_URL: 5
+  coderdojo_at: 吉祥寺
+  note: オリジナル作品です。
+  url: https://scratch.mit.edu/projects/880498565/
 
-- title: シューティングゲーム（はやと）8.9
-  text: 中学1年生の、はやとです。<br>昨年からCoderDojo長門に通うようになり、ほかのニンジャがシューティングゲームを創っていたのに刺激されて、今回はscratchでゲームをつくってみました。<br>ゲームをつくるために、ファミコンゲームの「EDF」などを参考にしています。<br>とくに、ゲームに出てくる敵のような「ゆらゆらした動き」になるようにプログラムを考えました。<br>動きを設定する際に、より面白くなるよう「sin」などを使って動かしてみました。<br>いろんなタイプの敵を作り、1つ1つに別の動きを設定して、飽きないようにしました。<br>また、スプライトに変数を言わせて、体力を見えるようにしました<br>全体が動いているように見せるためにスプライトを背景代わりにしました。<br>たくさんの人に楽しんでもらえると嬉しいです。　
+- id: 6
+  thumbnail: 6.jpg
+  title: シューティングゲーム（はやと）8.9
+  description: 中学1年生の、はやとです。<br>昨年からCoderDojo長門に通うようになり、ほかのニンジャがシューティングゲームを創っていたのに刺激されて、今回はscratchでゲームをつくってみました。<br>ゲームをつくるために、ファミコンゲームの「EDF」などを参考にしています。<br>とくに、ゲームに出てくる敵のような「ゆらゆらした動き」になるようにプログラムを考えました。<br>動きを設定する際に、より面白くなるよう「sin」などを使って動かしてみました。<br>いろんなタイプの敵を作り、1つ1つに別の動きを設定して、飽きないようにしました。<br>また、スプライトに変数を言わせて、体力を見えるようにしました<br>全体が動いているように見せるためにスプライトを背景代わりにしました。<br>たくさんの人に楽しんでもらえると嬉しいです。　
   tag: Scratch 
   creator: はやとくん
-  affiliation: 長門
-  img: 6.jpg
-  description: ファミコンゲームの「EDF」などを参考にしています。<br>ゲームに出てくる敵のような「ゆらゆらした動き」になるようにプログラムを考えました。
-  URL: https://scratch.mit.edu/projects/881491722/
-  path_URL: 6
-
-- title: my friendl オリジナル
-  text: こわいパペットたちがいるショッピングモールから脱出するゲームです。もともとあるホラーゲームですが、好きなので舞台などを変えて、自分で作ってみました。音声とかゲームオーバー画面を怖くすることにこだわって作りました。
+  coderdojo_at: 長門
+  note: ファミコンゲームの「EDF」などを参考にしています。<br>ゲームに出てくる敵のような「ゆらゆらした動き」になるようにプログラムを考えました。
+  url: https://scratch.mit.edu/projects/881491722/
+  
+- id: 7
+  thumbnail: 7.jpg
+  title: my friendl オリジナル
+  description: こわいパペットたちがいるショッピングモールから脱出するゲームです。もともとあるホラーゲームですが、好きなので舞台などを変えて、自分で作ってみました。音声とかゲームオーバー画面を怖くすることにこだわって作りました。
   tag: Scratch 
   creator: せいじ
-  affiliation: 西宮,梅田
-  img: 7.jpg
-  description: ＰCゲームのmy friendl neeighborhoodを参考にし、再現しました
-  URL: https://scratch.mit.edu/projects/880214859/
-  path_URL: 7
+  coderdojo_at: 西宮,梅田
+  note: ＰCゲームのmy friendl neeighborhoodを参考にし、再現しました
+  url: https://scratch.mit.edu/projects/880214859/
   local: 当日展示
 
-- title: タイマー＆スケジュールアプリ
-  text: いつも自分は締切りぎりぎりに何かを一気に終わらせてしまい、出来が悪くなってしまう癖があるので、このアプリを作って、タイマーを使ってきちんと時間内に何かを終わらせられるようにした。それだけでは物足りないので、下に何をいつまでにするべきかを書き、しっかり時間内にそれを終わらせられるようなリストも作ってみた。終わったら左にチェックが打てるので、どこまで達成できているかを知ることができます。これからはこのアプリを使って物事を計画的に終わらせられるようにしたい。
+- id: 8
+  thumbnail: 8.jpg
+  title: タイマー＆スケジュールアプリ
+  description: いつも自分は締切りぎりぎりに何かを一気に終わらせてしまい、出来が悪くなってしまう癖があるので、このアプリを作って、タイマーを使ってきちんと時間内に何かを終わらせられるようにした。それだけでは物足りないので、下に何をいつまでにするべきかを書き、しっかり時間内にそれを終わらせられるようなリストも作ってみた。終わったら左にチェックが打てるので、どこまで達成できているかを知ることができます。これからはこのアプリを使って物事を計画的に終わらせられるようにしたい。
   tag: Scratch以外の言語による作品 
   creator: りんたろう
-  affiliation: 尾張,瑞穂
-  img: 8.jpg
-  description: タイマーとカウントダウンを同時に動かすところに少し苦労した。 runningとrunning2で分けることによって同時に動かせるようになった。
-  URL: https://drive.google.com/file/d/1SQFvm02Yb4tXKPxJs6NRLkXAKaFiyiL-/view?usp=drive_link
-  path_URL: 8
+  coderdojo_at: 尾張,瑞穂
+  note: タイマーとカウントダウンを同時に動かすところに少し苦労した。 runningとrunning2で分けることによって同時に動かせるようになった。
+  url: https://drive.google.com/file/d/1SQFvm02Yb4tXKPxJs6NRLkXAKaFiyiL-/view?usp=drive_link
   local: 当日展示
 
-- title: シーザー暗号作成読み取り器
-  text: 鍵の表記の仕方が「ROT+数字」なのでプログラムを書くにあたって「ROT」の部分は邪魔なので鍵から数字だけを取り出すようにプログラムを書くのを工夫しました。
+- id: 9
+  thumbnail: 9.jpg
+  title: シーザー暗号作成読み取り器
+  description: 鍵の表記の仕方が「ROT+数字」なのでプログラムを書くにあたって「ROT」の部分は邪魔なので鍵から数字だけを取り出すようにプログラムを書くのを工夫しました。
   tag: Scratch 
   creator: yo_o
-  affiliation: 師勝,名古屋
-  img: 9.jpg
-  description: 2022年７月号 子供の科学 自分専用パソコン第64回「暗号を使って秘密の会話をしよう」を参考にして作りました。<br>この参考書ではスプライトのコスチュームを使って暗号化・復号のプログラムを書いて作っていましたが、この作品はリストを使っています。<br>また、暗号鍵も自分で設定できるようにしました。
-  URL: https://scratch.mit.edu/projects/706260024/
-  path_URL: 9
+  coderdojo_at: 師勝,名古屋
+  note: 2022年７月号 子供の科学 自分専用パソコン第64回「暗号を使って秘密の会話をしよう」を参考にして作りました。<br>この参考書ではスプライトのコスチュームを使って暗号化・復号のプログラムを書いて作っていましたが、この作品はリストを使っています。<br>また、暗号鍵も自分で設定できるようにしました。
+  url: https://scratch.mit.edu/projects/706260024/
 
-- title: アップアップシューティング
-  text: このゲームは、宇宙船の弾で敵を倒していくゲームです。また、ゲームには、ボスを倒すごとにプレイヤーがだんだんパワーアップしていきます。
+- id: 10
+  thumbnail: 10.jpg
+  title: アップアップシューティング
+  description: このゲームは、宇宙船の弾で敵を倒していくゲームです。また、ゲームには、ボスを倒すごとにプレイヤーがだんだんパワーアップしていきます。
   tag: Scratch 
   creator: えんどうまめ
-  affiliation: 奈良
-  img: 10.jpg
-  description: プレイヤーよりも敵キャラクターの個性を作るのに力を入れました。できるだけ敵と敵の能力が被らないように設定しました。
-  URL: https://scratch.mit.edu/projects/661312780/
-  path_URL: 10
+  coderdojo_at: 奈良
+  note: プレイヤーよりも敵キャラクターの個性を作るのに力を入れました。できるだけ敵と敵の能力が被らないように設定しました。
+  url: https://scratch.mit.edu/projects/661312780/
   local: 当日展示
 
-- title: 猫の箱庭
-  text: 猫が、いろいろなイベントがあいます！！そこで、猫を操作して、長い間いきのこらせましょう！！！カオスイベントは、雷⚡、隕石、暗闇があります。下にある、★、♥、渦巻、☀は、おすと、それぞれの、イベントがはっせいします。町をモチーフにしたワールドでいきのこりましょう！！
+- id: 11
+  thumbnail: 11.jpg
+  title: 猫の箱庭
+  description: 猫が、いろいろなイベントがあいます！！そこで、猫を操作して、長い間いきのこらせましょう！！！カオスイベントは、雷⚡、隕石、暗闇があります。下にある、★、♥、渦巻、☀は、おすと、それぞれの、イベントがはっせいします。町をモチーフにしたワールドでいきのこりましょう！！
   tag: Scratch 
   creator: RP
-  affiliation: 奈良
-  img: 11.jpg
-  description: 僕、めっちゃがんばりました！
-  URL: https://scratch.mit.edu/projects/782065331/
-  path_URL: 11
+  coderdojo_at: 奈良
+  note: 僕、めっちゃがんばりました！
+  url: https://scratch.mit.edu/projects/782065331/
   local: 当日展示
 
-- title: 対戦ゲーム
-  text: このゲームは黒い大砲と白い大砲が弾を撃って、お互いの大砲に当てて、相手を倒すゲームです。<br>二人用なので、二人で対戦してみてください。<br>工夫したところは、弾を撃った時に音を鳴らすところです。
+- id: 12
+  thumbnail: 12.jpg
+  title: 対戦ゲーム
+  description: このゲームは黒い大砲と白い大砲が弾を撃って、お互いの大砲に当てて、相手を倒すゲームです。<br>二人用なので、二人で対戦してみてください。<br>工夫したところは、弾を撃った時に音を鳴らすところです。
   tag: Scratch 
   creator: はづき
-  affiliation: 尾張
-  img: 12.jpg
-  description: 曲は魔王魂から取りました。<br>maou_game_battle27
-  URL: https://scratch.mit.edu/projects/881806999/
-  path_URL: 12
+  coderdojo_at: 尾張
+  note: 曲は魔王魂から取りました。<br>maou_game_battle27
+  url: https://scratch.mit.edu/projects/881806999/
   local: 当日展示
 
-- title: 鹿さんゲーム
-  text: このゲームは鹿さんを矢印キーで左右に動かして、鹿せんべいを取るゲームです。<br>鹿せんべいを取ると音が出て、スコアが1上がります。ニンニクとトウガラシを取ってもスコアは上がりません。<br>時間制限は60秒です。<br><br>工夫したところは、BGMをつけたところです。
+- id: 13
+  thumbnail: 13.jpg
+  title: 鹿さんゲーム
+  description: このゲームは鹿さんを矢印キーで左右に動かして、鹿せんべいを取るゲームです。<br>鹿せんべいを取ると音が出て、スコアが1上がります。ニンニクとトウガラシを取ってもスコアは上がりません。<br>時間制限は60秒です。<br><br>工夫したところは、BGMをつけたところです。
   tag: Scratch 
   creator: みづき
-  affiliation: 尾張
-  img: 13.jpg
-  description: スプライトや背景のイラストを下記より参照しました。<br>鹿さん　piclike.net<br>鹿せんべい　blogspot.com<br>ニンニク　tsukatte.com<br>トウガラシ　yamakawa-pharm.jp<br>背景　jpdiamukpictz6q7.blogspot.com
-  URL: https://scratch.mit.edu/projects/881807418/
-  path_URL: 13
+  coderdojo_at: 尾張
+  note: スプライトや背景のイラストを下記より参照しました。<br>鹿さん　piclike.net<br>鹿せんべい　blogspot.com<br>ニンニク　tsukatte.com<br>トウガラシ　yamakawa-pharm.jp<br>背景　jpdiamukpictz6q7.blogspot.com
+  url: https://scratch.mit.edu/projects/881807418/
   local: 当日展示
 
-- title: 心カフェメニューシステム
-  text: 毎週日曜日、家族にモーニングを作ってあげています。メニューがあって microbit の Aボタンを押すとf とフードのメニューの数字が増えていき、BボタンはAボタンと同じで、d とドリンクの数字が増える。そして 何にするか決まったら、A+Bを同時に押して、2個目の microbit に送られます。次の microbit に送られた時、2個目の microbit は、うけとったよと音をならします。音がなりおわっても、まだフードとドリンクの数字をまだ見れる様になっています。
+- id: 14
+  thumbnail: 14.jpg
+  title: 心カフェメニューシステム
+  description: 毎週日曜日、家族にモーニングを作ってあげています。メニューがあって microbit の Aボタンを押すとf とフードのメニューの数字が増えていき、BボタンはAボタンと同じで、d とドリンクの数字が増える。そして 何にするか決まったら、A+Bを同時に押して、2個目の microbit に送られます。次の microbit に送られた時、2個目の microbit は、うけとったよと音をならします。音がなりおわっても、まだフードとドリンクの数字をまだ見れる様になっています。
   tag: 電子工作 
   creator: あやめ
-  affiliation: 尾張
-  img: 14.jpg
-  description: お店の人がいつでも見れる様にずっとドリンクとフードを表示しておきました。はじめて microbit を2つ使ったので自分からもすごく上手に作れるんだなと思いました。お父さんにちょっと手伝ってもらいました。
-  URL: https://youtu.be/wDVRVy8kfw4?si=iprBYbr_2ywtT6WD
-  path_URL: 14
+  coderdojo_at: 尾張
+  note: お店の人がいつでも見れる様にずっとドリンクとフードを表示しておきました。はじめて microbit を2つ使ったので自分からもすごく上手に作れるんだなと思いました。お父さんにちょっと手伝ってもらいました。
+  url: https://youtu.be/wDVRVy8kfw4?si=iprBYbr_2ywtT6WD
   local: 当日展示
 
-- title: お太子ネコの挑戦状！歴史人物なまえクイズ
-  text: 本に出ていた漢字クイズをみて、私は歴史が好きなので歴史人物の名前クイズにしたら面白いかなと思いました。<br><br>初級と、私も最初読めなかった名前の歴史人物は上級にしました。<br><br>いつかもっと沢山クイズにしたいです。
+- id: 15
+  thumbnail: 15.jpg
+  title: お太子ネコの挑戦状！歴史人物なまえクイズ
+  description: 本に出ていた漢字クイズをみて、私は歴史が好きなので歴史人物の名前クイズにしたら面白いかなと思いました。<br><br>初級と、私も最初読めなかった名前の歴史人物は上級にしました。<br><br>いつかもっと沢山クイズにしたいです。
   tag: Scratch 
   creator: ぶち
-  affiliation: 住吉
-  img: 15.jpg
-  description: スクラッチプログラミング事例大全集 <br>すぐに使える!役に立つ! オールカラー・総ルビ! 100例収録!<br>松下孝太郎 / 山本光の漢字クイズを参考に、大好きな歴史に出てくる👦たちの名前クイズにしてみました。<br>本の通りにしないとうまく動かなくて、何度もメンターの先生に質問しました。<br>先生が沢山ヒントをくれて、動いて嬉しかったです。
-  URL: https://scratch.mit.edu/projects/878595154/
-  path_URL: 15
+  coderdojo_at: 住吉
+  note: スクラッチプログラミング事例大全集 <br>すぐに使える!役に立つ! オールカラー・総ルビ! 100例収録!<br>松下孝太郎 / 山本光の漢字クイズを参考に、大好きな歴史に出てくる👦たちの名前クイズにしてみました。<br>本の通りにしないとうまく動かなくて、何度もメンターの先生に質問しました。<br>先生が沢山ヒントをくれて、動いて嬉しかったです。
+  url: https://scratch.mit.edu/projects/878595154/
   local: 当日展示
 
-- title: yamaguchi_maps
-  text: 30,000×30,000ブロック分の山口県のマインクラフトマップを作りました。<br>動画では紹介しきれないほど広いです。<br>起伏図から作ったので50時間くらいかかりました。<br>ちなみに、実際の4分の1くらいのスケールです。
+- id: 16
+  thumbnail: 16.jpg
+  title: yamaguchi_maps
+  description: 30,000×30,000ブロック分の山口県のマインクラフトマップを作りました。<br>動画では紹介しきれないほど広いです。<br>起伏図から作ったので50時間くらいかかりました。<br>ちなみに、実際の4分の1くらいのスケールです。
   tag: マインクラフト 
   creator: けんちゃん
-  affiliation: 長門
-  img: 16.jpg
-  description: 使用したアプリ<br>Medbang Paint Pro...起伏図制作 <br>Worldpainter...読み込み<br>DaVinci Resolve...簡単な動画編集
-  URL: https://youtu.be/GPfSwXAaFSs
-  path_URL: 16
+  coderdojo_at: 長門
+  note: 使用したアプリ<br>Medbang Paint Pro...起伏図制作 <br>Worldpainter...読み込み<br>DaVinci Resolve...簡単な動画編集
+  url: https://youtu.be/GPfSwXAaFSs
 
-- title: モ〜レッツキャッチ！ゲーム
-  text: micro:bitの付いた投げ縄を振り回して投げて牛を捕まえるゲームです。投げ縄が牛のツノに引っかかると牛が怒りだします。<br>牛の制作は家族全員でやりました。
+- id: 17
+  thumbnail: 17.jpg
+  title: モ〜レッツキャッチ！ゲーム
+  description: micro:bitの付いた投げ縄を振り回して投げて牛を捕まえるゲームです。投げ縄が牛のツノに引っかかると牛が怒りだします。<br>牛の制作は家族全員でやりました。
   tag: 電子工作 
   creator: ショーピー256
-  affiliation: 倉敷,吉備岡山
-  img: 17.jpg
-  description: micro:bitを二つ使って連携させたところ
-  URL: https://vimeo.com/854617665
-  path_URL: 17
+  coderdojo_at: 倉敷,吉備岡山
+  note: micro:bitを二つ使って連携させたところ
+  url: https://vimeo.com/854617665
   local: 当日展示
 
-- title: お金ゲーム
-  text: 「お金ゲーム」は、ビスケットで作ったゲームです。落ちてくるお金を並べて、お金の多さを競います。同じお金を横に2つならべると、次のお金に変わり、お金がもらえます。タップして出せるお金は１円から１００円までです。例えば５円と５円をならべると、１０円になり、５円もらえます。最大は１０００円と１０００円がならぶと５０００円になり、1０００円もらます。<br>工夫したところは、「次」でランダムに表示したお金を、タップした時にちゃんと表示するとことです。「割れたメガネ」を使うことで、同じお金が表示されるように工夫しました。<br><br>また、お金を計算するプログラムも「割れたメガネ」を使って工夫しました。「円」という文字に「+1」を重ねたり、位をずらしたりしてプログラムし、正しくお金が増えるようにするところが難しかったです。
+- id: 18
+  thumbnail: 18.jpg
+  title: お金ゲーム
+  description: 「お金ゲーム」は、ビスケットで作ったゲームです。落ちてくるお金を並べて、お金の多さを競います。同じお金を横に2つならべると、次のお金に変わり、お金がもらえます。タップして出せるお金は１円から１００円までです。例えば５円と５円をならべると、１０円になり、５円もらえます。最大は１０００円と１０００円がならぶと５０００円になり、1０００円もらます。<br>工夫したところは、「次」でランダムに表示したお金を、タップした時にちゃんと表示するとことです。「割れたメガネ」を使うことで、同じお金が表示されるように工夫しました。<br><br>また、お金を計算するプログラムも「割れたメガネ」を使って工夫しました。「円」という文字に「+1」を重ねたり、位をずらしたりしてプログラムし、正しくお金が増えるようにするところが難しかったです。
   tag: モバイルアプリ 
   creator: てるた
-  affiliation: 西尾
-  img: 18.jpg
-  description: ユーチューブで見たゲームを少し参考にしましたが、URLはわかりません。
-  URL: https://drive.google.com/file/d/1-DZChpe9hge014qggKtzztgvZvN6YkL1/view?usp=sharing
-  path_URL: 18
+  coderdojo_at: 西尾
+  note: ユーチューブで見たゲームを少し参考にしましたが、URLはわかりません。
+  url: https://drive.google.com/file/d/1-DZChpe9hge014qggKtzztgvZvN6YkL1/view?usp=sharing
 
-- title: 名古屋駅シュミレーター
-  text: リアルタイムでJR名古屋駅に到着する東海道本線の上り・下り電車を見ることができます。<br>特徴は、リスト数がすごく多いことです。<br>苦労したことは、時刻表のデータをすべてコピーし、メモ帳に貼り付け、◯時の部分を消して、リストに読み込ませ、編集のプログラムを組み、プログラムを通したデータをまた違うリストに読み込ませ、控えを取り、もう一方のデータを同じように変換し、統合のプログラムを組み、データを同じリストに統合させたこと。<br>以上のプログラムを休日と平日の二回やったことです。
+- id: 19
+  thumbnail: 19.jpg
+  title: 名古屋駅シュミレーター
+  description: リアルタイムでJR名古屋駅に到着する東海道本線の上り・下り電車を見ることができます。<br>特徴は、リスト数がすごく多いことです。<br>苦労したことは、時刻表のデータをすべてコピーし、メモ帳に貼り付け、◯時の部分を消して、リストに読み込ませ、編集のプログラムを組み、プログラムを通したデータをまた違うリストに読み込ませ、控えを取り、もう一方のデータを同じように変換し、統合のプログラムを組み、データを同じリストに統合させたこと。<br>以上のプログラムを休日と平日の二回やったことです。
   tag: Scratch 
   creator: dorakoma3
-  affiliation: 瀬戸
-  img: 19.jpg
-  description: データ<br>・時刻表<br>https://ekitan.com/timetable/railway/line-station/149-83/d1<br>https://ekitan.com/timetable/railway/line-station/149-83/d2<br>・ホームの位置<br>https://railway.jr-central.co.jp/station-guide/shinkansen/nagoya/map.html<br><br>参考<br>https://scratch.mit.edu/projects/869156041/
-  URL: https://scratch.mit.edu/projects/878550071/
-  path_URL: 19
+  coderdojo_at: 瀬戸
+  note: データ<br>・時刻表<br>https://ekitan.com/timetable/railway/line-station/149-83/d1<br>https://ekitan.com/timetable/railway/line-station/149-83/d2<br>・ホームの位置<br>https://railway.jr-central.co.jp/station-guide/shinkansen/nagoya/map.html<br><br>参考<br>https://scratch.mit.edu/projects/869156041/
+  url: https://scratch.mit.edu/projects/878550071/
 
-- title: Space Travelers
-  text: この作品で工夫したところはキャラクターやアイテムの見た目です。今まではScratchに入っているスプライトをそのまま使っていましたが、今回はそれを加工して使ったり自分でスプライトを作ったりしました。<br>　また、今回は初めてゲームにメニュー画面を作ったり、BGMをネットで探して使ったりしました。BGMや素材は著作権にも気を付けました。<br>日本語がわからない人にも遊んでもらえるように、説明書きやゲームの言語選択に英語を使ったことも工夫した点です。
+- id: 20
+  thumbnail: 20.jpg
+  title: Space Travelers
+  description: この作品で工夫したところはキャラクターやアイテムの見た目です。今まではScratchに入っているスプライトをそのまま使っていましたが、今回はそれを加工して使ったり自分でスプライトを作ったりしました。<br>　また、今回は初めてゲームにメニュー画面を作ったり、BGMをネットで探して使ったりしました。BGMや素材は著作権にも気を付けました。<br>日本語がわからない人にも遊んでもらえるように、説明書きやゲームの言語選択に英語を使ったことも工夫した点です。
   tag: Scratch 
   creator: ゆうと
-  affiliation: 西尾,尾張
-  img: 20.jpg
-  description: 参考にした書籍・プロジェクトは特にありません。
-  URL: https://scratch.mit.edu/projects/873338220/
-  path_URL: 20
+  coderdojo_at: 西尾,尾張
+  note: 参考にした書籍・プロジェクトは特にありません。
+  url: https://scratch.mit.edu/projects/873338220/
 
-- title: 世界一難しいゲームを再現しました
-  text: 【工夫したところ】プレーヤーを小さくしたところ。トラップなどの仕掛けがあるところ。
+- id: 21
+  thumbnail: 21.jpg
+  title: 世界一難しいゲームを再現しました
+  description: 【工夫したところ】プレーヤーを小さくしたところ。トラップなどの仕掛けがあるところ。
   tag: Scratch 
   creator: エージェント火の用心
-  affiliation: 西尾
-  img: 21.jpg
-  description: ありません。
-  URL: https://scratch.mit.edu/projects/873364568
-  path_URL: 21
+  coderdojo_at: 西尾
+  note: ありません。
+  url: https://scratch.mit.edu/projects/873364568
 
-- title: SC Wars & zss79.jp
-  text: SC Warsは、リミックスされることを前提として作っているので、新キャラクターが追加しやすいです。コスチュームを追加して、コスチューム名に必要な情報を入れるだけで、新キャラクターが追加されます。<br>zss79.jpは、slickを使って、スライドショーを作りました。一番苦労したところは、お問合せフォームの、inputタグの部分です。
+- id: 22
+  thumbnail: 22.jpg
+  title: SC Wars & zss79.jp
+  description: SC Warsは、リミックスされることを前提として作っているので、新キャラクターが追加しやすいです。コスチュームを追加して、コスチューム名に必要な情報を入れるだけで、新キャラクターが追加されます。<br>zss79.jpは、slickを使って、スライドショーを作りました。一番苦労したところは、お問合せフォームの、inputタグの部分です。
   tag: Scratch 
   second_tag: Webサイト
   creator: zss79
-  affiliation: 
-  img: 22.jpg
-  description: SC Wars：にゃんこ大戦争 https://www.ponos.jp/
-  URL: https://drive.google.com/file/d/1n5AJfkBYEtcBRHdThvMJTJFvT2m-xoKW/view?usp=drive_link
-  path_URL: 22
+  coderdojo_at: 
+  note: SC Wars：にゃんこ大戦争 https://www.ponos.jp/
+  url: https://drive.google.com/file/d/1n5AJfkBYEtcBRHdThvMJTJFvT2m-xoKW/view?usp=drive_link
 
-- title: space shooter
-  text: タイトル通りのシューティングゲームです。<br>マウスで照準を動かしてスペースを押して敵を倒すゲームです。<br>タイマー制です。<br>nキー、mキーを使ってbgmの、eキー、sキーを使ってサウンドのオンオフが変えられます。<br>敵のビジュアルとシューティングの仕様はリズム天国から着想を得ました。
+- id: 23
+  thumbnail: 23.jpg
+  title: space shooter
+  description: タイトル通りのシューティングゲームです。<br>マウスで照準を動かしてスペースを押して敵を倒すゲームです。<br>タイマー制です。<br>nキー、mキーを使ってbgmの、eキー、sキーを使ってサウンドのオンオフが変えられます。<br>敵のビジュアルとシューティングの仕様はリズム天国から着想を得ました。
   tag: Scratch
   creator: mryo41
-  affiliation: 猪名川
-  img: 23.jpg
-  description: 参考にしたプロジェクトはありません。
-  URL: https://scratch.mit.edu/projects/880341853/
-  path_URL: 23
+  coderdojo_at: 猪名川
+  note: 参考にしたプロジェクトはありません。
+  url: https://scratch.mit.edu/projects/880341853/
 
-- title: SCROLL
-  text: 画面が回転する要素を取り入れたオートスクロールゲームです。
+- id: 24
+  thumbnail: 24.jpg
+  title: SCROLL
+  description: 画面が回転する要素を取り入れたオートスクロールゲームです。
   tag: Scratch
   creator: asomilkman
-  affiliation: 船橋,小平,市川
-  img: 24.jpg
-  description: ボカロPの映像を参考にしました
-  URL: https://scratch.mit.edu/projects/880758056/
-  path_URL: 24
+  coderdojo_at: 船橋,小平,市川
+  note: ボカロPの映像を参考にしました
+  url: https://scratch.mit.edu/projects/880758056/
 
-- title: micro:bitの演奏会
-  text: キラキラ星のホシの所は、上手く描けなかったから、考えて✴︎マークにしました。
+- id: 25
+  thumbnail: 25.jpg
+  title: micro:bitの演奏会
+  description: キラキラ星のホシの所は、上手く描けなかったから、考えて✴︎マークにしました。
   tag: 電子工作
   creator: KEi
-  affiliation: 奈良,生駒
-  img: 25.jpg
-  description: 楽譜は、小学校一年生の鍵盤ハーモニカの教科書を参考にしました。
-  URL: https://drive.google.com/file/d/10rsc0l2oFq-6wp4YXUdunKKtB3wUagWx/view?usp=sharing
-  path_URL: 25
+  coderdojo_at: 奈良,生駒
+  note: 楽譜は、小学校一年生の鍵盤ハーモニカの教科書を参考にしました。
+  url: https://drive.google.com/file/d/10rsc0l2oFq-6wp4YXUdunKKtB3wUagWx/view?usp=sharing
 
-- title: マイクラ映画「終戦の護衛艦」他一本
-  text: Coderdojo瀬戸のei_0123です。<br>DojoCon初参加で、マイクラの短編映画「終戦の護衛艦」「東海貨物列車ジャック事件」を作ってみました。今回の撮影では、アカウントが二つしかなく、自分一人で作ったので、航空機の操縦や列車の運転などは一人でマウスを２つ操作しています。動画の停止ボタンを押していたら、航空機がどっかに飛んでってしまったこともあります（笑）。<br><br>一作目の「終戦の護衛艦」は、海上自衛隊、航空自衛隊が登場し、終戦間際にタイムスリップするという物語です。<br><br>二作目の「東海貨物列車ジャック事件」では、貨物列車が乗っ取られてしまうという前代未聞の出来事が発生、警察が、鉄道の特徴をうまく引き出して、ジャック犯を止めるという物語です。
+- id: 26
+  thumbnail: 26.jpg
+  title: マイクラ映画「終戦の護衛艦」他一本
+  description: Coderdojo瀬戸のei_0123です。<br>DojoCon初参加で、マイクラの短編映画「終戦の護衛艦」「東海貨物列車ジャック事件」を作ってみました。今回の撮影では、アカウントが二つしかなく、自分一人で作ったので、航空機の操縦や列車の運転などは一人でマウスを２つ操作しています。動画の停止ボタンを押していたら、航空機がどっかに飛んでってしまったこともあります（笑）。<br><br>一作目の「終戦の護衛艦」は、海上自衛隊、航空自衛隊が登場し、終戦間際にタイムスリップするという物語です。<br><br>二作目の「東海貨物列車ジャック事件」では、貨物列車が乗っ取られてしまうという前代未聞の出来事が発生、警察が、鉄道の特徴をうまく引き出して、ジャック犯を止めるという物語です。
   tag: マインクラフト
   creator: ei_0123
-  affiliation: 瀬戸
-  img: 26.jpg
-  description: 「終戦の護衛艦」<br>・MC Heli MOD<br><br>「東海貨物列車ジャック事件」<br>・RealTrainMod<br>・東海道新幹線 N700S Pack ver1.0<br>・600V`s Meitetsupackβ<br><br>BGM<br>・フリーBGM DOVA-SYNDROME
-  URL: https://drive.google.com/file/d/1WiXT_w4AKx8gF-cPfIrP-5UnKq3bb8el/view?usp=sharing
-  path_URL: 26
+  coderdojo_at: 瀬戸
+  note: 「終戦の護衛艦」<br>・MC Heli MOD<br><br>「東海貨物列車ジャック事件」<br>・RealTrainMod<br>・東海道新幹線 N700S Pack ver1.0<br>・600V`s Meitetsupackβ<br><br>BGM<br>・フリーBGM DOVA-SYNDROME
+  url: https://drive.google.com/file/d/1WiXT_w4AKx8gF-cPfIrP-5UnKq3bb8el/view?usp=sharing
 
-- title: こうちゃんの建築物［屋敷］
-  text: この作品は屋敷をイメージして作った物です<br>・こだわりポイント<<br>桜の木の本数を調節して作りました。<br>入り口の門にこだわりました<br>門の水辺の橋の丸い部分に凄くこだわりました<br>あと蓮の葉の置く位置と小さなドリップリーフの置く場所にこだわりました<br>・苦労したところ<br>石の道の砂利とか池と池の魚の量の調節が大変でした<br>あと庭の草は一つ一つ置きましたのでその作業に時間をとられました<br>それと屋根の敷き詰めと床を敷き詰めるのは結構大変でした
+- id: 27
+  thumbnail: 27.jpg
+  title: こうちゃんの建築物［屋敷］
+  description: この作品は屋敷をイメージして作った物です<br>・こだわりポイント<<br>桜の木の本数を調節して作りました。<br>入り口の門にこだわりました<br>門の水辺の橋の丸い部分に凄くこだわりました<br>あと蓮の葉の置く位置と小さなドリップリーフの置く場所にこだわりました<br>・苦労したところ<br>石の道の砂利とか池と池の魚の量の調節が大変でした<br>あと庭の草は一つ一つ置きましたのでその作業に時間をとられました<br>それと屋根の敷き詰めと床を敷き詰めるのは結構大変でした
   tag: マインクラフト
   creator: こうちゃん
-  affiliation: 小平
-  img: 27.jpg
-  description: ストラクチャーブロックで壁を組み立てて、ちょっとでも早く進められるようにようにがんばりました。
-  URL: https://www.youtube.com/watch?v=fJR6u_kQVPY
-  path_URL: 27
+  coderdojo_at: 小平
+  note: ストラクチャーブロックで壁を組み立てて、ちょっとでも早く進められるようにようにがんばりました。
+  url: https://www.youtube.com/watch?v=fJR6u_kQVPY
 
-- title: FukuyamaCastle祝400歳!
-  text: 昨年のマインクラフトカップ応募作品です。中国ブロック優秀賞を受賞しました。<br>2022年8月に、福山城は築城400年を迎えました。僕たちは、築城当時の福山城をマインクラフト上に再現し、そこに動物と一緒に生活する街を作ろうと思いました。福山市民が大好きな福山城といろんな生き物が共生する未来を表現しました。色とりどりの球の中には多様な生き物がそれぞれに適した環境で暮らしています。<br>福山城作りが一番こだわった点です。当時の単位の1間は約1.8メートルですが、これをマインクラフト上で2メートルとして、本丸、二の丸、三の丸や、櫓や堀、石垣を再現しました。
+- id: 28
+  thumbnail: 28.jpg
+  title: FukuyamaCastle祝400歳!
+  description: 昨年のマインクラフトカップ応募作品です。中国ブロック優秀賞を受賞しました。<br>2022年8月に、福山城は築城400年を迎えました。僕たちは、築城当時の福山城をマインクラフト上に再現し、そこに動物と一緒に生活する街を作ろうと思いました。福山市民が大好きな福山城といろんな生き物が共生する未来を表現しました。色とりどりの球の中には多様な生き物がそれぞれに適した環境で暮らしています。<br>福山城作りが一番こだわった点です。当時の単位の1間は約1.8メートルですが、これをマインクラフト上で2メートルとして、本丸、二の丸、三の丸や、櫓や堀、石垣を再現しました。
   tag: マインクラフト
   creator: CoderDojo福山大門
-  affiliation: 福山大門
-  img: 28.jpg
-  description: 本丸・二の丸・三の丸や内堀・中堀・山の整地と、天守閣をexcelで作った設計図通りに作るのにminecraftアドオンを作って外部からのコマンドの読み込みをさせました。<br>細かい整地や、壁の作成を行うための始点・終点を設定して、間を埋めるプログラムを作成して、使いました。<br>例えば、石垣のために丸石を埋めたい場所がある場合、埋めたい場所の角に行ってメッセージに「fs 1」と打ち込み、対角線の場所に行って「fs 2」と打ち込み、最後に「fs 3」とすると、間のブロックが丸石になります。
-  URL: https://youtu.be/iAZUIFIzLII
-  path_URL: 28
+  coderdojo_at: 福山大門
+  note: 本丸・二の丸・三の丸や内堀・中堀・山の整地と、天守閣をexcelで作った設計図通りに作るのにminecraftアドオンを作って外部からのコマンドの読み込みをさせました。<br>細かい整地や、壁の作成を行うための始点・終点を設定して、間を埋めるプログラムを作成して、使いました。<br>例えば、石垣のために丸石を埋めたい場所がある場合、埋めたい場所の角に行ってメッセージに「fs 1」と打ち込み、対角線の場所に行って「fs 2」と打ち込み、最後に「fs 3」とすると、間のブロックが丸石になります。
+  url: https://youtu.be/iAZUIFIzLII
 
-- title: 『かんづめ食堂』オープン！！
-  text: 『<a href='http://food.starfree.jp/' target='_blank'>かんづめ食堂</a>』のウェブサイトを作りました。缶詰や非常食を使ったレシピを公開していくウェブサイトです。
+- id: 29
+  thumbnail: 29.jpg
+  title: 『かんづめ食堂』オープン！！
+  description: 『<a href='http://food.starfree.jp/' target='_blank'>かんづめ食堂</a>』のウェブサイトを作りました。缶詰や非常食を使ったレシピを公開していくウェブサイトです。
   tag: Webサイト
   creator: YUZU
-  affiliation: 梅田/西宮
-  img: 29.jpg
-  description: ウェブサイトを企画してHTMLを覚えて、動画編集やAIを使った画像生成など、いろいろなはじめてにチャレンジしました。
-  URL: https://youtu.be/DiLG9r_3tLw
-  path_URL: 29
+  coderdojo_at: 梅田/西宮
+  note: ウェブサイトを企画してHTMLを覚えて、動画編集やAIを使った画像生成など、いろいろなはじめてにチャレンジしました。
+  url: https://youtu.be/DiLG9r_3tLw
 
-- title: ビュフォンの針
-  text: ビュフォンの針という、円周率の近似値を確率で求めるプログラ厶です。<br>ターボモードで動かしてください。<br>YouTubeで調べてやってみました。<br>ビュフォンという人が、<br>平行線の幅のちょうど半分の長さの棒をランダムに投げると、平行線に触れたものの割合の逆数が円周率になる…<br>ということを発見したそうです。<br>というのをScratchで作りました。<br>詳しくは「ビュフォンの針」で調べてください。
+- id: 30
+  thumbnail: 30.jpg
+  title: ビュフォンの針
+  description: ビュフォンの針という、円周率の近似値を確率で求めるプログラ厶です。<br>ターボモードで動かしてください。<br>YouTubeで調べてやってみました。<br>ビュフォンという人が、<br>平行線の幅のちょうど半分の長さの棒をランダムに投げると、平行線に触れたものの割合の逆数が円周率になる…<br>ということを発見したそうです。<br>というのをScratchで作りました。<br>詳しくは「ビュフォンの針」で調べてください。
   tag: Scratch
   creator: ピョコ太郎
-  affiliation: 久留米,春日
-  img: 30.jpg
-  description: ビュフォンの針の仕組みはYouTubeの動画で調べました。<br>平行線に触れた棒を検出するとき、最初はScratchの「〇に触れたとき」を使っていたけどうまく円周率が求められなかったので、どうしてかなと思ったら、「〇に触れた時」がドットの刻みが大きいので、触れてなくても触れたように判定してしまうことが原因のようでした。<br>それで、三角関数を使って平行線に触れているかどうかを計算しました。<br>三角関数は全くわからなかったので、三角関数の図鑑を買ってもらって勉強しました。<br>すると、円周率3.14に近い値になりました。<br>※ターボモードで動かしてください。<br>
-  URL: https://scratch.mit.edu/projects/817844913
-  path_URL: 30
+  coderdojo_at: 久留米,春日
+  note: ビュフォンの針の仕組みはYouTubeの動画で調べました。<br>平行線に触れた棒を検出するとき、最初はScratchの「〇に触れたとき」を使っていたけどうまく円周率が求められなかったので、どうしてかなと思ったら、「〇に触れた時」がドットの刻みが大きいので、触れてなくても触れたように判定してしまうことが原因のようでした。<br>それで、三角関数を使って平行線に触れているかどうかを計算しました。<br>三角関数は全くわからなかったので、三角関数の図鑑を買ってもらって勉強しました。<br>すると、円周率3.14に近い値になりました。<br>※ターボモードで動かしてください。<br>
+  url: https://scratch.mit.edu/projects/817844913
 
-- title: 動く！計算機
-  text: この作品はプログラミングフォロを使い作りました。前に来た人を追いかけて、触られると止まり、計算機になります。<br>プログラムの条件分岐の部分が難しかったです。プログラミングフォロは複数のプログラムのが作れないので、一つのプログラムで動作できるように工夫しました。<br>計算機はAボタン×Bボタンで両方同時に押すと結果が出るようになっています。<br>また計算しようとした時に足が動いてしまったらいけないので、ボタンを押すと止まるのですが、止まるプログラムが難しくて、何度も作り直しました。<br>今まで作った作品を混ぜてもっと使いやすいものになったと思います。
+- id: 31
+  thumbnail: 31.jpg
+  title: 動く！計算機
+  description: この作品はプログラミングフォロを使い作りました。前に来た人を追いかけて、触られると止まり、計算機になります。<br>プログラムの条件分岐の部分が難しかったです。プログラミングフォロは複数のプログラムのが作れないので、一つのプログラムで動作できるように工夫しました。<br>計算機はAボタン×Bボタンで両方同時に押すと結果が出るようになっています。<br>また計算しようとした時に足が動いてしまったらいけないので、ボタンを押すと止まるのですが、止まるプログラムが難しくて、何度も作り直しました。<br>今まで作った作品を混ぜてもっと使いやすいものになったと思います。
   tag: 電子工作
   creator: あき
-  affiliation: 久留米
-  img: 31.jpg
-  description: 特にありません
-  URL: https://drive.google.com/file/d/1cEtnistMDYxiLpuY_NuAL8_YYoufIYpK/view?usp=drivesdk
-  path_URL: 31
+  coderdojo_at: 久留米
+  note: 特にありません
+  url: https://drive.google.com/file/d/1cEtnistMDYxiLpuY_NuAL8_YYoufIYpK/view?usp=drivesdk
 
-- title: 魚釣り
-  text: 魚を釣るゲームです。<br>モバイル対応です。<br>魚は、小魚、マグロ、クジラの三種類です。<br>魚を釣ってお金を稼いで、釣り針を買ってもっと大きい魚を釣る...のがゲームの流れです。<br>子魚は初期状態で、マグロは大きい釣り針、クジラは大きい釣り針&太い糸で釣れます。<br>工夫したところは釣り針を一回買ったらつけたり外したり出来るようにしたことです。<br>モードが空白だと針を変えれますが、違ったらつけれないようにするという単純なプログラムが意外と難しかったです。
+- id: 32
+  thumbnail: 32.jpg
+  title: 魚釣り
+  description: 魚を釣るゲームです。<br>モバイル対応です。<br>魚は、小魚、マグロ、クジラの三種類です。<br>魚を釣ってお金を稼いで、釣り針を買ってもっと大きい魚を釣る...のがゲームの流れです。<br>子魚は初期状態で、マグロは大きい釣り針、クジラは大きい釣り針&太い糸で釣れます。<br>工夫したところは釣り針を一回買ったらつけたり外したり出来るようにしたことです。<br>モードが空白だと針を変えれますが、違ったらつけれないようにするという単純なプログラムが意外と難しかったです。
   tag: Scratch
   creator: kenz999
-  affiliation: 日進
-  img: 32.jpg
-  description: プログラミング教室で作っていたものを少し変えて作りました。<br>自分で考えて作りました。
-  URL: https://scratch.mit.edu/projects/788033084/
-  path_URL: 32
+  coderdojo_at: 日進
+  note: プログラミング教室で作っていたものを少し変えて作りました。<br>自分で考えて作りました。
+  url: https://scratch.mit.edu/projects/788033084/
 
-- title: rainbow catの冒険　第7話
-  text: この作品は、とても長いアニメです。(17分30秒)そして最終回です。途中に迷路系のミニゲームがあります。他のscratcherが作ったもの(コスチュームなど)を多く使用しています。工夫したところは、(自作の)キャラクターなどの見た目(コスチュームなど)と、場面転換(一方...など)のタイミングと、ストーリーの意外性です。苦労したところは、戦闘シーンと、迷路系のミニゲームのときの背景です。少し強引なところもありましたが、「rainbow catの冒険」シリーズが無事に終われて良かったと思います。
+- id: 33
+  thumbnail: 33.jpg
+  title: rainbow catの冒険　第7話
+  description: この作品は、とても長いアニメです。(17分30秒)そして最終回です。途中に迷路系のミニゲームがあります。他のscratcherが作ったもの(コスチュームなど)を多く使用しています。工夫したところは、(自作の)キャラクターなどの見た目(コスチュームなど)と、場面転換(一方...など)のタイミングと、ストーリーの意外性です。苦労したところは、戦闘シーンと、迷路系のミニゲームのときの背景です。少し強引なところもありましたが、「rainbow catの冒険」シリーズが無事に終われて良かったと思います。
   tag: Scratch
   creator: uniuna
-  affiliation: せんなん
-  img: 33.jpg
-  description: 特になし
-  URL: https://scratch.mit.edu/projects/720763603/
-  path_URL: 33
+  coderdojo_at: せんなん
+  note: 特になし
+  url: https://scratch.mit.edu/projects/720763603/
