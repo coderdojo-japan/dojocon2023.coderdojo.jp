@@ -1,18 +1,18 @@
 ---
 permalink: /exhibition.json
 ---
-[ {% for pj in site.data.exhibition %}
+[ {% for project in site.data.exhibition %}
   {
-    "id"          :  {{ pj.path_URL    | to_integer }},
-    "title"       : "{{ pj.title       | strip_html | escape }}",
-    "description" : "{{ pj.text        | strip_html | escape }}",
-    "tag"         : "{{ pj.tag         | strip_html | escape }}",
-    "note"        : "{{ pj.description | strip_html | escape }}",
-    "creator"     : "{{ pj.creator     | strip_html | escape }}",
-    "coderdojo_at": "{{ pj.affiliation | strip_html | escape }}",
-    "thumbnail"   : "{{ site.url }}/img/2023/exhibition/{{ pj.img }}",
-    "url_internal": "{{ site.url }}/expo/{{ pj.path_URL }}",
-    "url_external": "{{ pj.URL }}"
+    "id"          :  {{ project.id           | to_integer }},
+    "title"       : "{{ project.title        | strip_html | escape }}",
+    "description" : "{{ project.description  | strip_html | escape }}",
+    "tag"         : "{{ project.tag          | strip_html | escape }}",
+    "note"        : "{{ project.note         | strip_html | escape }}",
+    "creator"     : "{{ project.creator      | strip_html | escape }}",
+    "coderdojo_at": "{{ project.coderdojo_at | strip_html | escape }}",
+    "thumbnail"   : "{{ site.url }}/img/2023/exhibition/{{ project.thumbnail }}",
+    "url_internal": "{{ site.url }}/expo/{{ project.id }}",
+    "url_external": "{{ project.url }}"
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
 

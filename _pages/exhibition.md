@@ -13,31 +13,30 @@ permalink: /exhibition
 
   <div class="air"></div>
   <div class="row text-left">
-    {% for exhibition in site.data.exhibition %}
-    <div class="col-md-6 col-12 p-3 mb-5" id={{ exhibition.path_URL }}>
-      <h4 class="ws-title">{{ exhibition.title }}</h4>
+    {% for project in site.data.exhibition %}
+    <div class="col-md-6 col-12 p-3 mb-5" id={{ project.id }}>
+      <h4 class="ws-title">{{ project.title }}</h4>
       <p>
-        {% if exhibition.tag   %}<span class="badge badge-ws">{{ exhibition.tag   }}</span>{% endif %}
-        {% if exhibition.second_tag  %}<span class="badge badge-ws">{{ exhibition.second_tag   }}</span>{% endif %}
-        {% if exhibition.local %}<span class="badge badge-ws">{{ exhibition.local }}</span>{% endif %}
+        {% if project.tag   %}<span class="badge badge-ws">{{ project.tag   }}</span>{% endif %}
+        {% if project.local %}<span class="badge badge-ws">{{ project.local }}</span>{% endif %}
       </p>
       <div class="my-3">
-        <a href="/expo/{{ exhibition.path_URL }}">
+        <a href="/expo/{{ project.id }}">
           <img class="w-100 px-5" alt="サムネイル"
-	       {% if exhibition.img %}
-	       src="/img/2023/exhibition/{{ exhibition.img }}" {% else  %}
+	       {% if project.thumbnail %}
+	       src="/img/2023/exhibition/{{ project.thumbnail }}" {% else  %}
 	       src="/img/2023/dummy.jpg"
                {% endif %}
 	  >
         </a>
       </div>
       <p class="exhibition-speaker-name">
-	{{ exhibition.creator }}
-	{% if exhibition.affiliation %}（CoderDojo {{ exhibition.affiliation }}）{% endif %}
+	{{ project.creator }}
+	{% if project.coderdojo_at %}（CoderDojo {{ project.coderdojo_at }}）{% endif %}
       </p>
 
       <p>
-	<a href='/expo/{{ exhibition.path_URL }}' class='btn btn-main btn-sm'>
+	<a href='/expo/{{ project.id }}' class='btn btn-main btn-sm'>
 	  <i class='fas fa-scroll'></i> 詳細を見る
 	</a>
       </p>
