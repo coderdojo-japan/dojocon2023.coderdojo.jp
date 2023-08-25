@@ -1,7 +1,7 @@
 ---
 permalink: /exhibition.json
 ---
-[ {% for project in site.data.exhibition %}
+[ {% for project in site.data.projects %}
   {
     "id"          :  {{ project.id           | to_integer }},
     "title"       : "{{ project.title        | strip_html | escape }}",

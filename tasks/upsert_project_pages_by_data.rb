@@ -7,7 +7,7 @@ require 'yaml'
 # NOTE: もしファイルパスを変更して過去ファイルを消したい場面があれば使う
 #Dir.glob("_posts/exhibition/*.md").each { |filename| File.delete(filename) }
 
-projects = YAML.load_file('_data/exhibition.yml', symbolize_names: true)
+projects = YAML.load_file('_data/projects.yml', symbolize_names: true)
 project_ids = (1..(projects.count)).to_a # ナビ用の配列（ID=1, ID=2, ..., ID=n）を作る
 projects.each.with_index(0) do |project, index|
   # Generate individual project page by data

@@ -60,11 +60,11 @@ jobs:
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
 
-    - name: 🤖 Generate individual pages by exhibition.yml data
+    - name: 🤖 Generate individual pages by projects.yml data
       run: |
         bundle exec rake upsert_project_pages_by_data
         if [ -n "$(git status ./_pages --porcelain)" ]; then
-          if ( ruby -ryaml -e "p YAML.unsafe_load(STDIN.read)" < _data/exhibition.yml > /dev/null ); then
+          if ( ruby -ryaml -e "p YAML.unsafe_load(STDIN.read)" < _data/projects.yml > /dev/null ); then
             git config --global user.name  "takusandayooo"
             git config --global user.email "takusandayooo@users.noreply.github.com"
             git checkout main
@@ -74,7 +74,7 @@ jobs:
             # git push origin
             git push origin main
           else
-            echo "Detect syntax error in '_data/exhibition.yml' file, check its syntax."
+            echo "Detect syntax error in '_data/projects.yml' file, check its syntax."
           fi
         fi
 

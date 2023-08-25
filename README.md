@@ -46,7 +46,7 @@
 - [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
 - [`sponsor/*.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/tree/main/_data/sponsor): スポンサー情報を更新したい
 - [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
-- [`exhibition.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/exhibition.yml): ニンジャ大博覧会の作品情報を更新したい
+- [`projects.yml`](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/projects.yml): ニンジャ大博覧会の作品情報を更新したい
 
 <br>
 

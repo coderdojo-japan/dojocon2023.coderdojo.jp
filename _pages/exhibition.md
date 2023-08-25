@@ -13,7 +13,7 @@ permalink: /exhibition
 
   <div class="air"></div>
   <div class="row text-left">
-    {% for project in site.data.exhibition %}
+    {% for project in site.data.projects %}
     <div class="col-md-6 col-12 p-3 mb-5" id={{ project.id }}>
       <h4 class="ws-title">{{ project.title }}</h4>
       <p>
