@@ -8,7 +8,8 @@ require 'yaml'
 #Dir.glob("_posts/exhibition/*.md").each { |filename| File.delete(filename) }
 
 projects = YAML.load_file("_data/exhibition.yml", symbolize_names: true)
-projects.each_with_index do |project, index|
+project_ids = (1..(projects.count)).to_a # ナビ用の配列（ID=1, ID=2, ..., ID=n）を作る
+projects.each.with_index(0) do |project, index|
   # Generate individual project page by data
   path = "./_pages/exhibition/2023-#{project[:path_URL]}.md"
   page = <<~PROJECT_PAGE
@@ -55,28 +56,11 @@ projects.each_with_index do |project, index|
     <a href="/exhibition##{project[:path_URL]}" class="back-to-top text-left" style="margin-top: 20px;"><i class="fas fa-chevron-circle-left"></i>作品一覧に戻る</a>
     </div>
     <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
-    {% if #{project[:path_URL]}==#{projects.count} %}
     <div class="article-navigation" style="margin-bottom: 100px;">
-        <a href="/expo/#{project[:path_URL]-1}" class="previous-article">&lt; 前の作品へ</a>
+        <a href="/expo/#{project_ids[index - 1]}" class="previous-article">&lt; 前の作品へ</a>
         &nbsp;・&nbsp; <!-- 中間の・ -->
-        <a href="/expo/1" class="next-article">次の作品へ &gt;</a>
+        <a href="/expo/#{project_ids[index + 1].nil? ? 1 : project_ids[index + 1]}" class="next-article">次の作品へ &gt;</a>
       </div>
-    {% else %}
-    {% if #{project[:path_URL]}==1 %}
-    <div class="article-navigation" style="margin-bottom: 100px;">
-    <!-- ↓ここの数字は作品が増えた場合に変更する。 -->
-      <a href="/expo/#{projects.count}" class="previous-article">&lt; 前の作品へ</a>
-      &nbsp;・&nbsp; <!-- 中間の・ -->
-      <a href="/expo/#{project[:path_URL]+1}" class="next-article">次の作品へ &gt;</a>
-    </div>
-    {%else%}
-    <div class="article-navigation" style="margin-bottom: 100px;">
-      <a href="/expo/#{project[:path_URL]-1}" class="previous-article">&lt; 前の作品へ</a>
-      &nbsp;・&nbsp; <!-- 中間の・ -->
-      <a href="/expo/#{project[:path_URL]+1}" class="next-article">次の作品へ &gt;</a>
-    </div>
-    {% endif %}
-    {% endif %}
     <style type="text/css">
       .box{width:auto; margin: 0 auto;padding-bottom:20px;}
       .box h5{text-align: left;}
