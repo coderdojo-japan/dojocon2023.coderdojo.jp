@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem 'rake'       # Enable Rakefile to run tasks
+gem 'rinku'      # Enable to add links in texts
 gem 'mini_racer' # Enable to run 'docker-compose up'
 
 group :jekyll_plugins do

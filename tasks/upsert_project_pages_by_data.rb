@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 # require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
-require 'yaml'
+require 'yaml'  # https://docs.ruby-lang.org/ja/latest/library/yaml.html
+require 'rinku' # https://github.com/vmg/rinku
 
 # Remove existing files and re-generate them
 # NOTE: もしファイルパスを変更して過去ファイルを消したい場面があれば使う
@@ -32,12 +33,12 @@ projects.each.with_index(0) do |project, index|
       <div class="contents">
         <div class="box">
           <h5>作品の説明</h5>
-          <p>#{project[:description]}</p>
+          <p>#{Rinku.auto_link project[:description]}</p>
         </div>
 
         <div class="box">
           <h5>参考・参照元、工夫したところ</h5>
-          <p>#{project[:note]}</p>
+          <p>#{Rinku.auto_link project[:note]}</p>
         </div>
       </div>
     </div>
@@ -69,7 +70,8 @@ projects.each.with_index(0) do |project, index|
     <style type="text/css">
       .box { width:auto; margin: 50px auto 30px; }
       .box h5 { text-align: left; }
-      .box p {  text-align: left; }
+      .box p  { text-align: left; }
+      .box a  { color: #7e2639;   }
       a.air { margin-bottom: 50px; }
       a.air { text-decoration: none; }
       .contents{ width:auto; margin: 0 auto;padding:5px; }
