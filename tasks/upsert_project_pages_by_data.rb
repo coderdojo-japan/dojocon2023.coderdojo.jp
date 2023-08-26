@@ -1,8 +1,10 @@
 #!/usr/bin/env ruby
 
 # require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
-require 'yaml'  # https://docs.ruby-lang.org/ja/latest/library/yaml.html
-require 'rinku' # https://github.com/vmg/rinku
+require 'yaml'     # https://docs.ruby-lang.org/ja/latest/library/yaml.html
+require 'rinku'    # https://github.com/vmg/rinku
+require 'truncato' # https://github.com/jorgemanrubia/truncato
+t = Truncato
 
 # Remove existing files and re-generate them
 # NOTE: もしファイルパスを変更して過去ファイルを消したい場面があれば使う
@@ -66,9 +68,16 @@ projects.each.with_index(0) do |project, index|
     </div>
 
     <div class="article-navigation" style="margin-bottom: 100px;">
-      <a href="/expo/#{project_prev[:id]}" class="previous-article">&lt; 前の作品へ</a>
-      &nbsp;・&nbsp;
-      <a href="/expo/#{project_next[:id]}" class="next-article">次の作品へ &gt;</a>
+      <a href="/expo/#{project_prev[:id]}" title="#{project_prev[:title]}" style="margin-right: 20px;">
+        <i class="fas fa-arrow-left"></i>
+        前の作品へ<br>
+        <span style="font-size: 8px;">#{t.truncate project_prev[:title], max_length: 11}</span>
+      </a>
+      <a href="/expo/#{project_next[:id]}" title="#{project_next[:title]}" style="margin-left: 20px;">
+        次の作品へ
+        <i class="fas fa-arrow-right"></i><br>
+        <span style="font-size: 8px;">#{t.truncate project_next[:title], max_length: 11}</span>
+      </a>
     </div>
 
     <style type="text/css">
