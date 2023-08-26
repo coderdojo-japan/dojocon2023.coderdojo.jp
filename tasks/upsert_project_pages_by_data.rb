@@ -14,6 +14,8 @@ projects.each.with_index(0) do |project, index|
   # Generate individual project page by data
   project_prev_id = project_ids[index - 1]
   project_next_id = project_ids[index + 1].nil? ? 1 : project_ids[index + 1]
+  # DEBUG: ナビゲーション用の簡易デバッグプリント
+  #print "#{project_prev_id} <---> #{project_next_id}\t"
   path = "./_pages/exhibition/2023-#{project[:id]}.md"
   page = <<~PROJECT_PAGE
     ---
