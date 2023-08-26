@@ -120,6 +120,7 @@ GEM
       ffi (~> 1.0)
     redcarpet (3.6.0)
     rexml (3.2.6)
+    rinku (2.0.6)
     rouge (4.1.2)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
@@ -158,6 +159,7 @@ DEPENDENCIES
   jekyll-sitemap
   mini_racer
   rake
+  rinku
 
 BUNDLED WITH
    2.4.3
