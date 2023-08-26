@@ -12,6 +12,8 @@ projects = YAML.load_file('_data/projects.yml', symbolize_names: true)
 project_ids = (1..(projects.count)).to_a # ナビ用の配列（ID=1, ID=2, ..., ID=n）を作る
 projects.each.with_index(0) do |project, index|
   # Generate individual project page by data
+  project_prev_id = project_ids[index - 1]
+  project_next_id = project_ids[index + 1].nil? ? 1 : project_ids[index + 1]
   path = "./_pages/exhibition/2023-#{project[:id]}.md"
   page = <<~PROJECT_PAGE
     ---
@@ -62,9 +64,9 @@ projects.each.with_index(0) do |project, index|
     </div>
 
     <div class="article-navigation" style="margin-bottom: 100px;">
-      <a href="/expo/#{project_ids[index - 1]}" class="previous-article">&lt; 前の作品へ</a>
+      <a href="/expo/#{project_prev_id}" class="previous-article">&lt; 前の作品へ</a>
       &nbsp;・&nbsp;
-      <a href="/expo/#{project_ids[index + 1].nil? ? 1 : project_ids[index + 1]}" class="next-article">次の作品へ &gt;</a>
+      <a href="/expo/#{project_next_id}" class="next-article">次の作品へ &gt;</a>
     </div>
 
     <style type="text/css">
