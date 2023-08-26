@@ -70,7 +70,8 @@ projects.each.with_index(0) do |project, index|
     <style type="text/css">
       .box { width:auto; margin: 50px auto 30px; }
       .box h5 { text-align: left; }
-      .box p {  text-align: left; }
+      .box p  { text-align: left; }
+      .box a  { color: #7e2639;   }
       a.air { margin-bottom: 50px; }
       a.air { text-decoration: none; }
       .contents{ width:auto; margin: 0 auto;padding:5px; }
