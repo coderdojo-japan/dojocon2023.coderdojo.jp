@@ -27,8 +27,8 @@ projects.each.with_index(0) do |project, index|
              style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
              src='/img/2023/exhibition/#{project[:thumbnail]}' />
       </a>
-
       <p>クリエイター: #{project[:creator]}(CoderDojo #{project[:coderdojo_at]})</p>
+
       <div class="contents">
         <div class="box">
           <h5>作品の説明</h5>
@@ -67,12 +67,12 @@ projects.each.with_index(0) do |project, index|
     </div>
 
     <style type="text/css">
-      .box{width:auto; margin: 0 auto;padding-bottom:20px;}
-      .box h5{text-align: left;}
-      .box p{text-align: left;}
-      a.air{margin-bottom: 50px;}
-      a.air{text-decoration: none;}
-      .contents{width:auto; margin: 0 auto;padding:5px;}
+      .box { width:auto; margin: 50px auto 30px; }
+      .box h5 { text-align: left; }
+      .box p {  text-align: left; }
+      a.air { margin-bottom: 50px; }
+      a.air { text-decoration: none; }
+      .contents{ width:auto; margin: 0 auto;padding:5px; }
       /*content*/
       .main_content{
         display: block;
@@ -111,7 +111,7 @@ projects.each.with_index(0) do |project, index|
         text-align: center;
         margin: 20px 0;
       }
-    
+
       .article-navigation a {
         display: inline-block;
         padding: 10px 20px;
@@ -121,7 +121,7 @@ projects.each.with_index(0) do |project, index|
         border-radius: 5px;
         margin: 0 10px;
       }
-    
+
       .article-navigation a:hover {
         background-color: #0056b3;
       }
