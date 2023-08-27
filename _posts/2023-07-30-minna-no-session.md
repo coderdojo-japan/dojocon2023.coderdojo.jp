@@ -3,7 +3,7 @@ layout: post
 title: みんなのセッションに参加しよう
 date: 2023-07-30T22:00:00 UTC+9
 categories: news
-# thumbnail: 
+thumbnail: /img/2023/minnnano-session-image.png
 permalink: /posts/minna-no-session/
 ---
 DojoCon Japan 2023ではCoderDojoに参加するみなさんが中心のセッション「みんなのセッション」を開催します。
