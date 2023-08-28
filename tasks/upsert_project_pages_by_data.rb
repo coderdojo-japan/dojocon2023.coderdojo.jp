@@ -35,7 +35,7 @@ projects.each.with_index(0) do |project, index|
              src='/img/2023/exhibition/#{project[:thumbnail]}' />
       </a>
       <p>
-        クリエイター: #{project[:creator]}
+        作者: #{project[:creator]}
         <small>(CoderDojo #{project[:coderdojo_at]})</small>
       </p>
 
