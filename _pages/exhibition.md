@@ -32,7 +32,7 @@ permalink: /exhibition
       </div>
       <p class="exhibition-speaker-name">
 	{{ project.creator }}
-	{% if project.coderdojo_at %}（CoderDojo {{ project.coderdojo_at }}）{% endif %}
+	{% if project.coderdojo_at %}<small>（CoderDojo {{ project.coderdojo_at }}）</small>{% endif %}
       </p>
 
       <p>

@@ -36,7 +36,7 @@ projects.each.with_index(0) do |project, index|
       </a>
       <p>
         クリエイター: #{project[:creator]}
-        (CoderDojo #{project[:coderdojo_at]})
+        <small>(CoderDojo #{project[:coderdojo_at]})</small>
       </p>
 
       <div class="contents">
@@ -88,8 +88,8 @@ projects.each.with_index(0) do |project, index|
       .box { width:auto; margin: 50px auto 30px; }
       .box h5 { text-align: left; }
       .box p  { text-align: left; }
-      .box a  { color: #7e2639;   }
-      a.air { margin-bottom: 50px; }
+      a     { color: #7e2639;        }
+      a.air { margin-bottom: 50px;   }
       a.air { text-decoration: none; }
       .contents{ width:auto; margin: 0 auto;padding:5px; }
       .main_content{
