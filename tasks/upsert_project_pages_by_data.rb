@@ -34,7 +34,10 @@ projects.each.with_index(0) do |project, index|
              style='margin-bottom: 10px; border-radius: 6px;width: 100%;'
              src='/img/2023/exhibition/#{project[:thumbnail]}' />
       </a>
-      <p>クリエイター: #{project[:creator]}(CoderDojo #{project[:coderdojo_at]})</p>
+      <p>
+        クリエイター: #{project[:creator]}
+        (CoderDojo #{project[:coderdojo_at]})
+      </p>
 
       <div class="contents">
         <div class="box">
