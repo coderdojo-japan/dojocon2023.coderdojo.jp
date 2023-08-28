@@ -64,7 +64,7 @@ projects.each.with_index(0) do |project, index|
     </div>
 
     <div class="content main_content">
-      <a href="/exhibition##{project[:id]}" class="back-to-top text-left" style="margin: 50px auto;">
+      <a href="/exhibition" class="back-to-top text-left" style="margin: 50px auto;">
         <i class="fas fa-chevron-circle-left"></i>
         作品一覧に戻る
       </a>
