@@ -53,7 +53,7 @@ projects.each.with_index(0) do |project, index|
     </div>
 
     <div>
-      <a href="#{project[:url]}" target="_blank" rel="noopener" class="button air">
+      <a href="#{project[:url]}" target="_blank" rel="noopener" class="button" style="margin-bottom: 50px;">
         <i class="fas fa-scroll"></i>
         作品を見る
       </a>
@@ -89,8 +89,6 @@ projects.each.with_index(0) do |project, index|
       .box h5 { text-align: left; }
       .box p  { text-align: left; }
       a     { color: #7e2639;        }
-      a.air { margin-bottom: 50px;   }
-      a.air { text-decoration: none; }
       .contents{ width:auto; margin: 0 auto;padding:5px; }
       .main_content{
         display: block;
