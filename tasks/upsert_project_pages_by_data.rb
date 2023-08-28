@@ -88,12 +88,12 @@ projects.each.with_index(0) do |project, index|
       .box { width:auto; margin: 50px auto 30px; }
       .box h5 { text-align: left; }
       .box p  { text-align: left; }
-      .box a  { color: #7e2639;   }
       .contents {
         width:   auto;
         margin:  0 auto;
         padding: 5px;
       }
+      .main_content a { color: #7e2639; }
       .main_content{
         display: block;
         margin: 0 auto 12px;
