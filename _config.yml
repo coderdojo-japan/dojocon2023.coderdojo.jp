@@ -21,7 +21,7 @@ facebook: DojoConJapan
 email:    dojocon2023@coderdojo.jp
 contact: https://forms.gle/oMy8aA3fM8iyy8cs7
 court: 奈良地方裁判所
-#registration: https://dojocon-japan.doorkeeper.jp/events/160563
+# DoorkeeperのURL→ https://dojocon-japan.doorkeeper.jp/events/160563
 
 # Build settings
 plugins:
