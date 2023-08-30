@@ -5,22 +5,22 @@
 timezone: Asia/Tokyo
 year: 2023
 title: DojoCon Japan
-subtitle: 'Be Cool'
+subtitle: Be Cool
 description: >-
-  "DojoCon Japan" は CoderDojo コミュニティのカンファレンスイベントです。CoderDojo 関係者を対象に運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。
+  DojoCon Japan は CoderDojo コミュニティのカンファレンスイベントです。CoderDojo 関係者を対象に運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。
 url: https://dojocon2023.coderdojo.jp
 date_published: 2023年6月11日
 date_event: 2023年8月27日（日曜）
 venue: >-
-  奈良女子大学 /  記念館
+  奈良女子大学 / 記念館
 map: https://goo.gl/maps/s6SMqez8qy7aDSmN6
 
 twitter:  DojoConJapan
 facebook: DojoConJapan
 email:    dojocon2023@coderdojo.jp
-contact: https://forms.gle/oMy8aA3fM8iyy8cs7
+court:    奈良地方裁判所
+contact:      https://forms.gle/oMy8aA3fM8iyy8cs7
 registration: https://dojocon-japan.doorkeeper.jp/events/160563
-court: 奈良地方裁判所
 
 # Build settings
 plugins:
