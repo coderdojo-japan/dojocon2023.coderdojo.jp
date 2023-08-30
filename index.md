@@ -81,7 +81,7 @@ layout: default
       </div>
       <div class="col-md-8 offset-md-2">
         <p class="about-title">参加費</p>
-        <p class="about-text">{{ site.price }}</p>
+        <p class="about-text">無料</p>
         <!-- <a class="nav-item nav-link active link_button" href="/registration/" style="padding-left:30px;padding-right: 30px;color:white;font-weight: normal;">参加申し込み</a> -->
         <div class="disable_button" style='margin-bottom: 20px;'>受付終了</div>
 	<p>
