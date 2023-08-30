@@ -84,13 +84,15 @@ layout: default
         <p class="about-text">{{ site.price }}</p>
           {% if site.registration %}
           <a class="nav-item nav-link active link_button" href="/registration/" style="padding-left:30px;padding-right: 30px;color:white;font-weight: normal;">参加申し込み</a>
+          {% else %}
+            <div class="disable_button">参加申し込みをする</div>
           {% endif %}
       </div>
     </div>
     <!-- <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2 mb-5">
-          <a href="#" class="button" target="_blank" rel="noopener">申し込みをする</a>
+          <div class="disable_button">参加申し込みをする</div>
         </div>
       </div>
     </div> -->
