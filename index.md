@@ -82,11 +82,8 @@ layout: default
       <div class="col-md-8 offset-md-2">
         <p class="about-title">参加費</p>
         <p class="about-text">{{ site.price }}</p>
-          {% if site.registration %}
-          <a class="nav-item nav-link active link_button" href="/registration/" style="padding-left:30px;padding-right: 30px;color:white;font-weight: normal;">参加申し込み</a>
-          {% else %}
+          <!-- <a class="nav-item nav-link active link_button" href="/registration/" style="padding-left:30px;padding-right: 30px;color:white;font-weight: normal;">参加申し込み</a> -->
             <div class="disable_button">参加申し込みをする</div>
-          {% endif %}
       </div>
     </div>
     <!-- <div class="container">
