@@ -7,7 +7,7 @@ layout: default
   </div>
   <div class='information'>
     <div class="theme">Be Cool</div>
-    <img src="/img/2023/logo_640x160.svg" alt='Cover Photo'>
+    <img src="/img/2023/logo_640x160.svg" alt='DojoCon Japan 2023 のロゴ画像'>
     <div class="event-date-and-location">
       <p>2023.8.27 Sun<br>at 奈良女子大学 Nara Women's University</p>
     </div>
