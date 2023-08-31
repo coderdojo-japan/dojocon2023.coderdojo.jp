@@ -143,15 +143,21 @@ layout: default
     </div>
   </section>
 
+{% assign platinum_sponsors   = site.data.sponsors | where: "type", "platinum"   %}
+{% assign gold_sponsors       = site.data.sponsors | where: "type", "gold"       %}
+{% assign silver_sponsors     = site.data.sponsors | where: "type", "silver"     %}
+{% assign bronze_sponsors     = site.data.sponsors | where: "type", "bronze"     %}
+{% assign inkind_sponsors     = site.data.sponsors | where: "type", "inkind"     %}
+{% assign individual_sponsors = site.data.sponsors | where: "type", "individual" %}
 <div id="sponsors_index">
   <h2 class="text-center title-text">SPONSORS</h2>
 
-  {% if site.data.sponsor.platinum and site.data.sponsor.platinum.size != 0 %}
+  {% if platinum_sponsors != empty %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Platinum Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="platinum-sponsors">
-        {% for sponsor in site.data.sponsor.platinum %}
+        {% for sponsor in platinum_sponsors %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
@@ -161,12 +167,12 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.data.sponsor.gold and site.data.sponsor.gold.size != 0 %}
+  {% if gold_sponsors != empty %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Gold Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="gold-sponsors">
-        {% for sponsor in site.data.sponsor.gold %}
+        {% for sponsor in gold_sponsors %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
@@ -176,12 +182,12 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.data.sponsor.silver and site.data.sponsor.silver.size != 0 %}
+  {% if silver_sponsors != empty %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Silver Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="silver-sponsors">
-        {% for sponsor in site.data.sponsor.silver %}
+        {% for sponsor in silver_sponsors %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
@@ -191,12 +197,12 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.data.sponsor.bronze and site.data.sponsor.bronze.size != 0 %}
+  {% if bronze_sponsors != empty %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Bronze Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="bronze-sponsors">
-        {% for sponsor in site.data.sponsor.bronze %}
+        {% for sponsor in bronze_sponsors %}
           <a href="{{ sponsor.link }}" target="_blank">
             <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
           </a>
@@ -206,12 +212,12 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.data.sponsor.in-kind and site.data.sponsor.in-kind.size != 0 %}
+  {% if inkind_sponsors != empty %}
     <div class="sponsors-container">
       <h3 class="text-center caption">In-kind Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="in-kind-sponsors">
-        {% for sponsor in site.data.sponsor.in-kind %}
+        {% for sponsor in inkind_sponsors %}
           <div>
             <a href="{{ sponsor.link }}" target="_blank">
               <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
@@ -224,12 +230,12 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.data.sponsor.individual and site.data.sponsor.individual.size != 0 %}
+  {% if individual_sponsors != empty %}
     <div class="sponsors-container">
       <h3 class="text-center caption">Individual Sponsor</h3>
       <div class="sponsor-logo-container">
         <div id="individual-sponsors">
-        {% for sponsor in site.data.sponsor.individual %}
+        {% for sponsor in individual_sponsors %}
           <div class="individual-sponsor-name">
             {% if sponsor.link %}
             <a href="{{ sponsor.link }}" target='_blank' rel='noopener' style='text-decoration: underline;'>
