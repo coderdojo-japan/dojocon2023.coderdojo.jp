@@ -477,7 +477,9 @@ $corner-radius: 30px;
   max-width: 1000px;
 
   .sponsors-container {
-    margin-top: 2em;
+    margin-top:    70px;
+    margin-bottom: 70px;
+    h3 { font-weight: 700; }
     .sponsor-logo-container {
       display: flex;
       flex-wrap: wrap;
