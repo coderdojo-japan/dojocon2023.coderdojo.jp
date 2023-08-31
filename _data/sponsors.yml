@@ -3,7 +3,7 @@
 #   logo: ロゴ画像ファイルのパス（/img/{{ site.year }}/sponsor/ 以下に配置）
 #   link: ロゴ画像をクリックした際のリンク先
 #   type: スポンサー種別（platinum, gold, silver, bronze, inkind, individual）
-#   msg:  スポンサー紹介文
+#   message:  スポンサー紹介文
 
 ## Silver sponsors
 - id: ponos
@@ -11,21 +11,21 @@
   logo: Ponos.png
   link: https://www.ponos.jp/
   type: silver
-  msg:  ポノスは、1990年の創業以来ゲームを通してエンターテインメントという文化の発展に貢献してまいりました。【求められるモノは創らない、それ以上を創り出す。】を掲げ、自分たちしか創れない価値をプラスしていくことを大切にしています。現在は、オリジナルゲーム開発を核に事業を展開し、代表タイトル『にゃんこ大戦争』は、累計DL8,200万を（2023年5月現在）超え、多くのお客様に楽しんでいただいております。
+  message:  ポノスは、1990年の創業以来ゲームを通してエンターテインメントという文化の発展に貢献してまいりました。【求められるモノは創らない、それ以上を創り出す。】を掲げ、自分たちしか創れない価値をプラスしていくことを大切にしています。現在は、オリジナルゲーム開発を核に事業を展開し、代表タイトル『にゃんこ大戦争』は、累計DL8,200万を（2023年5月現在）超え、多くのお客様に楽しんでいただいております。
 
 - id: unique-i-net
   name: ユニーク・アイネット株式会社
   logo: Unique-i-net.png
   link: https://www.unique-inet.co.jp/
   type: silver
-  msg: 「well-being　No.1」企業、社員、ともに成長し、躍動感をもって社会に貢献！<br>ユニーク・アイネット株式会社は、SAP BASIS領域プロジェクト、WEBシステム構築(JAVA/etc)、金融系システムの開発支援などを行なっています。新技術にチャレンジし、技術や知識を広く発展させるとともに、地域貢献として「CoderDojo池袋」を開催し、こどもたちが心から笑顔になれる、明るい未来を目指しています。
+  message: 「well-being　No.1」企業、社員、ともに成長し、躍動感をもって社会に貢献！<br>ユニーク・アイネット株式会社は、SAP BASIS領域プロジェクト、WEBシステム構築(JAVA/etc)、金融系システムの開発支援などを行なっています。新技術にチャレンジし、技術や知識を広く発展させるとともに、地域貢献として「CoderDojo池袋」を開催し、こどもたちが心から笑顔になれる、明るい未来を目指しています。
 
 - id: sakura_internet
   name: さくらインターネット株式会社
   logo: Sakura_Internet.png
   link: https://www.sakura.ad.jp/
   type: silver
-  msg: さくらインターネットは新たなアイデアの創出に強い熱意と情熱を持って挑戦するお客様をはじめ、私たちとつながりのあるすべての人たちのために、未来のあるべき姿を想い描きながら—「やりたいこと」を「できる」に変える—あらゆるアプローチを“インターネット”を通じて提供します。
+  message: さくらインターネットは新たなアイデアの創出に強い熱意と情熱を持って挑戦するお客様をはじめ、私たちとつながりのあるすべての人たちのために、未来のあるべき姿を想い描きながら—「やりたいこと」を「できる」に変える—あらゆるアプローチを“インターネット”を通じて提供します。
 
 ## Bronze sponsors
 - id: advanced_soft
@@ -33,35 +33,35 @@
   logo: Advanced_Soft.png
   link: https://www.advn.co.jp/
   type: bronze
-  msg: 私たちは ITによって“より”気軽・便利・安心を提供し「よかった」を生み出します。私たちはこのミッションに、「既に便利なこの社会に“より”（更に）便利なものを提供したい」「お客様の期待を超えるサービスを提供したい」という想いを込めました。そして、私たちのサービスを利用して頂くお客様から「よかった」 と思ってもらえる関係を生み出すことが喜びです。
+  message: 私たちは ITによって“より”気軽・便利・安心を提供し「よかった」を生み出します。私たちはこのミッションに、「既に便利なこの社会に“より”（更に）便利なものを提供したい」「お客様の期待を超えるサービスを提供したい」という想いを込めました。そして、私たちのサービスを利用して頂くお客様から「よかった」 と思ってもらえる関係を生み出すことが喜びです。
 
 - id: r3
   name: アールスリーインスティテュート
   logo: R3_Institute.png
   link: https://www.r3it.com/
   type: bronze
-  msg: アールスリーインスティテュートはkintoneをはじめとしクラウドサービスを駆使し、幅広いお客様へ問題解決手段を提供します。
+  message: アールスリーインスティテュートはkintoneをはじめとしクラウドサービスを駆使し、幅広いお客様へ問題解決手段を提供します。
 
 - id: capcom
   name: 株式会社カプコン
   logo: caplogo_e.png
   link: https://www.capcom.co.jp/
   type: bronze
-  msg: 当社は大阪に本社を置くゲームソフトメーカーです。オリジナリティあふれるゲームソフト開発力を強みに、人気コンテンツを多面展開（ワンコンテンツ・マルチユース）することにより、安定成長を遂げています。当社は今後も世界一面白いコンテンツで社会や人々を幸せにできる企業となることを目指します。
+  message: 当社は大阪に本社を置くゲームソフトメーカーです。オリジナリティあふれるゲームソフト開発力を強みに、人気コンテンツを多面展開（ワンコンテンツ・マルチユース）することにより、安定成長を遂げています。当社は今後も世界一面白いコンテンツで社会や人々を幸せにできる企業となることを目指します。
 
 - id: geolonia
   name: 株式会社Geolonia
   logo: geolonia.png
   link: https://www.geolonia.com/
   type: bronze
-  msg: Geoloniaは、位置情報基盤を通じて、社会が抱える様々な課題を解決できる企業を目指すスタートアップです。IoT、スマートシティーなど、国、自治体、企業のDXが進むにつれて重要な「地図」「地理空間情報」「ロケーションデータ」の分野で、ウェブ地図提供事業、位置情報開発支援事業、ロケーションプラットフォーム事業を展開しています。
+  message: Geoloniaは、位置情報基盤を通じて、社会が抱える様々な課題を解決できる企業を目指すスタートアップです。IoT、スマートシティーなど、国、自治体、企業のDXが進むにつれて重要な「地図」「地理空間情報」「ロケーションデータ」の分野で、ウェブ地図提供事業、位置情報開発支援事業、ロケーションプラットフォーム事業を展開しています。
 
 - id: ut1
   name: 株式会社ユウチ
   logo: U-t1.png
   link: http://www.2469samurai.com/
   type: bronze
-  msg: Total outsourcing strategy consultant
+  message: Total outsourcing strategy consultant
 
 ## In-kind sponsors
 - id: yasslab
@@ -69,49 +69,49 @@
   logo: yasslab.png
   link: https://yasslab.jp/ja/
   type: inkind
-  description: Doorkeeper スポンサーシップのご提供
+  message: Doorkeeper スポンサーシップのご提供
 
 - id: esa
   name: 合同会社 esa
   logo: esa-logo__whitebg--transparent.png
   link: https://esa.io/
   type: inkind
-  description: ドキュメント共有サービスのご提供
+  message: ドキュメント共有サービスのご提供
 
 - id: stellalink
   name: 株式会社ステラリンク
   logo: stellalink.png
   link: https://www.stellalink.co.jp/
   type: inkind
-  description: 会場ネットワークのご提供
+  message: 会場ネットワークのご提供
 
 - id: paloaltonetworks
   name: パロアルトネットワークス株式会社
   logo: paloaltonetworks.webp
   link: https://www.paloaltonetworks.jp/
   type: inkind
-  description: サイバーセキュリティマンガ（会場配布）のご提供
+  message: サイバーセキュリティマンガ（会場配布）のご提供
 
 - id: make
   name: Make
   logo: make_logo_rgb_trimed.jpg
   link: https://makezine.jp/
   type: inkind
-  description: 書籍のご提供
+  message: 書籍のご提供
 
 - id: sacraya
   name: 咲楽屋
   logo: sacraya.jpg
   link: https://www.sacraya.net/
   type: inkind
-  description: 会場ネットワーク構築支援のご提供
+  message: 会場ネットワーク構築支援のご提供
 
 - id: gihyo
   name: 技術評論社
   logo: gihyo-logo.png
   link: https://book.gihyo.jp
   type: inkind
-  description: 書籍のご提供
+  message: 書籍のご提供
 
 ## Individual sponsors
 # - name: 個人名

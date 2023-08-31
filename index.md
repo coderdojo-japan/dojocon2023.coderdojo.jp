@@ -222,7 +222,7 @@ layout: default
             <a href="{{ sponsor.link }}" target="_blank">
               <img class="sponsor-logo" src="/img/{{ site.year }}/sponsor/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
             </a>
-            <p style="margin-top:0.5em; font-size:0.8em;">{{ sponsor.description }}</p>
+            <p style="margin-top:0.5em; font-size:0.8em;">{{ sponsor.message }}</p>
           </div>
         {% endfor %}
         </div>
