@@ -24,6 +24,9 @@
       width: 100%;
       margin: auto;
       max-width: 600px;
+      &.full_width {
+        max-width: 100%;
+      }
     }
   }
   /* TODO: session 用の scss に分離する */
