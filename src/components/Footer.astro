@@ -68,6 +68,9 @@ const lineShare = `https://social-plugins.line.me/lineit/share?url=${encodeURICo
   .share {
     display: flex;
     flex-wrap: wrap;
+    // 紫の背景はフッター全幅のまま、ボタンだけ本文と同じ幅に収める
+    max-width: var(--width-container);
+    margin: 0 auto;
 
     a {
       display: flex;
@@ -101,7 +104,8 @@ const lineShare = `https://social-plugins.line.me/lineit/share?url=${encodeURICo
   }
 
   .footer-menu ul {
-    margin-top: 1.5em;
+    max-width: var(--width-container);
+    margin: 1.5em auto 0;
     padding: 0;
     list-style: none;
 

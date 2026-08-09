@@ -26,6 +26,8 @@
 
   /* レイアウト */
   --header-height: 60px;
+  /** ヘッダー・メインビジュアルなど、本文より広く見せたい領域の上限 */
+  --width-hero: 1440px;
   --width-container: 1140px;
   --width-content: 1000px;
   --width-narrow: 800px;

@@ -72,7 +72,11 @@ const showTags = category === 'workshop' || category === 'session';
   }
 
   .post {
-    margin-bottom: 12vh;
+    // 本文（.post-content）が --width-post で止まるのに対し、
+    // タイトルや日付は上限がないと画面幅まで伸びてしまう。
+    // 左右の padding を足した幅を上限にして本文幅は変えない
+    max-width: calc(var(--width-post) + 2rem);
+    margin: 0 auto 12vh;
     padding: 0 1rem;
     text-align: left;
   }

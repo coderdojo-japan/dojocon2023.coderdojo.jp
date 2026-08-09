@@ -207,7 +207,10 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 50px;
+    // 上限を設けないとキャラクター画像が画面幅の半分まで拡大し、
+    // それに合わせて高さも膨らんでロゴや開催日が画面外へ押し出される
+    max-width: var(--width-hero);
+    margin: 50px auto 0;
     padding: 0 30px;
   }
 
@@ -274,6 +277,8 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     width: 100%;
+    max-width: var(--width-hero);
+    margin: 0 auto;
     color: #fff;
     text-align: left;
   }
