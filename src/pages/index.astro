@@ -9,10 +9,10 @@ import { SITE } from '@/consts';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getSortedPosts } from '@/utils/posts';
 
-import characterImage from '@/assets/images/mv-fumanara.png';
-import coderdojoLogoImage from '@/assets/images/coderdojo_logo.jpg';
-import dojoconPhoto from '@/assets/images/52554972726_b2da260763_o.jpg';
-import mapImage from '@/assets/images/top/map.png';
+import characterImage from '@/images/mv-fumanara.png';
+import coderdojoLogoImage from '@/images/coderdojo_logo.jpg';
+import dojoconPhoto from '@/images/52554972726_b2da260763_o.jpg';
+import mapImage from '@/images/top/map.png';
 
 const latestPosts = (await getSortedPosts()).slice(0, 6);
 const countdowns = (await getCollection('countdown')).sort((a, b) => a.data.order - b.data.order);

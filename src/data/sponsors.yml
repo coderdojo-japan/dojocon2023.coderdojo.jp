@@ -1,6 +1,6 @@
 # - id:   ID（スポンサーページのアンカータグになります）
 #   name: スポンサー名
-#   logo: ロゴ画像ファイルのパス（/img/{{ site.year }}/sponsor/ 以下に配置）
+#   logo: ロゴ画像ファイルのパス（/images/sponsor/ 以下に配置）
 #   link: ロゴ画像をクリックした際のリンク先
 #   type: スポンサー種別（platinum, gold, silver, bronze, inkind, individual）
 #   message:  スポンサー紹介文

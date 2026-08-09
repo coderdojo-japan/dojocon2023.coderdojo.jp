@@ -6,7 +6,7 @@ thumbnail: /images/event/toio-workshop.png
 permalink: /toio-workshop/
 ---
 
-![](../../assets/images/event/toio-workshop2.jpg)
+![](../../images/event/toio-workshop2.jpg)
 
 CoderDojoのメンターのみなさんにロボットプログラミングや工作系活動・ワークショップのコツを実際にtoioを触りながら共有します。
 

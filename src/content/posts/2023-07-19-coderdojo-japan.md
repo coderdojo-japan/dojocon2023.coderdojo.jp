@@ -10,7 +10,7 @@ permalink: /posts/annual-report-by-coderdojo-japan/
 
 <br>
 
-[![CoderDojo Japan 設立時の写真 @ DojoCon Japan 2016](../../assets/images/session/coderdojo-japan-2016.webp)](https://dojocon2016.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)
+[![CoderDojo Japan 設立時の写真 @ DojoCon Japan 2016](../../images/session/coderdojo-japan-2016.webp)](https://dojocon2016.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)
 
 <center>&copy; Photo Credit: <a href='https://dojocon2016.coderdojo.jp/'>DojoCon Japan 2016</a></center>
 
@@ -22,7 +22,7 @@ permalink: /posts/annual-report-by-coderdojo-japan/
   <a href='https://speakerdeck.com/coderdojojapan/coderdojo-japan-in-2022'>前回の活動報告</a>は 11/27 (日曜) 開催の <a href='https://dojocon2022.coderdojo.jp/'>DojoCon Japan 2022</a> で行われたため、実質的には9ヶ月間の活動になります。
 </small>
 
-[![CoderDojo Japan ロゴ画像](../../assets/images/session/coderdojo-japan.png)](https://coderdojo.jp/about-coderdojo-japan)
+[![CoderDojo Japan ロゴ画像](../../images/session/coderdojo-japan.png)](https://coderdojo.jp/about-coderdojo-japan)
 
 
 ## 発表者プロフィール

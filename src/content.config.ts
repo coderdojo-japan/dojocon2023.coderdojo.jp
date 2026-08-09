@@ -45,7 +45,7 @@ const posts = defineCollection({
     date: z.coerce.date(),
     /** news / event / session / sponsors */
     category: z.string(),
-    /** 一覧のサムネイル兼 OGP 画像。`/img/...` 形式のパス */
+    /** 一覧のサムネイル兼 OGP 画像。`/images/...` 形式のパス */
     thumbnail: blankToUndefined(z.string()),
     /** Jekyll 時代の URL をそのまま維持するためのパス */
     permalink: z.string(),
