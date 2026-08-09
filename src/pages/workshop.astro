@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+
+import BackToHomeLink from '@/components/BackToHomeLink.astro';
+import Icon from '@/components/Icon.astro';
+import { SITE } from '@/consts';
+import PageLayout from '@/layouts/PageLayout.astro';
+
+const workshops = (await getCollection('workshops')).sort((a, b) => a.data.order - b.data.order);
+
+const badgeLabels: Record<string, string> = {
+  must: '申し込み必須',
+  double: '事前・当日申し込み必須',
+};
+---
+
+<PageLayout
+  title="ワークショップ"
+  subtitle={`DojoCon Japan ${SITE.year} で開催されるワークショップをご紹介します`}
+  wide
+>
+  {
+    workshops.length === 0 ? (
+      <p class="wait-for-a-moment">まもなくご案内します</p>
+    ) : (
+      <div class="workshop-grid">
+        {workshops.map(({ data }) => (
+          <article class="workshop">
+            <h2 class="ws-title">{data.title}</h2>
+
+            <p class="workshop-meta">
+              {data.badge && badgeLabels[data.badge] ? (
+                <span class="badge badge-must">{badgeLabels[data.badge]}</span>
+              ) : (
+                <span class="badge badge-none">申し込み不要</span>
+              )}
+              {data.time}
+            </p>
+
+            <p>{data.text}</p>
+            {data.limit && <p>定員：{data.limit}人</p>}
+
+            {data.url && (
+              <p>
+                <a class="btn btn-main" href={data.url} target="_blank" rel="noopener">
+                  <Icon name="user-plus" /> 申し込む
+                </a>
+              </p>
+            )}
+          </article>
+        ))}
+      </div>
+    )
+  }
+
+  <BackToHomeLink />
+</PageLayout>
+
+<style lang="scss">
+  .workshop-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: left;
+  }
+
+  .workshop-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0.75rem 0;
+  }
+
+  @media screen and (max-width: 800px) {
+    .workshop-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

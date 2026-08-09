@@ -1,0 +1,132 @@
+---
+import Icon from '@/components/Icon.astro';
+import { FOOTER_ITEMS, SITE } from '@/consts';
+import { stripHtml } from '@/utils/text';
+
+interface Props {
+  /** シェア文言に使うページタイトル */
+  pageTitle?: string;
+}
+
+const { pageTitle } = Astro.props;
+
+const site = Astro.site ?? new URL(SITE.url);
+const pageUrl = new URL(Astro.url.pathname, site).href;
+
+const shareText = pageTitle ? `${SITE.title} - ${stripHtml(pageTitle)}` : SITE.title;
+
+const facebookShare = `https://www.facebook.com/share.php?u=${encodeURIComponent(pageUrl)}`;
+const twitterShare =
+  `https://twitter.com/share?url=${encodeURIComponent(pageUrl)}` +
+  `&text=${encodeURIComponent(shareText)}` +
+  `&hashtags=DojoConJapan,CoderDojo&via=${SITE.twitter}&related=${SITE.twitter}`;
+const lineShare = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(pageUrl)}`;
+---
+
+<footer class="site-footer">
+  <nav class="share" aria-label="このページを共有">
+    <a class="share-facebook" href={facebookShare} target="_blank" rel="noopener">
+      <Icon name="square-facebook" /> Facebook でシェア
+    </a>
+    <a class="share-twitter" href={twitterShare} target="_blank" rel="noopener">
+      <Icon name="square-twitter" /> Twitter でシェア
+    </a>
+    <a class="share-line" href={lineShare} target="_blank" rel="noopener">
+      <Icon name="line" /> LINE でシェア
+    </a>
+  </nav>
+
+  <nav class="footer-menu" aria-label="フッターメニュー">
+    <ul>
+      {
+        FOOTER_ITEMS.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              target={item.external ? '_blank' : undefined}
+              rel={item.external ? 'noopener' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+
+  <p class="copyright">&copy; {SITE.title} {SITE.year} 実行委員会</p>
+</footer>
+
+<style lang="scss">
+  .site-footer {
+    margin-top: auto;
+    padding-bottom: 12px;
+    background-color: var(--color-secondary);
+    color: #fff;
+  }
+
+  .share {
+    display: flex;
+    flex-wrap: wrap;
+    // 紫の背景はフッター全幅のまま、ボタンだけ本文と同じ幅に収める
+    max-width: var(--width-container);
+    margin: 0 auto;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4em;
+      width: 50%;
+      height: 60px;
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.8;
+        color: #fff;
+      }
+    }
+  }
+
+  .share-facebook {
+    background-color: var(--color-facebook);
+  }
+
+  .share-twitter {
+    background-color: var(--color-twitter);
+  }
+
+  /* LINE は狭い画面でのみ表示する（元サイトの挙動を踏襲） */
+  .share-line {
+    display: none !important;
+    background-color: var(--color-line);
+  }
+
+  .footer-menu ul {
+    max-width: var(--width-container);
+    margin: 1.5em auto 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline;
+      padding: 0 0.5em;
+
+      a:hover {
+        color: #fff;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .share a {
+      width: 100%;
+    }
+
+    .share-line {
+      display: flex !important;
+    }
+  }
+</style>

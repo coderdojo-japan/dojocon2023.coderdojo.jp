@@ -1,0 +1,103 @@
+---
+import type { ImageMetadata } from 'astro';
+
+import Favicons from '@/components/Favicons.astro';
+import Footer from '@/components/Footer.astro';
+import Header from '@/components/Header.astro';
+import ScrollToTop from '@/components/ScrollToTop.astro';
+import { DEFAULT_OGP_IMAGE, SITE } from '@/consts';
+import { toAbsoluteUrl } from '@/utils/images';
+import { stripHtml } from '@/utils/text';
+
+import '@/styles/global.scss';
+
+interface Props {
+  /** ページ固有のタイトル。省略するとサイト名だけになる */
+  title?: string;
+  description?: string;
+  /** OGP 画像。`/img/...` 形式のパスか、import した画像 */
+  ogImage?: ImageMetadata | string;
+  /** `<body>` に付ける追加クラス */
+  bodyClass?: string;
+}
+
+const { title, description, ogImage, bodyClass } = Astro.props;
+
+const site = Astro.site ?? new URL(SITE.url);
+const canonicalUrl = new URL(Astro.url.pathname, site).href;
+
+const plainTitle = title ? stripHtml(title) : undefined;
+const pageTitle = plainTitle
+  ? `${plainTitle} | ${SITE.title} ${SITE.year}`
+  : `${SITE.title} ${SITE.year} | ${SITE.subtitle}`;
+
+const pageDescription = description ? stripHtml(description) : SITE.description;
+const ogImageUrl = toAbsoluteUrl(ogImage ?? DEFAULT_OGP_IMAGE, site);
+const ogType = Astro.url.pathname === '/' ? 'website' : 'article';
+
+const isProduction = import.meta.env.PROD;
+---
+
+<!doctype html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/feed.xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
+    />
+
+    <meta property="fb:app_id" content={SITE.facebookAppId} />
+    <meta property="og:site_name" content={`${SITE.title} ${SITE.year}`} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content={`@${SITE.twitter}`} />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <Favicons />
+
+    {
+      isProduction && (
+        <>
+          <script
+            is:inline
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${SITE.googleAnalyticsId}`}
+          />
+          <script is:inline define:vars={{ measurementId: SITE.googleAnalyticsId }}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', measurementId);
+          </script>
+        </>
+      )
+    }
+  </head>
+
+  <body class={bodyClass}>
+    <Header />
+    <main id="top">
+      <slot />
+    </main>
+    <ScrollToTop />
+    <Footer pageTitle={title} />
+  </body>
+</html>

@@ -1,0 +1,19 @@
+---
+import ArticleGrid from '@/components/ArticleGrid.astro';
+import BackToHomeLink from '@/components/BackToHomeLink.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getSortedPosts } from '@/utils/posts';
+
+const posts = await getSortedPosts();
+---
+
+<BaseLayout title="お知らせ" description={`DojoCon Japan 2023 からのお知らせ一覧（全 ${posts.length} 件）です。`}>
+  <div class="section section-gray">
+    <div class="section-contents">
+      <h2 class="title-text">NEWS</h2>
+      <p class="caption">お知らせ</p>
+      <ArticleGrid posts={posts} />
+      <BackToHomeLink />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,58 @@
+---
+import { SITE } from '@/consts';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const twitterUrl = `https://twitter.com/${SITE.twitter}`;
+---
+
+<BaseLayout title="Page Not Found" description="お探しのページが見つかりませんでした。">
+  <div class="not-found">
+    <h1>Page Not Found</h1>
+
+    <p><strong>お探しのページが見つかりませんでした 🥹</strong></p>
+    <p class="report">
+      リンク切れなどあれば <a href={twitterUrl}>@{SITE.twitter}</a> アカウントまで<br class="ignore-sp"
+      />ご報告いただけると嬉しいです 🙏
+    </p>
+
+    <h2>
+      <a href={twitterUrl}>最近の投稿を見る</a>
+    </h2>
+
+    <a
+      class="twitter-timeline"
+      data-lang="ja"
+      data-height="600"
+      href={`${twitterUrl}?ref_src=twsrc%5Etfw`}>Tweets by {SITE.twitter}</a
+    >
+    <script is:inline async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  .not-found {
+    max-width: 600px;
+    margin: 10px auto 200px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 130px 0 30px;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  .report {
+    margin-bottom: 100px;
+  }
+
+  a {
+    color: var(--color-main);
+  }
+</style>

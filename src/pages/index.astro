@@ -1,0 +1,590 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+
+import ArticleGrid from '@/components/ArticleGrid.astro';
+import SponsorLogos from '@/components/SponsorLogos.astro';
+import StaffList from '@/components/StaffList.astro';
+import { SITE } from '@/consts';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getSortedPosts } from '@/utils/posts';
+
+import characterImage from '@/assets/img/2023/mv-fumanara.png';
+import coderdojoLogoImage from '@/assets/img/2023/coderdojo_logo.jpg';
+import dojoconPhoto from '@/assets/img/2023/52554972726_b2da260763_o.jpg';
+import mapImage from '@/assets/img/2023/top/map.png';
+
+const latestPosts = (await getSortedPosts()).slice(0, 6);
+const countdowns = (await getCollection('countdown')).sort((a, b) => a.data.order - b.data.order);
+
+const logoSrc = `/img/${SITE.year}/logo_640x160.svg`;
+const decoSrc = `/img/${SITE.year}/deco.svg`;
+---
+
+<BaseLayout>
+  {/* メインビジュアル */}
+  <div class="hero">
+    <div class="hero-tagline">
+      <div class="tagline">The Annual CoderDojo<br />Community Conference in Japan</div>
+    </div>
+    <div class="hero-information">
+      <div class="theme">{SITE.subtitle}</div>
+      <img src={logoSrc} alt={`${SITE.title} ${SITE.year} のロゴ画像`} width="640" height="160" />
+      <p class="event-date-and-location">
+        2023.8.27 Sun<br />at 奈良女子大学 Nara Women's University
+      </p>
+    </div>
+    <div class="hero-character">
+      <Image src={characterImage} alt="Icon Character FUMA Nara" loading="eager" fetchpriority="high" />
+    </div>
+  </div>
+
+  <img class="deco" src={decoSrc} alt="" width="1440" height="60" />
+
+  {/* WELCOME TO: DojoCon Japan と CoderDojo の紹介 */}
+  <div class="welcome">
+    <h2 class="welcome-title">WELCOME TO</h2>
+
+    <div class="welcome-photo">
+      <Image src={dojoconPhoto} alt="DojoCon Japan 2022 の様子（写真）" />
+    </div>
+
+    <div class="welcome-about-dojocon">
+      <p class="short">CoderDojoコミュニティの<br class="ignore-sp" />カンファレンスイベント</p>
+      <div class="long">
+        <p>
+          DojoCon Japanとは日本の CoderDojo コミュニティメンバーが全国から集まる、年に1度のカンファレンスイベント
+          (CoderDojo Conference) です。
+        </p>
+        <p>2016年に始まり、2023年は奈良女子大学にて開催します。</p>
+      </div>
+    </div>
+
+    <div class="welcome-spacing welcome-spacing1"></div>
+
+    <div class="welcome-about-coderdojo">
+      <p class="short">CoderDojoとは</p>
+      <div class="long">
+        <p>子ども達にプログラミングを学ぶ場を提供する、ボランティア主導の世界的な非営利活動です。</p>
+        <p>
+          CoderDojo は2011年にアイルランドから始まり、現在は世界100カ国に2,000以上の道場があり、日本国内でも全国215以上の道場で毎年1,000回以上
+          (*1) 開催されています。CoderDojo
+          はエンジニアやデザイナー、各地域の保護者や学生、研究者や経営者など（メンター）と子どもが出会える場にもなっています。
+        </p>
+        <p class="annotation">
+          *1 統計情報: <a href="https://coderdojo.jp/stats" target="_blank" rel="noopener">
+            https://coderdojo.jp/stats
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="welcome-coderdojo-logo">
+      <Image src={coderdojoLogoImage} alt="CoderDojo の公式ロゴ画像" />
+    </div>
+
+    <div class="welcome-spacing welcome-spacing2"></div>
+
+    <div class="welcome-about-this-year">
+      <p class="short">DojoCon Japan {SITE.year}について</p>
+      <div class="long">
+        <p>
+          2012年に日本で最初のCoderDojoが始まって昨年で10年が経ち、現在では多くの企業や組織から支援を受けられるようになりました。これはCoderDojoが任意かつ自律的な活動であるにも関わらず信頼を得られている証だと考えられます。
+        </p>
+        <p>
+          これからの10年もCoderDojoが信頼される"Cool"な活動であり続けられるように、DojoCon Japan
+          2023ではそのきっかけを作っていきます。
+        </p>
+      </div>
+    </div>
+
+    <div class="welcome-spacing welcome-spacing3"></div>
+  </div>
+
+  {/* 開催概要 */}
+  <section class="about" id="outline">
+    <div class="about-inner">
+      <h2 class="title-text">ABOUT</h2>
+      <p class="caption">開催概要</p>
+
+      <p class="about-title">開催日</p>
+      <p class="about-text">{SITE.dateEvent}</p>
+
+      <p class="about-title">場所</p>
+      <p class="about-text">
+        {SITE.venue} （<a href={SITE.map} target="_blank" rel="noopener">Google Maps</a>）
+      </p>
+      <div class="map">
+        <Image src={mapImage} alt="最寄駅から会場へのアクセス方法" />
+      </div>
+
+      <p class="about-title">参加費</p>
+      <p class="about-text">無料</p>
+      <div class="disabled-button">受付終了</div>
+      <p><small>全国からご参加いただき<br />ありがとうございました!</small></p>
+    </div>
+  </section>
+
+  {/* お知らせ */}
+  <div class="section-gray">
+    <img class="deco" src={decoSrc} alt="" width="1440" height="60" />
+    <section class="section">
+      <div class="section-contents">
+        <h2 class="title-text">NEWS</h2>
+        <p class="caption">お知らせ</p>
+        <ArticleGrid posts={latestPosts} />
+        <p class="more"><a class="link-button" href="/news">もっと見る</a></p>
+      </div>
+    </section>
+  </div>
+
+  {/* カウントダウン配信 */}
+  <section class="section" id="countdown">
+    <div class="section-contents">
+      <h2 class="title-text">Countdown <br class="ignore-pc" />DojoCon Japan</h2>
+      <p class="caption">DojoCon Japan {SITE.year} の内容を紹介するライブ配信です。</p>
+      <div class="countdown-grid">
+        {
+          countdowns.map(({ data }) => (
+            <div class="countdown-item">
+              <iframe
+                width="100%"
+                height="250"
+                src={`https://www.youtube-nocookie.com/embed/${data.video_id}`}
+                title={data.title}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+              <p>{data.title}<br />{data.date} ONAIR</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  {/* お問い合わせ */}
+  <section class="section contact" id="contact">
+    <div class="section-contents">
+      <h2 class="title-text">CONTACT</h2>
+      <p class="caption">お問い合わせ</p>
+      <p class="caption">
+        DojoCon Japan {SITE.year} についてのお問い合わせは以下のリンク先（Googleフォーム）よりお願いいたします。
+      </p>
+      <a class="button" href={SITE.contact} target="_blank" rel="noopener">お問い合わせする</a>
+    </div>
+  </section>
+
+  <SponsorLogos />
+
+  {/* 主催・実行委員・後援 */}
+  <section class="section section-gray" id="organized-by">
+    <div class="section-contents">
+      <h2 class="title-text">Organized by</h2>
+      <p>DojoCon Japan {SITE.year} 実行委員会</p>
+      <p>
+        <a href="https://coderdojo.jp/" target="_blank" rel="noopener">一般社団法人 CoderDojo Japan</a>
+      </p>
+
+      <h2 class="title-text" id="staff">STAFF</h2>
+      <StaffList />
+
+      <h2 class="title-text">Supported by</h2>
+      <p class="caption">後援</p>
+      <p>
+        <a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style lang="scss">
+  /* ------------------------------------------------------------------
+     メインビジュアル
+     ------------------------------------------------------------------ */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    // 上限を設けないとキャラクター画像が画面幅の半分まで拡大し、
+    // それに合わせて高さも膨らんでロゴや開催日が画面外へ押し出される
+    max-width: var(--width-hero);
+    margin: 50px auto 0;
+    padding: 0 30px;
+  }
+
+  .hero-tagline {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .tagline {
+    margin-left: 80px;
+    font-size: 0.8rem;
+    text-align: left;
+    // 縦書き風に 90 度回転させたキャッチコピー
+    transform: rotate(90deg);
+    transform-origin: top left;
+  }
+
+  .hero-information {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    text-align: left;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-top: -3em;
+    }
+  }
+
+  .theme {
+    margin: 0 0 0 30px;
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+
+  .event-date-and-location {
+    margin: 0 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.6rem;
+  }
+
+  .hero-character {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+
+    :global(img) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .deco {
+    display: block;
+    width: 100%;
+  }
+
+  /* ------------------------------------------------------------------
+     WELCOME TO（紫の帯）
+     12 カラムのグリッドに要素を配置して階段状のレイアウトを作る
+     ------------------------------------------------------------------ */
+  .welcome {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    max-width: var(--width-hero);
+    margin: 0 auto;
+    color: #fff;
+    text-align: left;
+  }
+
+  .welcome-title {
+    grid-column: 3 / span 8;
+    order: 1;
+    margin: 30px 0 -0.3em;
+    color: var(--color-secondary);
+    font-size: 5em;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .welcome-photo {
+    grid-column: 3 / span 4;
+    order: 2;
+    border-radius: 30px 0 0;
+    background-color: var(--color-secondary);
+
+    :global(img) {
+      width: 110%;
+      height: auto;
+      margin-left: -20%;
+      padding-top: 60px;
+    }
+  }
+
+  .welcome-about-dojocon {
+    grid-column: 7 / span 4;
+    order: 3;
+    padding: 60px 0 15px;
+    background-color: var(--color-secondary);
+  }
+
+  .welcome-spacing {
+    grid-column: 11 / span 2;
+    background-color: var(--color-secondary);
+  }
+
+  .welcome-spacing1 {
+    order: 4;
+  }
+
+  .welcome-spacing2 {
+    order: 7;
+  }
+
+  .welcome-spacing3 {
+    order: 9;
+  }
+
+  .welcome-about-coderdojo {
+    grid-column: 3 / span 6;
+    order: 5;
+    padding: 60px 30px 0;
+    background-color: var(--color-secondary);
+  }
+
+  .welcome-coderdojo-logo {
+    grid-column: 9 / span 2;
+    order: 6;
+    padding-top: 60px;
+    background-color: var(--color-secondary);
+    text-align: right;
+
+    :global(img) {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+  }
+
+  .welcome-about-this-year {
+    grid-column: 3 / span 8;
+    order: 8;
+    padding: 60px 15px 60px 30px;
+    border-radius: 0 0 0 30px;
+    background-color: var(--color-secondary);
+  }
+
+  .welcome .short {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .welcome .long {
+    margin-top: 1.5em;
+    font-size: 1em;
+  }
+
+  .welcome .annotation {
+    font-size: 0.8em;
+  }
+
+  .welcome a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* ------------------------------------------------------------------
+     開催概要
+     ------------------------------------------------------------------ */
+  .about {
+    margin: 50px auto 100px;
+    padding: 0 1rem;
+  }
+
+  .about-inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .about-title {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-top: 3px solid var(--color-main);
+    background: #f4f4f4;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .about-text a {
+    color: var(--color-main);
+  }
+
+  .map {
+    margin-bottom: 30px;
+
+    :global(img) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .disabled-button {
+    margin-bottom: 20px;
+  }
+
+  /* ------------------------------------------------------------------
+     お知らせ・カウントダウン・お問い合わせ
+     ------------------------------------------------------------------ */
+  .more {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .countdown-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .countdown-item iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+  }
+
+  .contact {
+    background: var(--color-secondary);
+    color: #fff;
+
+    .button {
+      background: inherit;
+      border: solid 2px #fff;
+      box-shadow: none;
+    }
+  }
+
+  #organized-by a {
+    color: var(--color-main);
+  }
+
+  #staff {
+    margin-top: 3rem;
+  }
+
+  /* ------------------------------------------------------------------
+     レスポンシブ
+     ------------------------------------------------------------------ */
+  @media screen and (max-width: 900px) {
+    .countdown-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .welcome-title {
+      grid-column: 2 / span 10;
+      font-size: 6vw;
+    }
+
+    .welcome-photo {
+      grid-column: 2 / span 11;
+
+      :global(img) {
+        width: 80%;
+        margin-left: -5%;
+      }
+    }
+
+    .welcome-about-dojocon {
+      grid-column: 2 / span 11;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    .welcome-about-coderdojo {
+      grid-column: 2 / span 7;
+      padding-right: 0;
+    }
+
+    .welcome-coderdojo-logo {
+      grid-column: 9 / span 4;
+      text-align: center;
+
+      :global(img) {
+        width: 60%;
+      }
+    }
+
+    .welcome-about-this-year {
+      grid-column: 2 / span 11;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .hero {
+      grid-template-columns: 30% 70%;
+      padding: 0;
+    }
+
+    .tagline {
+      width: 300%;
+      margin-left: 50px;
+      font-size: 0.65rem;
+    }
+
+    .hero-information {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+
+      img {
+        margin-top: -4em;
+      }
+    }
+
+    .theme {
+      margin: 0 0 30px 20px;
+      font-size: 2rem;
+    }
+
+    .hero-character {
+      grid-column: 2;
+      grid-row: 1;
+      overflow-x: hidden;
+
+      :global(img) {
+        width: 110%;
+        max-width: none;
+      }
+    }
+
+    .welcome-about-dojocon {
+      padding: 60px 30px;
+
+      .short {
+        font-size: 1.5em;
+      }
+    }
+
+    .welcome-coderdojo-logo {
+      grid-column: 2 / span 11;
+      order: 5;
+      padding-top: 0;
+      padding-bottom: 60px;
+      text-align: center;
+
+      :global(img) {
+        width: 60%;
+      }
+    }
+
+    .welcome-about-coderdojo {
+      grid-column: 2 / span 11;
+      order: 6;
+      padding: 0 30px;
+
+      .short {
+        font-size: 1.5em;
+      }
+    }
+
+    .welcome-about-this-year {
+      grid-column: 2 / span 11;
+      padding: 60px 30px;
+
+      .short {
+        font-size: 1.5em;
+      }
+    }
+
+    .countdown-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

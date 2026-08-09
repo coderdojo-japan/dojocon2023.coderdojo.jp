@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dojocon2023.coderdojo.jp/sitemap-index.xml

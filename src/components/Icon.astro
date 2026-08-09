@@ -1,0 +1,64 @@
+---
+/**
+ * Font Awesome Free の SVG をビルド時にインライン展開する。
+ * CDN も Web フォントも読み込まないので、実行時のコストはゼロ。
+ * アイコン素材は Font Awesome Free (CC BY 4.0) を利用している。
+ */
+import angleDown from '@fortawesome/fontawesome-free/svgs/solid/angle-down.svg?raw';
+import arrowLeft from '@fortawesome/fontawesome-free/svgs/solid/arrow-left.svg?raw';
+import arrowRight from '@fortawesome/fontawesome-free/svgs/solid/arrow-right.svg?raw';
+import chevronUp from '@fortawesome/fontawesome-free/svgs/solid/chevron-up.svg?raw';
+import circleChevronLeft from '@fortawesome/fontawesome-free/svgs/solid/circle-chevron-left.svg?raw';
+import facebook from '@fortawesome/fontawesome-free/svgs/brands/facebook.svg?raw';
+import line from '@fortawesome/fontawesome-free/svgs/brands/line.svg?raw';
+import scroll from '@fortawesome/fontawesome-free/svgs/solid/scroll.svg?raw';
+import squareFacebook from '@fortawesome/fontawesome-free/svgs/brands/square-facebook.svg?raw';
+import squareTwitter from '@fortawesome/fontawesome-free/svgs/brands/square-twitter.svg?raw';
+import twitter from '@fortawesome/fontawesome-free/svgs/brands/twitter.svg?raw';
+import userPlus from '@fortawesome/fontawesome-free/svgs/solid/user-plus.svg?raw';
+import youtube from '@fortawesome/fontawesome-free/svgs/brands/youtube.svg?raw';
+
+const ICONS = {
+  'angle-down': angleDown,
+  'arrow-left': arrowLeft,
+  'arrow-right': arrowRight,
+  'chevron-up': chevronUp,
+  'circle-chevron-left': circleChevronLeft,
+  facebook,
+  line,
+  scroll,
+  'square-facebook': squareFacebook,
+  'square-twitter': squareTwitter,
+  twitter,
+  'user-plus': userPlus,
+  youtube,
+} as const;
+
+export type IconName = keyof typeof ICONS;
+
+interface Props {
+  name: IconName;
+  class?: string;
+}
+
+const { name, class: className } = Astro.props;
+
+// 色は文字色に追従させ、サイズは 1em に揃える
+const svg = ICONS[name]
+  .replace(
+    '<svg',
+    '<svg fill="currentColor" width="1em" height="1em" aria-hidden="true" focusable="false"',
+  )
+  .replace(/<!--.*?-->/gs, '');
+---
+
+<span class:list={['icon', className]} set:html={svg} />
+
+<style>
+  .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: -0.125em;
+  }
+</style>

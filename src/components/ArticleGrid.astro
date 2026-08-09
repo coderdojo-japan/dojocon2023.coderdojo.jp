@@ -1,0 +1,35 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import ArticleCard from '@/components/ArticleCard.astro';
+
+interface Props {
+  posts: CollectionEntry<'posts'>[];
+}
+
+const { posts } = Astro.props;
+---
+
+<div class="article-grid">
+  {posts.map((post) => <ArticleCard post={post} />)}
+</div>
+
+<style lang="scss">
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    .article-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .article-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

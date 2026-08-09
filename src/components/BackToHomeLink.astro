@@ -1,0 +1,15 @@
+---
+import Icon from '@/components/Icon.astro';
+
+interface Props {
+  href?: string;
+  label?: string;
+}
+
+const { href = '/', label = 'トップページに戻る' } = Astro.props;
+---
+
+<a class="back-to-top" href={href}>
+  <Icon name="circle-chevron-left" />
+  {label}
+</a>

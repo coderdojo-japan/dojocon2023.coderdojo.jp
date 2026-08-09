@@ -1,0 +1,101 @@
+---
+import { getCollection } from 'astro:content';
+
+import SmartImage from '@/components/SmartImage.astro';
+import { SITE } from '@/consts';
+import { resolveImage } from '@/utils/images';
+
+const members = (await getCollection('members')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<ul class="staff-list">
+  {
+    members.map(({ data }) => {
+      const image = resolveImage(`/img/${SITE.year}/members/${data.img ?? 'staff-dummy.png'}`);
+      const content = (
+        <>
+          <span class="member-image">
+            {image && <SmartImage src={image} alt={data.name} widths={[120, 240]} sizes="120px" />}
+          </span>
+          <span class="member-name">{data.name}</span>
+        </>
+      );
+
+      return (
+        <li class="member">
+          {data.site ? (
+            <a href={data.site} target="_blank" rel="noopener">
+              {content}
+            </a>
+          ) : (
+            content
+          )}
+        </li>
+      );
+    })
+  }
+</ul>
+
+<style lang="scss">
+  .staff-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .member {
+    a,
+    > .member-image {
+      text-decoration: none;
+    }
+
+    a {
+      display: block;
+    }
+
+    &:hover .member-name {
+      font-weight: bold;
+    }
+  }
+
+  .member-image {
+    display: block;
+
+    :global(img) {
+      width: 100%;
+      max-width: 130px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      box-shadow: 0 0 3px #d1d3e4;
+      object-fit: cover;
+      transition: 0.5s;
+    }
+
+    &:hover :global(img) {
+      border-radius: 40%;
+      box-shadow: 0 0 10px #d1d3e4;
+    }
+  }
+
+  .member-name {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    transition: 0.5s;
+  }
+
+  @media screen and (max-width: 800px) {
+    .staff-list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .staff-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

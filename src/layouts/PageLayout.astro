@@ -1,0 +1,56 @@
+---
+import type { ImageMetadata } from 'astro';
+
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  description?: string;
+  ogImage?: ImageMetadata | string;
+  /** 本文をカラム幅で中央寄せせず、画面幅いっぱいに使う */
+  wide?: boolean;
+}
+
+const { title, subtitle, description, ogImage, wide = false } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} ogImage={ogImage}>
+  <div class="page">
+    <header class="page-head">
+      <h1>{title}</h1>
+      {subtitle && <p class="page-subtitle">{subtitle}</p>}
+      <slot name="lead" />
+    </header>
+
+    <div class:list={['page-body', { 'page-body--wide': wide }]}>
+      <slot />
+    </div>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  .page {
+    width: 100%;
+    max-width: var(--width-container);
+    margin: 0 auto;
+    padding: 3rem 1rem 12vh;
+  }
+
+  .page-head {
+    max-width: var(--width-narrow);
+    margin: 0 auto;
+
+    h1 {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .page-subtitle {
+    margin: 0;
+  }
+
+  .page-body {
+    margin-top: 35px;
+  }
+</style>
