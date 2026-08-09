@@ -1,0 +1,168 @@
+---
+import SmartImage from '@/components/SmartImage.astro';
+import { SITE } from '@/consts';
+import { resolveImage } from '@/utils/images';
+import { getSponsorGroups } from '@/utils/sponsors';
+
+const groups = await getSponsorGroups();
+---
+
+<section class="sponsors" id="sponsors_index">
+  <h2 class="title-text">SPONSORS</h2>
+
+  {
+    groups.map(({ type, label, sponsors }) => (
+      <div class="sponsors-group">
+        <h3 class="caption">{label}</h3>
+
+        {type === 'individual' ? (
+          <div class="individual-list">
+            {sponsors.map(({ data }) => (
+              <div class="individual-name">
+                {data.link ? (
+                  <a href={data.link} target="_blank" rel="noopener">
+                    {data.name}
+                  </a>
+                ) : (
+                  data.name
+                )}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="logo-list" data-type={type}>
+            {sponsors.map(({ data }) => {
+              const logo = resolveImage(`/img/${SITE.year}/sponsor/${data.logo}`);
+              return (
+                <div class="logo-item">
+                  <a href={data.link} target="_blank" rel="noopener">
+                    {logo && <SmartImage src={logo} alt={data.name} class="sponsor-logo" />}
+                  </a>
+                  {type === 'inkind' && data.message && (
+                    <p class="inkind-message" set:html={data.message} />
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    ))
+  }
+</section>
+
+<style lang="scss">
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: var(--width-content);
+    margin: 2em auto;
+    padding: 0 1rem;
+  }
+
+  .sponsors-group {
+    margin: 70px 0;
+  }
+
+  .caption {
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsor-logo {
+    height: auto;
+    object-fit: contain;
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+
+  /* 種別ごとにロゴの大きさを変える（金額の大きい種別ほど大きく見せる） */
+  .logo-list[data-type='platinum'] .logo-item {
+    max-width: 85%;
+    margin: 0.5em 0;
+  }
+
+  .logo-list[data-type='gold'] .logo-item {
+    max-width: 60%;
+    margin: 0.2em 0;
+  }
+
+  .logo-list[data-type='silver'] .logo-item {
+    max-width: 40%;
+    margin: 0 1em;
+  }
+
+  .logo-list[data-type='bronze'] .logo-item {
+    max-width: 30%;
+    margin: 0.8em 0.5em;
+  }
+
+  .logo-list[data-type='inkind'] .logo-item {
+    max-width: 30%;
+    margin: 0.8em 0.5em;
+
+    .sponsor-logo {
+      max-width: 90%;
+    }
+  }
+
+  .inkind-message {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+  }
+
+  .individual-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .individual-name {
+    margin: 1em 2em;
+    font-size: 1.2rem;
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        opacity: 0.8;
+        text-decoration: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .logo-list[data-type='gold'] .logo-item {
+      max-width: 65%;
+    }
+
+    .logo-list[data-type='silver'] .logo-item {
+      max-width: 42%;
+      margin: 0 0.6em;
+    }
+
+    .logo-list[data-type='bronze'] .logo-item {
+      max-width: 33%;
+      margin: 0.4em 1em;
+    }
+  }
+</style>

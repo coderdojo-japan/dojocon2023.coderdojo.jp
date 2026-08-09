@@ -1,0 +1,225 @@
+---
+import { getCollection } from 'astro:content';
+
+import BackToHomeLink from '@/components/BackToHomeLink.astro';
+import Icon from '@/components/Icon.astro';
+import SmartImage from '@/components/SmartImage.astro';
+import { SITE } from '@/consts';
+import PageLayout from '@/layouts/PageLayout.astro';
+import { resolveImage } from '@/utils/images';
+import { renderMarkdown } from '@/utils/markdown';
+import { stripScheme } from '@/utils/text';
+
+const sessions = (await getCollection('sessions')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<PageLayout title="SESSION" subtitle="セッション" wide>
+  {
+    sessions.length === 0 ? (
+      <p class="wait-for-a-moment">まもなくご案内します</p>
+    ) : (
+      <div class="session-grid">
+        {sessions.map(({ data }) => {
+          const profileImage = data.profileImg
+            ? resolveImage(`/img/${SITE.year}/session/${data.profileImg}`)
+            : undefined;
+          const hasProfile = Boolean(data.profileText || data.speakers?.length);
+
+          return (
+            <article class="session">
+              {data.newsLink ? (
+                <a href={data.newsLink}>
+                  <h2 class="ws-title">{data.title}</h2>
+                </a>
+              ) : (
+                <h2 class="ws-title">{data.title}</h2>
+              )}
+
+              <p class="session-meta">
+                {data.time}
+                {data.tag && <span class="badge badge-ws">{data.tag}</span>}
+              </p>
+
+              {profileImage && (
+                <div class="session-image">
+                  {data.newsLink ? (
+                    <a href={data.newsLink}>
+                      <SmartImage src={profileImage} alt={`${data.speaker ?? data.title}のプロフィール画像`} />
+                    </a>
+                  ) : (
+                    <SmartImage src={profileImage} alt={`${data.speaker ?? data.title}のプロフィール画像`} />
+                  )}
+                </div>
+              )}
+
+              {data.speaker && (
+                <p class="session-speaker-name">
+                  {data.speaker}
+                  {data.affiliation && `（${data.affiliation}）`}
+                </p>
+              )}
+
+              <div class="session-text" set:html={renderMarkdown(data.text)} />
+
+              <p class="session-actions">
+                {data.newsLink && (
+                  <a class="btn btn-main" href={data.newsLink}>
+                    <Icon name="scroll" /> 詳細を見る
+                  </a>
+                )}
+                {data.archiveLink && (
+                  <a class="btn btn-main" href={data.archiveLink} target="_blank" rel="noopener">
+                    <Icon name="youtube" /> YouTube で見る
+                  </a>
+                )}
+                {data.slides && (
+                  <a class="btn btn-main" href={data.slides} target="_blank" rel="noopener">
+                    <Icon name="scroll" /> スライド資料を見る
+                  </a>
+                )}
+              </p>
+
+              {hasProfile && (
+                <details class="session-profile">
+                  <summary>
+                    <Icon name="angle-down" /> 登壇者情報を見る
+                  </summary>
+
+                  {data.speakers?.length ? (
+                    data.speakers.map((speaker) => (
+                      <div class="speaker">
+                        <p class="session-speaker-name">
+                          {speaker.name}
+                          {speaker.affiliation && `（${speaker.affiliation}）`}
+                          {speaker.role && <span class="badge badge-ws">{speaker.role}</span>}
+                        </p>
+                        {speaker.text && <div set:html={renderMarkdown(speaker.text)} />}
+                        {speaker.links.length > 0 && (
+                          <ul>
+                            {speaker.links.map((link) => (
+                              <li>
+                                <a href={link} target="_blank" rel="noopener external">
+                                  {stripScheme(link)}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    ))
+                  ) : (
+                    <>
+                      {data.profileText && <div set:html={renderMarkdown(data.profileText)} />}
+                      {data.links.length > 0 && (
+                        <ul>
+                          {data.links.map((link) => (
+                            <li>
+                              <a href={link} target="_blank" rel="noopener external">
+                                {stripScheme(link)}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </>
+                  )}
+                </details>
+              )}
+            </article>
+          );
+        })}
+      </div>
+    )
+  }
+
+  <BackToHomeLink />
+</PageLayout>
+
+<style lang="scss">
+  .session-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: left;
+  }
+
+  .session a {
+    text-decoration: none;
+  }
+
+  .session-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0.75rem 0;
+  }
+
+  .session-image {
+    margin: 1rem 0;
+    text-align: center;
+
+    :global(img) {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      padding: 0 3rem;
+    }
+  }
+
+  .session-speaker-name {
+    font-weight: bold;
+  }
+
+  .session-text :global(a) {
+    color: var(--color-main);
+    text-decoration: underline;
+  }
+
+  .session-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .session-profile {
+    margin-top: 1rem;
+
+    summary {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.2rem;
+      background-color: var(--color-main);
+      color: #fff;
+      font-size: 0.875rem;
+      cursor: pointer;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+    }
+
+    &[open] summary :global(.icon) {
+      transform: rotate(180deg);
+    }
+
+    a {
+      color: var(--color-main);
+      text-decoration: underline;
+    }
+  }
+
+  .speaker + .speaker {
+    margin-top: 1.5rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    .session-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .session-image :global(img) {
+      padding: 0;
+    }
+  }
+</style>

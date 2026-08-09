@@ -1,0 +1,199 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+
+import Icon from '@/components/Icon.astro';
+import SmartImage from '@/components/SmartImage.astro';
+import { SITE } from '@/consts';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { resolveImage } from '@/utils/images';
+import { autoLink } from '@/utils/markdown';
+import { stripHtml } from '@/utils/text';
+
+/**
+ * 作品ページは `_data/projects.yml` から静的生成する。
+ * Jekyll 時代は Rake タスクが Markdown を書き出していたが、
+ * Astro ではビルド時にそのまま展開するので生成物をコミットする必要がない。
+ */
+export const getStaticPaths = (async () => {
+  const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+
+  return projects.map((project, index) => ({
+    params: { id: project.id },
+    props: {
+      project,
+      // 一覧の端では先頭と末尾がつながるように循環させる
+      previous: projects[(index - 1 + projects.length) % projects.length],
+      next: projects[(index + 1) % projects.length],
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { project, previous, next } = Astro.props;
+const { title, description, note, creator, coderdojo_at, url, thumbnail } = project.data;
+
+const image = thumbnail ? resolveImage(`/img/${SITE.year}/exhibition/${thumbnail}`) : undefined;
+
+const site = Astro.site ?? new URL(SITE.url);
+const pageUrl = new URL(`/expo/${project.id}`, site).href;
+const twitterShare =
+  `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${stripHtml(title)} | ニンジャ大博覧会`)}` +
+  `&hashtags=DojoConJapan,CoderDojo&url=${encodeURIComponent(pageUrl)}&lang=jp&related=${SITE.twitter}`;
+const facebookShare = `https://www.facebook.com/share.php?u=${encodeURIComponent(pageUrl)}`;
+
+/** ナビゲーションのラベルは 11 文字で切り詰める */
+function truncate(value: string, maxLength = 11): string {
+  const plain = stripHtml(value);
+  return plain.length > maxLength ? `${plain.slice(0, maxLength)}...` : plain;
+}
+---
+
+<BaseLayout title={title} description={stripHtml(description)} ogImage={image}>
+  <article class="project-detail">
+    <h1>{title}</h1>
+
+    <div class="project-main">
+      {
+        image && (
+          <a href={url} target="_blank" rel="noopener">
+            <SmartImage src={image} alt={`${stripHtml(title)} のサムネイル画像`} class="project-thumbnail" />
+          </a>
+        )
+      }
+      <p>
+        作者: {creator}
+        {coderdojo_at && <small>(CoderDojo <span set:html={coderdojo_at} />)</small>}
+      </p>
+
+      <div class="box">
+        <h2>作品の説明</h2>
+        <p set:html={autoLink(description)} />
+      </div>
+
+      {
+        note && (
+          <div class="box">
+            <h2>参考・参照元、工夫したところ</h2>
+            <p set:html={autoLink(note)} />
+          </div>
+        )
+      }
+    </div>
+
+    <div class="project-actions">
+      <a class="button" href={url} target="_blank" rel="noopener">
+        <Icon name="scroll" /> 作品を見る
+      </a>
+      <a class="button" href={twitterShare} target="_blank" rel="noopener">
+        <Icon name="twitter" /> 作品を共有する
+      </a>
+      <a class="button" href={facebookShare} target="_blank" rel="noopener">
+        <Icon name="facebook" /> 作品を共有する
+      </a>
+    </div>
+
+    <p class="project-back">
+      <a class="back-to-top" href="/exhibition">
+        <Icon name="circle-chevron-left" /> 作品一覧に戻る
+      </a>
+    </p>
+
+    <nav class="project-navigation" aria-label="作品の前後移動">
+      <a href={`/expo/${previous.id}`} title={stripHtml(previous.data.title)}>
+        <Icon name="arrow-left" /> 前の作品へ<br />
+        <span>{truncate(previous.data.title)}</span>
+      </a>
+      <a href={`/expo/${next.id}`} title={stripHtml(next.data.title)}>
+        次の作品へ <Icon name="arrow-right" /><br />
+        <span>{truncate(next.data.title)}</span>
+      </a>
+    </nav>
+  </article>
+</BaseLayout>
+
+<style lang="scss">
+  .project-detail {
+    padding: 0 1rem 100px;
+  }
+
+  h1 {
+    padding: 100px 0 30px;
+  }
+
+  .project-main {
+    width: 40%;
+    margin: 0 auto 12px;
+    text-align: center;
+
+    a {
+      color: var(--color-main);
+    }
+  }
+
+  .project-thumbnail {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+
+  .box {
+    margin: 50px auto 30px;
+    text-align: left;
+
+    h2 {
+      margin-bottom: 0.5em;
+      font-size: 1.25rem;
+      text-align: left;
+    }
+  }
+
+  .project-actions {
+    margin-bottom: 50px;
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4em;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .project-back {
+    width: 40%;
+    margin: 50px auto;
+    text-align: left;
+  }
+
+  .project-navigation {
+    margin: 20px 0;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: var(--color-main);
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+
+    span {
+      font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .project-main,
+    .project-back {
+      width: 80%;
+    }
+  }
+</style>

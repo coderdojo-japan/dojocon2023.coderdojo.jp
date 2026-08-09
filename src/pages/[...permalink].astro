@@ -1,0 +1,36 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+
+import PostLayout from '@/layouts/PostLayout.astro';
+import { resolveImage } from '@/utils/images';
+
+/**
+ * 記事の URL は Jekyll 時代の `permalink` をそのまま使う。
+ * `/posts/start/` や `/registration/` のように規則性がないため、
+ * キャッチオールルートで 1 本ずつ静的生成する。
+ */
+export const getStaticPaths = (async () => {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { permalink: post.data.permalink.replace(/^\/+|\/+$/g, '') },
+    props: { post },
+  }));
+}) satisfies GetStaticPaths;
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, category, date, tags, time, description, thumbnail } = post.data;
+---
+
+<PostLayout
+  title={title}
+  category={category}
+  date={date}
+  tags={tags}
+  time={time}
+  description={description}
+  ogImage={resolveImage(thumbnail)}
+>
+  <Content />
+</PostLayout>

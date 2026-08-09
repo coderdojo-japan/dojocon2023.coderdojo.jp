@@ -1,0 +1,57 @@
+---
+import Icon from '@/components/Icon.astro';
+---
+
+<a class="scroll-to-top" href="#top" aria-label="ページの先頭へ戻る">
+  <Icon name="chevron-up" />
+</a>
+
+<script>
+  const button = document.querySelector<HTMLElement>('.scroll-to-top');
+
+  function updateVisibility() {
+    button?.classList.toggle('is-visible', window.scrollY > 100);
+  }
+
+  updateVisibility();
+  window.addEventListener('scroll', updateVisibility, { passive: true });
+</script>
+
+<style lang="scss">
+  .scroll-to-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin: 4vw;
+    border-radius: 35px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 1.5em;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+
+    &.is-visible {
+      opacity: 0.6;
+      visibility: visible;
+    }
+
+    &:hover {
+      opacity: 1;
+      color: #fff;
+    }
+  }
+
+  /* タブレット・スマートフォンでは表示しない（元サイトの挙動を踏襲） */
+  @media screen and (max-width: 800px) {
+    .scroll-to-top {
+      display: none;
+    }
+  }
+</style>

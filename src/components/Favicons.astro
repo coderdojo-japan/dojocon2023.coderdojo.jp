@@ -1,0 +1,56 @@
+---
+import { SITE } from '@/consts';
+
+const base = `/img/${SITE.year}/favicon`;
+
+const appleTouchSizes = [57, 60, 72, 76, 114, 120, 144, 152, 180];
+const iconSizes = [16, 24, 32, 36, 48, 72, 96, 128, 144, 152, 160, 192, 196, 256, 384, 512];
+const androidSizes = [36, 48, 72, 96, 128, 144, 152, 192, 256, 384, 512];
+const tileSizes = ['70x70', '150x150', '310x150', '310x310'];
+const tileMetaNames: Record<string, string> = {
+  '70x70': 'msapplication-square70x70logo',
+  '150x150': 'msapplication-square150x150logo',
+  '310x150': 'msapplication-wide310x150logo',
+  '310x310': 'msapplication-square310x310logo',
+};
+---
+
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href={`${base}/favicon.ico`} />
+<link rel="icon" type="image/vnd.microsoft.icon" href={`${base}/favicon.ico`} />
+
+{
+  appleTouchSizes.map((size) => (
+    <link
+      rel="apple-touch-icon"
+      sizes={`${size}x${size}`}
+      href={`${base}/apple-touch-icon-${size}x${size}.png`}
+    />
+  ))
+}
+
+{
+  androidSizes.map((size) => (
+    <link
+      rel="icon"
+      type="image/png"
+      sizes={`${size}x${size}`}
+      href={`${base}/android-chrome-${size}x${size}.png`}
+    />
+  ))
+}
+
+{
+  iconSizes.map((size) => (
+    <link
+      rel="icon"
+      type="image/png"
+      sizes={`${size}x${size}`}
+      href={`${base}/icon-${size}x${size}.png`}
+    />
+  ))
+}
+
+{tileSizes.map((size) => <meta name={tileMetaNames[size]} content={`${base}/site-tile-${size}.png`} />)}
+<meta name="msapplication-TileColor" content="#0078d7" />
+
+<link rel="manifest" href={`${base}/manifest.json`} />

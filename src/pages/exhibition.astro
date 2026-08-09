@@ -1,0 +1,115 @@
+---
+import { getCollection } from 'astro:content';
+
+import BackToHomeLink from '@/components/BackToHomeLink.astro';
+import Icon from '@/components/Icon.astro';
+import SmartImage from '@/components/SmartImage.astro';
+import { SITE } from '@/consts';
+import PageLayout from '@/layouts/PageLayout.astro';
+import { resolveImage } from '@/utils/images';
+
+const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+const fallbackImage = resolveImage(`/img/${SITE.year}/dummy.jpg`);
+
+const ninjaLink =
+  'https://nara-coderdojo.github.io/#coderdojo%E3%81%A7%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%83%8B%E3%83%B3%E3%82%B8%E3%83%A3%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8';
+---
+
+<PageLayout
+  title="ニンジャ大博覧会"
+  description="各地のニンジャによる作品のオンライン展示です。"
+  wide
+>
+  <p slot="lead" class="lead">
+    各地の<a href={ninjaLink} target="_blank" rel="noopener">ニンジャ</a>による作品のオンライン展示です
+  </p>
+
+  <div class="project-grid">
+    {
+      projects.map(({ id, data }) => {
+        const thumbnail = data.thumbnail
+          ? resolveImage(`/img/${SITE.year}/exhibition/${data.thumbnail}`)
+          : fallbackImage;
+
+        return (
+          <article class="project">
+            <h2 class="ws-title">{data.title}</h2>
+
+            <p class="project-tags">
+              <span class="badge badge-ws">{data.tag}</span>
+              {data.second_tag && <span class="badge badge-ws">{data.second_tag}</span>}
+              {data.local && <span class="badge badge-ws">{data.local}</span>}
+            </p>
+
+            {thumbnail && (
+              <div class="project-image">
+                <a href={`/expo/${id}`}>
+                  <SmartImage src={thumbnail} alt={`${data.title} のサムネイル`} widths={[320, 640]} />
+                </a>
+              </div>
+            )}
+
+            <p class="project-creator">
+              {data.creator}
+              {data.coderdojo_at && (
+                <small>（CoderDojo <span set:html={data.coderdojo_at} />）</small>
+              )}
+            </p>
+
+            <p>
+              <a class="btn btn-main" href={`/expo/${id}`}>
+                <Icon name="scroll" /> 詳細を見る
+              </a>
+            </p>
+          </article>
+        );
+      })
+    }
+  </div>
+
+  <BackToHomeLink />
+</PageLayout>
+
+<style lang="scss">
+  .lead a {
+    color: var(--color-main);
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 2rem;
+    text-align: left;
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0.75rem 0;
+  }
+
+  .project-image {
+    margin: 1rem 0;
+
+    :global(img) {
+      width: 100%;
+      height: auto;
+      padding: 0 3rem;
+    }
+  }
+
+  .project-creator :global(a) {
+    color: var(--color-main);
+  }
+
+  @media screen and (max-width: 800px) {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .project-image :global(img) {
+      padding: 0;
+    }
+  }
+</style>

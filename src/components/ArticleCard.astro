@@ -1,0 +1,72 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import SmartImage from '@/components/SmartImage.astro';
+import { DEFAULT_ARTICLE_THUMBNAIL } from '@/consts';
+import { formatArticleDate, toDateTimeAttribute } from '@/utils/date';
+import { resolveImage } from '@/utils/images';
+import { stripHtml } from '@/utils/text';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { title, thumbnail, permalink, date } = post.data;
+
+const image = resolveImage(thumbnail) ?? DEFAULT_ARTICLE_THUMBNAIL;
+---
+
+<article class="article-card">
+  <a href={permalink}>
+    <SmartImage
+      src={image}
+      alt={`${stripHtml(title)} のサムネイル画像`}
+      class="article-thumbnail"
+      widths={[320, 640]}
+      sizes="(max-width: 768px) 100vw, 320px"
+    />
+    <p class="article-date">
+      <time datetime={toDateTimeAttribute(date)}>{formatArticleDate(date)}</time>
+    </p>
+    <p class="article-title" set:html={title} />
+  </a>
+</article>
+
+<style lang="scss">
+  .article-card {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 12px rgb(170 170 170 / 30%);
+    transition: color 0.3s;
+
+    &:hover {
+      color: var(--color-main);
+    }
+
+    a {
+      display: block;
+      height: 100%;
+      padding: 1rem;
+      text-align: left;
+      text-decoration: none;
+    }
+  }
+
+  .article-thumbnail {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+
+  .article-date {
+    margin: 0.5rem 0 4px;
+    font-weight: bold;
+  }
+
+  .article-title {
+    margin: 4px 0 0;
+    font-weight: bold;
+  }
+</style>

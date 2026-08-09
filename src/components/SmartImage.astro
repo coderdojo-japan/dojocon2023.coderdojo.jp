@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  /** `resolveImage()` の戻り値。ImageMetadata なら最適化し、文字列ならそのまま出す */
+  src: ImageMetadata | string;
+  alt: string;
+  class?: string;
+  style?: string;
+  loading?: 'eager' | 'lazy';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  /** 出力する画像の幅の候補。指定すると `srcset` が付く */
+  widths?: number[];
+  sizes?: string;
+}
+
+const { src, alt, class: className, style, loading, fetchpriority, widths, sizes } = Astro.props;
+
+// SVG はラスタライズせず、そのまま配信する
+const isVector = typeof src !== 'string' && src.format === 'svg';
+---
+
+{
+  typeof src === 'string' ? (
+    <img
+      src={src}
+      alt={alt}
+      class={className}
+      style={style}
+      loading={loading ?? 'lazy'}
+      fetchpriority={fetchpriority}
+    />
+  ) : isVector ? (
+    <img
+      src={src.src}
+      alt={alt}
+      width={src.width}
+      height={src.height}
+      class={className}
+      style={style}
+      loading={loading ?? 'lazy'}
+      fetchpriority={fetchpriority}
+    />
+  ) : (
+    <Image
+      src={src}
+      alt={alt}
+      class={className}
+      style={style}
+      loading={loading}
+      fetchpriority={fetchpriority}
+      widths={widths}
+      sizes={sizes}
+    />
+  )
+}

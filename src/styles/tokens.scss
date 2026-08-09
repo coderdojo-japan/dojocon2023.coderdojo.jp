@@ -1,0 +1,33 @@
+/**
+ * デザイントークン。
+ * 旧 `_sass/global/variables.scss` の値を CSS カスタムプロパティに移したもの。
+ */
+:root {
+  /* ブランドカラー */
+  --color-main: #7e2639;
+  --color-main-shadow: #5c1b29;
+  --color-secondary: #642580;
+  --color-text: #000;
+
+  /* 補助色 */
+  --color-necessary: #ffe6cc;
+  --color-light-blue: #80d8ff;
+  --color-light-gray: #f5f5f5;
+  --color-gray: #aaa;
+
+  /* SNS */
+  --color-facebook: #3b5998;
+  --color-twitter: #1da1f2;
+  --color-line: #00bb00;
+
+  /* タイポグラフィ */
+  --font-body: 'Roboto', 'Noto Sans JP', sans-serif;
+  --font-heading: 'Noto Sans JP', sans-serif;
+
+  /* レイアウト */
+  --header-height: 60px;
+  --width-container: 1140px;
+  --width-content: 1000px;
+  --width-narrow: 800px;
+  --width-post: 800px;
+}

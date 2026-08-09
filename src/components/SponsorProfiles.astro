@@ -1,0 +1,94 @@
+---
+import SmartImage from '@/components/SmartImage.astro';
+import { SITE } from '@/consts';
+import { resolveImage } from '@/utils/images';
+import { getSponsorGroups } from '@/utils/sponsors';
+
+// スポンサー紹介記事では企業スポンサーのみを掲載する
+const groups = await getSponsorGroups(['platinum', 'gold', 'silver', 'bronze']);
+---
+
+{
+  groups.map(({ type, label, sponsors }) => (
+    <section class="sponsor-section" id={`${type}-sponsors`}>
+      <h3>{label}</h3>
+      <ul>
+        {sponsors.map(({ data }) => {
+          const logo = resolveImage(`/img/${SITE.year}/sponsor/${data.logo}`);
+          return (
+            <li id={data.anchor}>
+              <a href={data.link} target="_blank" rel="noopener">
+                {logo && <SmartImage src={logo} alt={data.name} widths={[240, 480]} />}
+              </a>
+              <p class="name">{data.name}</p>
+              {data.message && <p class="message" set:html={data.message} />}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))
+}
+
+<style lang="scss">
+  .sponsor-section {
+    h3 {
+      margin-top: 120px;
+      text-align: center;
+      // 記事本文の h3 に付く下線は、この見出しでは不要
+      text-decoration: none;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      // アンカーで飛んできたときに固定ヘッダーの下に隠れないようにする
+      scroll-margin-top: calc(var(--header-height) + 1rem);
+      width: 50%;
+      padding-top: 100px;
+    }
+
+    a {
+      display: block;
+      margin: 0 auto;
+      padding: 0 1em;
+      text-align: center;
+    }
+
+    a :global(img) {
+      width: 240px;
+      height: 240px;
+      margin: auto;
+      object-fit: contain;
+    }
+
+    .name {
+      display: block;
+      margin: auto;
+      padding: 15px 0;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .message {
+      padding: 0 15px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .sponsor-section li {
+      width: 100%;
+      padding-top: 60px;
+    }
+
+    .sponsor-section a {
+      padding: 0;
+    }
+  }
+</style>

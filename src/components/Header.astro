@@ -1,0 +1,207 @@
+---
+import { NAV_ITEMS, SITE } from '@/consts';
+---
+
+<header class="site-header">
+  <nav class="navbar" aria-label="グローバルナビゲーション">
+    <a class="navbar-brand" href="/#top">
+      <img
+        src={`/img/${SITE.year}/logo_640x160.svg`}
+        width="290"
+        height="73"
+        alt={`${SITE.title} ${SITE.year}`}
+      />
+    </a>
+
+    <button
+      type="button"
+      class="navbar-toggle"
+      aria-controls="global-nav"
+      aria-expanded="false"
+      aria-label="メニューを開く"
+    >
+      <span class="navbar-toggle-icon"></span>
+    </button>
+
+    <div class="navbar-menu" id="global-nav">
+      {
+        NAV_ITEMS.map((item) => (
+          <a
+            class="nav-link"
+            href={item.href}
+            target={item.external ? '_blank' : undefined}
+            rel={item.external ? 'noopener' : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </div>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.navbar-toggle');
+  const menu = document.querySelector<HTMLElement>('.navbar-menu');
+
+  function setExpanded(expanded: boolean) {
+    if (!toggle || !menu) return;
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.setAttribute('aria-label', expanded ? 'メニューを閉じる' : 'メニューを開く');
+    menu.classList.toggle('is-open', expanded);
+  }
+
+  toggle?.addEventListener('click', () => {
+    setExpanded(toggle.getAttribute('aria-expanded') !== 'true');
+  });
+
+  // メニュー内のリンクを押したら閉じる（同一ページ内アンカーでも閉じるようにする）
+  menu?.addEventListener('click', (event) => {
+    if ((event.target as HTMLElement).closest('a')) setExpanded(false);
+  });
+</script>
+
+<style lang="scss">
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: var(--header-height);
+    padding: 0 1rem;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    img {
+      display: block;
+      width: 290px;
+      height: auto;
+    }
+  }
+
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.9375rem;
+    color: #000;
+    font-size: 0.95rem;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover {
+      color: var(--color-main);
+    }
+  }
+
+  /* ハンバーガーボタン（デスクトップでは隠す） */
+  .navbar-toggle {
+    display: none;
+    width: 44px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .navbar-toggle-icon {
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgb(0 0 0 / 60%);
+    transition: background-color 0.2s;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: rgb(0 0 0 / 60%);
+      transition: transform 0.2s;
+    }
+
+    &::before {
+      top: -7px;
+    }
+
+    &::after {
+      top: 7px;
+    }
+  }
+
+  .navbar-toggle[aria-expanded='true'] .navbar-toggle-icon {
+    background-color: transparent;
+
+    &::before {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    &::after {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .navbar {
+      flex-wrap: wrap;
+    }
+
+    .navbar-toggle {
+      display: block;
+    }
+
+    .navbar-menu {
+      display: none;
+      flex-basis: 100%;
+      flex-direction: column;
+      align-items: stretch;
+      padding-bottom: 0.5rem;
+
+      &.is-open {
+        display: flex;
+      }
+    }
+
+    .nav-link {
+      padding: 0.75rem 0.5rem;
+      border-top: 1px solid rgb(0 0 0 / 8%);
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .navbar-brand img {
+      width: min(70vw, 290px);
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .navbar-brand img {
+      width: 60vw;
+    }
+  }
+</style>
