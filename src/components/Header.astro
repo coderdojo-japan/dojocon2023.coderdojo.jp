@@ -1,12 +1,27 @@
 ---
-import { NAV_ITEMS, SITE } from '@/consts';
+import { NAV_ITEMS, SITE, type NavItem } from '@/consts';
+
+const currentPath = Astro.url.pathname.replace(/\/+$/, '') || '/';
+
+/**
+ * ナビ項目が現在開いているページを指しているか。
+ * `/#outline` のようなページ内アンカーは「現在地」とは言えないため、
+ * ページ先頭を指す `#top` だけを対象にする。
+ */
+function isCurrent(item: NavItem): boolean {
+  if (item.external) return false;
+  const [path, hash] = item.href.split('#');
+  const target = path?.replace(/\/+$/, '') || '/';
+  if (target !== currentPath) return false;
+  return !hash || hash === 'top';
+}
 ---
 
 <header class="site-header">
   <nav class="navbar" aria-label="グローバルナビゲーション">
     <a class="navbar-brand" href="/#top">
       <img
-        src={`/img/${SITE.year}/logo_640x160.svg`}
+        src="/images/logo_640x160.svg"
         width="290"
         height="73"
         alt={`${SITE.title} ${SITE.year}`}
@@ -29,6 +44,7 @@ import { NAV_ITEMS, SITE } from '@/consts';
           <a
             class="nav-link"
             href={item.href}
+            aria-current={isCurrent(item) ? 'page' : undefined}
             target={item.external ? '_blank' : undefined}
             rel={item.external ? 'noopener' : undefined}
           >
@@ -58,6 +74,14 @@ import { NAV_ITEMS, SITE } from '@/consts';
   // メニュー内のリンクを押したら閉じる（同一ページ内アンカーでも閉じるようにする）
   menu?.addEventListener('click', (event) => {
     if ((event.target as HTMLElement).closest('a')) setExpanded(false);
+  });
+
+  // Escape で閉じ、フォーカスを開閉ボタンに戻す
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    if (toggle?.getAttribute('aria-expanded') !== 'true') return;
+    setExpanded(false);
+    toggle.focus();
   });
 </script>
 
@@ -112,6 +136,13 @@ import { NAV_ITEMS, SITE } from '@/consts';
 
     &:hover {
       color: var(--color-main);
+    }
+
+    /* 現在開いているページを示す */
+    &[aria-current='page'] {
+      color: var(--color-main);
+      font-weight: bold;
+      box-shadow: inset 0 -3px 0 var(--color-main);
     }
   }
 

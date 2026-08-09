@@ -1,6 +1,5 @@
 ---
 import SmartImage from '@/components/SmartImage.astro';
-import { SITE } from '@/consts';
 import { resolveImage } from '@/utils/images';
 import { getSponsorGroups } from '@/utils/sponsors';
 
@@ -14,7 +13,7 @@ const groups = await getSponsorGroups(['platinum', 'gold', 'silver', 'bronze']);
       <h3>{label}</h3>
       <ul>
         {sponsors.map(({ data }) => {
-          const logo = resolveImage(`/img/${SITE.year}/sponsor/${data.logo}`);
+          const logo = resolveImage(`/images/sponsor/${data.logo}`);
           return (
             <li id={data.anchor}>
               <a href={data.link} target="_blank" rel="noopener">

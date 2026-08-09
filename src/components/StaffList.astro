@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 
 import SmartImage from '@/components/SmartImage.astro';
-import { SITE } from '@/consts';
 import { resolveImage } from '@/utils/images';
 
 const members = (await getCollection('members')).sort((a, b) => a.data.order - b.data.order);
@@ -11,7 +10,7 @@ const members = (await getCollection('members')).sort((a, b) => a.data.order - b
 <ul class="staff-list">
   {
     members.map(({ data }) => {
-      const image = resolveImage(`/img/${SITE.year}/members/${data.img ?? 'staff-dummy.png'}`);
+      const image = resolveImage(`/images/members/${data.img ?? 'staff-dummy.png'}`);
       const content = (
         <>
           <span class="member-image">

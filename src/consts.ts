@@ -25,10 +25,10 @@ export const SITE = {
 } as const;
 
 /** OGP のデフォルト画像（public/ 配下の絶対パス） */
-export const DEFAULT_OGP_IMAGE = `/img/${SITE.year}/ogp/1200x630_03_date.jpg`;
+export const DEFAULT_OGP_IMAGE = '/images/ogp/1200x630_03_date.jpg';
 
 /** 記事一覧でサムネイル未設定のときに使う画像 */
-export const DEFAULT_ARTICLE_THUMBNAIL = `/img/${SITE.year}/ogp/default.jpg`;
+export const DEFAULT_ARTICLE_THUMBNAIL = '/images/ogp/default.jpg';
 
 export type NavItem = {
   label: string;

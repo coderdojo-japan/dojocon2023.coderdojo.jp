@@ -15,7 +15,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   const payload = projects.map(({ id, data }) => {
     const image = data.thumbnail
-      ? resolveImage(`/img/${SITE.year}/exhibition/${data.thumbnail}`)
+      ? resolveImage(`/images/exhibition/${data.thumbnail}`)
       : undefined;
     const thumbnailPath = typeof image === 'string' ? image : image?.src;
 

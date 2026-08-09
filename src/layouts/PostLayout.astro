@@ -3,7 +3,7 @@ import type { ImageMetadata } from 'astro';
 
 import BackToHomeLink from '@/components/BackToHomeLink.astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { formatPostDate, toDateTimeAttribute } from '@/utils/date';
+import { formatDate, toDateTimeAttribute } from '@/utils/date';
 
 interface Props {
   title: string;
@@ -23,8 +23,9 @@ const showTags = category === 'workshop' || category === 'session';
 ---
 
 <BaseLayout title={title} description={description} ogImage={ogImage}>
+  {/* カテゴリは見出しではないので、h1 より前に h2 を出さないよう p で組む */}
   <div class="post-head">
-    <h2>{category.toUpperCase()}</h2>
+    <p class="post-category">{category.toUpperCase()}</p>
   </div>
 
   <article class="post">
@@ -33,7 +34,7 @@ const showTags = category === 'workshop' || category === 'session';
     {
       showDate && (
         <p class="post-date">
-          <time datetime={toDateTimeAttribute(date)}>{formatPostDate(date)}</time>
+          <time datetime={toDateTimeAttribute(date)}>{formatDate(date)}</time>
         </p>
       )
     }
@@ -64,10 +65,11 @@ const showTags = category === 'workshop' || category === 'session';
   .post-head {
     padding: var(--header-height) 0;
 
-    h2 {
+    .post-category {
       margin: 0;
       font-size: 2.5rem;
       font-weight: 700;
+      line-height: 1.2;
     }
   }
 

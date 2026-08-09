@@ -97,9 +97,12 @@ const lineShare = `https://social-plugins.line.me/lineit/share?url=${encodeURICo
     background-color: var(--color-twitter);
   }
 
-  /* LINE は狭い画面でのみ表示する（元サイトの挙動を踏襲） */
-  .share-line {
-    display: none !important;
+  /*
+   * LINE は狭い画面でのみ表示する（元サイトの挙動を踏襲）。
+   * `.share a` より詳細度を高くして !important なしで打ち消す
+   */
+  .share .share-line {
+    display: none;
     background-color: var(--color-line);
   }
 
@@ -125,8 +128,8 @@ const lineShare = `https://social-plugins.line.me/lineit/share?url=${encodeURICo
       width: 100%;
     }
 
-    .share-line {
-      display: flex !important;
+    .share .share-line {
+      display: flex;
     }
   }
 </style>

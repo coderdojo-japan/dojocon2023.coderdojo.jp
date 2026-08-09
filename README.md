@@ -100,7 +100,7 @@ $ npm run preview
 
 ```
 src/
-├── assets/img/   # 最適化される画像（<Image /> 経由で読み込む）
+├── assets/images/ # 最適化される画像（<Image /> 経由で読み込む）
 ├── components/   # ヘッダー・フッター・カードなどの部品
 ├── content/      # 記事（posts）と固定文書（docs）の Markdown
 ├── data/         # YAML で管理する参照データ

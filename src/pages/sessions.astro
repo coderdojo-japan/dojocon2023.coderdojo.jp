@@ -4,7 +4,6 @@ import { getCollection } from 'astro:content';
 import BackToHomeLink from '@/components/BackToHomeLink.astro';
 import Icon from '@/components/Icon.astro';
 import SmartImage from '@/components/SmartImage.astro';
-import { SITE } from '@/consts';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { resolveImage } from '@/utils/images';
 import { renderMarkdown } from '@/utils/markdown';
@@ -21,7 +20,7 @@ const sessions = (await getCollection('sessions')).sort((a, b) => a.data.order -
       <div class="session-grid">
         {sessions.map(({ data }) => {
           const profileImage = data.profileImg
-            ? resolveImage(`/img/${SITE.year}/session/${data.profileImg}`)
+            ? resolveImage(`/images/session/${data.profileImg}`)
             : undefined;
           const hasProfile = Boolean(data.profileText || data.speakers?.length);
 

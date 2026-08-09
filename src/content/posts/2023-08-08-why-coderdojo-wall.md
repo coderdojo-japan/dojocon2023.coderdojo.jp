@@ -2,7 +2,7 @@
 title: Why CoderDojo Wall〜教えて！みんながCoderDojoに参加する理由（ワケ）〜
 date: 2023-08-08T22:00:00+09:00
 category: news
-thumbnail: /img/2023/event/why-coderdojo-wall.png
+thumbnail: /images/event/why-coderdojo-wall.png
 permalink: /why-coderdojo-wall/
 ---
 

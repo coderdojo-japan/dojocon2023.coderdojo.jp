@@ -9,16 +9,16 @@ import { SITE } from '@/consts';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getSortedPosts } from '@/utils/posts';
 
-import characterImage from '@/assets/img/2023/mv-fumanara.png';
-import coderdojoLogoImage from '@/assets/img/2023/coderdojo_logo.jpg';
-import dojoconPhoto from '@/assets/img/2023/52554972726_b2da260763_o.jpg';
-import mapImage from '@/assets/img/2023/top/map.png';
+import characterImage from '@/assets/images/mv-fumanara.png';
+import coderdojoLogoImage from '@/assets/images/coderdojo_logo.jpg';
+import dojoconPhoto from '@/assets/images/52554972726_b2da260763_o.jpg';
+import mapImage from '@/assets/images/top/map.png';
 
 const latestPosts = (await getSortedPosts()).slice(0, 6);
 const countdowns = (await getCollection('countdown')).sort((a, b) => a.data.order - b.data.order);
 
-const logoSrc = `/img/${SITE.year}/logo_640x160.svg`;
-const decoSrc = `/img/${SITE.year}/deco.svg`;
+const logoSrc = '/images/logo_640x160.svg';
+const decoSrc = '/images/deco.svg';
 ---
 
 <BaseLayout>
@@ -29,7 +29,10 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
     </div>
     <div class="hero-information">
       <div class="theme">{SITE.subtitle}</div>
-      <img src={logoSrc} alt={`${SITE.title} ${SITE.year} のロゴ画像`} width="640" height="160" />
+      {/* ロゴがトップページ唯一の主見出しなので h1 として組む */}
+      <h1 class="hero-logo">
+        <img src={logoSrc} alt={`${SITE.title} ${SITE.year}`} width="640" height="160" />
+      </h1>
       <p class="event-date-and-location">
         2023.8.27 Sun<br />at 奈良女子大学 Nara Women's University
       </p>
@@ -39,7 +42,7 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
     </div>
   </div>
 
-  <img class="deco" src={decoSrc} alt="" width="1440" height="60" />
+  <img class="deco" src={decoSrc} alt="" width="1440" height="160" />
 
   {/* WELCOME TO: DojoCon Japan と CoderDojo の紹介 */}
   <div class="welcome">
@@ -59,8 +62,6 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
         <p>2016年に始まり、2023年は奈良女子大学にて開催します。</p>
       </div>
     </div>
-
-    <div class="welcome-spacing welcome-spacing1"></div>
 
     <div class="welcome-about-coderdojo">
       <p class="short">CoderDojoとは</p>
@@ -83,8 +84,6 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
       <Image src={coderdojoLogoImage} alt="CoderDojo の公式ロゴ画像" />
     </div>
 
-    <div class="welcome-spacing welcome-spacing2"></div>
-
     <div class="welcome-about-this-year">
       <p class="short">DojoCon Japan {SITE.year}について</p>
       <div class="long">
@@ -97,8 +96,6 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
         </p>
       </div>
     </div>
-
-    <div class="welcome-spacing welcome-spacing3"></div>
   </div>
 
   {/* 開催概要 */}
@@ -127,7 +124,7 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
 
   {/* お知らせ */}
   <div class="section-gray">
-    <img class="deco" src={decoSrc} alt="" width="1440" height="60" />
+    <img class="deco" src={decoSrc} alt="" width="1440" height="160" />
     <section class="section">
       <div class="section-contents">
         <h2 class="title-text">NEWS</h2>
@@ -148,8 +145,8 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
           countdowns.map(({ data }) => (
             <div class="countdown-item">
               <iframe
-                width="100%"
-                height="250"
+                width="560"
+                height="315"
                 src={`https://www.youtube-nocookie.com/embed/${data.video_id}`}
                 title={data.title}
                 loading="lazy"
@@ -241,6 +238,17 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
     }
   }
 
+  /**
+   * h1 の既定スタイルでロゴの位置がずれないようにする。
+   * とくに font-size を戻さないと、下の img の `margin-top: -3em` の基準が
+   * 16px から 32px（h1 の既定 2em）に変わり、ロゴが「Be Cool」に重なる。
+   */
+  .hero-logo {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
   .theme {
     margin: 0 0 0 30px;
     font-size: 4rem;
@@ -314,21 +322,17 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
     background-color: var(--color-secondary);
   }
 
-  .welcome-spacing {
+  /**
+   * 右端（11〜12 カラム）を紫で埋める帯。
+   * 本文は 10 カラムまでしか使わないため、この 2 カラム分だけ背景が抜けてしまう。
+   * 以前は空の div を 3 つ置いて塗っていたが、面としては 1 つなので擬似要素にまとめる。
+   * 800px 以下では本文が 12 カラムまで広がり、この帯は不要になる。
+   */
+  .welcome::after {
+    content: '';
     grid-column: 11 / span 2;
+    grid-row: 2 / span 3;
     background-color: var(--color-secondary);
-  }
-
-  .welcome-spacing1 {
-    order: 4;
-  }
-
-  .welcome-spacing2 {
-    order: 7;
-  }
-
-  .welcome-spacing3 {
-    order: 9;
   }
 
   .welcome-about-coderdojo {
@@ -435,7 +439,10 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
 
   .countdown-item iframe {
     display: block;
+    // 高さを固定すると画面幅によって動画の比率が崩れる
     width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
     border: 0;
   }
 
@@ -468,6 +475,11 @@ const decoSrc = `/img/${SITE.year}/deco.svg`;
   }
 
   @media screen and (max-width: 800px) {
+    // 本文が 12 カラムまで広がるため右端の帯は不要
+    .welcome::after {
+      display: none;
+    }
+
     .welcome-title {
       grid-column: 2 / span 10;
       font-size: 6vw;

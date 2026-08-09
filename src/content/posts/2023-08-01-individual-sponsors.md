@@ -2,7 +2,7 @@
 title: 個人スポンサーになっていただけませんか
 date: 2023-08-01T23:00:00+09:00
 category: news
-thumbnail: /img/2023/ogp/1200x630_01.jpg
+thumbnail: /images/ogp/1200x630_01.jpg
 permalink: /posts/individual-sponsors/
 ---
 
