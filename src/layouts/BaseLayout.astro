@@ -9,13 +9,22 @@ import { DEFAULT_OGP_IMAGE, SITE } from '@/consts';
 import { toAbsoluteUrl } from '@/utils/images';
 import { stripHtml } from '@/utils/text';
 
+/**
+ * フォントはセルフホストする（旧: fonts.googleapis.com の外部スタイルシート）。
+ * 外部オリジンへの接続がなくなり、CSS も 1 ファイルにまとまる。
+ * 可変フォントなので 1 回の読み込みで 400 / 500 / 700 をすべて賄える。
+ * unicode-range で分割されているため、実際に使う字形のサブセットだけが読み込まれる。
+ */
+import '@fontsource-variable/roboto/index.css';
+import '@fontsource-variable/noto-sans-jp/index.css';
+
 import '@/styles/global.scss';
 
 interface Props {
   /** ページ固有のタイトル。省略するとサイト名だけになる */
   title?: string;
   description?: string;
-  /** OGP 画像。`/img/...` 形式のパスか、import した画像 */
+  /** OGP 画像。`/images/...` 形式のパスか、import した画像 */
   ogImage?: ImageMetadata | string;
   /** `<body>` に付ける追加クラス */
   bodyClass?: string;
@@ -47,13 +56,6 @@ const isProduction = import.meta.env.PROD;
     <meta name="description" content={pageDescription} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/feed.xml" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
-    />
 
     <meta property="fb:app_id" content={SITE.facebookAppId} />
     <meta property="og:site_name" content={`${SITE.title} ${SITE.year}`} />

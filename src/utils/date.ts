@@ -12,14 +12,8 @@ function parts(date: Date) {
   return { year, month, day };
 }
 
-/** 記事一覧の日付表記（例: 2023.7.06） */
-export function formatArticleDate(date: Date): string {
-  const { year, month, day } = parts(date);
-  return `${year}.${Number(month)}.${day}`;
-}
-
-/** 記事ページの日付表記（例: 2023.7.6） */
-export function formatPostDate(date: Date): string {
+/** 日付表記（例: 2023.7.6）。一覧・記事ページで共通 */
+export function formatDate(date: Date): string {
   const { year, month, day } = parts(date);
   return `${year}.${Number(month)}.${Number(day)}`;
 }

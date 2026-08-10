@@ -2,7 +2,7 @@
 title: 参加受付を開始しました
 date: 2023-07-28T16:00:00+09:00
 category: news
-thumbnail: /img/2023/post/registration.png
+thumbnail: /images/post/registration.png
 permalink: /registration/
 ---
 

@@ -32,7 +32,7 @@ export const getStaticPaths = (async () => {
 const { project, previous, next } = Astro.props;
 const { title, description, note, creator, coderdojo_at, url, thumbnail } = project.data;
 
-const image = thumbnail ? resolveImage(`/img/${SITE.year}/exhibition/${thumbnail}`) : undefined;
+const image = thumbnail ? resolveImage(`/images/exhibition/${thumbnail}`) : undefined;
 
 const site = Astro.site ?? new URL(SITE.url);
 const pageUrl = new URL(`/expo/${project.id}`, site).href;
@@ -101,11 +101,11 @@ function truncate(value: string, maxLength = 11): string {
     <nav class="project-navigation" aria-label="作品の前後移動">
       <a href={`/expo/${previous.id}`} title={stripHtml(previous.data.title)}>
         <Icon name="arrow-left" /> 前の作品へ<br />
-        <span>{truncate(previous.data.title)}</span>
+        <span class="nav-label">{truncate(previous.data.title)}</span>
       </a>
       <a href={`/expo/${next.id}`} title={stripHtml(next.data.title)}>
         次の作品へ <Icon name="arrow-right" /><br />
-        <span>{truncate(next.data.title)}</span>
+        <span class="nav-label">{truncate(next.data.title)}</span>
       </a>
     </nav>
   </article>
@@ -113,6 +113,9 @@ function truncate(value: string, maxLength = 11): string {
 
 <style lang="scss">
   .project-detail {
+    // 上限がないと大画面でタイトルが画面全幅まで伸びてしまう
+    max-width: var(--width-container);
+    margin: 0 auto;
     padding: 0 1rem 100px;
   }
 
@@ -121,7 +124,9 @@ function truncate(value: string, maxLength = 11): string {
   }
 
   .project-main {
-    width: 40%;
+    // 画面幅に比例させると大画面で 1 行が長くなりすぎるため実寸で頭打ちにする
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto 12px;
     text-align: center;
 
@@ -161,7 +166,8 @@ function truncate(value: string, maxLength = 11): string {
   }
 
   .project-back {
-    width: 40%;
+    width: 100%;
+    max-width: 600px;
     margin: 50px auto;
     text-align: left;
   }
@@ -185,15 +191,10 @@ function truncate(value: string, maxLength = 11): string {
       }
     }
 
-    span {
-      font-size: 8px;
-    }
-  }
-
-  @media screen and (max-width: 1000px) {
-    .project-main,
-    .project-back {
-      width: 80%;
+    // 作品名の補足ラベル。8px では読めないため本文より一段小さい程度に留める
+    .nav-label {
+      display: inline-block;
+      font-size: 0.8rem;
     }
   }
 </style>

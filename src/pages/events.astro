@@ -4,12 +4,11 @@ import { getCollection } from 'astro:content';
 import BackToHomeLink from '@/components/BackToHomeLink.astro';
 import Icon from '@/components/Icon.astro';
 import SmartImage from '@/components/SmartImage.astro';
-import { SITE } from '@/consts';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { resolveImage } from '@/utils/images';
 
 const events = (await getCollection('events')).sort((a, b) => a.data.order - b.data.order);
-const fallbackImage = resolveImage(`/img/${SITE.year}/dummy.jpg`);
+const fallbackImage = resolveImage('/images/dummy.jpg');
 ---
 
 <PageLayout title="EVENT" subtitle="イベント" wide>

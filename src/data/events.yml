@@ -5,42 +5,42 @@
 
 - title: Why CoderDojo Wall
   text: Why CoderDojo Wallは、みんながCoderDojoに関わった（立ち上げた、参加している）理由や関わり続けている理由を自由に書いて共有するためのボードです。ここに書かれた内容は、みんなのセッションの「なぜあなたはCoderDojoに参加しているのですか」で共有、紹介します。
-  img: /img/2023/event/why-coderdojo-wall.png
+  img: /images/event/why-coderdojo-wall.png
   time: 12:15-16:30
   tag: 申し込み不要
   url: /why-coderdojo-wall/
 
 - title: CoderDojoサミット
   text: 最近CoderDojoの数も増えてきて、どこどこのDojoの人と話してみたいのだけどどんな人なんだろう？新しいチャンピオンの方はどんな方なんだろう、そもそもどんなDojoの人が来ているんだろうと思うこともあるのではないでしょうか。DojoCon Japan 2023は、日本中からCoderDojoのチャンピオンが集まるせっかくの機会なので、顔と名前を覚えてもらって当日の交流を促進しようという企画「CoderDojoサミット」を実施します。
-  img: /img/2023/event/coderdojo-summit.png
+  img: /images/event/coderdojo-summit.png
   time: 12:15-13:05
   tag: 要申し込み
   url: /coderdojo-summit/
 
 - title: メンター向けtoioワークショップ
   text: CoderDojoのメンターのみなさんにロボットプログラミングや工作系活動・ワークショップのコツを実際にtoioを触りながら共有します。
-  img: /img/2023/event/toio-workshop.png
+  img: /images/event/toio-workshop.png
   time: 13:20-14:50
   tag: 要申し込み
   url: /toio-workshop/
 
 - title: メンター向けHackforPlayワークショップ
   text: CoderDojoのメンターのみなさんに、プログラミングWebサイト・HackforPlay（ハックフォープレイ）の魅力を実践を交えて紹介します。
-  img: /img/2023/event/DojoCon2023-HackforPlay.png
+  img: /images/event/DojoCon2023-HackforPlay.png
   time: 15:00-16:30
   tag: 要申し込み
   url: /hfp-workshop/
 
 - title: CoderDojo屋台にようこそ！
   text: CoderDojo屋台は、CoderDojoのニンジャたちが企画・運営する、事前申し込み不要でふらっと立ち寄れる自由なワークショップです。 CoderDojo屋台では、色々なプログラミングツールを使ったアクティビティが用意されています。
-  # img: /img/2023/event/ninja-big-expo.jpg
+  # img: /images/event/ninja-big-expo.jpg
   time: 12:15-16:30
   tag: 申し込み不要
   url: /coderdojo-yatai/
 
 - title: ニンジャ大博覧会
   text: ニンジャ大博覧会は、CoderDojoに参加する子どもたち（ニンジャ）によるオンラインと現地の2箇所で開催する作品展示会です。プログラミング作品はもちろん、マインクラフト作品もOK。ぜひみんなの作品を見せてください、楽しみにまってます！
-  img: /img/2023/event/ninja-big-expo.jpg
+  img: /images/event/ninja-big-expo.jpg
   time: オンライン＆現地
   tag: 要申し込み
   url: /expo/

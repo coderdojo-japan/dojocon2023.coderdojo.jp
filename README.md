@@ -35,7 +35,7 @@
 
 - title: ニンジャ大博覧会
   text: ニンジャ大博覧会は、CoderDojoに参加する子どもたち（ニンジャ）によるオンラインと現地の2箇所で開催する作品展示会です。プログラミング作品はもちろん、マインクラフト作品もOK。ぜひみんなの作品を見せてください、楽しみにまってます！
-  img: /img/2023/event/ninja-big-expo.jpg
+  img: /images/event/ninja-big-expo.jpg
   time: オンライン＆現地
   tag: 要申し込み
   url: /expo/
@@ -62,7 +62,7 @@ YAML の書式に誤りがあると、ビルド時にどの項目が問題なの
 title: 記事のタイトル
 date: 2023-08-27T10:00:00+09:00
 category: news              # news / event / session のいずれか
-thumbnail: /img/2023/post/example.jpg   # 一覧のサムネイル兼 OGP 画像（任意）
+thumbnail: /images/post/example.jpg   # 一覧のサムネイル兼 OGP 画像（任意）
 permalink: /posts/example/  # 公開される URL
 ---
 ```
@@ -100,7 +100,7 @@ $ npm run preview
 
 ```
 src/
-├── assets/img/   # 最適化される画像（<Image /> 経由で読み込む）
+├── images/ # 最適化される画像（<Image /> 経由で読み込む）
 ├── components/   # ヘッダー・フッター・カードなどの部品
 ├── content/      # 記事（posts）と固定文書（docs）の Markdown
 ├── data/         # YAML で管理する参照データ

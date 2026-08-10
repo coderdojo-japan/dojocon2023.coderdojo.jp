@@ -3,7 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 
 import SmartImage from '@/components/SmartImage.astro';
 import { DEFAULT_ARTICLE_THUMBNAIL } from '@/consts';
-import { formatArticleDate, toDateTimeAttribute } from '@/utils/date';
+import { formatDate, toDateTimeAttribute } from '@/utils/date';
 import { resolveImage } from '@/utils/images';
 import { stripHtml } from '@/utils/text';
 
@@ -27,7 +27,7 @@ const image = resolveImage(thumbnail) ?? DEFAULT_ARTICLE_THUMBNAIL;
       sizes="(max-width: 768px) 100vw, 320px"
     />
     <p class="article-date">
-      <time datetime={toDateTimeAttribute(date)}>{formatArticleDate(date)}</time>
+      <time datetime={toDateTimeAttribute(date)}>{formatDate(date)}</time>
     </p>
     <p class="article-title" set:html={title} />
   </a>

@@ -2,7 +2,7 @@
 title: なぜ女子大に工学部が必要か？
 date: 2023-08-25T13:00:00+09:00
 category: session
-thumbnail: /img/2023/session/fujita-meiji.jpg
+thumbnail: /images/session/fujita-meiji.jpg
 permalink: /posts/NWU-faculty-of-engineering/
 ---
 
@@ -10,7 +10,7 @@ DojoCon Japan 2023の会場となります奈良女子大学より、工学部�
 
 以下、藤田工学部長からのメッセージを紹介いたします。
 
-![](../../assets/img/2023/session/fujita-meiji.jpg)
+![](../../images/session/fujita-meiji.jpg)
 
 昨年度、奈良女子大学は日本の女子大学で初めて工学部を開設しました。
 女性エンジニアが必要とされている理由は何か、現代に必要な工学とは何か、そんなことを考えてカリキュラムを作成していると、これまでの工学部とは異なるかたちになりました。

@@ -1,25 +1,28 @@
 import type { ImageMetadata } from 'astro';
 
 /**
- * `src/assets/img/` 配下の画像を、ビルド時に一括で読み込んでおく。
+ * `src/images/` 配下の画像を、ビルド時に一括で読み込んでおく。
  * ここで読み込むのは画像そのものではなくメタデータ（パス・幅・高さ・形式）だけ。
  */
 const assets = import.meta.glob<{ default: ImageMetadata }>(
   // 大文字の拡張子（`.PNG` など）で登録された画像もあるため両方を対象にする
-  '/src/assets/img/**/*.{jpeg,jpg,png,gif,webp,avif,svg,JPEG,JPG,PNG,GIF,WEBP,AVIF,SVG}',
+  '/src/images/**/*.{jpeg,jpg,png,gif,webp,avif,svg,JPEG,JPG,PNG,GIF,WEBP,AVIF,SVG}',
   { eager: true },
 );
 
 /**
- * YAML やフロントマターに書かれた `/img/...` 形式のパスを画像に解決する。
+ * YAML やフロントマターに書かれた `/images/...` 形式のパスを画像に解決する。
+ * 公開 URL（`/images/session/foo.png`）と実ファイルの置き場所
+ * （`src/images/session/foo.png`）が 1 対 1 で対応する。
  *
- * - `src/assets` にあれば `ImageMetadata` を返す（`<Image />` で最適化できる）
- * - `public/` にしかないもの（favicon・OGP 画像など）は文字列のまま返す
+ * - `src/images` にあれば `ImageMetadata` を返す（`<Image />` で最適化できる）
+ * - `public/images` にしかないもの（favicon・OGP 画像など）は文字列のまま返し、
+ *   そのまま静的ファイルとして配信される
  */
 export function resolveImage(path: string | undefined | null): ImageMetadata | string | undefined {
   if (!path) return undefined;
-  if (!path.startsWith('/img/')) return path;
-  return assets[`/src/assets${path}`]?.default ?? path;
+  if (!path.startsWith('/images/')) return path;
+  return assets[`/src${path}`]?.default ?? path;
 }
 
 /**

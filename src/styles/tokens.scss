@@ -20,12 +20,23 @@
   --color-twitter: #1da1f2;
   --color-line: #00bb00;
 
-  /* タイポグラフィ */
-  --font-body: 'Roboto', 'Noto Sans JP', sans-serif;
-  --font-heading: 'Noto Sans JP', sans-serif;
+  /*
+   * タイポグラフィ。
+   * `... Variable` はセルフホストした可変フォントのファミリー名（@fontsource-variable）。
+   * 読み込み完了までは font-display: swap で以降の OS 標準フォントが使われる
+   */
+  --font-japanese-fallback: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', 'Meiryo',
+    sans-serif;
+  --font-body: 'Roboto Variable', 'Noto Sans JP Variable', var(--font-japanese-fallback);
+  --font-heading: 'Noto Sans JP Variable', var(--font-japanese-fallback);
 
   /* レイアウト */
-  --header-height: 60px;
+  /**
+   * 固定ヘッダーの実寸。ロゴ（640:160 = 4:1）を 290px 幅で表示するため
+   * 中身の高さは 72.5px になる。body の padding-top と scroll-padding-top が
+   * この値を使うので、ロゴの寸法を変えたらここも合わせること
+   */
+  --header-height: 76px;
   /** ヘッダー・メインビジュアルなど、本文より広く見せたい領域の上限 */
   --width-hero: 1440px;
   --width-container: 1140px;
